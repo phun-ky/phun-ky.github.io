@@ -1,0 +1,2 @@
+--- 
+layout: posttitle: "Add me on digg.com"description: ""category: "undefined" tags: [] --- <!--102d502c693b43249525ecd7004bc661--><br/><a href="http://digg.com/ph001">Click here to add me on Digg.com</a> ;)

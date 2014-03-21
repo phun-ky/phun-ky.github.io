@@ -1,0 +1,2 @@
+--- 
+layout: posttitle: "Photo: NetCom poked Telenor"description: ""category: "undefined" tags: [] --- Had to put this up, it's priceless!<br/><br/>(NetCom is the second largest mobile service provider in Norway, Telenor is the largets)
