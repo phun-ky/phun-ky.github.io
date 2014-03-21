@@ -28,4 +28,4 @@ X-GNOME-Autostart-enabled=true
 <pre class="brush: bash">
 gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop true && nautilus
 </pre>
-<p>Sources: <a href="http://www.winmatrix.com">winmatrix.com</a> <img src="http://cdn.umedia.no/img/flag/us.png" alt="us flag"/> (m.sudoku - "DreamScene for Linux: Screensaver as Desktop Wallpaper"), <a href="http://www.wikipedia.org">wikipedia.org</a> <img src="http://cdn.umedia.no/img/flag/us.png" alt="us flag"/> (dreamscene)</p> 
+<p>Sources: <a href="http://www.winmatrix.com">winmatrix.com</a> <br/> (m.sudoku - "DreamScene for Linux: Screensaver as Desktop Wallpaper"), <a href="http://www.wikipedia.org">wikipedia.org</a> <br/> (dreamscene)</p> 
