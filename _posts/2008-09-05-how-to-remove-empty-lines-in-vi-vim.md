@@ -1,0 +1,2 @@
+--- 
+layout: posttitle: "how to remove empty lines in vi/vim"description: ""category: "undefined" tags: [] --- <p>Some simply ways to remove empty lines in a file:</p><br/><pre class="brush: bash"><br/># Use this sub:<br/>:%s/^\n// <br/># Or this:<br/>:g/^$/d<br/># Or this:<br/>:g/^\s*$/d <br/></pre>
