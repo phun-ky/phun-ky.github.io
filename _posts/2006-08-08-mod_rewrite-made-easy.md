@@ -1,0 +1,20 @@
+--- 
+layout: post 
+title: "mod_rewrite made easy"
+description: ""
+category: "Archive"
+tags: []
+---  
+<p>Lately I've been trying to make all my links to look so pretty that even art critics could say something nice about them, and to make it easier for visitors to remember my links. And believe me, it is actually easier than it seems.</p> 
+<p>How? Well, the solution to this problem was the use of <a href="http://en.wikipedia.org/wiki/Mod_rewrite">mod_rewrite</a> <img src="http://cdn.umedia.no/img/flag/us.png" alt="us flag"/>. I am not going to explain to you what it is in depth, but basically, it rewrites URI's and also makes it easier for search engines to find your pages. A little tutorial follows.</p> 
+<p>Instead of using long useless links like: 
+<pre class="brush: html">http://www.phun-ky.net/showpost.php?year=2006&month=08&slug=mod_rewrite_easy</pre>
+ <p>You can make it look so much better with mod_rewrite, like this:</p>
+ <pre class="brush: html">http://phun-ky.net/2006/08/mod_rewrite_easy</pre> <p>Just by adding these lines in a .htaccess file:</p> 
+<pre class="brush: bash">
+RewriteEngine On
+RewriteRule ([0-9]+)/([0-9]+)/(.*)$ showpost.php?year=$1&month=$2&slug=$3
+Options +FollowSymlinks
+RewriteCond %{http_host} ^www\.phun-ky\.net [nc]
+RewriteRule ^(.*)$ http://phun-ky.net/$1 [r=301,nc,L]
+</pre><p>If this was hard or you want to learn more, check out the cheat sheet posted with this post or read this <a href="http://corz.org/serv/tricks/htaccess2.php">.htaccess tips and tricks</a> <img src="http://cdn.umedia.no/img/flag/us.png" alt="us flag"/>.</p>
