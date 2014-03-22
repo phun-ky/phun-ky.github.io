@@ -182,3 +182,11 @@ a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
     background:transparent url(/assets/img/icons/page_white_compress.png) center left no-repeat;
 }
     
+.page-header small{
+	display: block;
+	line-height: 20px;	
+	color: #999999;
+	font-weight: normal;
+	font-family: 	Georgia,"Times New Roman",Times,serif;
+	text-transform:	capitalize;	
+	font-size: 22px;
