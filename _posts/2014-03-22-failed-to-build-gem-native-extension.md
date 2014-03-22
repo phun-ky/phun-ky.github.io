@@ -2,8 +2,8 @@
 layout: post
 title: "How to fix 'Failed to build gem native extension' when installing jekyll"
 description: ""
-category: ""
-tags: []
+category: "How-to"
+tags: [how-to, gem, ruby, error, apt-get, ubuntu]
 ---
 {% include JB/setup %}
 
