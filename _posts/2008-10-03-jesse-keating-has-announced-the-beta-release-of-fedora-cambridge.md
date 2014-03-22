@@ -13,6 +13,3 @@ Jesse Keating has announced the availability of the beta release of Fedora 10: J
 
 Read the rest of the (release announcement)[https://www.redhat.com/archives/fedora-announce-list/2008-September/msg00016.html] for further details. 
 
-Quick links to (download)[http://fedoraproject.org/get-prerelease] the installable live CDs: 
-
-(F10-Beta-i686-Live.iso)[http://download.fedoraproject.org/pub/fedora/linux/releases/test/10-Beta/Live/i686/F10-Beta-i686-Live.iso] (697MB, (SHA1)[http://download.fedoraproject.org/pub/fedora/linux/releases/test/10-Beta/Live/i686/SHA1SUM], (torrent)[http://torrent.fedoraproject.org/torrents/Fedora-10-Beta-i686-Live.torrent] (F10-Beta-x86_64-Live.iso)[http://download.fedoraproject.org/pub/fedora/linux/releases/test/10-Beta/Live/x86_64/F10-Beta-x86_64-Live.iso] (670MB, (SHA1)[http://download.fedoraproject.org/pub/fedora/linux/releases/test/10-Beta/Live/x86_64/SHA1SUM], (torrent)[http://torrent.fedoraproject.org/torrents/Fedora-10-Beta-x86_64-Live.torrent]).
