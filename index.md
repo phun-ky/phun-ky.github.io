@@ -1,7 +1,7 @@
 ---
 layout: page
-title: phun-ky
-tagline: Lover of life, technologist at heart
+title: Lover of life, technologist at heart
+tagline: The world from my point of view, and some pendatic creativity
 ---
 {% include JB/setup %}
 
