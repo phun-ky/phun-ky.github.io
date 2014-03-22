@@ -35,15 +35,15 @@ A quick little how to on how to get your d50 modem to work on Ubuntu. I used the
 * Copy the execute.sh located on the d50 USB stick under the Linux folder to you home directory
 * Edit the execute.sh so it looks something like this and then you are done with the basics:
 
-	echo "--&gt; D-50 Linux Connection\n"
+	echo "--> D-50 Linux Connection\n"
 	rm -rf D-50config wvdialconf_log 
-	wvdialconf D-50config &gt; wvdialconf_log
-	echo "Carrier Check= no\nStupid Mode= yes" &gt;&gt; D-50config
+	wvdialconf D-50config > wvdialconf_log
+	echo "Carrier Check= no\nStupid Mode= yes" > D-50config
 	echo "Phone = #777
 	Username = cdma
-	Password = cdma" &gt;&gt; D-50config
+	Password = cdma" > D-50config
 	rm -rf wvdialconf_log
-	echo "--&gt; Dialing...\n"
+	echo "--> Dialing...\n"
 	wvdial --config D-50config
 
 ## Make a shortcut
@@ -53,9 +53,9 @@ To do this manually is kind of a bore, so I made this executable and made a shor
 	cd /media/NMT_D50v2303R2/Linux
 	sudo ./RDEVCHG
 	#path to your execute.sh file, in this case bin/:
-	cd /home/&lt;yourusername&gt;/bin/
+	cd /home/<yourusername>/bin/
 	sudo sh execute.sh
 
 In the shortcut command field, just enter:
 
-	sudo sh /home/&lt;yourusername&gt;/D-50.sh
+	sudo sh /home/<yourusername>/D-50.sh
