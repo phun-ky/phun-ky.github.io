@@ -1,7 +1,7 @@
 body {
 	background:	#393939;
 	color:		#EAEAEA;
-	
+	font-size: 16px;
 }
 a:link {
 	color:		#9DDE24;
@@ -16,6 +16,10 @@ a:visited{
 	color:		#9DDE24;
 	text-decoration:none;	
 	
+}
+
+pre code, code{
+	font-size:16px;
 }
 
 h1, h2, h3, h4, h5, h6{
