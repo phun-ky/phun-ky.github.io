@@ -5,7 +5,7 @@ description: ""
 category: "Archive"
 tags: []
 ---  
-Gravatar, what is it? Gravatar stands for Globally Recognized Avatars. A gravatar is an avatar that's linked with your email adress. This avatar can be used on all sites that support Gravatar. Gravatar is as simple as it's genious. Go register on (gravatar.com)[http://www.gravatar.com] to get your Gravatar today!
+Gravatar, what is it? Gravatar stands for Globally Recognized Avatars. A gravatar is an avatar that's linked with your email adress. This avatar can be used on all sites that support Gravatar. Gravatar is as simple as it's genious. Go register on [gravatar.com](http://www.gravatar.com) to get your Gravatar today!
 
 Once you registered, you can test your gravatar under this article by using the comments!
 
