@@ -6,7 +6,8 @@ category: "Archive"
 tags: []
 ---  
 After reading the article <a href="http://www.alistapart.com/articles/contrast-is-king/">Contrast is king</a> at A List Apart, I checked out one of the tools that was mentioned: <a href="http://www.checkmycolours.com/">CheckMyColours.com</a>. It's pretty nifty and will help you deal with your sites accessibility. Got any other nice tools for accessibility? Please suggest one or two in the comments!
-<h2>What is CheckMyColours?</h2>
+## What is CheckMyColours?
+
 It is a tool for checking foreground and background <a href="http://phun-ky.net/2010/03/link-kuler-by-adobe">colour combinations</a> of all DOM elements and determining if they <em>provide sufficient contrast when viewed by someone having colour deficits</em>.
  
  
