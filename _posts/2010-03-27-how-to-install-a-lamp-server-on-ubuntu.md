@@ -6,7 +6,8 @@ category: "Archive"
 tags: []
 ---  
 I was trying to install a LAMP server locally and after some guides and questions I managed to get it up and running smoothly. How hard is it? Well, it is not that hard, thanks to <a href="https://help.ubuntu.com/community/Tasksel">Tasksel</a> (Note: this will only work from Ubuntu 7.04 Feisty Fawn and above):
-<pre class="brush: bash">sudo tasksel install lamp-server</pre>
+
+	sudo tasksel install lamp-server
 
 ## Troubleshooting
 
@@ -15,13 +16,15 @@ The following are some frequently encountered problems when checking the install
 
 
 
-* <strong>The browser shows you a popup asking you to open the file, as if the PHP engine is not recognized.</strong>
+* _The browser shows you a popup asking you to open the file, as if the PHP engine is not recognized._
 
  There's a problem with your php5-common package. Replace it with php5 and phpmyadmin. To replace php5-common, run the following two commands:
 
-<pre class="brush: bash">apt-get --purge remove php5-common</pre>
 
-<pre class="brush: bash">apt-get install php5 phpmyadmin</pre>
+	apt-get --purge remove php5-common
+
+
+	apt-get install php5 phpmyadmin
 
 ## More help?
 
@@ -34,7 +37,8 @@ The following are some frequently encountered problems when checking the install
 ## What is LAMP?
 
 From <a href="http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29">Wikipedia</a>:
-<blockquote>
-LAMP is an acronym for a solution stack of free, open source software, originally coined from the first letters of Linux (operating system), Apache HTTP Server, MySQL (database software), and PHP, Python or Perl (scripting language), principal components to build a viable general purpose web server.
-</blockquote>
+
+
+> LAMP is an acronym for a solution stack of free, open source software, originally coined from the first letters of Linux (operating system), Apache HTTP Server, MySQL (database software), and PHP, Python or Perl (scripting language), principal components to build a viable general purpose web server.
+
 
