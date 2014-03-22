@@ -5,7 +5,8 @@ description: ""
 category: "Archive"
 tags: []
 ---  
-<p>Some simply ways to remove empty lines in a file:</p>
+Some simply ways to remove empty lines in a file:
+
 <pre class="brush: bash">
 # Use this sub:
 :%s/^\n// 

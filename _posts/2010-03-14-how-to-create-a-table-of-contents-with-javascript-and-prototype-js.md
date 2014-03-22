@@ -6,11 +6,13 @@ category: "Archive"
 tags: []
 ---  
 Well, if you write long posts every now and then and you want your users to access the information in an easy way instead of splitting up the post in several pages, this is a very nice solution to this issue.
-<h2>Step one: Add html element to the page</h2>
+## Step one: Add html element to the page
+
 <pre class="brush: html">
 &lt;div id="toc" style="display:none;">Post content:&lt;br />&lt;/div>
 </pre>
-<h2>Step two: Add the javascript</h2>
+## Step two: Add the javascript
+
 <pre class="brush: javascript">
 // When page has finished loading
 Event.observe(window,'load',function(event) {  

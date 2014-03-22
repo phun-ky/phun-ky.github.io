@@ -7,7 +7,8 @@ tags: []
 ---  
 Have you ever thought your links looked boring and that they needed the little extra? Well, fear not, for I have the solution!
 
-<h2>The CSS</h2>
+## The CSS
+
 
 Put this in your css file, preferably after your global CSS notation for links. I have added the most used icons/link types, so if you feel the need to update it, please do. Make sure you have the correct icons before you test it ;)
 
@@ -142,6 +143,7 @@ a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
 }
 </pre>
 
-<h2>Recommended Icons to use</h2>
+## Recommended Icons to use
+
 
 I recommend the <a href="http://www.famfamfam.com/lab/icons/silk/">Silk Icon set from famfamfam.com</a>. They are free to use for non-profit use. 

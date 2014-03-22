@@ -7,15 +7,18 @@ tags: []
 ---  
 Cross browser testing and development has never been a walk in the park. This is mainly because the browsers out there in the world wide web do not cling to one <a href="http://www.w3.org/standards/webdesign/">set of standards</a>. The browsers comes bundled with <a href="http://en.wikipedia.org/wiki/Comparison_of_web_browsers">different support, different interpretation and different engines</a>. Remember, not everyone uses the latest version of their best liked browser. And to be honest, it's quite hard sometimes to make sure that every browser makes your web page look the same and work as intended. 
 
-<h2>A helping hand with Cross Browser Testing</h2>
+## A helping hand with Cross Browser Testing
+
 I've worked with Web Development, on and off, for about 9 years soon, and I now want to share something with you that can help you a bit, and make the procedure a bit less painful when you are testing your web pages. Basically, it's a check list  you can print out to keep track of the testing stages.
 <a href="http://cdn.phun-ky.net/img/blog/imged8ad929e34f4b1f064b21c33d6c4f14.png" rel="lightbox[article]" title=""><img class="reflect rheight15" src="http://cdn.phun-ky.net/img/blog/imged8ad929e34f4b1f064b21c33d6c4f14.png" alt="imged8ad929e34f4b1f064b21c33d6c4f14.png" title="" /></a>
 
-<h2>Download</h2>
+## Download
+
 So, use it as much as you like, and feel free to update it! Download the <a href="http://phun-ky.net/files/crossbrowserchecklist.pdf">checklist here.</a>
 
 
-<h2>Browser Statistics</h2>
+## Browser Statistics
+
 Just to give a picture of the browser usage, here's a representation of the browser usage of the visitors at <a href="http://w3schools.com">w3schools.com</a>:
 
 <table>
@@ -55,10 +58,10 @@ Just to give a picture of the browser usage, here's a representation of the brow
 
 
 
-<h2>Other tips</h2>
+## Other tips
+
 You might want to check these links out when you are trying to develop nice cross browser pages:
 
-<ul>
-<li><a href="http://designm.ag/resources/cross-browser-testing/" rel="">10 Helpful Resources for Cross Browser Testing</a></li>
-<li><a href="http://freelancefolder.com/7-fresh-and-simple-ways-to-test-cross-browser-compatibility/" rel="">7 Fresh and Simple Ways to Test Cross-Browser Compatibility</a></li>
-</ul>
+
+* <a href="http://designm.ag/resources/cross-browser-testing/" rel="">10 Helpful Resources for Cross Browser Testing</a>
+* <a href="http://freelancefolder.com/7-fresh-and-simple-ways-to-test-cross-browser-compatibility/" rel="">7 Fresh and Simple Ways to Test Cross-Browser Compatibility</a>

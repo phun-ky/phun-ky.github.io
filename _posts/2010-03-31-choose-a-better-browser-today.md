@@ -18,6 +18,7 @@ Are you sure you are secure with your browser choice? Are you still using archai
 <a style="padding:0px; background:none;" href="http://www.apple.com/safari/"><img class="reflect rheight15" src="http://cdn.phun-ky.net/img/blog/img42a5796b65095c09a6816d73f03b0160.jpg" alt="img42a5796b65095c09a6816d73f03b0160.jpg" title="" style="float:left;" /></a>
 </div>
 
-<h2>Have you made a decision yet?</h2>
+## Have you made a decision yet?
+
 
 If not, you can always head over to Opera to check out their <a href="http://my.opera.com/community/choice/stats/">browser choice statistics</a> ;)
