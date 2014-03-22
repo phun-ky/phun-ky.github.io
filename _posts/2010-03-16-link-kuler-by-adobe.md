@@ -4,7 +4,8 @@ title: "Link: Kuler by Adobe"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 After browsing the blogosphere today I stumbled upon a very nice color scheme web application created by Adobe: <a href="http://kuler.adobe.com">Kuler</a>. It reminds me of a bloated, but better version of <a href="http://colorschemer.com/">Colorschemer</a>.
 
 ## Easy to use

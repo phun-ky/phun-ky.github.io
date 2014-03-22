@@ -4,7 +4,8 @@ title: "How to override CSS with JavaScript"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 A pretty nice snippet that I use all the time to override CSS set with the !important switch.
 
 <pre>

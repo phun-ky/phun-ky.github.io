@@ -4,7 +4,8 @@ title: "Ubuntu Lucid Lynx 10.04 First Beta Released"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Steve Langasek has announced the availability of the first beta release of <a href="ubuntu">Ubuntu</a> 10.04, code name "Lucid Lynx", a long-term support (LTS) version.
 ## Press release
 

@@ -4,7 +4,8 @@ title: "hardy heron succeeds gutsy gibbon"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 A brief post this thursday morning, with great news.
  The next Ubuntu distro to succeed Gutsy Gibbon (7.10) is called Hardy Heron (8.04).
  A little excerpt from jonobacon@home:

@@ -4,7 +4,8 @@ title: "Archive frozen for preparation of Ubuntu 8.10"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Steve Langasek reporting:
 
 

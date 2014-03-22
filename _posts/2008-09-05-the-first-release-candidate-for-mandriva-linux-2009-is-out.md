@@ -4,7 +4,8 @@ title: "the first release candidate for mandriva linux 2009 is out"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 The first release candidate for <a href="mandriva">Mandriva</a> Linux 2009 is out, ready for testing:
  "Mandriva Linux 2009 Release Candidate 1 is available on public mirrors now. The main new features of RC1 (compared to Beta2) are: automatic repository configuration and mirror selection in package management tools (powered by aria2); ath5k replaces MadWifi for Atheros wireless cards; new graphical theme (backgrounds, screensavers); based on kernel 2.6.27; KDE 4.1.1, GNOME 2.23.91; new design for installer; improved system-config-printer; improved Ia Ora theme for KDE4; others features and bug fixes." 
 

@@ -4,7 +4,8 @@ title: "Attending GoOpen 2010!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 It has been two years <a href="http://phun-ky.net/2008/03/attending-goopen-2008">since last time</a>, but at last, this year I am attending <a href="http://www.goopen.no">GoOpen</a> 2010! 
 
 ## Main keynotes

@@ -4,7 +4,8 @@ title: "OOXML problems will be fixed"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 <a href="http://blog.abrenna.com">Anders Brenna</a> got to interview the ODF project editor, <a href="http://durusau.net/">Patrick Durusau</a>:
 Patrick Durusau is the project editor for ODF 1.2. Considering the escalated conflict between OOXML-backers and opposers, one might think that he sided with the opposition.
 

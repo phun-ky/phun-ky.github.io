@@ -4,7 +4,8 @@ title: "How to detect iPhone, iPad, iPod with JavaScript"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Just a very quick and easy way to detect Apple's devices:
 
 

@@ -4,7 +4,8 @@ title: "fedora core 8 test 1 out!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Update! read my article about the release of Fedora 8, the <a href="http://phun-ky.net/2007/11/fedora-8-released">final version here</a>.
  Well, thing evolves and get better, or worse. For the Fedora series, it looks like things are getting better and better for each core release.
  Fedora test 1 is the first test release of three beta releases before Fedora 8 releases in November this year.

@@ -4,7 +4,8 @@ title: "get your statistics on with clicky!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Get your statistics on with Clicky! Do you have a personal or proffesional website and wondered how many visitors you have? Do you think about what your readers search for to be directed to your site? Where are your readers coming from? What are the readers doing on your site? If you have asked yourself any of these questions, and want answers, not more questions, I'm going to share with you how you can get these answers nicely bundled up and presented in a very detailed view.
  The solution to your statistical needs is Clicky 2.0!
 What is Clicky? Clicky is a web analyzer that works great with any web site, even Ajax and Flash sites. It was originally targeted towards smaller web sites and blogs because it tracks a high level of detail on every visitor, and these types of sites find this information very interesting.

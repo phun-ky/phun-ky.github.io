@@ -4,7 +4,8 @@ title: "ubuntu on dell latitude 620"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Ever since I got the laptop I use at work, I always wondered what it was like to have a GNU/Linux OS on it. I've experimentet with a Compaq Evo N800 and Fedora releases before, but that didn't work like a charm. However, the Dell 620 and the Ubuntu Studio based on Feisty Fawn really worked like a charm!
  I'm not posing as a preacher of GNU/Linux OS here, but it works mate. The install was much easier than the Windows, but there are some quirks yet to be fixed; The partitioning is not fit for a layman, you know as well as I do that to fiddle with partitioning when you don't have a clue is a no-no.
  Ok, this is what works out of the box:

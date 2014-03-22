@@ -4,7 +4,8 @@ title: "4g WiMax in USA? Now?"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 According to VG, a Norwegian daily, <a href="http://www.vg.no/pub/vgart.hbs?artid=126024">USA is starting to build a 4g Mobile Net</a> . I find these news hillarious, due the the fact that they have not implementet 3g yet.
  I had a paper in my 2nd year of the bachelor degree, it was written with 3 other students and it is about UMTS vs. WLAN.(link down, new link up soon) In this paper we clearly see that 4g is not optional yet. (Regretfully, this paper is in norwegian, but I've been meaning to transcribe it for publishing on my blog. Check back to see when it's ready.) A little quote from the paper:
  <blockquote>4G is also started with criterias that will be implemented. This can seem a little hasty when USA is planned to build it's 3g net until 2007. (Wikipedia 2005) Until then, some Mobile Actors has settled for a 2.75G system, EDGE(it builds on the GSM Net)</blockquote>

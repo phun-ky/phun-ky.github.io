@@ -4,7 +4,8 @@ title: "Jesse Keating has announced the beta release of Fedora Cambridge"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Hm, looks like Jesse Keating is breathing down the neck of Steve Langasek with this announcement:
 
 Jesse Keating has announced the availability of the beta release of Fedora 10: Jesse Keating has announced the availability of the beta release of (Fedora)[fedora] 10: 

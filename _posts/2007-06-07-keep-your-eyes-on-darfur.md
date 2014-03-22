@@ -4,7 +4,8 @@ title: "keep your eyes on darfur"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 The conflict in Sudan has driven to million people into fugitivity. At least 200.000 people are killed in the conflict, but the government in Sudan reject the genocide accusations.
 
 Amnesty International has now released a site where YOU can monitor and see for yourself the destrucion and genocide that is happening in Sudan.

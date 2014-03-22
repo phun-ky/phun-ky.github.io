@@ -4,7 +4,8 @@ title: "will there ever be peace?"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 3rd time now, I've been trying to make this post, so I am going to make this short.
 
 I used google to get some keywords and then worked my way in Wikipedia. Read some of the links to get the point of the posted comic.

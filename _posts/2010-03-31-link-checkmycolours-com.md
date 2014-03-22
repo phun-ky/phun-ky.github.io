@@ -4,7 +4,8 @@ title: "Link: CheckMyColours.com"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 After reading the article <a href="http://www.alistapart.com/articles/contrast-is-king/">Contrast is king</a> at A List Apart, I checked out one of the tools that was mentioned: <a href="http://www.checkmycolours.com/">CheckMyColours.com</a>. It's pretty nifty and will help you deal with your sites accessibility. Got any other nice tools for accessibility? Please suggest one or two in the comments!
 ## What is CheckMyColours?
 

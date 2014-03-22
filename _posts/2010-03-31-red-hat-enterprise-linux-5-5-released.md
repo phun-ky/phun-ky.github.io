@@ -4,7 +4,8 @@ title: "Red Hat Enterprise Linux 5.5 released"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Directly from <a href="http://www.distrowatch.com">DistroWatch.com</a>: Red Hat, Inc. has announced the release of Red Hat Enterprise Linux (RHEL) 5.5, the fifth update of its commercial, enterprise-class Linux distribution: 
 ## Release Excerpt
 

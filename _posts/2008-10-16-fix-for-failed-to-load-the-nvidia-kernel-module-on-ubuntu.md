@@ -4,7 +4,8 @@ title: "Fix for "Failed to load the NVIDIA kernel module" on Ubuntu"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I struggled with my NVIDIA drivers after a kernel update, and no matter what I tried; I edited my xorg.conf, reinstalled drivers from source or with apt-get, nothing worked, until I found a great solution to this error (you can maybe fix this with similar errors):
 
 

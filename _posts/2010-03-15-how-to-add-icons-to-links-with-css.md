@@ -4,7 +4,8 @@ title: "how to Add icons to links with css"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Have you ever thought your links looked boring and that they needed the little extra? Well, fear not, for I have the solution!
 
 ## The CSS

@@ -4,7 +4,8 @@ title: "mod_rewrite made easy"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Lately I've been trying to make all my links to look so pretty that even art critics could say something nice about them, and to make it easier for visitors to remember my links. And believe me, it is actually easier than it seems.
 
 How? Well, the solution to this problem was the use of <a href="http://en.wikipedia.org/wiki/Mod_rewrite">mod_rewrite</a>. 

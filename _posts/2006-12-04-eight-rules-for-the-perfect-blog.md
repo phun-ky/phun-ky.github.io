@@ -4,7 +4,8 @@ title: "eight rules for the perfect blog"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 There is plenty of do's and dont's in the world of web logging (blogging), and as a pendantic person I always try to make the perfect weblog (blog) system. The search term --the perfect blog-- is a string I always use, and this time I found an article that's mildly(!) sarcastic about the dont's. I simply couldn't keep my hands of it. The article is written by <a href="http://www.pcmag.com/article2/0,1895,27443,00.asp">John C. Dvorak</a> <br/> and it lists up eight rules that points out the things not to do when you are blogging. Here is the 8 eight rules for the perfect blog, enjoy:
 
 

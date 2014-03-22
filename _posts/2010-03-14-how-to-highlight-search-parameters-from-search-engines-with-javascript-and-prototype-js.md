@@ -4,14 +4,16 @@ title: "How to highlight search parameters from Search engines with javascript a
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 --- 
 layout: post 
 title: "How to highlight search parameters from Search engines with javascript and prototype.js"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I needed some code to help visitors on one of our sites at Aller Internett, to be able to spot the content where the search parameters where mentioned. After some searching and tutorial scavenging, I came up with this script. Add it to the bottom of you page for best practice.
 ## Step one: Define searchterms var
 

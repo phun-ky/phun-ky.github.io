@@ -4,7 +4,8 @@ title: "what is the perfect blog?"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Many bloggers out there are writing over thousand entries every hour, with no idea of the concept of what a blog is all about. So, what is a blog actually all about? Is it necessary to know what a blog is all about to make it a good blog?
  Well, actually, you have to break it down into smaller parts, since a blog could be everything, from a little online book of everyday thoughts to a high end political corner. It's all about the content, and how the users' point of view interprets it. It is not about the fancy flashing ads, the absence of semantics or a good writer that makes a perfect blog.
  With the new era of information crossing over sites and large communities like Flickr or YouTube, the whole concept of content is rewritten in its own context. And when I say "new era" I mean the "web 2.0 hype" that I mentioned in one of <a href="http://phun-ky.net/2006/11/web-2.0-is-a-hype">my earlier articles</a>.

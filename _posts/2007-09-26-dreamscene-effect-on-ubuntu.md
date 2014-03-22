@@ -4,7 +4,8 @@ title: "dreamscene effect on ubuntu"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Stumbled over a great effect for my gnome desktop on Ubuntu Studio, a Dreamscene look-a-like effect. The best thing was that I only needed 2 lines in the console for making this effect!
 
 What is Windows Dreamscene? Windows Dreamscene is one of the extras Microsoft has provided for Windows Vista Ultimate users. Windows DreamScene is a utility that allows videos and other optimized animations to be used as desktop wallpapers. It is one of the Windows Ultimate Extras. Prior to its official announcement, DreamScene was rumored to be in creation under the names Motion Desktop and Borealis. Enough facts, this is how you do it:

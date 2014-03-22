@@ -4,7 +4,8 @@ title: "sneak peek at lfs 3rd annual desktop linux survey"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I've had a sneak peek at Linux Foundations 3rd annual desktop Linux survey and while LF analyses the raw data, you can read some results here!
  Some numbers: over 20,000 have answered the surveys this year compared to under 10,000 in 2006! 51.1% of the users that replied in the survey was from Europe, 68.4% of the Linux desktops are deployed in SOHOs (Small Office, Home Office). 
  Some quotes from the original post at desktoplinux.com:

@@ -4,7 +4,8 @@ title: "How to add a search feature to your blog for cakephp"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I was looking for a decent search feature to add to  my blog, and after some reading around, I found this feature very easy and interesting. I found a [how to in the bakery](http://bakery.cakephp.org/articles/view/search-feature-to-cakephp-blog-example), but as several users pointed out, it lacked simplicity and a reindex feature. I kept it to the basics and hope this will work as easy for you as it did for me.
 
 ## Step 1: Download Searchable Behaviour

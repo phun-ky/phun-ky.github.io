@@ -4,7 +4,8 @@ title: "ubuntu hardy heron release candidate is out!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Steve Langasek announced the release candidate of Ubuntu 8.04 "Hardy Heron":
  "The Ubuntu team is pleased to announce the Release Candidate for Ubuntu 8.04 LTS (Long-Term Support) on desktop and server. Codenamed "Hardy Heron", 8.04 LTS continues Ubuntu's proud tradition of integrating the latest and greatest open source technologies into a high-quality, easy-to-use Linux distribution. We consider this release candidate to be complete, stable, and suitable for testing by any user... The Ubuntu 8.04 LTS family of variants, Kubuntu, Xubuntu, UbuntuStudio, and Mythbuntu, also reach RC status today. The final release of Ubuntu 8.04 LTS is scheduled for 24 April 2008 and will be supported for three years on the desktop and five years on the server."
 

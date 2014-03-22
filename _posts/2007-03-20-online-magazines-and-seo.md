@@ -4,7 +4,8 @@ title: "online magazines and seo"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I found an article that caught my interest when I browsed Slashdot.org. It caught my interested because I work as a web developer in a big Internet editing office. Our net journalists continuously work to pull as many hits as possible to our content with the help of "pithy, witty and provocative headlines".  
  A quote from the original article at <a href="http://news.com.com/2100-1038_3-6155739.html">Cnet News</a> <br/>:
  

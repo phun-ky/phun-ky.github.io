@@ -4,7 +4,8 @@ title: "Eric Meyers CSS Reset code - a must-have for elements on the loose"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Came over this nifty CSS code to reset all html elements to "default" style. It might help you (or it might not) when you want to start from scratch, i.e. in a CSS file for print.
 
 

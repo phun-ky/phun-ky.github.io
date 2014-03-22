@@ -4,7 +4,8 @@ title: "internet monopoly in norway"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Internet monopoly in Norway is in the horizon: The largest web daily in Norway, <a href="http://www.vg.no">VG.no</a>  published an article that literally stunned me. <a href="http://www.telenor.no">Telenor</a> , The largest ISP in Norway, are pulling themselves out of the Norwegian Internet Exchange (NIX)!
  What does this mean actually? Well, quoted from the article:
  

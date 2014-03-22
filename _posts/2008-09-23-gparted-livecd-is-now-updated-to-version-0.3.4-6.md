@@ -4,7 +4,8 @@ title: "gparted livecd is now updated to version 0.3.4-6"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 From DistroWatch.com: 
 
 

@@ -4,7 +4,8 @@ title: "how to flash your bios from linux with no dos/windows or no floppy drive
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 This is a simple how to that I picked from the web, I take no credit from this guide, give the credit to the guys <a href="http://www.linuxinsight.com/how-to-flash-motherboard-bios-from-linux-no-dos-windows-no-floppy-drive.html">from LinuxInsight.com</a> that wrote it!
 
 

@@ -4,7 +4,8 @@ title: "Javascript Hash onChange event"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 A pretty nifty solution to bind an event (err) to the window.location.hash string.
 
 <pre>var onHashChange = function(event) {

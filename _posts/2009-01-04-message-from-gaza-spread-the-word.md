@@ -4,7 +4,8 @@ title: "Message from Gaza, spread the word"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Got a sms today, words can't grasp the nature of what is happening down in Gaza these days, the first days of 2009.. But the two brave Norwegian doctors in Shifa tries.. Spread the word!
 
 

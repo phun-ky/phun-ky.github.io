@@ -4,7 +4,8 @@ title: "the last leg and great news!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Well, we came back home a week ago, after spending 3 days at Hamarøya.
  The drive home from Hamarøya took about 16.5 hours alltogether if we don't count the breaks we had in. Was great to come home and see our cats again!
 
