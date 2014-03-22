@@ -11,5 +11,5 @@ This is another milestone after the human endavour of the space race that starte
 
 I just can't wait to the day mankind can travel in space!
 
-A video of (the Falcon 1 with an interview with Elon Musk)[http://www.youtube.com/v/8FQhtMrUQlE&hl=en&fs=1].
+A video of [the Falcon 1 with an interview with Elon Musk](http://www.youtube.com/v/8FQhtMrUQlE&hl=en&fs=1).
 
