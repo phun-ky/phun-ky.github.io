@@ -4,7 +4,8 @@ title: "how to speed up your site"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 How can you speed up your site on an Apache PHP server? Piece of cake if you ask me. How simple is it? With some copy and paste jobs from my article you can speed up your site significally.
  Follow these simple and easy steps to make your site faster today!
  Always give the browser an opportunity to download gzip (compressed) versions of the content. To do this, here's an example that I did with my javascript files: (As a bonus, we're setting an expires header on the js files aswell!)

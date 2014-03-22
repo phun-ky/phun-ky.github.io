@@ -4,7 +4,8 @@ title: "NetCom launches a Portable Wifi tomorrow, monday 22nd march, at 13.00 CE
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 In the last weeks NetCom, the 2nd largest mobile net provider in Norway, have advertised that tomorrow, Monday 22nd of March, they will announce a spectacular new product. They claim that it will be the first of its kind in Norway.
 
 ## So what is it?

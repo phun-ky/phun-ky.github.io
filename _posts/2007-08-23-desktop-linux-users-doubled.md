@@ -4,7 +4,8 @@ title: "desktop linux users doubled"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Some great news from desktoplinux.com! They recently revealed the desktop survey results. The facts are there, the number of desktop linux users has doubled the last year!
  And what is the desktop linux users distribution of choice? The Ubuntu family (Xubuntu, Kubuntu, Ubuntu, Ubuntu Studio, Edubuntu) leads on, and SuSe is the second runner up.
  To read all the survey results, <a href="http://www.desktoplinux.com/news/NS8454912761.html">go to desktoplinux.com</a> <br/>.

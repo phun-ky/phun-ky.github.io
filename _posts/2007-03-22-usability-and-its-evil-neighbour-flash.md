@@ -4,7 +4,8 @@ title: "usability and its evil neighbour, flash"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I read an article posted by Kyle Neath on Warpspire about his (metamorphosis from beeing a standard nazi)[http://warpspire.com/journal/web-production/standards-nazi-transforming/] to be more open minded for Flash applications. He mentions some pointers towards HTML, CSS and JavaScript's issue with not beeing compliant enough towards browsers. Nothing wrong witht that, but when I read that they are going to use Flash over HTML, one of my eyebrows rose in speculation.
 
 After I read the article I clicked onwards to another article at danwebb.net where Dan Webb ( naturally ) posted his views on (flash vs ajax)[http://www.danwebb.net/2007/3/20/flash-vs-ajax-it-s-time-to-expand-your-toolbox] after the SXSW. He was enlightened after a panel session where Jonathan Boutelle discussed the topic (Ajax or Flash: What's right for you?)[http://2007.sxsw.com/interactive/programming/panels/?action=show&id=IAP060113]. The talk was basically about the relative advantages of each platform. But that is not the thing I would like to point at. The notable from this article is Dan's reasons for losing interest in Flash:

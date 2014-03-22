@@ -4,7 +4,8 @@ title: "David Liu gOS 3.0 "Gadgets" released"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 More good news on the <a href="http://distrowatch.com/">DistroWatch.com</a> feed!
 
 

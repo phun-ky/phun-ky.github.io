@@ -4,7 +4,8 @@ title: "How to create a table of contents with javascript and prototype.js"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Well, if you write long posts every now and then and you want your users to access the information in an easy way instead of splitting up the post in several pages, this is a very nice solution to this issue.
 ## Step one: Add html element to the page
 

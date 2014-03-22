@@ -4,7 +4,8 @@ title: "how to get your ice.net d50 modem to work on ubuntu"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 A quick little how to on how to get your d50 modem to work on Ubuntu. I used the d50 on my laptop my entire summer vacation and it worked perfectly!
 
 ## The basic setup

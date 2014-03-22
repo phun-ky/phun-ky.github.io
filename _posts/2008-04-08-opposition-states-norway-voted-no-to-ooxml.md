@@ -4,7 +4,8 @@ title: "opposition states: - norway voted no to ooxml"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 There's been a lot of fuzz lately in Norway about the whole OOXML vote process. Standard Norge has, <a href="http://phun-ky.net/2008/03/norway-says-yes-to-ooxml-despite-protests">despite the opposition's majority vote against OOXML</a>, voted yes to OOXML. In response to this, Håkon Wium Lie, CTO of Opera Software and the rest of the opposition won't <a href="http://blog.abrenna.com/norwegian-ooxml-vote-did-not-tip-ballot/">stop fighting against the decision</a>.
 Last week, <a href="http://blog.abrenna.com/formal-protest-against-norways-yes-to-ooxml/">comittee chairman Steve Pepper sent ISO a formal letter where he protested against the decision, and asked that Norway's vote be suspended</a>.
 Standard Norge dismissed this and claimed that the majority voted yes to OOXML!

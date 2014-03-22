@@ -4,7 +4,8 @@ title: "road trip to lofoten in northen-norway, leg 1"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Me and my girlfriend are taking a vacation together in Nordland in Norway. To get there, we're road tripping.
  I'm going to upload some pictures and keep my few readers updated on our trip.
  Why road trip? Well, we're having summer vacation here, and we've decided to visit relatives (especially on my behalf because I don't see them much) and to enjoy the beautiful scenery we wouldn't see if we were flying with an airplane. 

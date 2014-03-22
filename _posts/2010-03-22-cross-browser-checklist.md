@@ -4,7 +4,8 @@ title: "Cross Browser Checklist"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Cross browser testing and development has never been a walk in the park. This is mainly because the browsers out there in the world wide web do not cling to one <a href="http://www.w3.org/standards/webdesign/">set of standards</a>. The browsers comes bundled with <a href="http://en.wikipedia.org/wiki/Comparison_of_web_browsers">different support, different interpretation and different engines</a>. Remember, not everyone uses the latest version of their best liked browser. And to be honest, it's quite hard sometimes to make sure that every browser makes your web page look the same and work as intended. 
 
 ## A helping hand with Cross Browser Testing

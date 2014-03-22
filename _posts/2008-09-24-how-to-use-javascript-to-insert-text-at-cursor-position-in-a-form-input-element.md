@@ -4,7 +4,8 @@ title: "how to use javascript to insert text at cursor position in a form input 
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Was stuck in a rut here with a JavaScript problem, but I did some active research that I became very happy with:
 
 

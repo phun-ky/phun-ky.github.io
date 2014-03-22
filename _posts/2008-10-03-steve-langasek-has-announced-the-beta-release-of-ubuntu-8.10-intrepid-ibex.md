@@ -4,7 +4,8 @@ title: "Steve Langasek has announced the beta release of Ubuntu 8.10 Intrepid Ib
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Distrowatch.com with the good stuff: Steve Langasek has announced the beta release of <a href="ubuntu">Ubuntu</a> 8.10 "Intrepid Ibex": 
 
 

@@ -4,7 +4,8 @@ title: "manah manah"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Well, I took a sneak at the daily comic strip of M, authored and drawn by Mads Eriksen, and I didn't quite get it, so I googled and came across a YouTub clip containing the explanation in form of a old Muppet Show sequence.
  Have a look at the comic,then check out the clip:
  <img src="http://cdn.umedia.no/img/mmanah.png" alt="a comic strip by mads eriksen" title="manah manah"/>

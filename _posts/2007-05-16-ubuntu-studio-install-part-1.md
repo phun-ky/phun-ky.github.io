@@ -4,7 +4,8 @@ title: "ubuntu studio install: part 1"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Okay, after 8 hours of downloading the Ubuntu Studio via torrents, and another hour uploading it to a share server for easier access, I found out that I did not have any fresh DVD's left to write on :( . 
  So, until I get my arse down to the shop, I will give you a link to the iso:
  <a href="http://www.favpocket.com/shares/iso/ubuntu/UbuntuStudio%207.04/">http://www.favpocket.com/shares/iso/ubuntu/UbuntuStudio 7.04/</a>.

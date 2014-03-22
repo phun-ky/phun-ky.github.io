@@ -4,7 +4,8 @@ title: "Mandriva has announced the release of Mandriva Enterprise Server 5.1"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 DistroWatch.com reports that Mandriva has announced the release of <a href="mandriva">Mandriva</a> Enterprise Server 5.1, a commercial Linux distribution with 5-year maintenance support! 
 ## Press release
 

@@ -4,7 +4,8 @@ title: "the ooxml problem"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 As some of you might have noticed, the hottest debate nowadays is the debate on Microsofts new document format, the OOXML (Office Open XML) and Microsofts attempt to get the OOXML standard ISO certified.
 
 ## What is OOXML?

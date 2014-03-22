@@ -4,7 +4,8 @@ title: "safari on windows bugs!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I was so looking forward to try the Safari beta on Windows when Safari beta was released. The experience from the browser after some first views was not good, at all. I didn't have the same problems as <a href="http://www.456bereastreet.com/archive/200706/safari_now_officially_available_for_windows/">Roger Johansson</a> <br/> had, my Safari beta won't show me any h1 or span tags! It bugs. Badly.
  Does anyone have the same experience? Noone? I guess someone out there has problems at least! David Maynor, a contributor to the Errata Security blog is <a href="http://erratasec.blogspot.com/2007/06/niiiice.html">continuously updating his post with new bugs</a> <br/> in Safari.
  <img src="/images/safaribug.jpg" alt="no head or span tags shown" class="reflect rheight22"/> "The world best browser" indeed.. I did not test the other features, 'cause I was so hung up on the fact that it could not display tags correctly. At first glance, I thought that it was my fault with some really bad CSS, but no, I found the same bug on external sites as well, like: <a href="http://www.vg.no">vg.no</a> , the most used news site in Norway.

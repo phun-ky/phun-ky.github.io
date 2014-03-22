@@ -4,7 +4,8 @@ title: "How to install a LAMP server on Ubuntu"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I was trying to install a LAMP server locally and after some guides and questions I managed to get it up and running smoothly. How hard is it? Well, it is not that hard, thanks to <a href="https://help.ubuntu.com/community/Tasksel">Tasksel</a> (Note: this will only work from Ubuntu 7.04 Feisty Fawn and above):
 
 	sudo tasksel install lamp-server

@@ -4,7 +4,8 @@ title: "xhtml javascript flash validated?"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I finally found a way to get my sites containing flash, xhtml 1.0 validated! I have tried several different quirks and tricks to make the flash validated, with no real success - the Flash Satay example from an article posted at <a href="http://www.alistapart.com/articles/flashsatay/">A list apart</a> <br/> and  the default Adobe embed to mention a few.
  The solution was SWFObject from <a href="http://blog.deconcept.com/swfobject/">deconcept.com</a> <br/>! To say it directly:
  

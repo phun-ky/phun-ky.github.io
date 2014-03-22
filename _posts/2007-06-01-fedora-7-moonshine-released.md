@@ -4,7 +4,8 @@ title: "fedora 7 moonshine released!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 The Fedora project has released their latest distro yesterday, Fedora 7 (Moonshine). Some new features comes bundlet with it, and I would like to mention some features that are worth taking a notice of:
  ### System Level Changes
  - Fedora now integrates the experimental nouveau driver within Xorg and the kernel. The nouveau driver, which is disabled by default in this release, aims to provide free and open source 3D drivers for nVidia cards. End users are asked to provide feedback on this feature to the project developers, to further the goal of having fully functional 3D drivers by default.

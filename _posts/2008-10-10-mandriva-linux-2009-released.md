@@ -4,7 +4,8 @@ title: "Mandriva Linux 2009 released"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 If you've been up to date with the beta and rc releases lately, this won't come as a surprise:
 
 

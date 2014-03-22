@@ -4,7 +4,8 @@ title: "The winners of the World Whiskies Awards 2010 "
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Got a link through facebook regarding one of my favourite things in this world, whisky! [The Whisky Magazine](http://www.whiskymag.com) wrote in february that the World Whiskies Awards has finished and the winners was announced. I noticed some very good bottles in this list, and I know I've tasted some of them at Oslo Whisky Festival.
 
 ## Made in Japan

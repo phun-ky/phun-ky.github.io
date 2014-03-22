@@ -4,7 +4,8 @@ title: "my favourite web comics"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Just a little post here, I thought I'd share with you what my favourite web comics are:
  <a href="http://www.darklegacycomics.com/">Dark Legacy Comic</a> by Arad Kedar.
 

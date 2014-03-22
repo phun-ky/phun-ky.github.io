@@ -4,7 +4,8 @@ title: "latest distro from norway, draco 0.3.0 released"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 The latest Draco Linux distro is out! Fresh from Norway.
 
 Draco GNU/Linux is a distribution based on Slackware Linux and "pkgsrc", a package management system developed by NetBSD.

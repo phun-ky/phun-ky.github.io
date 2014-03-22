@@ -4,7 +4,8 @@ title: "ready for peace Israel?"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 The <a href="http://news.bbc.co.uk/2/hi/middle_east/5229058.stm">UN Council 'shocked' by Qana raid</a> <img src="http://cdn.umedia.no/img/flag/gb.png" alt="gb flag"/>. Over 54 civilian lives were lost in the Qana raid, most of them children. France has already circulated a draft resolution to call for an immediate end of the hostilities. Kofi Annan clearly states:
 <blockquote>"Action is needed now before many more children, women and men become casualties of a conflict over which they have no control."</blockquote>
 

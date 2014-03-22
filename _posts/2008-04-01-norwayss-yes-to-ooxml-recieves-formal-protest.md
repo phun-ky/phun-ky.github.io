@@ -4,7 +4,8 @@ title: "norway's yes to ooxml recieves formal protest"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 There was a <a href="http://phun-ky.net/2008/03/norway-says-yes-to-ooxml-despite-protests">massive protest when Standard Norge decided that Norway will say yes to OOXML</a>, despite the fact that most of the comitee-representatives were against.
 
 

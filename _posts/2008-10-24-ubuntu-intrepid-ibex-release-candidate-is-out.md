@@ -4,7 +4,8 @@ title: "Ubuntu Intrepid Ibex release candidate is out!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 The release of Ubuntu 8.10 Intrepid Ibex is getting closer with the release of the 8.10 RC. 
 
 

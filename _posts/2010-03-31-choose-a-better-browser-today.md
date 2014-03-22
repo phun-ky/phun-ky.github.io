@@ -4,7 +4,8 @@ title: "Choose a better browser today!"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Are you sure you are secure with your browser choice? Are you still using archaic and bloated browsers as Internet Explorer? <a href="http://robertnyman.com/2007/03/23/why-would-anyone-use-internet-explorer/">Why would anyone use Internet Explorer</a>? Or do you find yourself stuck with a browser and want to try something new? Try one of these: 
  
 

@@ -4,7 +4,8 @@ title: "norway says yes to ooxml despite protests"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Opera Software's CTO, Håkon Wium Lie, is shocked, and the OOXML-debate rages in Norway.
 
 

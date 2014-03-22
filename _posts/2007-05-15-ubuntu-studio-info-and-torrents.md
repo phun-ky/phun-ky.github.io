@@ -4,7 +4,8 @@ title: "ubuntu studio info and torrents"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 I've been counting the days now, to the day when I am throwing out Windows XP Professional on my stationary computer and installing a Linux distro.
  The day has come, right now, this very instant I am downloading the Ubuntu Studio Feisty Fawn 7.04. I Will let you know when the install fest starts, most likely after dinner, and will update you on the WTF's and the "oooooh" about it all.
  The <a href="http://www.ubuntustudio.com/home">Ubuntustudio.com</a> <br/> server is on and off, so thanks to some digging I found some other torrents to make use of:

@@ -4,7 +4,8 @@ title: "fedora core 9 beta released"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Some good news for all of us Desktop Linux geeks, Fedora Core 9 is released!
  Some highlights of Fedora 9 Beta:
 

@@ -4,7 +4,8 @@ title: "demonstration against microsoft OOXML wednesday 9 april @ 12:00 oslo, no
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Public letter from Benjamin Henrion:
 
 Dear signatory of the <b>NO</b> OOXML petition,

@@ -4,7 +4,8 @@ title: "Light-Paint Piano Player"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 A very cool video made by Ryan Cashman that features a piano player animated with a green laser and long exposure time, pretty sweet.
 
 This is how Ryan Cashman made this masterpiece:

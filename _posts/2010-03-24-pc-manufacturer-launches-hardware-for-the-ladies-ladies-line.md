@@ -4,7 +4,8 @@ title: "PC-manufacturer Launches Hardware for the Ladies: ladies line"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Stumbled upon this PC ad when I browsed [PS.no](http://ps.no) for some components, and I think it's worth mentioning. It is a PC specifically made and targeted to one demographic group, women. It is a well known fact that women are not so interested in CPUs, GPUs, RAM and Terabytes (well, not in this targeted group). But we've yet to see a PC ad where there's no technical specification, until now. 
 
 

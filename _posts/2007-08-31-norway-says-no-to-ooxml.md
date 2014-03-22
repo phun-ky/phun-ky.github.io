@@ -4,7 +4,8 @@ title: "norway says no to ooxml"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Standard Norge, the Norwegian organization to vote for or against the OOXML standard as a new ISO standard, has voted no to OOXML in its present form.
  The debate about OOXML has been heated, both in Norway and the rest of the world. Sweden decided to give an unanimous yes, but then annulled their vote and voted blank. There was a large disagreement in Norway between the other organizations and it finally became clear that Standard Norge should decide what Norway votes in the OOXML debate. 
  A press release from Standard Norge: 

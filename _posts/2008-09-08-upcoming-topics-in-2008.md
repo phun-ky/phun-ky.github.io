@@ -4,7 +4,8 @@ title: "upcoming topics in 2008"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 A few topics that I will try to write something about this year. I really doubt it, but it will give you an idea on what kind of material you will expect to see here from now ;)
 
 

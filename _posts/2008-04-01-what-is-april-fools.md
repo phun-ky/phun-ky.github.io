@@ -4,7 +4,8 @@ title: "what is april fool's?"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 What is April Fool's? Or All Fools' Day? I read the article on Wikipedia about this and learned some new things.
  A little excerpt from the article:
  

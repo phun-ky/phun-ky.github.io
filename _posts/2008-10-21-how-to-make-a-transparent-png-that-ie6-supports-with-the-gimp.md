@@ -4,7 +4,8 @@ title: "How to make a transparent png that IE6 supports with The Gimp"
 description: ""
 category: "Archive"
 tags: []
----  
+---
+{% include JB/setup %}  
 Quick short and simple!
 
 
