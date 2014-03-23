@@ -10,8 +10,10 @@ A friend of mine had an issue with a drupal theme page, where he couldn't change
 
 I found a better solution, by manipulating the DOM with jQuery: 
 
-<p data-height="268" data-theme-id="5306" data-slug-hash="xKqlu" data-default-tab="result" class="codepen">
-See the Pen <a href="http://codepen.io/phun-ky/pen/xKqlu/">How to inject proper paper styling to document</a> by Alexander Vassbotn Røyne-Helgesen (<a href="http://codepen.io/phun-ky">@phun-ky</a>) on <a href="http://codepen.io">CodePen</a>.
-</p>
+<script type="text/javascript">
+
+	document.write('<p data-height="268" data-theme-id="5306" data-slug-hash="xKqlu" data-default-tab="result" class="codepen">See the Pen <a href="http://codepen.io/phun-ky/pen/xKqlu/">How to inject proper paper styling to document</a> by Alexander Vassbotn Røyne-Helgesen (<a href="http://codepen.io/phun-ky">@phun-ky</a>) on <a href="http://codepen.io">CodePen</a>.</p>');
+	
+</script>
 
 <script async src="//codepen.io/assets/embed/ei.js"></script>
