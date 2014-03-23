@@ -3,13 +3,9 @@ layout: post
 title: "How to detect iPhone, iPad, iPod with JavaScript"
 description: ""
 category: "Archive"
-tags: []
+tags: [how-to, javascript, iphone, ipad, ipod, detect]
 ---
 {% include JB/setup %}  
 Just a very quick and easy way to detect Apple's devices:
 
-
-<pre class="brush: javascript"> 
-var isiPad   = navigator.userAgent.match(/iPad/i) != null;   
-var isiPhone = navigator.userAgent.match(/iPhone/i) != null;   
-var isiPod = navigator.userAgent.match(/iPod/i) != null;</pre>
+<script src="https://gist.github.com/phun-ky/c30696a57c09b7257994.js"></script>
