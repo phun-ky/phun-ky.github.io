@@ -3,7 +3,7 @@ layout: post
 title: "Javascript Hash onChange event"
 description: ""
 category: "Archive"
-tags: []
+tags: [how-to, javascript, onhashchange]
 ---
 {% include JB/setup %}  
 A pretty nifty solution to bind an event (err) to the window.location.hash string.
