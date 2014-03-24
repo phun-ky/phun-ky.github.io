@@ -62,6 +62,7 @@ a[href^="http://qik"] {
 a[href$='.rss'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/rss_16.png) center left no-repeat;
 }
@@ -69,6 +70,7 @@ a[href$='.rss'] {
 a[href^="http://feeds."] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/rss_16.png) center left no-repeat;
 }
@@ -106,6 +108,7 @@ a[href^="https:"] {
 a[href^="mailto:"] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/email.png) center left no-repeat;
 }
@@ -113,6 +116,7 @@ a[href^="mailto:"] {
 a[href$='.pdf'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_acrobat.png) center left no-repeat;
 }
@@ -136,6 +140,7 @@ a[href$='.com'] {
 a[href$='.iso'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_dvd.png) center left no-repeat;
 }
@@ -143,6 +148,7 @@ a[href$='.iso'] {
 a[href$='.md5'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_key.png) center left no-repeat;
 }
@@ -150,6 +156,7 @@ a[href$='.md5'] {
 a[href$='.swf'], a[href$='.fla'], a[href$='.swd'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_flash.png) center left no-repeat;
 }
@@ -157,6 +164,7 @@ a[href$='.swf'], a[href$='.fla'], a[href$='.swd'] {
 a[href$='.xls'], a[href$='.csv'], a[href$='.xlt'], a[href$='.xlw'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_excel.png) center left no-repeat;
 }
@@ -164,6 +172,7 @@ a[href$='.xls'], a[href$='.csv'], a[href$='.xlt'], a[href$='.xlw'] {
 a[href$='.ppt'], a[href$='.pps'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_powerpoint.png) center left no-repeat;
 }
@@ -171,6 +180,7 @@ a[href$='.ppt'], a[href$='.pps'] {
 a[href$='.js'], a[href$='.json'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_code_red.png) center left no-repeat;
 }
@@ -178,6 +188,7 @@ a[href$='.js'], a[href$='.json'] {
 a[href$='.css'], a[href$='.less'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_code.png) center left no-repeat;
 }
@@ -185,6 +196,7 @@ a[href$='.css'], a[href$='.less'] {
 a[href$='.doc'], a[href$='.rtf'], a[href$='.txt'], a[href$='.wps'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_word.png) center left no-repeat;
 }
@@ -192,6 +204,7 @@ a[href$='.doc'], a[href$='.rtf'], a[href$='.txt'], a[href$='.wps'] {
 a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
     display:inline-block;
     padding-left:20px;
+    padding-right:0px;
     line-height:18px;
     background:transparent url(/assets/img/icons/page_white_compress.png) center left no-repeat;
 }
