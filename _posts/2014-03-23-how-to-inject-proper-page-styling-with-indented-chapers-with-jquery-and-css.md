@@ -6,9 +6,9 @@ category: "How-to"
 tags: [how-to, javascript, jquery, drupal, chapter-styling, css, DOM]
 ---
 {% include JB/setup %}
-A friend of mine had an issue with a drupal theme page, where he couldn"t change the html structure to fit his needs with the indented chapter styling. He got it fixed initially by using CSS selectors that increased in size for each chapter, a method that worked, but was not very efficient.
+A friend of mine had an issue with a [Drupal](https://drupal.org/) theme page, where he couldn"t change the HTML structure to fit his needs with the indented chapter styling. He got it fixed initially by using CSS selectors that increased in size for each chapter, a method that worked, but was not very efficient.
 
-I found a better solution, by manipulating the DOM with jQuery: 
+I found a better solution, by manipulating the DOM with [jQuery](http://jquery.com/): 
 
 <p data-height="268" data-theme-id="5306" data-slug-hash="xKqlu" data-default-tab="result" class="codepen">
 
