@@ -19,15 +19,26 @@ Now we want to create a function that parses the search engines query string:
 
 
     function parseReferrer(term) {
-    var ref = document.referrer.split('?');
-    var parms = ref[1].split('&');
-    for (var i=0; i &lt; parms.length; i++) {
-      var pos = parms[i].indexOf('=');
-     if (pos > 0) {
-       if(term == parms[i].substring(0,pos))
-          searchTerms  = parms[i].substring(pos+1);
+
+      var ref = document.referrer.split('?');
+      var parms = ref[1].split('&');
+
+      for (var i=0; i &lt; parms.length; i++) {
+
+        var pos = parms[i].indexOf('=');
+
+        if (pos > 0) {
+
+         if(term == parms[i].substring(0,pos)){
+
+            searchTerms  = parms[i].substring(pos+1);
+
+         }
+
+        }
+
       }
-    }
+      
     } 
 
 ## Step three: locateSearchTerms function
@@ -36,18 +47,27 @@ We need a function that kickstarts the higlight function. We add a loop if the s
 
 
 
-  function locateSearchTerms(){
-    terms = searchTerms;
-   if (terms.indexOf('+') > -1){
-      var parms = terms.split('+'); 
-     for (var i=0; i &lt; parms.length; i++) {
-        highlightSearchTerms(parms[i]);
-      }   
-   }
-    else{
-        highlightSearchTerms(terms);      
-   }
-  }
+    function locateSearchTerms(){
+      
+      terms = searchTerms;
+
+      if (terms.indexOf('+') > -1){
+
+         var parms = terms.split('+'); 
+
+         for (var i=0; i &lt; parms.length; i++) {
+
+           highlightSearchTerms(parms[i]);
+
+         }   
+
+      } else {
+
+        highlightSearchTerms( terms );
+
+      }
+
+    }
 
 ## Step four: highlightSearchTerms function
 
