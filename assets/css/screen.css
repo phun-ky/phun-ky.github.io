@@ -106,7 +106,8 @@ a[href^="http://flickr"] {
     background:transparent url(/assets/img/icons/flickr_16.png) center right no-repeat;
 }
 
-a[href^="http://google"] {
+a[href^="http://google"],
+a[href^="https://plus.google.com"] {
     display:inline-block;
     padding-right:20px;
     background:transparent url(/assets/img/icons/google_16.png) center right no-repeat;
