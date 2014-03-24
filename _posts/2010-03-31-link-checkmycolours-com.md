@@ -12,7 +12,7 @@ After reading the article <a href="http://www.alistapart.com/articles/contrast-i
 It is a tool for checking foreground and background <a href="http://phun-ky.net/2010/03/link-kuler-by-adobe">colour combinations</a> of all DOM elements and determining if they <em>provide sufficient contrast when viewed by someone having colour deficits</em>.
  
  
-<a href="http://cdn.phun-ky.net/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" rel="lightbox[article]" title=""><img class="reflect rheight15" src="http://cdn.phun-ky.net/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" alt="imgde161476284fdaad2bbc725da30d9df3.png" title="" /></a>
+<a href="/assets/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" rel="lightbox[article]" title=""><img class="reflect rheight15" src="/assets/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" alt="imgde161476284fdaad2bbc725da30d9df3.png" title="" /></a>
 
 
 All the tests are based on the algorithms suggested by the <a href="http://www.w3c.org">World Wide Web Consortium</a> (W3C).
