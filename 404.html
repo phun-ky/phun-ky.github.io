@@ -1,1 +1,20 @@
-Sorry this page does not exist =(
+---
+layout: page
+title: 404 File Not Found 
+---
+{% include JB/setup %}
+
+I'm sorry, the page you tried to reach does not exist. It has either been moved ( and in that case, shame on me for not redirecting you properly) or the URL you used was wrong.
+
+> There are no reasons at all in theory for people to change URIs (or stop maintaining documents), but millions of reasons in practice.
+
+If you where looking for a post, you most certainly should find it in the [archive](/archive.html). If you feel that this was an error, please [submit an issue](https://github.com/phun-ky/phun-ky.github.io/issues), and I would personally do my best to do something about it.
+
+In the mean time, I give you my five latest posts:
+
+<ul class="posts">
+  {% for post in site.posts limit:5 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
