@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}  
 
-![Attending GoOpen 2010](/assets/img/imgc4928b9eb8ca15678b567d7c5864c1f0.png)
+![Attending GoOpen 2010](/assets/img/blog/imgc4928b9eb8ca15678b567d7c5864c1f0.png)
 
 It has been two years <a href="http://phun-ky.net/2008/03/attending-goopen-2008">since last time</a>, but at last, this year I am attending <a href="http://www.goopen.no">GoOpen</a> 2010! 
 
@@ -19,14 +19,14 @@ I will try to get a hold of these keynotes:
 ### Cloud Computing opportunities - by Business Director Amazon Web Services, <a href="http://lu.linkedin.com/in/martinbuhr">Martin Buhr</a>
 
 
-> His role is to drive increased awareness of Amazonâ€™s cloud computing offerings in Europe, the Middle East, and Africa, grow the customer and revenue base, and oversee all public facing activities including business development, sales, marketing, evangelism, and support.
+> His role is to drive increased awareness of Amazon's cloud computing offerings in Europe, the Middle East, and Africa, grow the customer and revenue base, and oversee all public facing activities including business development, sales, marketing, evangelism, and support.
 
-> Martin joined Amazon Web Services in January 2006 to drive awareness and adoption of Amazonâ€™s Elastic Compute Cloud (EC2).
+> Martin joined Amazon Web Services in January 2006 to drive awareness and adoption of Amazon's Elastic Compute Cloud (EC2).
 
 > Before joining Amazon Web Services, Martin served business development and strategy functions within the Windows Networking and Connected Devices group at Microsoft. Prior to that, Martin was Vice President of Business Development for Neomar, a Silicon Valley startup backed by Research in Motion, which securely extended enterprise applications to mobile devices.
 
 
-### Is public information public? - by CTO Opera Software, <a href="http://people.opera.com/howcome/">H&aring;kon Wium Lie</a>
+### Is public information public? - by CTO Opera Software, <a href="http://people.opera.com/howcome/">Håkon Wium Lie</a>
 
 
 > The government in Norway produce plenty of digital information that isn't made available for everyone. Privacy/data security and the national safety could be reasons not to publish everything, but there's a whole lot of useful public information retained with no reason. Why is it like this and how can we change this?
@@ -42,10 +42,10 @@ Per Einar Dybvik from Aspiro Music and Martin Stangeland from Conduct AS present
 
 I really going to enjoy this one, not just because she is presenting a keynote on how they've used <a href="http://www.osgeo.org/">OSGeo</a>, but because the keynote speaker is my cousin (first cousin once removed)!
 
-### A Governmentâ€™s Vision Becomes Reality: OSS Implementation in the Malaysian Public Sector - by Tan King Ing
+### A Government's Vision Becomes Reality: OSS Implementation in the Malaysian Public Sector - by Tan King Ing
 
 
-> Open Source Software is expected to bring financial benefits, as well as process improvements, to Government agencies to enable more integrated and improved public services for Malaysia, its citizens and enterprises. Malaysia is one of the early pioneers to have a Government-wide OSS Master Plan, executed concertedly and relentlessly under the leadership and coordination of Open Source Competency Centre MAMPU. As an early adopter of OSS, in the last six years Malaysiaâ€™s Public Sector has made significant inroads in changing mindsets and beliefs, and proliferating open source projects, products and services throughout its agencies and the private sector. This presentation shares that journey, exploring the challenges, achievements and lessons learnt along the way.
+> Open Source Software is expected to bring financial benefits, as well as process improvements, to Government agencies to enable more integrated and improved public services for Malaysia, its citizens and enterprises. Malaysia is one of the early pioneers to have a Government-wide OSS Master Plan, executed concertedly and relentlessly under the leadership and coordination of Open Source Competency Centre MAMPU. As an early adopter of OSS, in the last six years Malaysia's Public Sector has made significant inroads in changing mindsets and beliefs, and proliferating open source projects, products and services throughout its agencies and the private sector. This presentation shares that journey, exploring the challenges, achievements and lessons learnt along the way.
 
 
 ### The Battle Over Source Code - by Ann-Therese Lotherington
@@ -54,23 +54,23 @@ I really going to enjoy this one, not just because she is presenting a keynote o
 > Should the public sector buy proprietary software or seek open source systems and what are the best strategies for system development in this sector ? This paper considers why an interdisciplinary approach is appropriate for exploring these questions?
 
 
-### European Commission, the research work programme and opportunities for open-source projects - by Sandro Dâ€™Elia
+### European Commission, the research work programme and opportunities for open-source projects - by Sandro D'Elia
 
 
-Sandro Dâ€™Elia is a project officer in the European Commission, where he works in the â€œInformation Societyâ€ directorate-general on research in the area of software and services.
+Sandro D'Elia is a project officer in the European Commission, where he works in the â€œInformation Societyâ€ directorate-general on research in the area of software and services.
 > Sandro will introduce Open Source strategy in the European research work programme, discussing opportunities for funding and participation in research activities.
 
 
 ### Free software to defeat poverty - by Walter Bender
 
-> Walter Bender is technologist and researcher who has made important contributions in the field of electronic publishing, media, and technology for learning. Bender is on leave as a Senior Research Scientist at the MIT Media Lab which he led as executive director between 2000 and 2006. More recently, Bender served as president of One Laptop per Child for Software and Content where he coordinated the development of software and content including the Sugar interface for the XO-1 Childrenâ€™s Machine computer.
+> Walter Bender is technologist and researcher who has made important contributions in the field of electronic publishing, media, and technology for learning. Bender is on leave as a Senior Research Scientist at the MIT Media Lab which he led as executive director between 2000 and 2006. More recently, Bender served as president of One Laptop per Child for Software and Content where he coordinated the development of software and content including the Sugar interface for the XO-1 Children's Machine computer.
 
  
 
 Walter Bender will speak about Sugar, the Free Software that we developed for the OLPC project and how the OLPC prosject can help people in 3 world.
 
 
-### The Open (Source) Way - by Jan Wildeboer, Red Hatâ€™s EMEA Evangelist
+### The Open (Source) Way - by Jan Wildeboer, Red Hat's EMEA Evangelist
 
 > The internet changed everything. As Thomas Friedman explain in his book Â«<a href="http://en.wikipedia.org/wiki/The_World_Is_Flat">The World is Flat</a>Â», the transaction-cost free communication of the internet creates a wealth of possibilities to create, maintain and foster on open society. Open Source and Free Software were merely the start. With Open Data, Open Knowledge, Social Networks and global communities the principles of Open Source have grown into a lot of fields. Jan Wildeboer will show what has happened, what can be hoped for and what risks we see on our way.
 
