@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}  
 As I mentioned in one of my earlier posts, I'm <a href="http://phun-ky.net/2008/03/attending-goopen-2008">attending Go Open 2008</a>, a conference about Open Source arranged by the National Competence Center for Open Source.
 
-<img src="http://cdn.umedia.no/img/GoOpen-2008_logo.jpg" alt="goopen" class="reflect rheight22"/> I've already made my mind about which sessions I'll attend:
+<img src="/assets/img/GoOpen-2008_logo.jpg" alt="goopen" class="reflect rheight22"/> I've already made my mind about which sessions I'll attend:
 
 ## Tuesday
 <b>Open Source, our most important development strategy</b> - by Chris DiBona, Google

@@ -24,4 +24,4 @@ Håkon Wium Lie and the 20 other committee members who opposed, had written an o
 Microsoft Norway got a lot of criticism because they got partners and customers to sign and send in 37 standard letters to Standard Norge. I have talked to several of the people who signed these documents during my reporting, and most of them did not know much about neither OOXML or ODF. They signed because they were asked to sign.
 
 
-A big thanks to Anders Brenna for this news, you can read rest of the story at <a href="http://blog.abrenna.com/despite-massive-protests-norway-says-yes-to-ooxml/">Anders Brenna's blog</a> <img src="http://cdn.umedia.no/img/flag/gb.png" alt="en flag"/>
+A big thanks to Anders Brenna for this news, you can read rest of the story at <a href="http://blog.abrenna.com/despite-massive-protests-norway-says-yes-to-ooxml/">Anders Brenna's blog</a> <img src="/assets/img/flag/gb.png" alt="en flag"/>
