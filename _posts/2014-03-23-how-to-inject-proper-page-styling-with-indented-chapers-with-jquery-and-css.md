@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to inject proper page styling, with indented chapers, with jQuery and CSS"
+title: "How to inject proper page styling, with indented chapters, with jQuery and CSS"
 description: ""
 category: "How-to"
 tags: [how-to, javascript, jquery, drupal, chapter-styling, css, DOM]
