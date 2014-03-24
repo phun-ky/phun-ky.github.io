@@ -40,6 +40,12 @@ h2{
 }
 
 
+a[href^="https:"] {
+    display:inline-block;
+    padding-right:20px;
+    background:transparent url(/assets/img/icons/page_white_key.png) center right no-repeat;
+}
+
 a[href^="http:"] {
     display:inline-block;
     padding-right:20px;
@@ -112,11 +118,6 @@ a[href^="http://no.linkedin.com"] {
     background:transparent url(/assets/img/icons/linkedin_16.png) center right no-repeat;
 }
 
-a[href^="https:"] {
-    display:inline-block;
-    padding-right:20px;
-    background:transparent url(/assets/img/icons/page_white_key.png) center right no-repeat;
-}
 
 a[href^="mailto:"] {
     display:inline-block;
