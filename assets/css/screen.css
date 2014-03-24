@@ -81,10 +81,17 @@ a[href^="http://digg"] {
     background:transparent url(/assets/img/icons/digg_16.png) center right no-repeat;
 }    
 
-a[href^="http://facebook"] {
+a[href^="http://facebook"],
+a[href^="https://nb-no.facebook"] {
     display:inline-block;
     padding-right:20px;
     background:transparent url(/assets/img/icons/facebook_16.png) center right no-repeat;
+}
+
+a[href^="https://twitter.com"] {
+    display:inline-block;
+    padding-right:20px;
+    background:transparent url(/assets/img/icons/twitter_16.png) center right no-repeat;
 }
     
 a[href^="http://flickr"] {
@@ -97,6 +104,12 @@ a[href^="http://google"] {
     display:inline-block;
     padding-right:20px;
     background:transparent url(/assets/img/icons/google_16.png) center right no-repeat;
+}
+
+a[href^="http://no.linkedin.com"] {
+    display:inline-block;
+    padding-right:20px;
+    background:transparent url(/assets/img/icons/linkedin_16.png) center right no-repeat;
 }
 
 a[href^="https:"] {
