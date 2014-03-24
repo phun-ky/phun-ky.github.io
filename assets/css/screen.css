@@ -137,6 +137,30 @@ a[href$='.com'] {
     background:transparent url(/assets/img/flag/us.png) center right no-repeat;
 }
 
+a[href$='twitter.com'] {
+    display:inline-block;
+    padding-right:20px;
+    background:transparent url(/assets/img/twitter_16.png) center right no-repeat;
+}
+
+a[href$='facebook.com'] {
+    display:inline-block;
+    padding-right:20px;
+    background:transparent url(/assets/img/facebook_16.png) center right no-repeat;
+}
+
+a[href$='linkedin.com'] {
+    display:inline-block;
+    padding-right:20px;
+    background:transparent url(/assets/img/linkedin_16.png) center right no-repeat;
+}
+
+a[href$='google.com'] {
+    display:inline-block;
+    padding-right:20px;
+    background:transparent url(/assets/img/google_16.png) center right no-repeat;
+}
+
 a[href$='.iso'] {
     display:inline-block;
     padding-left:20px;
