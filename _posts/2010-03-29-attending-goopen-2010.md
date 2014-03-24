@@ -6,6 +6,9 @@ category: "Archive"
 tags: []
 ---
 {% include JB/setup %}  
+
+![Attending GoOpen 2010](/assets/img/imgc4928b9eb8ca15678b567d7c5864c1f0.png)
+
 It has been two years <a href="http://phun-ky.net/2008/03/attending-goopen-2008">since last time</a>, but at last, this year I am attending <a href="http://www.goopen.no">GoOpen</a> 2010! 
 
 ## Main keynotes
@@ -85,15 +88,7 @@ The program is tailored for different target groups and the intent of the confer
 ## Follow GoOpen!
 
 
-  * 
-   <a href="http://vimeo.com/channels/82181">http://vimeo.com/channels/82181</a>
-  
-  * 
-   <a href="http://www.flickr.com/photos/friprog/sets/72157623294474110/">http://www.flickr.com/photos/friprog/sets/72157623294474110/</a>
-     
- * 
-   <a href="http://blogg.friprog.no/">http://blogg.friprog.no/</a>
-     
- * 
-   <a href="http://twitter.com/GoOpen/">http://twitter.com/GoOpen/</a>
-     
+* <a href="http://vimeo.com/channels/82181">http://vimeo.com/channels/82181</a>
+* <a href="http://www.flickr.com/photos/friprog/sets/72157623294474110/">http://www.flickr.com/photos/friprog/sets/72157623294474110/</a>  
+* <a href="http://blogg.friprog.no/">http://blogg.friprog.no/</a>  
+* <a href="http://twitter.com/GoOpen/">http://twitter.com/GoOpen/</a>  
