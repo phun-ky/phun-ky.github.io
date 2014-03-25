@@ -296,3 +296,41 @@ a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
   border-radius: 5px;
   color:#9DDE24;
 }
+
+.about_the_author{
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 1em 2em;
+}
+
+.about_the_author .avatar{
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.about_the_author:after{
+  position: absolute;
+  left:0px;
+  top:0px;
+  width: 100px;
+  height: 100px;
+  background:blue;
+  z-index: 100;
+}
+
+.about_the_author ul{
+  float: left;
+}
+
+.about_the_author ul > li{
+  float:left;
+  list-style: none;
+}
+
+.about_the_author ul > li:not(.about_the_author ul > li:last-child):after{
+  content: ", ";
+}
