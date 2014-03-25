@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to create a new page in confluence with given template from a link"
+title: "How to create a new page in Atlassian Confluence with given template from a link"
 description: ""
 category: "How-to"
 tags: [how-to, template, confluence]
@@ -23,6 +23,7 @@ I inspected the URL that created a new page when you select a template, and foun
 
 If you want to automatically locate all undefined links and inject the correct URL for creating a new page with a specified template, you can do something like this:
 
+<script src="https://gist.github.com/phun-ky/78fc3e243527b01bec59.js"></script>
 
 Add this code snippet in a HTML code block addon on the page where you want to alter the links.
 
