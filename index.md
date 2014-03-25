@@ -24,7 +24,7 @@ tagline: The world from my point of view, and some pendatic creativity
       <li><a href="https://www.vizify.com/alexander-vassbotn-ryne-helgesen/">Vizify</a></li>
       <li><a href="https://geekli.st/ph001">Geeklist</a></li>
       <li><a href="https://launchpad.net/~alexander-phun-ky">Launchpad</a></li>
-      <li><a href="http://slid.es/phun_ky/"></a>Slid.es</li>
+      <li><a href="http://slid.es/phun_ky/">Slid.es</a></li>
       <li><a href="https://www.npmjs.org/~phun-ky">npm</a></li>
       <li><a href="http://www.flickr.com/photos/phun-ky/">Flickr</a></li>
     </ul>
