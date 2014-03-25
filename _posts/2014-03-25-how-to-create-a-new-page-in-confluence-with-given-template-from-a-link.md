@@ -16,7 +16,7 @@ I did my homework and tried to find other similar issues, when [I found this iss
 
 I inspected the URL that created a new page when you select a template, and found this solution:
 
-    http://domain.com/pages/createpage.action?spaceKey=<spacekey>&fromPageId=<parent page id>&templateId=<template id>
+    http://domain.com/pages/createpage-entervariables.action?spaceKey=<spacekey>&fromPageId=<parent page id>&templateId=<template id>
 
 
 ## Sugar
