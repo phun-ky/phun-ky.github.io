@@ -5,7 +5,31 @@ tagline: The world from my point of view, and some pendatic creativity
 ---
 {% include JB/setup %}
 
-
+<div class="about_the_author">
+  <h5>About the author</h5>
+  <img width="100" height="100" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="phun-ky">
+  <p>
+    Hi! My name is Alexander, and I write about open source, frontend development, technological stuff and everything in between.
+  </p>
+  <p>
+    If you want to know more about me, here is some links you might want to check out:
+    <ul>
+      <li><a href="https://github.com/phun-ky">GitHub</a></li>
+      <li><a href="https://twitter.com/phun_ky">Twitter</a></li>
+      <li><a href="https://nb-no.facebook.com/phunky.net">Facebook</a></li>
+      <li><a href="http://no.linkedin.com/in/alexanderroyne">LinkedIn</a></li>
+      <li><a href="http://codepen.io/phun-ky/">CodePen</a></li>
+      <li><a href="https://plus.google.com/109212745239771225705/posts">Google +</a></li>
+      <li><a href="http://osrc.dfm.io/phun-ky">My open source report card</a></li>
+      <li><a href="https://www.vizify.com/alexander-vassbotn-ryne-helgesen/">Vizify</a></li>
+      <li><a href="https://geekli.st/ph001">Geeklist</a></li>
+      <li><a href="https://launchpad.net/~alexander-phun-ky">Launchpad</a></li>
+      <li><a href="http://slid.es/phun_ky/"></a>Slid.es</li>
+      <li><a href="https://www.npmjs.org/~phun-ky">npm</a></li>
+      <li><a href="http://www.flickr.com/photos/phun-ky/">Flickr</a></li>
+    </ul>
+  </p>
+</div>
     
 ## All my posts
 
