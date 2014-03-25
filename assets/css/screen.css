@@ -1,3 +1,12 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
 body {
 	background:	#393939;
 	color:		#EAEAEA;
