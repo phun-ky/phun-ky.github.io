@@ -18,6 +18,10 @@ I inspected the URL that created a new page when you select a template, and foun
 
     http://domain.com/pages/createpage-entervariables.action?spaceKey=<spacekey>&fromPageId=<parent page id>&templateId=<template id>
 
+This should also work:
+
+    http://domain.com/?spaceKey=<spacekey>&templateId=<template id>&newSpaceKey=<spacekey>
+
 
 ## Sugar
 
