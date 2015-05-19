@@ -5,6 +5,8 @@ tagline: The world from my point of view, and some pendatic creativity
 ---
 {% include JB/setup %}
 
+<div class="twitter clearfix"></div>
+
 <div class="about_the_author clearfix">
   <h3>About the author</h3>
   <img width="100" height="100" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="phun-ky">
