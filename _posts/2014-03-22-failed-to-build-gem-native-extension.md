@@ -23,6 +23,8 @@ Came across this error when I tried to install jekyll on my ubuntu laptop for te
 	Gem files will remain installed in /var/lib/gems/1.9.1/gems/fast-stemmer-1.0.2 for inspection.
 	Results logged to /var/lib/gems/1.9.1/gems/fast-stemmer-1.0.2/ext/gem_make.out
 
+Apparently this is due to a missing `ruby-dev`-package according to this issue: <a href="https://github.com/jekyll/jekyll-help/issues/209">https://github.com/jekyll/jekyll-help/issues/209</a>.
+
 And this is how you fix it:
 
-`$ sudo apt-get install ruby1.9.1-dev`
+`$ sudo apt-get install ruby-dev`
