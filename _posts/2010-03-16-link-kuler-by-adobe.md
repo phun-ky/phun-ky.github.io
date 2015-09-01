@@ -11,7 +11,8 @@ After browsing the blogosphere today I stumbled upon a very nice color scheme we
 ## Easy to use
 
 It's very easy to  use and the <a href="http://kuler.adobe.com">Kuler</a> concept offers a great deal of community interaction.
-<a href="/assets/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" rel="lightbox[article]" title="Overview of Kuler"><img class="reflect rheight15" src="/assets/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" alt="imgb8e0364d2cf482072ff519e1ac9a146d.png" title="" /></a>
+<a href="/assets/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" rel="lightbox[article]" title="Overview of Kuler"><img class="img-responsive img-rounded img-thumbnail" src="/assets/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" alt="imgb8e0364d2cf482072ff519e1ac9a146d.png" title="" /></a>
+
 ## Side note
 
 Remember, if you want to pick colours from your desktop, or from everywhere else on your computer, you can use <a href="/2007/11/colorpix-on-ubuntu">Colorpix</a> from <a href="http://colorschemer.com/">Colorschemer</a>.
