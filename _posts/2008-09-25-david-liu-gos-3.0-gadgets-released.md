@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: "David Liu gOS 3.0 "Gadgets" released"
+title: 'David Liu gOS 3.0 "Gadgets" released'
 description: ""
 category: "Archive"
 tags: []

@@ -1,33 +1,55 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+<div class="row">
+  <div class="col-md-12">
+    <div class="page-header post">
+      <h1>
+        {{ page.title }} {% if page.tagline %}
+        <small>{{page.tagline}}</small>{% endif %}
+      </h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12 meta">
+    <div class="date">
+      <span>Created: </span>{{ page.date | date_to_long_string }}
+    </div>
+  </div>
 </div>
 
-<div class="row-fluid post-full">
-  <div class="span12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
-    <div class="content">
+<div class="row">
+  <div class="col-md-12">
+      <div class="post-content">
       {{ content }}
-    </div>
+      </div>
+  </div>
+</div>
 
-  {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="icon-folder-open icon-white"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-    </ul>
-  {% endunless %}  
-
-  {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-      <li><i class="icon-tags icon-white"></i></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
-
+<div class="row">
+  <div class="col-md-12">
     <hr>
+    <div class="meta">
+      {% unless page.categories == empty %}
+      <div class="category">
+        <span>Categorized under: </span> 
+        <ul class="tag_box inline">
+          <li><i class="icon-folder-open icon-white"></i></li>
+          {% assign categories_list = page.categories %}
+          {% include JB/categories_list %}
+        </ul>
+      </div>
+      {% endunless %} 
+
+      {% unless page.tags == empty %}
+      <div class="tags">
+        <span>Tagged with: </span>
+        <ul class="tag_box inline">
+          <li><i class="icon-tags icon-white"></i></li>
+          {% assign tags_list = page.tags %}
+          {% include JB/tags_list %}
+        </ul>
+      </div>
+      {% endunless %}  
+    </div>
     <div class="pagination">
       <ul>
       {% if page.previous %}
@@ -43,10 +65,15 @@
       {% endif %}
       </ul>
     </div>
-    <hr>
+    <hr>    
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">    
     <div class="about_the_author clearfix">
       <h3>About the author</h3>
-      <img width="100" height="100" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="phun-ky">
+      <img width="220" height="220" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="Image of the author" title="phun-ky"/>
       <p>
         Hi! My name is Alexander, and I write about open source, frontend development, technological stuff and everything in between.
       </p>
@@ -54,7 +81,11 @@
         If you want to know more about me, here is some links you might want to check out: <a href="https://github.com/phun-ky">GitHub</a>, <a href="https://twitter.com/phun_ky">Twitter</a>, <a href="https://nb-no.facebook.com/phunky.net">Facebook</a>, <a href="http://no.linkedin.com/in/alexanderroyne">LinkedIn</a>, <a href="http://codepen.io/phun-ky/">CodePen</a>, <a href="https://plus.google.com/109212745239771225705/posts">Google +</a>, <a href="http://osrc.dfm.io/phun-ky">My open source report card</a>, <a href="https://www.vizify.com/alexander-vassbotn-ryne-helgesen/">Vizify</a>, <a href="https://geekli.st/ph001">Geeklist</a>, <a href="https://launchpad.net/~alexander-phun-ky">Launchpad</a>, <a href="http://slid.es/phun_ky/">Slid.es</a>, <a href="https://www.npmjs.org/~phun-ky">npm</a>, <a href="http://www.flickr.com/photos/phun-ky/">Flickr</a>
       </p>
     </div>
-    <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">    
     {% include JB/comments %}
   </div>
 </div>

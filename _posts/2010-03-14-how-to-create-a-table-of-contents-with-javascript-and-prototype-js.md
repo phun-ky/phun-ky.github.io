@@ -12,6 +12,7 @@ Well, if you write long posts every now and then and you want your users to acce
 <pre class="brush: html">
 &lt;div id="toc" style="display:none;">Post content:&lt;br />&lt;/div>
 </pre>
+
 ## Step two: Add the javascript
 
 <pre class="brush: javascript">

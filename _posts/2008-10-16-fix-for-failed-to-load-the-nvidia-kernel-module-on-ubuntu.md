@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: "Fix for "Failed to load the NVIDIA kernel module" on Ubuntu"
+title: 'Fix for "Failed to load the NVIDIA kernel module" on Ubuntu'
 description: ""
 category: "Archive"
 tags: []
