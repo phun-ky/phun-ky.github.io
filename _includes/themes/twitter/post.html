@@ -1,6 +1,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="page-header post">
+      <a name="top" id="top"></a>
       <h1>
         {{ page.title }} {% if page.tagline %}
         <small>{{page.tagline}}</small>{% endif %}
@@ -17,14 +18,18 @@
 </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-9">
       <div class="post-content">
       {{ content }}
       </div>
   </div>
+  <div class="col-md-3">
+    <nav id="toc" class="hidden-print hidden-xs hidden-sm affix"></nav>
+  </div>
+  
 </div>
 
-<div class="row">
+<div class="row meta-container">
   <div class="col-md-12">
     <hr>
     <div class="meta">
@@ -71,7 +76,7 @@
 
 <div class="row">
   <div class="col-md-12">    
-    <div class="about_the_author clearfix">
+    <div class="about_the_author well clearfix">
       <h3>About the author</h3>
       <img width="220" height="220" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="Image of the author" title="phun-ky"/>
       <p>
@@ -89,3 +94,57 @@
     {% include JB/comments %}
   </div>
 </div>
+<script type="text/javascript">
+
+  var ul = $('<ul class="nav">');
+  for(var i = 2; i < 6; i++){
+    var hs = $('.post-content h' + i);
+    if(hs.length){
+      ul[0].childHeaders = hs
+      ul[0].childHeaderLevel = i;
+      break;
+    }
+  }
+
+  var rootUl = ul;
+  //main loop
+  while(ul.length){    
+    var nextUl = $();
+    //loop through each ul
+    ul.each(function(){
+       var innerUl = this;
+       var n = this.childHeaderLevel;
+       //turn each childHeader into the corresponding ul
+       innerUl.childHeaders.each(function(i,elem){
+          var childUl = $('<ul class="nav">').append('<li><a href="#'+$(elem).attr('id')+'">' + $(elem).text() + '</a></li>')
+                                 .appendTo(innerUl);
+          childUl[0].childHeaders = $(this).nextUntil('h' + n)
+                                           .filter('h' + (n+1));
+          childUl[0].childHeaderLevel = n + 1;            
+          nextUl = nextUl.add(childUl);
+       });                            
+    });
+    ul = nextUl;   
+  }
+
+
+
+  $('#toc').append(rootUl).append($('<a href="#top">Back to top</a>'));
+
+  $('#toc').affix({
+    offset : {
+      top: function(){
+        return (this.top = $('.post-content').offset().top);
+      },
+      bottom: function () {
+
+        console.log($(document).height() - $('.meta-container').offset().top);
+        return (this.bottom = ($(document).height() - $('.meta-container').offset().top) + 400 );
+      }
+    }
+  });
+
+  $('body').scrollspy({ target: '#toc' , offset : 400})
+
+
+</script>

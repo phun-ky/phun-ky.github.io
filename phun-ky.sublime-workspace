@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"backgr",
+				"background-color"
+			],
+			[
 				"_new",
 				"_new_container_height"
 			],
@@ -148,10 +152,6 @@
 				"display"
 			],
 			[
-				"backgr",
-				"background-position"
-			],
-			[
 				"inlin",
 				"inline-block"
 			],
@@ -271,6 +271,70 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_posts/2010-03-21-ubuntu-lucid-lynx-10-04-first-beta-released.md",
+			"settings":
+			{
+				"buffer_size": 3135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2010-03-16-mandriva-has-announced-the-release-of-mandriva-enterprise-server-5-1.md",
+			"settings":
+			{
+				"buffer_size": 1678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2010-03-16-link-kuler-by-adobe.md",
+			"settings":
+			{
+				"buffer_size": 1565,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2010-03-14-how-to-create-a-table-of-contents-with-javascript-and-prototype-js.md",
+			"settings":
+			{
+				"buffer_size": 1818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2008-10-16-fix-for-failed-to-load-the-nvidia-kernel-module-on-ubuntu.md",
+			"settings":
+			{
+				"buffer_size": 1787,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2008-09-29-one-small-step-for-man-one-giant-leap-for-space-tourism.md",
+			"settings":
+			{
+				"buffer_size": 692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2008-04-16-latest-distro-from-norway-draco-0.3.0-released.md",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2008-09-25-david-liu-gos-3.0-gadgets-released.md",
+			"settings":
+			{
+				"buffer_size": 1480,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -321,10 +385,45 @@
 	},
 	"expanded_folders":
 	[
-		"/home/alexander/Workspace/phun-ky.github.io"
+		"/home/alexander/Workspace/phun-ky.github.io",
+		"/home/alexander/Workspace/phun-ky.github.io/_includes",
+		"/home/alexander/Workspace/phun-ky.github.io/_includes/JB",
+		"/home/alexander/Workspace/phun-ky.github.io/_includes/themes",
+		"/home/alexander/Workspace/phun-ky.github.io/_includes/themes/twitter",
+		"/home/alexander/Workspace/phun-ky.github.io/_layouts",
+		"/home/alexander/Workspace/phun-ky.github.io/_posts",
+		"/home/alexander/Workspace/phun-ky.github.io/_site",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/2010",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/2010/03",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/2010/03/30",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/2010/03/31",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/2010/03/31/link-checkmycolours-com",
+		"/home/alexander/Workspace/phun-ky.github.io/assets",
+		"/home/alexander/Workspace/phun-ky.github.io/assets/css",
+		"/home/alexander/Workspace/phun-ky.github.io/assets/themes",
+		"/home/alexander/Workspace/phun-ky.github.io/assets/themes/twitter"
 	],
 	"file_history":
 	[
+		"/home/alexander/Workspace/phun-ky.github.io/_includes/JB/posts_collate",
+		"/home/alexander/Workspace/phun-ky.github.io/archive.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/archive.html",
+		"/home/alexander/Workspace/phun-ky.github.io/index.md",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/index.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_layouts/page.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_includes/themes/twitter/post.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_layouts/default.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_layouts/post.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_includes/themes/twitter/default.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_includes/themes/twitter/page.html",
+		"/home/alexander/Workspace/phun-ky.github.io/assets/css/screen.css",
+		"/home/alexander/Workspace/phun-ky.github.io/_posts/2010-03-22-cross-browser-checklist.md",
+		"/home/alexander/Workspace/phun-ky.github.io/_posts/2010-03-21-ubuntu-lucid-lynx-10-04-first-beta-released.md",
+		"/home/alexander/Workspace/phun-ky.github.io/_posts/2010-03-31-choose-a-better-browser-today.md",
+		"/home/alexander/Workspace/phun-ky.github.io/_posts/2010-03-16-link-kuler-by-adobe.md",
+		"/home/alexander/Workspace/phun-ky.github.io/_site/2010/03/31/link-checkmycolours-com/index.html",
+		"/home/alexander/Workspace/phun-ky.github.io/_posts/2010-03-31-link-checkmycolours-com.md",
+		"/home/alexander/Workspace/phun-ky.github.io/.gitignore",
 		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/css/src/core/variables.less",
 		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/login/stores/LoginStore.js",
 		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/login/components/MyAccountSecureURL.react.js",
@@ -433,36 +532,19 @@
 		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/formbuilder-helper.js",
 		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/recaptcha-helper.js",
 		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/extensions.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/url-utils.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/sortedCountryAlp.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/sio-instafeed.js",
-		"/home/alexander/Workspace/SiO1031_frontend/test/runtests.sh",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/my-account/applications-and-contracts/components/tenant-relation/CurrentTenantRelation.react.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/components/SIOButtonSM.react.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/my-account/applications-and-contracts/components/tenant-relation/NextTenantRelation.react.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/my-account/my-profile/components/MySiO.react.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/components/SIOCard.react.js",
-		"/home/alexander/Workspace/SiO1031_frontend/test/karma/integration.conf.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/isStoreLoading.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/login/actions/LoginViewActions.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/modules/user/actions/ServerActions.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/modules/user/constants/Constants.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/modules/user/dispatcher/Dispatcher.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/open/groupexercises/stores/__tests__/FilterStore-test.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/my-account/apply-for-sublet/api/__tests__/MyAccountApplyForSubletAPI-test.js",
-		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/login/stores/__tests__/LoginStore-test.js",
-		"/home/alexander/Workspace/SiO1031_frontend/test/globals.js",
-		"/home/alexander/Workspace/SiO1031_frontend/test/karma/local.conf.js"
+		"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/_public/theme-sio/js/src/shared/util/url-utils.js"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 45.0
 	},
 	"find_in_files":
 	{
 		"height": 114.0,
 		"where_history":
 		[
+			"/home/alexander/Workspace/phun-ky.github.io/_posts",
+			"img-responsive img-rounded img-thumbnail",
 			"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/css/src",
 			"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/js/src",
 			"/home/alexander/Workspace/SiO1031_frontend/enonic/home/data/resources/",
@@ -533,6 +615,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"reflect rheight15",
+			"100",
+			".post-fu",
+			".date",
+			"span12",
+			"row-fluid",
+			"hr",
+			"pend",
+			"peda",
 			"lock.",
 			"lock.s",
 			"nav_container",
@@ -651,16 +742,7 @@
 			"facebook",
 			".hide-me-when-menu-is-open",
 			"border-top",
-			"mysubnav",
-			"pid",
-			"arrow",
-			".facebook-icon",
-			"facebook-icon",
-			"mypages",
-			"if",
-			"arrow",
-			"loc",
-			"label"
+			"mysubnav"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -668,6 +750,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"img-responsive img-rounded img-thumbnail"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -678,8 +761,243 @@
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_posts/2010-03-21-ubuntu-lucid-lynx-10-04-first-beta-released.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1647,
+								1647
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2010-03-16-mandriva-has-announced-the-release-of-mandriva-enterprise-server-5-1.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2010-03-16-link-kuler-by-adobe.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								823,
+								823
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2010-03-14-how-to-create-a-table-of-contents-with-javascript-and-prototype-js.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								525,
+								525
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_posts/2008-10-16-fix-for-failed-to-load-the-nvidia-kernel-module-on-ubuntu.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_posts/2008-09-29-one-small-step-for-man-one-giant-leap-for-space-tourism.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_posts/2008-04-16-latest-distro-from-norway-draco-0.3.0-released.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_posts/2008-09-25-david-liu-gos-3.0-gadgets-released.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (Dark).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -731,6 +1049,42 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"david",
+				"_posts/2008-09-25-david-liu-gos-3.0-gadgets-released.md"
+			],
+			[
+				"distrowa",
+				"_posts/2008-04-16-latest-distro-from-norway-draco-0.3.0-released.md"
+			],
+			[
+				"spacetou",
+				"_posts/2008-09-29-one-small-step-for-man-one-giant-leap-for-space-tourism.md"
+			],
+			[
+				"kernelmo",
+				"_posts/2008-10-16-fix-for-failed-to-load-the-nvidia-kernel-module-on-ubuntu.md"
+			],
+			[
+				"prototype.j",
+				"_posts/2010-03-14-how-to-create-a-table-of-contents-with-javascript-and-prototype-js.md"
+			],
+			[
+				"kuler",
+				"_posts/2010-03-16-link-kuler-by-adobe.md"
+			],
+			[
+				"enterpriseserver5.1",
+				"_posts/2010-03-16-mandriva-has-announced-the-release-of-mandriva-enterprise-server-5-1.md"
+			],
+			[
+				"lynx",
+				"_posts/2010-03-21-ubuntu-lucid-lynx-10-04-first-beta-released.md"
+			],
+			[
+				"browser-s",
+				"_posts/2010-03-22-cross-browser-checklist.md"
+			],
 			[
 				"css/src/core/variables",
 				"enonic/home/data/resources/_public/theme-sio/css/src/core/variables.less"
@@ -1123,7 +1477,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 544.0,
 	"status_bar_visible": true,
 	"template_settings":
