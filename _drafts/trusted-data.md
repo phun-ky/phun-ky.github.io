@@ -127,10 +127,13 @@ scanned old books/old books
 pedigree
 
 * To preserve nobility, fake claims of heirship
+* To preserve power within royal family, fake claims of heritage
+* To stop scandals with childs born out of wedlock
+* To stop scandals with adoptive children
 
-The validity of data is often verified by several sources, "did you guys see that? " "yes" ( who lied? )
+The validity of data is often verified by several sources, "did you guys see that? " "yes" ( who lied? did anyone lie? )
 
-but then again, the verification is done by a human, and the sensory input to a human in combination with how logical the human's though process is and the fact that humans jump to conclusions ( fills in the blanks ), perception +++ there will always be uncertainty. "seeing is believing" "i though i left the keys over there"
+but then again, the verification is done by a human, and the sensory input to a human in combination with how logical the human's though process is and the fact that humans jump to conclusions ( fills in the blanks ), perception +++ there will always be uncertainty. "seeing is believing" "i thought i left the keys over there"
 
 so, we can perhaps break down the process, and make the assimilation of data more understandable, regardless of the subject verifying/perceiving the data?
 
@@ -161,8 +164,10 @@ have faith.
 
 you cant trust data, but you can put some effort into validating data.
 
+## Explain
 
-# What is data?
+
+### What is data?
 
 > Data as an abstract concept can be viewed as the lowest level of abstraction, from which information and then knowledge are derived.
 
@@ -170,7 +175,7 @@ you cant trust data, but you can put some effort into validating data.
 
 http://en.wikipedia.org/wiki/Data
 
-# What is information?
+### What is information?
 
 > ... users of dictionaries need to make in order to, first, find the data sought and, secondly, understand the data so that they can generate information. http://en.wikipedia.org/wiki/Information
 
@@ -178,7 +183,7 @@ Information is processed data.
 
 > the collection and manipulation of items of data to produce meaningful information."[1] In this sense it can be considered a subset of information processing, "the change (processing) of information in any manner detectable by an observer." [note 1]
 
-# What is a source?
+### What is a source?
 
 > Definition: Any thing or place from which something comes, arises, or is obtained
 
@@ -193,12 +198,11 @@ Philip Russom, November 4, 2010 http://tdwi.org/articles/2010/11/04/experts-trus
 
 Achieving trustworthiness for data is a multi-step process:
 
-    Select sources that are appropriate, certified, and diverse
-    Process data to transform and aggregate it for the intended use, improve its quality, and enhance its meta and master data
-    Collaborate cross-functionally and govern data for compliance
-    Deliver data in the right time frame, in forms suited to its intended use
-
-    2010 http://tdwi.org/articles/2010/11/04/experts-trusted-data.aspx
+> Select sources that are appropriate, certified, and diverse
+Process data to transform and aggregate it for the intended use, improve its quality, and enhance its meta and master data
+Collaborate cross-functionally and govern data for compliance
+Deliver data in the right time frame, in forms suited to its intended use.
+2010 http://tdwi.org/articles/2010/11/04/experts-trusted-data.aspx
 
 Accuracy of data
 
