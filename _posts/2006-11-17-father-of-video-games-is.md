@@ -1,13 +1,14 @@
 --- 
 layout: post 
-title: "father of video games is?"
+title: "Father of Video Games is?"
 description: ""
 category: "Archive"
-tags: []
+tags: [video games, history, gaming, gaming history]
 ---
 {% include JB/setup %}  
 During the research for my paper, I stumbled over an article that claimed that the father of the video games was William Higinbotham. The article was published on a norwegian site for research papers, <a href="http://www.forskning.no/Artikler/2004/mars/1077822052.02">forskning.no</a>  a view also supported by an article on <a href="http://en.wikipedia.org/wiki/William_Higinbotham">Wikipedia.org</a>. Quite amazing the setup he used for the game. But that's not the point, further in my research I stumbled across <a href="http://www.pong-story.com/">PONG-Story</a>, a site dedicated to "the inventor of the video game" written by David Winter.
- I contaced Winter via mail and asked him for a comment on these articles, read below.
+
+I contaced Winter via mail and asked him for a comment on these articles, read below.
 
 My email to David Winter:
 
@@ -37,7 +38,7 @@ His reply was:
 > the compact disc although both media are of the same shape and
 > are made to record and play back sounds. What makes the
 > difference ? The technology.
-
+>
 > Same with the video game VS computer games.
 
 Any thoughts on this from my readers?

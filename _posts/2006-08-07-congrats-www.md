@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: "congrats www!"
+title: "Congrats www!"
 description: ""
 category: "Archive"
 tags: []

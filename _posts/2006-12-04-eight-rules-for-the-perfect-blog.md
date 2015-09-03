@@ -1,12 +1,12 @@
 --- 
 layout: post 
-title: "eight rules for the perfect blog"
+title: "Eight rules for the Perfect Blog"
 description: ""
 category: "Archive"
-tags: []
+tags: [blogging, blog]
 ---
 {% include JB/setup %}  
-There is plenty of do's and dont's in the world of web logging (blogging), and as a pendantic person I always try to make the perfect weblog (blog) system. The search term --the perfect blog-- is a string I always use, and this time I found an article that's mildly(!) sarcastic about the dont's. I simply couldn't keep my hands of it. The article is written by <a href="http://www.pcmag.com/article2/0,1895,27443,00.asp">John C. Dvorak</a> <br/> and it lists up eight rules that points out the things not to do when you are blogging. Here is the 8 eight rules for the perfect blog, enjoy:
+There is plenty of do's and dont's in the world of web logging (blogging), and as a pendantic person I always try to make the perfect weblog (blog) system. The search term --the perfect blog-- is a string I always use, and this time I found an article that's mildly(!) sarcastic about the dont's. I simply couldn't keep my hands of it. The article is written by <a href="http://www.pcmag.com/article2/0,1895,27443,00.asp">John C. Dvorak</a> and it lists up eight rules that points out the things not to do when you are blogging. Here is the 8 eight rules for the perfect blog, enjoy:
 
 
 * The right attitude. Make it clear that you spend the day, week, or month sitting on your rump reading other blogs instead of looking for work. Or if you actually work, make it clear that you are writing the blog at work, because you hate your job.
@@ -18,5 +18,5 @@ There is plenty of do's and dont's in the world of web logging (blogging), and a
 * Humor. Give your blog a cute name, perhaps even using a pun. "Blog on the Run." "Blogday Afternoon." "Bloggin' Fool." "Hot Blog and Relish." Or name the blog after a title of a great novel: "The Sound and the Fury," "The Naked and the Dead." In a pinch, use "My Blog."
 * Specialize. If you want to trumpet the fact that you're a rockin' techie, constantly harp on Linux, and link to the cool scripts you've written. Link to a lot of anti-Microsoft diatribes. Use 6-point type and no page breaks, so the blog looks like source code when it's displayed on the screen. Add color to make it even more unreadable. Use the word warez now and again.
 
-So, now you ought to know what to do, if not, please, contact me! 
+So, now you ought to know what to do, if not, please, <strong>DO NOT</strong> contact me! 
 
