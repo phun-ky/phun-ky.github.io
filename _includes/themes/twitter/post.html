@@ -96,7 +96,7 @@
 </div>
 <script type="text/javascript">
 
-  try{
+  /*try{
 
     var ul = $('<ul class="nav">');
     for(var i = 2; i < 6; i++){
@@ -104,6 +104,8 @@
       if(hs.length){
         ul[0].childHeaders = hs
         ul[0].childHeaderLevel = i;
+
+        console.log(hs, i);
         break;
       }
     }
@@ -118,8 +120,10 @@
          var n = this.childHeaderLevel;
          //turn each childHeader into the corresponding ul
          innerUl.childHeaders.each(function(i,elem){
-            var childUl = $('<ul class="nav">').append('<li><a href="#'+$(elem).attr('id')+'">' + $(elem).text() + '</a></li>')
-                                   .appendTo(innerUl);
+            var childUl = $('<ul class="nav">')
+                            .append('<li><a href="#'+$(elem).attr('id')+'">' + $(elem).text() + '</a></li>')
+                            .appendTo(innerUl);
+
             childUl[0].childHeaders = $(this).nextUntil('h' + n)
                                              .filter('h' + (n+1));
             childUl[0].childHeaderLevel = n + 1;            
@@ -127,11 +131,61 @@
          });                            
       });
       ul = nextUl;   
-    }
+    }*/
 
 
+$('#toc').empty();
+var link_item = function(heading){
 
-    $('#toc').append(rootUl).append($('<a href="#top">Back to top</a>'));
+  return  $('<a/>',{
+            href : '#' + heading.attr('id')
+          })
+            .text(heading.text());
+    
+};
+
+var list_item = function(heading){
+
+  var li        =   $('<li/>')
+                      .append(link_item(heading));
+  
+  var tagName   = heading.prop('tagName');  
+  var level     = parseInt(tagName.replace('H',''),10); 
+  
+  
+  var children  = heading.nextUntil(tagName).filter('h' + (level + 1));
+  
+  console.log(children);
+  
+  if(children.length){
+    
+    var _ul = $('<ul class="nav"/>');
+  
+    children.each(function(i, h){
+
+      var _li = list_item($(h));
+      
+      _ul.append(_li);
+    
+    });
+    
+    li.append(_ul);
+  
+  }
+  
+  return li;
+};
+  
+var ul = $('<ul class="nav"/>');
+  
+$('.post-content').find('h2').each(function(i, heading){
+
+  var li = list_item($(heading));
+  
+  ul.append(li);
+});
+  
+  $('#toc').append(ul).append($('<a href="#top">Back to top</a>'));
 
     $('#toc').affix({
       offset : {
@@ -148,7 +202,7 @@
 
     $('body').scrollspy({ target: '#toc' , offset : 400})
 
-  } catch(ex){}
+  // } catch(ex){}
 
 
 </script>

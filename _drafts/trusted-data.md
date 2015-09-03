@@ -98,12 +98,35 @@ Can we trust the delivery boy? / Can we trust the transportation of data?
 
 * Hijacking
 
+## Interpretation of data
 
+> A programmer is going to the grocery store and his wife tells him, "Buy a gallon of milk, and if there are eggs, buy a dozen." So the programmer goes, buys everything, and drives back to his house. Upon arrival, his wife angrily asks him, "Why did you get 13 gallons of milk?" The programmer says, "There were eggs!"
 
+To sum this up progammatically:
+
+<script src="https://gist.github.com/phun-ky/b370ff37443c698ce285.js"></script>
+
+The programmer interpreted the information in another way that his wife expected. You can argue exetnsively about why he interpreted it that way..
+
+The wife, obviously for some people...
+
+But we can interpret this example even further:
+
+<script src="https://gist.github.com/phun-ky/655ae6c9f29ce544069b.js"></script>
+
+See what happened here? `"Buy a gallon of milk, _and_ if there are eggs, buy a dozen."`. The data was the same, the interpretation were different. What the wife expected:
+
+<script src="https://gist.github.com/phun-ky/e0022044fbb3da07d0e1.js"></script>
 
 Can we trust a CDN?
 Can we trust the backend guys?
 Can we trust the author of a book?
+
+## Approaches?
+
+### Trust no-one, be skeptic to everything
+
+### Trust everything, be skeptic to everything
 
 ## Can we trust the genealogist? 
 
@@ -154,6 +177,7 @@ http://en.wikipedia.org/wiki/TrustRank
 
 SSL sertificates from false sources, (mention a case in the media about this): http://nakedsecurity.sophos.com/2013/12/09/serious-security-google-finds-fake-but-trusted-ssl-certificates-for-its-domains-made-in-france/
 
+## The human nature
 
 photoshopped images in news stories
 fake quotes from famous people
@@ -164,8 +188,41 @@ have faith.
 
 you cant trust data, but you can put some effort into validating data.
 
+Level of trust
+
+
+
 ## Explain
 
+### What is trust?
+
+>In a social context, trust has several connotations. Definitions of trust typically refer to a situation characterized by the following aspects: One party (trustor) is willing to rely on the actions of another party (trustee); the situation is directed to the future. In addition, the trustor (voluntarily or forcedly) abandons control over the actions performed by the trustee. As a consequence, the trustor is uncertain about the outcome of the other's actions; they can only develop and evaluate expectations. The uncertainty involves the risk of failure or harm to the trustor if the trustee will not behave as desired.
+
+...
+
+>When it comes to the relationship between people and technology, the attribution of trust is a matter of dispute. The intentional stance demonstrates that trust can be validly attributed to human relationships with complex technologies. However, rational reflection leads to the rejection of an ability to trust technological artefacts.
+
+Examples here in this link is more abstract kind of trust: http://www.leadergrow.com/articles/201-degrees-of-trust
+
+Leading with trust describes 3 levels of trust: http://leadingwithtrust.com/2011/06/06/three-levels-of-trust-what-level-are-your-relationships/
+
+#### deterence-based trust (rules):
+
+>Deterence-based trust means that there are rules in place that prevent one person from taking advantage of, or harming another person. In society we have laws that govern our behavior in personal and business settings. 
+
+You will not kill me, since it's a crime
+
+#### knowledge based trust:
+
+>This level of trust means that I’ve had enough experience with you and knowledge of your behavior that I have a pretty good idea of how you will react and behave in relationship with me. We’ve had enough interactions over time where there has been a consistent display of trustworthy behavior that I believe I can trust you with the everyday type issues we experience together.
+
+I have experienced enough with you to trust you
+
+#### Identity based trust:
+
+> This level of trust means that you know my hopes, dreams, goals, ambitions, fears, and doubts. I trust you at this level because over the course of time I have increased my level of transparency and vulnerability with you and you haven’t taken advantage of me. You’ve proven yourself to be loyal, understanding, and accepting.
+
+Basically, i know who you are, so i trust you
 
 ### What is data?
 
@@ -243,3 +300,16 @@ What causes people to believe (or not believe) what they find on the Web?
 What strategies do users employ in evaluating the credibility of online sources?
 
 What contextual and design factors influence these assessments and strategies?
+
+
+## How to work with data
+
+### Data
+
+### Products
+
+### Sources
+
+### Verification and validation
+
+### Trust
