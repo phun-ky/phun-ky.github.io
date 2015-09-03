@@ -1,9 +1,9 @@
 --- 
 layout: post 
-title: "dreamscene effect on ubuntu"
+title: "Dreamscene effect on Ubuntu"
 description: ""
 category: "Archive"
-tags: []
+tags: [ubuntu, dreamscene, how-to, windows dreamscene]
 ---
 {% include JB/setup %}  
 Stumbled over a great effect for my gnome desktop on Ubuntu Studio, a Dreamscene look-a-like effect. The best thing was that I only needed 2 lines in the console for making this effect!
@@ -29,7 +29,7 @@ If you want the animation every time you log in, open "~/.config/autostart/glmat
 	X-GNOME-Autostart-enabled=true
 
 If you are fed up with playing around and want your old desktop back, use this line in the terminal:
-	
+
 	gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop true && nautilus
 
-Sources: <a href="http://www.winmatrix.com">winmatrix.com</a> <br/> (m.sudoku - "DreamScene for Linux: Screensaver as Desktop Wallpaper"), <a href="http://www.wikipedia.org">wikipedia.org</a> <br/> (dreamscene)
+Sources: <a href="http://www.winmatrix.com">winmatrix.com</a> <br/> (m.sudoku - "DreamScene for Linux: Screensaver as Desktop Wallpaper"), <a href="http://www.wikipedia.org">wikipedia.org</a>(dreamscene).

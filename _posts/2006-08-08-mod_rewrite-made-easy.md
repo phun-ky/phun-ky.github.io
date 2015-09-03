@@ -2,8 +2,8 @@
 layout: post 
 title: "mod_rewrite made easy"
 description: ""
-category: "Archive"
-tags: []
+category: "how-to"
+tags: [how-to, mod_rewrite, php, semantic urls]
 ---
 {% include JB/setup %}  
 Lately I've been trying to make all my links to look so pretty that even art critics could say something nice about them, and to make it easier for visitors to remember my links. And believe me, it is actually easier than it seems.
