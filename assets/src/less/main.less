@@ -24,6 +24,11 @@
           font-size: 3.8em;
 
         }
+
+        small{
+            font-size: 0.5em;
+            .font-sans;
+        }
     }
 }
 hr {
@@ -125,6 +130,30 @@ ul.posts {
 }
 .post-content {
 
+  figure{
+    >figcaption{
+      text-align: center;
+    }
+  }
+
+    table{
+      &.table{
+        tr{
+          >td{
+            font-size: 0.8em;
+            >ul,
+            >ol{
+              padding-left: 0px;
+              margin-bottom: 0px;
+              >li{
+                list-style-position: inside;
+              }
+            }
+          }
+        }
+      }
+    }
+
     .alert{
         span{
             &.glyphicon{
@@ -136,9 +165,11 @@ ul.posts {
     position: relative;
     font-size: 1.2em;
 
-    p,pre, div.gist{
+    p,pre, div.gist, ul, ol, figure,.alert{
         margin-bottom:40px;
     }
+
+
 
     pre code, code{
         font-size: 1.2em;
@@ -150,7 +181,7 @@ ul.posts {
 
     ul{
       >li{
-        margin-bottom: 20px;
+        
       }
     }
 
