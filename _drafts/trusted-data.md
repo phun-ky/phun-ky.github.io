@@ -278,7 +278,7 @@ The risks involved with false/wrongly interpreted data could be sectioned into g
   </figcaption>
 </figure>
 
-<div class="alert alert-info" role="alert">
+<div class="alert alert-warning" role="alert">
   <em>This risk/impact grouping is not based on any empirical or statistic data, but a rough grouping by the author.</em>
 </div>
 
@@ -311,7 +311,7 @@ But we can interpret this example even further:
 
 See what happened here? 
 
->"Buy a gallon of milk, <strong>and</strong> if there are eggs, buy a dozen." 
+<code>"Buy a gallon of milk, <strong>and</strong> if there are eggs, buy a dozen."</code>
 
 The data was the same, the interpretation were different. This is the interpretation that the wife expected:
 
@@ -357,22 +357,27 @@ To recap and ellaborate on what sources could be:
 
 ## A final word
 
->  The best way to find out if you can trust somebody is to trust them. Ernest Hemingway
+>  The best way to find out if you can trust somebody is to trust them. 
+>
+><a href="https://en.wikiquote.org/wiki/Talk:Ernest_Hemingway">Ernest Hemingway</a>
 
 In the end, you will have to have a whole lot of trust in yourself to be able to collect, analyze, interpret and relay data that can be trusted. You cannot trust data 100%, but you can put some effort into validating data. Check other reliable sources, be skeptic, question the validity of data. Re-collect information, be certain you have the correct information.
 
-...
+
+----------------
+
+<div class="alert alert-info">
 
 There are some organizations and standards that work to enhance and refine data and credibility of sources.
 
-### The Stanford Web Credibility Research Project
+<p><a href="http://credibility.stanford.edu/">The Stanford Web Credibility Research Project</a> (part of <a href="http://captology.stanford.edu/">the Persuasive Technology Lab</a>) at Stanford University are investigating questions such as:</p>
 
-<a href="http://credibility.stanford.edu/">The Stanford Web Credibility Research Project</a> (part of <a href="http://captology.stanford.edu/">the Persuasive Technology Lab</a>) at Stanford University are investigating questions such as:
+<ul>
+<li>What causes people to believe (or not believe) what they find on the Web?</li>
+<li>What strategies do users employ in evaluating the credibility of online sources?</li>
+<li>What contextual and design factors influence these assessments and strategies?</li>
+</ul>
 
-* What causes people to believe (or not believe) what they find on the Web?
-* What strategies do users employ in evaluating the credibility of online sources?
-* What contextual and design factors influence these assessments and strategies?
+<p><a href="https://en.wikipedia.org/wiki/TrustRank">TrustRank</a> is a technique used for semi-automatic separation of useful webpages from spam.</p>
 
-### TrustRank
-
-<a href="https://en.wikipedia.org/wiki/TrustRank">TrustRank</a> is a technique used for semi-automatic separation of useful webpages from spam.
+</div>
