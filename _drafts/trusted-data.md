@@ -163,15 +163,6 @@ When old church books are transcribed, often digitally (by OCR scanning) or by a
 
 #### Maps
 
-<figure>
-  <img src="http://i.imgur.com/LPDxsfB.jpg" class="img-responsive img-thumbnail img-rounded"/>
-  <figcaption>
-    <small>
-      <a href="http://imgur.com/LPDxsfB">http://imgur.com/LPDxsfB</a> <strong>Figure 4</strong>
-    </small>
-  </figcaption>
-</figure>
-
 In the 16th and 17th century, the time before Google Maps and GPS, when the Earth was not fully mapped, the cartographers that created maps for the seafarers could for example depict sea monsters on the map. This was based on myths and legends, folklore and what the people in that time did not fully understand. But later in the 17th century, the monsters vanished, relative to the scientific progress of the time.
 
 <figure>
