@@ -5,6 +5,7 @@ tagline : "What is Trusted Data?"
 description: "What is Trusted Data?"
 category: "Technology"
 tags: [trusted data, data]
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/640px-Social_Network_Analysis_Visualization.png
 ---
 {% include JB/setup %}
 
