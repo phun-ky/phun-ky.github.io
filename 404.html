@@ -4,24 +4,40 @@ title: 404 File Not Found
 ---
 {% include JB/setup %}
 
-<p>I'm sorry, the page you tried to reach does not exist. It has either been moved ( and in that case, shame on me for not redirecting you properly) or the URL you used was wrong.</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <div class="post-content">
 
-<blockquote>
-	There are no reasons at all in theory for people to change URIs (or stop maintaining documents), but millions of reasons in practice. 
+        <p>I'm sorry, the page you tried to reach does not exist. It has either been moved ( and in that case, shame on me for not redirecting you properly) or the URL you used was wrong.</p>
 
-	<cite>
-		&mdash; Sir Tim Berners-Lee
-	</cite>
+        <blockquote>
+        	There are no reasons at all in theory for people to change URIs (or stop maintaining documents), but millions of reasons in practice. 
 
-</blockquote>
+        	<cite>
+        		&mdash; Sir Tim Berners-Lee
+        	</cite>
 
-<p>If you where looking for a post, you most certainly should find it in the <a href="/archive.html">archive</a>. If you feel that this was an error, please <a href="https://github.com/phun-ky/phun-ky.github.io/issues">submit an issue</a>, and I would personally do my best to do something about it.</p>
+        </blockquote>
 
-<p>In the mean time, I give you my five latest posts:</p>
+        <p>If you where looking for a post, you most certainly should find it in the <a href="/archive.html">archive</a>. If you feel that this was an error, please <a href="https://github.com/phun-ky/phun-ky.github.io/issues">submit an issue</a>, and I would personally do my best to do something about it.</p>
 
-<ul class="posts">
-  {% for post in site.posts limit:5 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+        <p>In the mean time, I give you my five latest posts:</p>
 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="post-content">
+        <ul class="posts">
+          {% for post in site.posts limit:5 %}
+            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
