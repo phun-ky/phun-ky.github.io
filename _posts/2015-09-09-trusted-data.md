@@ -51,8 +51,6 @@ Digital data could be described as data that is collected and represented throug
 
 ## What is trust?
 
-The first part of the concept "Trusted Data" is about trust.
-
 >In a social context, trust has several connotations. Definitions of trust typically refer to a situation characterized by the following aspects: One party (trustor) is willing to rely on the actions of another party (trustee); the situation is directed to the future. In addition, the trustor (voluntarily or forcedly) abandons control over the actions performed by the trustee. As a consequence, the trustor is uncertain about the outcome of the other's actions; they can only develop and evaluate expectations. The uncertainty involves the risk of failure or harm to the trustor if the trustee will not behave as desired.
 >
 ><a href="https://en.wikipedia.org/wiki/Trust_%28social_sciences%29">https://en.wikipedia.org/wiki/Trust_(social_sciences)</a>
@@ -79,11 +77,11 @@ When we collect, interpret and analyse data, we have to rely on a certain trust 
 >
 ><a href="http://www.leadergrow.com/articles/201-degrees-of-trust">http://www.leadergrow.com/articles/201-degrees-of-trust</a>
 
-"Trusted Data", regardless the level of trust, is data you can rely on to process information from. Information used to gain knowledge, make decisions and act upon.
+"Trusted Data", regardless the level of trust, is data you can rely on to process information from, information used to gain knowledge, make decisions and act upon.
 
 ## Trusted data
 
-When we now have the terminology in order, but what have others stated about this term?
+When we now have the terminology in order, what have others stated about this term?
 
 > ... the condition of trusted data is easily quantified. Namely, condition is a technical measurement of data’s completeness, quality, age, schema, profile, and documentation. The assumption is that trusted data should come from carefully selected sources, be transformed in accordance with data’s intended use, and be delivered in formats and time frames that are appropriate to specific consumers of reports and other manifestations of data.
 >
@@ -185,7 +183,7 @@ Within IT, were handling of data could be crucial for the business, we find seve
 
 We all process data, in our jobs, in our lives, every day. We can verify the data we collect through sources. We can trust the source itself or verify the data from other sources. But what makes data untrustworthy?
 
-The human factors are also relevant here. We are not perfect. We err. We are all individuals with our own unique thought patterns. We perceive things differently, we fill in the blanks, interpret things. We forget. We are blind, deaf, near-sighted, long-sighted, colour-blinded. We have hidden agendas, political views, personal views, religious views. All of this are factors in how humans perceive, interpret and relay data.
+The human factors are also relevant here. We are not perfect. We make mistakes. We are all individuals with our own unique thought patterns. We perceive things differently, we fill in the blanks, interpret things. We forget. We are blind, deaf, near-sighted, long-sighted, colour-blinded. We have hidden agendas, political views, personal views, religious views. All of this are factors in how humans perceive, interpret and relay data.
 
 We have technical factors when it comes to relaying and collecting data; Phone lines could be down, the mail could not be delivered. With digital data, we could have charset errors, disk crashes, network issues, bugs et al. These factors can delete data, let data never be collected, saved or relayed.
 
@@ -254,7 +252,7 @@ The grouping above is just a small collection of risks related to untrustworthy 
 
 ### Interpretation of data
 
-When we observe or collect data, we also process it. A part of the process is the interpretation of data. We interpret the data from our own perspective. Our own unique understanding of things are the basics of that perspective and how we interpret data.
+When we observe or collect data, we also process it. A part of the process is the interpretation of data. We try to figure out the meaning of the data from our own unique understanding. This is the basis of that perspective and how we interpret data.
 
 > A programmer is going to the grocery store and his wife tells him, "Buy a gallon of milk, and if there are eggs, buy a dozen." So the programmer goes, buys everything, and drives back to his house. Upon arrival, his wife angrily asks him, "Why did you get 13 gallons of milk?" The programmer says, "There were eggs!"
 >
