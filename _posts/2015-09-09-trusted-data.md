@@ -2,7 +2,7 @@
 layout: post
 title: "Trusted Data"
 tagline : "What is Trusted Data?"
-description: "We live in a plane in the space-time continuum surrounded by data. An inconceivable amount of data. Every day we observe, process, interpret, analyse and act upon data. Not just with computers, but with anything, everywhere. We watch TV, use social media, we look through the window, we smell the rain, we sense the tingling feeling on our feet when walking barefooted in the grass. We collect data 24/7, even when we sleep. With so much data out there, how can we trust it? How do we work with it?"
+description: "We live in a plane in the space-time continuum surrounded by data. An inconceivable amount of data. Every day we observe, process, interpret, analyse and act upon data. Not just with computers, but with anything, everywhere. We watch TV, use social media, we look through the window, we smell the rain, we sense the tingling feeling on our feet when walking barefooted in the grass. We collect data 24/7, even when we sleep. With so much data out there, how can we trust it? What is Trusted Data?"
 category: "Technology"
 tags: [trusted data, data]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/640px-Social_Network_Analysis_Visualization.png
@@ -10,7 +10,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_
 {% include JB/setup %}
 
 <p class="lead">
-  We live in a <a href="https://simple.wikipedia.org/wiki/Space-time">plane in the space-time continuum</a> surrounded by data. An inconceivable amount of data. Every day we observe, process, interpret, analyse and act upon data. Not just with computers, but with anything, everywhere. We watch TV, use social media, we look through the window, we smell the rain, we sense the tingling feeling on our feet when walking barefooted in the grass. We collect data 24/7, even <a href="https://en.wikipedia.org/wiki/Neuroscience_of_sleep">when we sleep.</a> With so much data out there, how can we trust it? How do we work with it?
+  We live in a <a href="https://simple.wikipedia.org/wiki/Space-time">plane in the space-time continuum</a> surrounded by data. An inconceivable amount of data. Every day we observe, process, interpret, analyse and act upon data. Not just with computers, but with anything, everywhere. We watch TV, use social media, we look through the window, we smell the rain, we sense the tingling feeling on our feet when walking barefooted in the grass. We collect data 24/7, even <a href="https://en.wikipedia.org/wiki/Neuroscience_of_sleep">when we sleep.</a> With so much data out there, how can we trust it? What is "Trusted Data"?
 </p>
 
 <figure>
