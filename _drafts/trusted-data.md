@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Trusted data"
-tagline : "What is trusted data, and how do we work with it?"
-description: "What is trusted data, and how do we work with it?"
+title: "Trusted Data"
+tagline : "What is Trusted Data?"
+description: "What is Trusted Data?"
 category: "Technology"
 tags: [trusted data, data]
 ---
@@ -40,7 +40,7 @@ To get a better grasp of the concept of "Trusted Data", we need to know what lie
 
 Suman Deb Roy and Wenjun Zeng defines, in their book <a href="https://books.google.no/books?id=Z1hDBAAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">Social Multimedia Signals: A Signal Processing Approach to Social Network"</a>, data as "... an abstract concept (that) can be viewed as the lowest level of abstraction, from which information and then knowledge are derived."
 
-Data is what we observe, what we perceive. It is what we humans collect through sensory input. 
+Data is what we observe, what we perceive. It is what we humans collect through sensory input.
 
 >Digital data, in information theory and information systems, are discrete, discontinuous representations of information or works, as contrasted with continuous, or analogue signals which behave in a continuous manner, or represent information using a continuous function.
 >
@@ -58,7 +58,7 @@ The first part of the concept "Trusted Data" is about trust.
 
 The definition of trust regarding relationship between people and technology is a bit more cumbersome, since it describes a state that conflicts with the rational reflection of human beings:
 
->When it comes to the relationship between people and technology, the attribution of trust is a matter of dispute. The intentional stance demonstrates that trust can be validly attributed to human relationships with complex technologies. However, rational reflection leads to the rejection of an ability to trust technological artifacts. 
+>When it comes to the relationship between people and technology, the attribution of trust is a matter of dispute. The intentional stance demonstrates that trust can be validly attributed to human relationships with complex technologies. However, rational reflection leads to the rejection of an ability to trust technological artifacts.
 >
 ><a href="https://en.wikipedia.org/wiki/Trust_%28social_sciences%29">https://en.wikipedia.org/wiki/Trust_(social_sciences)</a>
 
@@ -66,7 +66,7 @@ When we collect, interpret and analyse data, we have to rely on a certain trust 
 
 > ### Deterrence-based trust (rules):
 >
->Deterrence-based trust means that there are rules in place that prevent one person from taking advantage of, or harming another person. In society, we have laws that govern our behaviour in personal and business settings. 
+>Deterrence-based trust means that there are rules in place that prevent one person from taking advantage of, or harming another person. In society, we have laws that govern our behaviour in personal and business settings.
 >
 > ### Knowledge-based trust (experience):
 >
@@ -84,7 +84,7 @@ When we collect, interpret and analyse data, we have to rely on a certain trust 
 
 When we now have the terminology in order, but what have others stated about this term?
 
-> ... the condition of trusted data is easily quantified. Namely, condition is a technical measurement of data’s completeness, quality, age, schema, profile, and documentation. The assumption is that trusted data should come from carefully selected sources, be transformed in accordance with data’s intended use, and be delivered in formats and time frames that are appropriate to specific consumers of reports and other manifestations of data. 
+> ... the condition of trusted data is easily quantified. Namely, condition is a technical measurement of data’s completeness, quality, age, schema, profile, and documentation. The assumption is that trusted data should come from carefully selected sources, be transformed in accordance with data’s intended use, and be delivered in formats and time frames that are appropriate to specific consumers of reports and other manifestations of data.
 >
 ><a href="http://tdwi.org/articles/2010/11/04/experts-trusted-data.aspx">Russom, Philip - The Ramifications of Trusted Data</a>
 
@@ -133,9 +133,9 @@ The validity of sources is only as valid as the data given. In the science termi
 
 ### Verification of data
 
-The validity of data is often verified by several sources. In the social realm and the interaction between humans, i.e. communication, the validation of data is often done by confirmation: "Did you guys see that?", "Yes". 
+The validity of data is often verified by several sources. In the social realm and the interaction between humans, i.e. communication, the validation of data is often done by confirmation: "Did you guys see that?", "Yes".
 
-Who lied? Did anyone lie? How can we be certain? If the verification is done by a human, and the sensory input to a human in combination with how logical the human's thought process is and the fact that humans <a href="https://en.wikipedia.org/wiki/Jumping_to_conclusions">jump to conclusions</a> ( fills in the blanks ), there will always be uncertainty. 
+Who lied? Did anyone lie? How can we be certain? If the verification is done by a human, and the sensory input to a human in combination with how logical the human's thought process is and the fact that humans <a href="https://en.wikipedia.org/wiki/Jumping_to_conclusions">jump to conclusions</a> ( fills in the blanks ), there will always be uncertainty.
 
 Some data collected from digital sources can be verified by other data from digital or analogue sources. For example, a registered birthdate on a family member in an on-line family tree can be verified against the state record.
 
@@ -223,7 +223,7 @@ Health risks could be:
 
 High impact risks are risks that has large effect in the surrounding context, a game-changer you might say.
 
-Social risks coud be: 
+Social risks coud be:
 
 * Loss of friendship
 * Bullying
@@ -231,9 +231,9 @@ Social risks coud be:
 Economical risks could be:
 
 * Big loss of profit in the stock market due to false reports on yield
-* Bankruptcy of businesses 
+* Bankruptcy of businesses
 
-Political risks could be: 
+Political risks could be:
 
 * War
   * <a href="https://news.vice.com/article/the-cia-just-declassified-the-document-that-supposedly-justified-the-iraq-invasion">US invasion of Iraq in 2003</a>
@@ -283,7 +283,7 @@ But we can interpret this example even further:
 <div class="sr-only"><a href="https://gist.github.com/phun-ky/655ae6c9f29ce544069b">Link to example 2</a></div>
 <script src="https://gist.github.com/phun-ky/655ae6c9f29ce544069b.js"></script>
 
-See what happened here? 
+See what happened here?
 
 <code>"Buy a gallon of milk, <strong>and</strong> if there are eggs, buy a dozen."</code>
 
@@ -292,79 +292,12 @@ The data was the same, the interpretation were different. This is the interpreta
 <div class="sr-only"><a href="https://gist.github.com/phun-ky/e0022044fbb3da07d0e1">Link to example 3</a></div>
 <script src="https://gist.github.com/phun-ky/e0022044fbb3da07d0e1.js"></script>
 
-
-
-## How to work with data
-
-<figure>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg" class="img-responsive img-rounded img-thumbnail"/>
-  <figcaption>
-    <small>
-      "<a href="https://commons.wikimedia.org/wiki/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg#/media/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg">RAILROAD WORK CREW IMPROVES THE TRACKS AND BED OF THE ATCHISON, TOPEKA AND SANTA FE RAILROAD NEAR BELLEFONT, KANSAS... - NARA - 556012</a>" by <span class="fn value">Charles O'Rear, 1941-, Photographer (<a rel="nofollow" class="external text" href="//research.archives.gov/person/3403717">NARA record: 3403717</a>)</span> - <a href="//en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration" class="extiw" title="en:U.S. National Archives and Records Administration">U.S. National Archives and Records Administration</a>. Licensed under Public Domain via <a href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong>Figure 8</strong>
-    </small>
-  </figcaption>
-</figure>
+## A final word
 
 We have now gone through the term "Trusted Data", but how do you work with the data that you want to be trustworthy?
 
-This article tried to reflect upon the definition of "Trusted Data", examples on how data can be false and how correct and false data can be interpreted in different ways. But the article does not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?
+The next article will cover these areas. It will hopefully give a good grasp on how to work with data, and how we make sure it can be trustworthy.
 
-We begin with some key areas on how you can collect and process data. This could be used as a check list to make data more trustworthy.
-
-### Sources
-
-* Have you used the given source before? 
-* Have the source provided data that appeared to be correct in the past? 
-* Have other parties used the source before? 
-* Are the sources credible?
-
-To recap and elaborate on what sources could be:
-
-* Wife telling you what to get in the store
-* The TV-schedule
-* API-service
-* Radio show host
-* Newspapers
-* Website
-* Birth certificates
-* The whistle-blower
-
-### Interpretation
-
-* Have you interpreted the data correctly? 
-* Have you interpreted the data wrongly before? 
-* Have you interpreted the data with the same understanding of the data as others?
-* Could the data be interpreted in another way? 
-* Do the consumers of the data interpret it the same way? 
+This article tried to reflect upon the definition of "Trusted Data", examples on how data can be false and how correct and false data can be interpreted in different ways.
 
 
-### Data
-
-* Can you verify it? (Check against other sources. Re-collect it, is the data the same?)
-
-## A final word
-
->  The best way to find out if you can trust somebody is to trust them. 
->
-><a href="https://en.wikiquote.org/wiki/Talk:Ernest_Hemingway">Ernest Hemingway</a>
-
-In the end, you will have to have a whole lot of trust in yourself to be able to collect, analyse, interpret and relay data that can be trusted. You cannot trust data 100%, but you can put some effort into validating data. Check other reliable sources, be skeptic, question the validity of data. Re-collect information, be certain you have the correct information.
-
-
-----------------
-
-<div class="alert alert-info">
-
-There are some organizations and standards that work to enhance and refine data and credibility of sources.
-
-<p><a href="http://credibility.stanford.edu/">The Stanford Web Credibility Research Project</a> (part of <a href="http://captology.stanford.edu/">the Persuasive Technology Lab</a>) at Stanford University are investigating questions such as:</p>
-
-<ul>
-<li>What causes people to believe (or not believe) what they find on the Web?</li>
-<li>What strategies do users employ in evaluating the credibility of on-line sources?</li>
-<li>What contextual and design factors influence these assessments and strategies?</li>
-</ul>
-
-<p><a href="https://en.wikipedia.org/wiki/TrustRank">TrustRank</a> is a technique used for semi-automatic separation of useful web pages from spam.</p>
-
-</div>
