@@ -27,7 +27,7 @@
     <div class="col-md-3">
       <nav id="toc" class="hidden-print hidden-xs hidden-sm affix"></nav>
     </div>
-    
+
   </div>
 
   <div class="row meta-container">
@@ -36,14 +36,14 @@
       <div class="meta">
         {% unless page.categories == empty %}
         <div class="category">
-          <span>Categorized under: </span> 
+          <span>Categorized under: </span>
           <ul class="tag_box inline">
             <li><i class="icon-folder-open icon-white"></i></li>
             {% assign categories_list = page.categories %}
             {% include JB/categories_list %}
           </ul>
         </div>
-        {% endunless %} 
+        {% endunless %}
 
         {% unless page.tags == empty %}
         <div class="tags">
@@ -54,7 +54,7 @@
             {% include JB/tags_list %}
           </ul>
         </div>
-        {% endunless %}  
+        {% endunless %}
       </div>
       <div class="pagination">
         <ul>
@@ -71,12 +71,12 @@
         {% endif %}
         </ul>
       </div>
-      <hr>    
+      <hr>
     </div>
   </div>
 
   <div class="row hidden-xs">
-    <div class="col-md-12">    
+    <div class="col-md-12">
       <div class="about_the_author well clearfix">
         <h3>About the author</h3>
         <img width="220" height="220" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="Image of the author" title="phun-ky"/>
@@ -107,66 +107,73 @@
               href : '#' + heading.attr('id')
             })
               .text(heading.text());
-      
+
   };
 
   var list_item = function(heading){
 
     var li        =   $('<li/>')
                         .append(link_item(heading));
-    
-    var tagName   = heading.prop('tagName');  
-    var level     = parseInt(tagName.replace('H',''),10); 
-    
-    
+
+    var tagName   = heading.prop('tagName');
+    var level     = parseInt(tagName.replace('H',''),10);
+
+
     var children  = heading.nextUntil(tagName).filter('h' + (level + 1));
-    
+
     console.log(children);
-    
+
     if(children.length){
-      
+
       var _ul = $('<ul class="nav"/>');
-    
+
       children.each(function(i, h){
 
         var _li = list_item($(h));
-        
+
         _ul.append(_li);
-      
+
       });
-      
+
       li.append(_ul);
-    
+
     }
-    
+
     return li;
   };
-    
+
   var ul = $('<ul class="nav"/>');
-    
+
   $('.post-content').find('h2').each(function(i, heading){
 
     var li = list_item($(heading));
-    
+
     ul.append(li);
   });
-    
+
   $('#toc').append(ul).append($('<a href="#top">Back to top</a>'));
 
-    $('#toc').affix({
-      offset : {
-        top: function(){
-          return (this.top = $('.post-content').offset().top);
-        },
-        bottom: function () {
+  $('#toc').affix({
+    offset : {
+      top: function(){
+        return (this.top = $('.post-content').offset().top);
+      },
+      bottom: function () {
 
-          console.log($(document).height() - $('.meta-container').offset().top);
-          return (this.bottom = ($(document).height() - $('.meta-container').offset().top) + 400 );
-        }
+        console.log($(document).height() - $('.meta-container').offset().top);
+        return (this.bottom = ($(document).height() - $('.meta-container').offset().top) + 400 );
       }
-    });
+    }
+  });
 
-    $('body').scrollspy({ target: '#toc' , offset : 400})
+  $('body').scrollspy({ target: '#toc' , offset : 400})
+
+  $(window).on('resize', function(){
+
+    $('#toc').affix('checkPosition');
+    $('body').scrollspy('refresh');
+
+  });
 
     // } catch(ex){}
 

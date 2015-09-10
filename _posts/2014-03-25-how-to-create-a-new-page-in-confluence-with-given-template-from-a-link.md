@@ -1,16 +1,30 @@
 ---
 layout: post
 title: "How to create a new page in Atlassian Confluence with given template from a link"
-description: ""
+description: "I was trying to solve an issue, amidst the documentation haze for my latest applications, to create a new page with a given template from a link, to spare me the hazzle of doing it \"manually\"."
 category: "How-to"
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/500px-Atlassian-logo.svg.png
 tags: [how-to, template, confluence]
 ---
 {% include JB/setup %}
 ## The issue
-I was trying to solve an issue, amidst the documentation haze for my latest applications, to create a new page with a given template from a link, to spare me the hazzle of doing it "manually".
+
+
+<figure>
+  <img alt="The Atlassian Logo" aria-describedby="atlassian" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/500px-Atlassian-logo.svg.png" class="img-responsive img-rounded img-thumbnail"/>
+  <figcaption>
+    <small>
+      "<a id="atlassian" href="https://commons.wikimedia.org/wiki/File:Atlassian-logo.svg#/media/File:Atlassian-logo.svg">Atlassian-logo</a>" by <a rel="nofollow" class="external text" href="https://www.atlassian.com">www.atlassian.com</a> - <a rel="nofollow" class="external free" href="https://www.atlassian.com/ko/dms/wac/images/press/Resources/presskits/HipChat_Fast_Facts.pdf">https://www.atlassian.com/ko/dms/wac/images/press/Resources/presskits/HipChat_Fast_Facts.pdf</a>. Licensed under Public Domain via <a href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong>Figure 1</strong>
+    </small>
+  </figcaption>
+</figure>
+
+<p class="lead">
+  I was trying to solve an issue, amidst the documentation haze for my latest applications, to create a new page with a given template from a link, to spare me the hazzle of doing it "manually".
+</p>
 
 ## Investigation
-I did my homework and tried to find other similar issues, when [I found this issue at Atlassian Answers](https://answers.atlassian.com/questions/80549/is-it-possible-to-link-to-a-not-already-created-undefined-page-in-confluence-from-an-external-site). The answers there did not help, but one of the commenters pointed out you can manipulate the query string to resolve the issue. The problem was that the commenter did not use the correct URL. 
+I did my homework and tried to find other similar issues, when [I found this issue at Atlassian Answers](https://answers.atlassian.com/questions/80549/is-it-possible-to-link-to-a-not-already-created-undefined-page-in-confluence-from-an-external-site). The answers there did not help, but one of the commenters pointed out you can manipulate the query string to resolve the issue. The problem was that the commenter did not use the correct URL.
 
 ## The solution
 
