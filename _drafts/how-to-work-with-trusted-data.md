@@ -2,7 +2,7 @@
 layout: post
 title: "How to work with Trusted Data"
 tagline : "What can we do to make sure the data we have is trustworthy?"
-description: "The previously article on Trusted Data, covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?"
+description: "The previous article on Trusted Data, covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?"
 category: "Technology"
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg
 tags: [trusted data, data, how-to]
@@ -11,7 +11,7 @@ tags: [trusted data, data, how-to]
 
 <p class="lead">
 
-The <a href="/2015/09/09/trusted-data/">previously article on "Trusted Data"</a>, covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?
+The <a href="/2015/09/09/trusted-data/">previous article on "Trusted Data"</a>, covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?
 </p>
 
 We will now cover those questions, and we begin with some key areas on how you can collect and process data. This could be used as a check list to make data more trustworthy.
@@ -28,20 +28,27 @@ We will now cover those questions, and we begin with some key areas on how you c
 ## Sources
 
 * Have you used the given source before?
-* Have the source provided data that appeared to be correct in the past?
+* Has the source provided data that appeared to be correct in the past?
 * Have other parties used the source before?
 * Are the sources credible?
 
-To recap and elaborate on what sources could be:
+>The quantity of information available is so staggering that we cannot know everything about a subject. For example, it's estimated that anyone attempting to research what's known about depression would have to read over 100,000 studies on the subject. And there's the problem of trying to decide which studies have produced reliable results.
+>
+><a href="https://owl.english.purdue.edu/owl/resource/553/01/">Evaluating Sources: Overview, Online Writing Lab, Purdue University</a>
 
-* Wife telling you what to get in the store
+If you have used the source before, you have probably acquired a level of trust with that source, relying on the data it provides. If you have not used the source, you can verify it by enquiring experience from other users of that source and validate the data itself.
+
+
+To recap  on what sources could be:
+
+* Wife <sup><a href="/2015/09/09/trusted-data/#interpretation-of-data">(telling you what to get in the store)</a></sup>
 * The TV-schedule
 * API-service
 * Radio show host
-* Newspapers
+* Newspaper
 * Website
-* Birth certificates
-* The whistle-blower
+* Birth certificate
+* Whistle-blower
 
 ## Interpretation
 
@@ -51,7 +58,19 @@ To recap and elaborate on what sources could be:
 * Could the data be interpreted in another way?
 * Do the consumers of the data interpret it the same way?
 
-The interpretation method will vary from each use and scenario. The perspective used to interpret those data is strongly biased with our own understanding of the data
+The interpretation method will vary from each use and scenario. The perspective used to interpret those data is strongly biased with our own understanding of the data. We could also say that our take on the data can be based on how we have interpreted the data before.
+
+Try to analyse the data from another view. If it is statistical data gathered from a quantitative survey, could the data be strengthened or weakened through a qualitative survey?
+
+If you monitor a server, how can you be sure that the server is healthy without actually "physically" checking the server? Do you rely on the data from the monitoring completely?
+
+### False positives
+
+When it comes to the interpretation of data, developers most likely will interact with a term called "false positives". We can quickly explain this by this example in JavaScript:
+
+<script src="https://gist.github.com/phun-ky/be2ae0485468705e5480.js"></script>
+
+The difference between `==` and `===` is that the latter means "equality wihout type coersion", meaning that when we use `===`, we also check if the type is equal.
 
 
 ## Data
@@ -60,6 +79,8 @@ The interpretation method will vary from each use and scenario. The perspective 
 * Can it be reproduced?
 
 Verify the data by checking against other sources. Re-collect it, is the data the same? Can the data be reproduced over time?
+
+Within IT-development, this could be ensured during a development lifecycle with unit-tests, data validation, checking charsets and protocols.
 
 ## A final word
 
