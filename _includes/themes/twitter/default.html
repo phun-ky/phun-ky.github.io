@@ -16,19 +16,10 @@
     <meta name="dc.creator" content="{{ site.author.name }}">
     <meta name="dc.date.issued" content="{{page.date}}"/>
 
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:type" content="{% if page.article %}article{% else %}website{% endif %}">
-    <meta property="og:url" content="{{ page.url  | replace:'index.html','' | prepend: site.production_url | append : '/'}}">
-    <meta property="og:image" content="{% if page.article %}{{ page.image }}{% else %}{{site.avatar}}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:locale" content="en_GB">
+    {% include meta_opengraph.html %}
+    {% include meta_twitter.html %}
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@phun_ky" />
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
-    <meta name="twitter:image" content="{% if page.article %}{{ page.image }}{% else %}{{site.avatar}}{% endif %}" />
+
 
     <meta name="Robots" content="index,follow" />
     <meta name="Googlebot" content="index,follow" />
@@ -82,6 +73,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="navbar-brand sr-only sr-only-focusable" href="#maincontent">Skip to content</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -104,9 +96,9 @@
 
 
 
-    <div class="content">
+    <main id="maincontent" class="content" tabindex="-1">
       {{ content }}
-    </div>
+    </main>
 
     <section class="container-fluid ph-color-white">
       <div class="container">

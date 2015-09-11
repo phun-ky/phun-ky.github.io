@@ -5,9 +5,10 @@ nav#toc{
       >li{
         >a{
           color: @color-dark-grey;
-          &:hover{
-            background-color: @color-blue;
-            color: @color-grey;
+          &:hover,
+          &:focus{
+            background-color: @color-blue !important;
+            color: @color-grey !important;
           }
           border-left: 1px solid transparent;
         }
@@ -17,7 +18,8 @@ nav#toc{
             color: @color-blue;
             border-left:1px solid @color-blue;
 
-            &:hover{
+            &:hover,
+            &:focus{
               color: @color-grey;
             }
 
@@ -46,6 +48,11 @@ nav#toc{
     display: inline-block;
     margin-top:40px;
     font-size: 14px;
+    &:hover,
+    &:focus{
+      background-color: @color-blue !important;
+      color: @color-grey !important;
+    }
   }
 }
 

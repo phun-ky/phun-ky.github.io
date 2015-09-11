@@ -105,7 +105,7 @@ So "Trusted Data" will come from sources that you carefully select? Let us explo
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Source-de-l%27Orbe.jpg/640px-Source-de-l%27Orbe.jpg" class="img-responsive img-thumbnail img-rounded"/>
   <figcaption>
     <small>
-    "<a href="https://commons.wikimedia.org/wiki/File:Source-de-l%27Orbe.jpg#/media/File:Source-de-l%27Orbe.jpg">Source-de-l'Orbe</a>" by <a href="//commons.wikimedia.org/wiki/User:Micha_L._Rieser" title="User:Micha L. Rieser">Micha L. Rieser</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong>Figure 4</strong>
+    "<a href="https://commons.wikimedia.org/wiki/File:Source-de-l%27Orbe.jpg#/media/File:Source-de-l%27Orbe.jpg">Source-de-l'Orbe</a>" by <a href="//commons.wikimedia.org/wiki/User:Micha_L._Rieser" title="User:Micha L. Rieser">Micha L. Rieser</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong>Figure 3</strong>
     </small>
   </figcaption>
 </figure>
@@ -151,7 +151,7 @@ There are many, far too many, examples on erroneous data:
   <img alt="Photo of the Eikeland family tree" src="/assets/img/1522837_10153741673415125_1361780963_o.jpg" class="img-responsiuve img-thumbnail img-rounded"/>
   <figcaption>
     <small>
-      "<a href="/assets/img/1522837_10153741673415125_1361780963_o.jpg">Photo of the Eikeland family tree</a>" by <span class="fn value">Alexander Vassbotn Røyne-Helgesen (<a rel="nofollow" class="external text" href="http://phun-ky.net">http://phun-ky.net</a>)</span>. Licensed under Attribution International via <a href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong>Figure 3</strong>
+      "<a href="/assets/img/1522837_10153741673415125_1361780963_o.jpg">Photo of the Eikeland family tree</a>" by <span class="fn value">Alexander Vassbotn Røyne-Helgesen (<a rel="nofollow" class="external text" href="http://phun-ky.net">http://phun-ky.net</a>)</span>. Licensed under Attribution International via <a href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong>Figure 4</strong>
     </small>
   </figcaption>
 </figure>
