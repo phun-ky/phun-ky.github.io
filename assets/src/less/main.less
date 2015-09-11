@@ -39,7 +39,16 @@ hr {
 .navbar-default{
     background-color: transparent;
     border: medium none;
+
+    a{
+      &:focus{
+        background: @color-dark-grey !important;
+        color:@color-grey !important;
+      }
+    }
 }
+
+
 
 .page-header {
     small {
@@ -79,6 +88,14 @@ hr {
     img.avatar {
         float: left;
         margin-right: 30px;
+    }
+
+    a{
+      &:hover,
+      &:focus{
+        background-color: @color-blue !important;
+        color: @color-grey !important;
+      }
     }
 }
 ul.archive-post {
@@ -126,6 +143,14 @@ ul.posts {
             margin-left:0px;
           }
 
+          >a{
+            &:hover,
+            &:focus{
+              background-color: @color-blue !important;
+              color: @color-grey !important;
+            }
+          }
+
           &.disabled{
             display: none;
           }
@@ -134,6 +159,13 @@ ul.posts {
     }
 }
 .post-content {
+
+  a{
+    &:focus{
+      color:@color-grey !important;
+      background-color: @color-blue !important;
+    }
+  }
 
   figure{
     >figcaption{
