@@ -1,14 +1,29 @@
 ---
 layout: post
 title: "Working with javascript modules, how to load JavaScript dependencies without require.js"
-description: ""
+description: "In the current project I am working on, we wanted to load our dependencies in synchronous order without the use of a big library like require.js."
 category: "How-to"
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg
 tags: [javascript, dependencies, load.js, how-to]
 ---
 {% include JB/setup %}
-In the current project I am working on, we wanted to load our dependencies in "synchronous" order without the use of a big library like [require.js](http://requirejs.org/).
-We've already used a microframework to load script files, [load.js](https://github.com/chriso/load.js) by [Chris O'Hara](https://github.com/chriso), and we wanted to
-keep that microframework, as it acts like a "boilerplate" for loading of different script files when we need them.
+
+<p class="lead">
+In the current project I am working on, we wanted to load our dependencies in "synchronous" order without the use of a big library like <a href="http://requirejs.org/">require.js</a>.
+</p>
+
+
+<figure>
+  <img alt="Photo of a ISS module" aria-describedby="iss_module" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg" class="img-responsive img-rounded img-thumbnail"/>
+  <figcaption>
+    <small>
+      "<a id="iss_module" href="https://commons.wikimedia.org/wiki/File:ISS_Habitation_module.jpg#/media/File:ISS_Habitation_module.jpg">ISS Habitation module</a>" by NASA - <a rel="nofollow" class="external free" href="http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html">http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html</a>. Licensed under Public Domain via <a href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong>Figure 1</strong>
+    </small>
+  </figcaption>
+</figure>
+
+
+We've already used a microframework to load script files, <a href="https://github.com/chriso/load.js">load.js</a> by <a href="https://github.com/chriso">Chris O'Hara</a>, and we wanted to keep that microframework, as it acts like a "boilerplate" for loading of different script files when we need them.
 
 The result of this lead us to a solution where we integrated a `loadDeps` function to load our dependencies.
 
@@ -38,9 +53,9 @@ Define your own dependencies as the gist describes it above, then, if you want t
 to the event fired when all the dependencies are loaded:
 
     $(document).one( '<ID to be used for the events fired>:dependencies:loaded', function (){
-     
+
       // Do stuff here when we have finished loading the dependencies
-     
+
     });
 
 Then, you pass that object to the `window.loadDeps` function, with required variables:
