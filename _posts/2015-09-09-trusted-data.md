@@ -183,7 +183,7 @@ Within IT, were handling of data could be crucial for the business, we find seve
 
 We all process data, in our jobs, in our lives, every day. We can verify the data we collect through sources. We can trust the source itself or verify the data from other sources. But what makes data untrustworthy?
 
-The human factors are also relevant here. We are not perfect. We make mistakes. We are all individuals with our own unique thought patterns. We perceive things differently, we fill in the blanks, interpret things. We forget. We are blind, deaf, near-sighted, long-sighted, colour-blinded. We have hidden agendas, political views, personal views, religious views. All of this are factors in how humans perceive, interpret and relay data.
+The human factors are also relevant here. We are not perfect. We make mistakes. We are all individuals with our own unique thought patterns. We perceive things differently, we fill in the blanks, interpret things. We forget. We are blind, deaf, near-sighted, long-sighted, colour-blind. We have hidden agendas, political views, personal views, religious views. All of this are factors in how humans perceive, interpret and relay data.
 
 We have technical factors when it comes to relaying and collecting data; Phone lines could be down, the mail could not be delivered. With digital data, we could have charset errors, disk crashes, network issues, bugs et al. These factors can delete data, let data never be collected, saved or relayed.
 
