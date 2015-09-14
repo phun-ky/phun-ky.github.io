@@ -5,7 +5,7 @@ tagline : "What can we do to make sure the data we have is trustworthy?"
 description: "The previous article on Trusted Data, covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?"
 category: "Technology"
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg
-tags: [trusted data, data, how-to]
+tags: [trusted-data, data, how-to]
 ---
 {% include JB/setup %}
 

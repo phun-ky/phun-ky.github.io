@@ -3,7 +3,7 @@ layout: post
 title: "Trusted data for developers"
 tagline : "Or how to start the apocalypse"
 category: "Technology"
-tags: [trusted data, data, how-to]
+tags: [trusted-data, data, how-to]
 ---
 {% include JB/setup %}
 
