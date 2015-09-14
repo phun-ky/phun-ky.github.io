@@ -38,8 +38,7 @@ We will now cover those questions, and we begin with some key areas on how you c
 
 If you have used the source before, you have probably acquired a level of trust with that source, relying on the data it provides. If you have not used the source, you can verify it by enquiring experience from other users of that source and validate the data itself.
 
-
-To recap  on what sources could be:
+To recap on what sources could be:
 
 * Wife <sup><a href="/2015/09/09/trusted-data/#interpretation-of-data">(telling you what to get in the store)</a></sup>
 * The TV-schedule
@@ -72,6 +71,11 @@ When it comes to the interpretation of data, developers most likely will interac
 
 The difference between `==` and `===` is that the latter means "equality wihout type coersion", meaning that when we use `===`, we also check if the type is equal.
 
+Another example is this:
+
+<script src="https://gist.github.com/phun-ky/6c401b2c3a68d8ab167f.js"></script>
+
+This is because the created objects got different object references.
 
 ## Data
 
