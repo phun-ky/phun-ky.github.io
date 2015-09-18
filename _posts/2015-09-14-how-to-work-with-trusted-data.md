@@ -77,6 +77,14 @@ Another example is this:
 
 This is because the created objects got different object references.
 
+One example on false positives that could have resulted in World War 3, is the 1979 NORAD NUCFLASH incident:
+
+>The missile defense agency received alarming indications that a full scale battery of Russian nukes were heading toward the U.S. Planes were scrambled with fully armed nuclear weapons. The president's shielded emergency plane was put into the air too ...
+>
+>Fingers hovered over buttons. Commanders of flight crews waited for word to strike. For six tense minutes, no one was sure if World War III was happening …and oddly, no one used the "red phone" hotline to ask the Soviets. Finally, word came from Advanced Early Warning radar and satellites that no missiles were detected. The culprit? A training tape had accidentally been run and generated the false positive signals.
+>
+><a href="http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident">http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident</a>
+
 ## Data
 
 * Can you verify it?
