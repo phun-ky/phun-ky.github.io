@@ -30,7 +30,18 @@ Do you really want that on your conscience?
 But how could you do it better? How can your data be safe?
 "How can I ..""
 
+Let me paint you a picture:
 
+You
+
+Well, let me tell you what possibly could go wrong
+
+>Assumption is the mother of all fuckups
+>
+>N/A
+
+>false data strike?
+><a href="https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms">https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms</a>
 
 Start med monumental fuckup
 hva kan vi lære av dette? trusted data
@@ -40,6 +51,8 @@ kor
 <img src="http://i.imgur.com/iDOzAa5.jpg" class="img-rounded img-thumbnail img-responsive"/>
 
 examples:
+
+http://royal.pingdom.com/2009/03/19/10-historical-software-bugs-with-extreme-consequences/
 
 http://usnews.nbcnews.com/_news/2012/05/21/11756575-researchers-more-than-2000-false-convictions-in-past-23-years?lite
 
