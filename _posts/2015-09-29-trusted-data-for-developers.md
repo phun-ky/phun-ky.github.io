@@ -27,6 +27,10 @@ Yes? Good. Because all of this can happen, and will happen, if you do not keep y
 
 How do you ask? Well, how is your data? Can it be trusted? Do you think the users of your systems are safe without trusted data?
 
+> Anything that can go wrong will go wrong.
+>
+><a href="https://en.wikipedia.org/wiki/Murphy%27s_law">https://en.wikipedia.org/wiki/Murphy%27s_law</a>
+
 Well, let me tell you what possibly could go wrong (or in reality, will go wrong):
 
 You work as a system developer, developing a control system for the flow intake of gas from the pipelines in the North Sea. the system passes all tests and is shipped out to production with flying colours, and you celebrate. But then, disaster. A valve controlling gas intake in a pipeline junction fails to close during a repair shutdown, resulting in a massive gas overflow in the area that has ongoing repairs, 3 workers welding on a new pipe segment is caught in the resulting explosion. You have now 3 lives on your consciousness. The flaw? Your system did not account for the datasets used on the valves onboard controller.
@@ -72,14 +76,10 @@ Looking at server monitoring, how do we even know that it's alive? For all we kn
 
 But how could you do it better? How can your data be safe? "How can I make sure I have data that is trustworthy?".
 
-This is not about just sanitation of data, using tests and verify outcomes. This is about making sure the data is trusted, and the solution is <a href="/2015/09/09/trusted-data/">"Trusted Data"</a>. When we are dealing with data, we have to make sure that the data is trustworthy. As <a href="/2015/09/14/how-to-work-with-trusted-data/">previously mentioned</a>, there are some key pointers you can adhere to work with <a href="/2015/09/09/trusted-data/">"Trusted Data"</a>.
+This is not about just sanitation of data, using tests and verify outcomes. This is about making sure the data is trusted, and the solution is <a href="/2015/09/09/trusted-data/">"Trusted Data"</a>. When we are dealing with data, we have to make sure that the data is trustworthy. As <a href="/2015/09/14/how-to-work-with-trusted-data/">previously mentioned</a>, there are some key pointers you can adhere to, to work with <a href="/2015/09/09/trusted-data/">"Trusted Data"</a>.
 
 >Assumption is the mother of all fuckups
 >
 ><a href="https://www.youtube.com/watch?v=wg4trPZFUwc">https://www.youtube.com/watch?v=wg4trPZFUwc</a>
 
 Never assume anything when it comes to data, or interpretation of data. Be skeptic, curious. Go into the matter, tear it apart and analyse it. See things from another perspective. We are humans, we tend to see things for who we are, not for what the things are.
-
-> Anything that can go wrong will go wrong.
->
-><a href="https://en.wikipedia.org/wiki/Murphy%27s_law">https://en.wikipedia.org/wiki/Murphy%27s_law</a>
