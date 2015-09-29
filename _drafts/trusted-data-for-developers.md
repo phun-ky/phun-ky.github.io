@@ -2,8 +2,10 @@
 layout: post
 title: "Trusted data for developers"
 tagline : "Or how to start the apocalypse"
+description: "Hey, you. Yes, YOU! The developer reading this article. Are you ready to call the four horsemen and start the apocalypse? Start the next nuclear holocaust? Kill patients? Bankrupt banks? Do I have your attention yet?"
 category: "Technology"
 tags: [trusted-data, data, how-to]
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg
 ---
 {% include JB/setup %}
 
