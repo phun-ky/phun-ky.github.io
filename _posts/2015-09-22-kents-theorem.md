@@ -4,6 +4,7 @@ title: "Kent's theorem"
 tagline: "A theorem providing a basis for digital strategies for business"
 description: "During a project at work, we were given a task on how a given industry could go digital via a disruptive or transformative path, and we quickly agreed upon a theorem provided by one of our team members, Kent Andersen. We liked it so much, that we coined it Kent's theorem."
 category: "Digital Business"
+image : https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png
 tags: [digital-business, business-strategy]
 ---
 {% include JB/setup %}
