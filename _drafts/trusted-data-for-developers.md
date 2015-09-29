@@ -23,49 +23,61 @@ Yes? Good. Because all of this can happen, and will happen, if you do not keep y
   </figcaption>
 </figure>
 
-How you ask? Well, how is your data? Can it be trusted? Do you think the users of your systems are safe without trusted data?
+How do you ask? Well, how is your data? Can it be trusted? Do you think the users of your systems are safe without trusted data?
 
-Do you really want that on your conscience?
+Well, let me tell you what possibly could go wrong (or in reality, will go wrong):
 
-But how could you do it better? How can your data be safe?
-"How can I ..""
+You work as a system developer, developing a control system for the flow intake of gas from the pipelines in the North Sea. the system passes all tests and is shipped out to production with flying colours, and you celebrate. But then, disaster. A valve controlling gas intake in a pipeline junction fails to close during a repair shutdown, resulting in a massive gas overflow in the area that has ongoing repairs, 3 workers welding on a new pipe segment is caught in the resulting explosion. You have now 3 lives on your consciousness. The flaw? Your system did not account for the datasets used on the valves onboard controller.
 
-Let me paint you a picture:
+Do you really want that on your conscience? I sure would not. Is this plausible? Yes. Has something similar happened? Yes, this is another take on the <a href="http://www.msnbc.msn.com/id/4394002">huge Siberian gas pipeline explosion in 1982.</a> _(Albeit the 1982 event was an engineered event.)_
 
-You
+## Incidents due to erroneous data
 
-Well, let me tell you what possibly could go wrong
+### 1980 NORAD NUCFLASH
 
->Assumption is the mother of all fuckups
+> On 3 June 1980, and again on 6 June 1980, a computer communications device failure caused warning messages to sporadically flash in U.S. Air Force command posts around the world that a nuclear attack was taking place. During these incidents, Pacific Air Forces (PACAF) properly had their planes (loaded with nuclear bombs) in the air; Strategic Air Command (SAC) did not and took criticism, because they did not follow procedure, even though the SAC command knew these were almost certainly false alarms, as did PACAF. Both command posts had recently begun receiving and processing direct reports from the various radar, satellite, and other missile attack detection systems, and those direct reports simply did not match anything about the erroneous data received from NORAD
 >
->N/A
-
->false data strike?
 ><a href="https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms">https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms</a>
 
-Start med monumental fuckup
-hva kan vi lære av dette? trusted data
-bygg opp nysgjerrighet
-kor
+Be grateful that SAC checked with other sources about this alleged nuclear attack, or we would not have been here today.
 
-<img src="http://i.imgur.com/iDOzAa5.jpg" class="img-rounded img-thumbnail img-responsive"/>
+### NASA, the Mars Climate Orbiter
 
-examples:
-
-http://royal.pingdom.com/2009/03/19/10-historical-software-bugs-with-extreme-consequences/
-
-http://usnews.nbcnews.com/_news/2012/05/21/11756575-researchers-more-than-2000-false-convictions-in-past-23-years?lite
-
-
-## Nasa
+The <a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter">Mars Climate Orbiter</a> was planned to maneuver into Mars orbit, but due to wrong expected input, it "... encountered Mars in a lower than anticipated altitude and disintegrated".
 
 >The primary cause of this discrepancy was that one piece of ground software supplied by Lockheed Martin produced results in a United States customary unit ("American"), contrary to its Software Interface Specification (SIS), while a second system, supplied by NASA, that used those results expected them to be in metric units, in accord with the SIS. Software that calculated the total impulse produced by thruster firings calculated results in pound-seconds. The trajectory calculation used these results to correct the predicted position of the spacecraft for the effects of thruster firings. This software expected its inputs to be in newton-seconds.
 >
 ><a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">Cause of failure, Mars Climate Orbiter</a>
 
+<figure>
+  <img src="http://www.userfriendly.org/cartoons/archives/08aug/uf011824.gif" class="img-rounded img-thumbnail img-responsive"/>
+  <figcaption>
+    <small>
+      <a href="http://ars.userfriendly.org/cartoons/?id=20080824">userfriendly.org</a> <strong>Figure 3</strong>
+      </small>
+  </figcaption>
+</figure>
 
-Looking at server monitoring, how do we even know that it's alive? For all we know that server could report that everything is ok, even if it's not.
+## What can we learn from this?
 
-><erno> hm. I've lost a machine.. literally _lost_. it responds to ping, it works completely, I just can't figure out where in my apartment it is.
+Throughout the history, we can find numerous examples of incidents relating to erroneous data, not only within the IT, Space or Military industry. We often hear about people sentenced to death or <a href="http://usnews.nbcnews.com/_news/2012/05/21/11756575-researchers-more-than-2000-false-convictions-in-past-23-years?lite">imprisonment due to false witness statements.</a>
+
+Looking at server monitoring, how do we even know that it's alive? For all we know that server could report that everything is ok, even if it's not. Or with web statistics tools, how do you know that all the page hits are not from robots?
+
+>hm. I've lost a machine.. literally _lost_. it responds to ping, it works completely, I just can't figure out where in my apartment it is.
 >
 ><a href="http://bash.org/?5273">http://bash.org/?5273</a>
+
+But how could you do it better? How can your data be safe? "How can I make sure I have data that is trustworthy?".
+
+This is not about just sanitation of data, using tests and verify outcomes. This is about making sure the data is trusted, and the solution is <a href="/2015/09/09/trusted-data/">"Trusted Data"</a>. When we are dealing with data, we have to make sure that the data is trustworthy. As <a href="/2015/09/14/how-to-work-with-trusted-data/">previously mentioned</a>, there are some key pointers you can adhere to work with <a href="/2015/09/09/trusted-data/">"Trusted Data"</a>.
+
+>Assumption is the mother of all fuckups
+>
+><a href="https://www.youtube.com/watch?v=wg4trPZFUwc">https://www.youtube.com/watch?v=wg4trPZFUwc</a>
+
+Never assume anything when it comes to data, or interpretation of data. Be skeptic, curious. Go into the matter, tear it apart and analyse it. See things from another perspective. We are humans, we tend to see things for who we are, not for what the things are.
+
+> Anything that can go wrong will go wrong.
+>
+><a href="https://en.wikipedia.org/wiki/Murphy%27s_law">https://en.wikipedia.org/wiki/Murphy%27s_law</a>
