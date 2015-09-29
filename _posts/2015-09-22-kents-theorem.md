@@ -28,4 +28,6 @@ During a project at work, we were given a task on how a given industry could go 
 
 What this refers to, is that companies that for years have been doing what they always have been doing, tries to innovate by repeating them selves and copy the competitors, eventually leading up to the point where they are copying themselves. The companies have to find small initiatives that could pull them closer to the future vision of complete digitalisation, instead of creating initiatives that is buried in the "Continous Improvement-bog", that eventually will drag the production and innovation to a full stop.
 
+We can simplify this meaning into the phrase: "Innovation jump".
+
 To ellaborate on the example given in "Kent's theorem", the mobile bank app, instead of letting that product drop down to the "Continous Improvement-bog", the more digitalised approach would be to fine tune that initiative, making it a magnet for other projects to pull towards. This should eventually lead to the finalisation of the projects in the "bog", resulting in a clean new ecosystem for the new digitalised company.
