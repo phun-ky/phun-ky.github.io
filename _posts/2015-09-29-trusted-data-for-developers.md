@@ -59,7 +59,7 @@ The <a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter">Mars Climate Or
   <img src="http://www.userfriendly.org/cartoons/archives/08aug/uf011824.gif" class="img-rounded img-thumbnail img-responsive"/>
   <figcaption>
     <small>
-      <a href="http://ars.userfriendly.org/cartoons/?id=20080824">userfriendly.org</a> <strong>Figure 3</strong>
+      <a href="http://ars.userfriendly.org/cartoons/?id=20080824">userfriendly.org</a> <strong>Figure 2</strong>
       </small>
   </figcaption>
 </figure>
