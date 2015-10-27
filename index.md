@@ -7,10 +7,10 @@ tagline: The world from my point of view, and some pedantic creativity
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12">    
+    <div class="col-md-12">
       <div class="well about_the_author clearfix">
         <h3>About the author</h3>
-        <img width="220" height="220" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="Image of the author" title="phun-ky"/>
+        <img width="220" height="220" src="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220" class="avatar" alt="Image of the author, Alexander"/>
         <p>
           Hi! My name is Alexander, and I write about open source, frontend development, technological stuff and everything in between.
         </p>
