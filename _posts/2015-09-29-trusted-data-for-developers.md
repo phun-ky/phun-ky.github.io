@@ -33,7 +33,7 @@ How do you ask? Well, how is your data? Can it be trusted? Do you think the user
 
 Well, let me tell you what possibly could go wrong (or in reality, will go wrong):
 
-You work as a system developer, developing a control system for the flow intake of gas from the pipelines in the North Sea. the system passes all tests and is shipped out to production with flying colours, and you celebrate. But then, disaster. A valve controlling gas intake in a pipeline junction fails to close during a repair shutdown, resulting in a massive gas overflow in the area that has ongoing repairs, 3 workers welding on a new pipe segment is caught in the resulting explosion. You have now 3 lives on your consciousness. The flaw? Your system did not account for the datasets used on the valves onboard controller.
+You work as a system developer, developing a control system for the flow intake of gas from the pipelines in the North Sea. The system passes all tests and is shipped out to production with flying colours, and you celebrate. But then, disaster. A valve controlling gas intake in a pipeline junction fails to close during a repair shutdown, resulting in a massive gas overflow in the area that has ongoing repairs, 3 workers welding on a new pipe segment is caught in the resulting explosion. You have now 3 lives on your consciousness. The flaw? Your system did not account for the datasets used on the valves onboard controller.
 
 Do you really want that on your conscience? I sure would not. Is this plausible? Yes. Has something similar happened? Yes, this is another take on the <a href="http://www.msnbc.msn.com/id/4394002">huge Siberian gas pipeline explosion in 1982.</a> _(Albeit the 1982 event was an engineered event.)_
 
