@@ -1,4 +1,6 @@
 # Jekyll-Bootstrap
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fphun-ky%2Fphun-ky.github.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fphun-ky%2Fphun-ky.github.io?ref=badge_shield)
+
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
@@ -38,3 +40,6 @@ The documentation website at <http://jekyllbootstrap.com> is maintained at https
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fphun-ky%2Fphun-ky.github.io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fphun-ky%2Fphun-ky.github.io?ref=badge_large)
