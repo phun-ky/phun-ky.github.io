@@ -17,18 +17,10 @@
   },
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-less": "^3.0.3",
-    "gulp-minify-css": "^1.2.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-size": "^2.0.0",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-util": "^3.0.6",
-    "gulp-watch-less": "^1.0.1",
-    "node-notifier": "^4.2.3",
-    "run-sequence": "^1.1.2"
-  },
-  "dependencies": {
-    "bootstrap": "3.3.6"
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "prettier-eslint": "^15.0.1"
   }
 }
