@@ -15,7 +15,7 @@ the genocide accusations.
 Amnesty International has now released a site where YOU can monitor and see for
 yourself the destrucion and genocide that is happening in Sudan.
 
-<img src="/assets/img/eyesondarfur.jpg" alt="eyes on darfur" class="img-responsive img-rounded img-thumbnail" />
+<img src="/img/eyesondarfur.jpg" alt="eyes on darfur" class="img-responsive img-rounded img-thumbnail" />
 
 ## about the project
 

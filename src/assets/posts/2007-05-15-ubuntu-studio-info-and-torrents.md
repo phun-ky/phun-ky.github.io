@@ -11,7 +11,7 @@ tags: [linux, ubuntu, ubuntu studio]
 I've been counting the days now, to the day when I am throwing out Windows XP
 Professional on my stationary computer and installing a Linux distro.
 
-<img src="/assets/img/blog/imge8e06119c45046979746fd0f269f22a8.png" class="img-responsive img-rounded img-thumbnail"/>
+<img src="/img/blog/imge8e06119c45046979746fd0f269f22a8.png" class="img-responsive img-rounded img-thumbnail"/>
 
 The day has come, right now, this very instant I am downloading the Ubuntu
 Studio Feisty Fawn 7.04. I Will let you know when the install fest starts, most

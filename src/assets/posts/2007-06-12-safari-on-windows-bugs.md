@@ -20,7 +20,7 @@ problems at least! David Maynor, a contributor to the Errata Security blog is
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://erratasec.blogspot.com/2007/06/niiiice.html">continuously
 updating his post with new bugs</a> in Safari.
 
-<img src="/assets/img/safaribug.jpg" alt="no head or span tags shown" class="img-responsive img-rounded img-thumbnail"/>
+<img src="/img/safaribug.jpg" alt="no head or span tags shown" class="img-responsive img-rounded img-thumbnail"/>
 
 "The world best browser" indeed.. I did not test the other features, 'cause I
 was so hung up on the fact that it could not display tags correctly. At first

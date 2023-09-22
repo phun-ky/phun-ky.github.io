@@ -13,7 +13,7 @@ As I mentioned in one of my earlier posts, I'm
 2008</a>, a conference about Open Source arranged by the National Competence
 Center for Open Source.
 
-<img src="/assets/img/GoOpen-2008_logo.jpg" alt="goopen" class="img-responsive img-thumbnail img-rounded"/>
+<img src="/img/GoOpen-2008_logo.jpg" alt="goopen" class="img-responsive img-thumbnail img-rounded"/>
 
 I've already made my mind about which sessions I'll attend:
 

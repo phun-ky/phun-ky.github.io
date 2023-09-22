@@ -13,7 +13,7 @@ snap up a color code without doing all the print-screen-copy-paste-color
 picker-copy code-paste-close image ++ work. I was fed up and desperate to find a
 solution, and it came to me 2 or 3 years ago; colorpix from colorschemer.com.
 
-<img src="/assets/img/blog/img6f60368ebdd629e56076c046613d398a.jpg" class="img-responsive img-thumbnail img-rounded" />
+<img src="/img/blog/img6f60368ebdd629e56076c046613d398a.jpg" class="img-responsive img-thumbnail img-rounded" />
 
 I used it alot when I used Windows as a working OS, but a few months ago I
 converted to Ubuntu for good and lost the opportunity to use the fabulous

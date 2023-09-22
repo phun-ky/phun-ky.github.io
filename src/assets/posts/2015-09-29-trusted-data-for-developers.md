@@ -98,7 +98,7 @@ and disintegrated".
 > of failure, Mars Climate Orbiter</a>
 
 <figure class="ph">
-  <img src="http://www.userfriendly.org/cartoons/archives/08aug/uf011824.gif" class="img-rounded img-thumbnail img-responsive"/>
+  <img src="/img/blog/uf011824.gif" class="img-rounded img-thumbnail img-responsive"/>
   <figcaption class="ph">
     <small class="ph">
       <a class="ph" target="_blank" rel="noopener noreferrer" href="http://ars.userfriendly.org/cartoons/?id=20080824">userfriendly.org</a> <strong class="ph">Figure 2</strong>

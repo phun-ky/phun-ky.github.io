@@ -16,7 +16,7 @@ html, body
 
 body
   background-color #181a22
-  color #faf5f7
+  color #839496
   padding 0
   margin 0
   line-height 1.5
@@ -33,6 +33,10 @@ main.ph
   margin-top 2.5rem
   margin-bottom 2.5rem
 
+.ph.container.frontpage
+  max-width 1024px
+  margin-top 1.25rem
+  margin-bottom 1.25rem
 
 footer.ph.footer
 	font-size 1.25rem
@@ -79,6 +83,14 @@ p.ph.lead
   margin-bottom 2.5rem
   font-size 1.125rem
 
+p.ph.lead.frontpage
+  padding-top 2.5rem
+  padding-bottom 2.5rem
+  margin 0
+  font-weight normal
+  color inherit
+
+
 h1,h2,h3,h4,h5,h6
   &.ph
     color #E4E4E7
@@ -88,6 +100,13 @@ h1.ph
   font-size 3.75rem
   font-weight 700
   line-height 1.375
+
+h1.ph.frontpage
+  margin-bottom 2.5rem
+  font-size 3rem
+  line-height 1.375
+  @media screen and (min-width: 1024px)
+    font-size 4.75rem
 
 h2.ph
   font-size 1.75rem
@@ -194,7 +213,132 @@ hr.ph
   height 2pt
   background-color #839496
   width 80%
-  margin-left auto
+  margin-left 0
   margin-right auto
   margin-bottom 3em
   margin-top 3em
+
+.ph.category-navigation
+  display none
+  padding 0
+  padding-top 5rem
+  padding-bottom 5rem
+  @media screen and (min-width: 1024px)
+    display block
+
+.ph.posts
+  list-style none
+  padding 0
+  display grid
+  margin 0
+  grid-gap 5rem
+  padding-top 5rem
+  padding-bottom 5rem
+  grid-template-columns 1fr
+
+.ph.post
+  & a.ph
+    color inherit
+    text-decoration inherit
+
+.ph.post
+  & a.ph:hover
+    & .ph.post-title
+      text-decoration underline
+
+.ph.post
+  & .ph.post-title
+    margin 0
+    line-height 1.375
+    font-size 2.25rem
+    font-weight 700
+
+
+.ph.post
+  & .ph.post-description
+    font-size 1rem
+    line-height 1.75
+    font-weight normal
+
+
+.ph.post
+  & .ph.post-meta
+    font-size 0.875rem
+    line-height 1.75
+    font-weight normal
+    font-style inherit
+
+
+.ph.post
+  & .ph.post-meta
+    & a.ph
+      color #ff9900
+      text-decoration underline
+      &:hover
+        color #f5f5f5
+
+.ph.frontpage-posts
+  display grid
+  grid-template-columns 1fr
+  grid-gap 5rem
+  @media screen and (min-width: 1024px)
+    grid-template-columns 2fr 1fr
+
+
+.ph.categories-title
+  text-transform uppercase
+  font-weight 700
+  font-size .875rem
+  padding-top 0.75rem
+  padding-bottom 0.5rem
+  margin 0
+  line-height 1.25rem
+  color #839496
+
+
+.ph.categories
+  list-style none
+  padding 0
+
+.ph.categories
+  & .ph.category-link
+    text-decoration none
+    font-weight 500
+    line-height 2
+    font-size 1.25rem
+
+.ph.categories
+  & .ph.category-link
+    &:hover
+      text-decoration underline
+
+.ph.tags-title
+  text-transform uppercase
+  font-weight 700
+  font-size .875rem
+  padding-top 0.75rem
+  padding-bottom 0.5rem
+  margin 0
+  line-height 1.25rem
+  color #839496
+
+
+.ph.tags
+  list-style none
+  padding 0
+  display flex
+  flex-wrap wrap
+  grid-gap 0 0.5rem
+
+.ph.tags
+  & .ph.tag-link
+    text-decoration none
+    font-weight normal
+    line-height 1.25
+    font-size 1rem
+    text-transform lowercase
+
+.ph.tags
+  & .ph.tag-link
+    &:hover
+      text-decoration underline

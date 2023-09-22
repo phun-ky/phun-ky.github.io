@@ -6,8 +6,8 @@
   "main": "index.html",
   "scripts": {
     "clean": "rm -rf dist/*",
-    "assets": "mkdir -p dist && cp -a ./public/. ./dist/ && cp -a ./src/assets/. ./dist/",
-    "prebuild": "npm run clean && npm run assets && node scripts/posts/convert-posts.js",
+    "assets": "mkdir -p dist && cp -a ./src/assets/. ./dist/",
+    "prebuild": "npm run clean && npm run assets && node scripts/posts/convert-posts.js && node scripts/posts/frontpage-posts.js",
     "build": "rollup -c rollup.config.js",
     "postbuild": "bash -c 'mv -f ./dist/*.{js,map} ./dist/js'",
     "build:watch": "rollup -c rollup.config.js -w",
@@ -51,6 +51,7 @@
     "glob": "^10.3.5",
     "htmlparser2": "^9.0.0",
     "js-yaml": "^4.1.0",
+    "jsdom": "^22.1.0",
     "postcss": "^8.4.23",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.7.1",

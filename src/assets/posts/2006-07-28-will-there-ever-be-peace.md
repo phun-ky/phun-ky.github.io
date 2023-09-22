@@ -11,7 +11,7 @@ tags: [politics, middle-east]
 3rd time now, I've been trying to make this post, so I am going to make this
 short.
 
-<img src="/assets/img/blog/img0ecb02c11ced43fad6ee012930d51a8f.gif" class="img-responsive img-rounded img-thumbnail"/>
+<img src="/img/blog/img0ecb02c11ced43fad6ee012930d51a8f.gif" class="img-responsive img-rounded img-thumbnail"/>
 
 I used google to get some keywords and then worked my way in Wikipedia. Read
 some of the links to get the point of the posted comic.
