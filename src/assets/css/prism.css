@@ -1,0 +1,117 @@
+code[class*='language-'] .namespace,
+pre[class*='language-'] .namespace {
+  opacity: 0.7;
+}
+code[class*='language-'] .token.comment,
+code[class*='language-'] .token.prolog,
+code[class*='language-'] .token.doctype,
+code[class*='language-'] .token.cdata,
+pre[class*='language-'] .token.comment,
+pre[class*='language-'] .token.prolog,
+pre[class*='language-'] .token.doctype,
+pre[class*='language-'] .token.cdata {
+  color: #586e75;
+}
+code[class*='language-'] .token.null,
+code[class*='language-'] .token.operator,
+code[class*='language-'] .token.boolean,
+code[class*='language-'] .token.number,
+pre[class*='language-'] .token.null,
+pre[class*='language-'] .token.operator,
+pre[class*='language-'] .token.boolean,
+pre[class*='language-'] .token.number {
+  color: #b58900;
+}
+code[class*='language-'] .token.attr-name,
+code[class*='language-'] .token.string,
+pre[class*='language-'] .token.attr-name,
+pre[class*='language-'] .token.string {
+  color: #2aa198;
+}
+code[class*='language-'] .token.entity,
+code[class*='language-'] .token.url,
+.language-css code[class*='language-'] .token.string,
+.style code[class*='language-'] .token.string,
+pre[class*='language-'] .token.entity,
+pre[class*='language-'] .token.url,
+.language-css pre[class*='language-'] .token.string,
+.style pre[class*='language-'] .token.string {
+  color: #2aa198;
+}
+code[class*='language-'] .token.selector,
+pre[class*='language-'] .token.selector {
+  color: #839496;
+}
+code[class*='language-'] .token.atrule,
+code[class*='language-'] .token.attr-value,
+code[class*='language-'] .token.keyword,
+code[class*='language-'] .token.control,
+code[class*='language-'] .token.directive,
+code[class*='language-'] .token.important,
+code[class*='language-'] .token.unit,
+pre[class*='language-'] .token.atrule,
+pre[class*='language-'] .token.attr-value,
+pre[class*='language-'] .token.keyword,
+pre[class*='language-'] .token.control,
+pre[class*='language-'] .token.directive,
+pre[class*='language-'] .token.important,
+pre[class*='language-'] .token.unit {
+  color: #268bd2;
+}
+code[class*='language-'] .token.regex,
+code[class*='language-'] .token.statement,
+pre[class*='language-'] .token.regex,
+pre[class*='language-'] .token.statement {
+  color: #2aa198;
+}
+code[class*='language-'] .token.placeholder,
+code[class*='language-'] .token.variable,
+pre[class*='language-'] .token.placeholder,
+pre[class*='language-'] .token.variable {
+  color: #268bd2;
+}
+code[class*='language-'] .token.property,
+code[class*='language-'] .token.tag,
+pre[class*='language-'] .token.property,
+pre[class*='language-'] .token.tag {
+  font-style: italic;
+}
+code[class*='language-'] .token.important,
+code[class*='language-'] .token.statement,
+pre[class*='language-'] .token.important,
+pre[class*='language-'] .token.statement {
+  font-weight: bold;
+}
+code[class*='language-'] .token.punctuation,
+pre[class*='language-'] .token.punctuation {
+  color: #93a1a1;
+}
+code[class*='language-'] .token.entity,
+pre[class*='language-'] .token.entity {
+  cursor: help;
+}
+code[class*='language-'] .token.debug,
+pre[class*='language-'] .token.debug {
+  color: red;
+}
+
+pre.ph {
+  background-color: #002b36;
+  border-radius: 0.375rem;
+  color: #839496;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+  margin-bottom: 1.7142857em;
+  margin-top: 1.7142857em;
+  overflow-x: auto;
+  padding: 0.8571429em 1.1428571em;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: 'Menlo for Powerline', 'Menlo Regular for Powerline',
+    'DejaVu Sans Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
+    monospace;
+}

@@ -1,0 +1,48 @@
+---
+layout: post
+
+route: /2010/03/21/ubuntu-lucid-lynx-1004-first-beta-released
+title: 'Ubuntu Lucid Lynx 10.04 First Beta Released'
+description: ''
+category: 'Archive'
+tags: []
+---
+
+Steve Langasek has announced the availability of the first beta release of
+<a href="ubuntu">Ubuntu</a> 10.04, code name "Lucid Lynx", a long-term support
+(LTS) version.
+
+## Press release
+
+<a class="ph" href="/assets/img/blog/img099a71a07b61c740dd96461a12d0dd1e.jpg" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/assets/img/blog/img099a71a07b61c740dd96461a12d0dd1e.jpg" alt="img099a71a07b61c740dd96461a12d0dd1e.jpg" title="" /></a>
+
+<blockquote>The Ubuntu team is pleased to announce the first beta release of Ubuntu 10.04 LTS Desktop, Server, and Netbook editions and of Ubuntu 10.04 Server for Ubuntu Enterprise Cloud (UEC) 
+and Amazon's EC2. Ubuntu 10.04 LTS Desktop and Netbook editions continue the trend of ever-faster boot speeds, with improved start-up times and a streamlined, smoother boot experience. Ubuntu 10.04 LTS Server edition provides even better integration of the Ubuntu Enterprise Cloud, with its install-time cloud setup.</blockquote> 
+Read the <a class="ph" target="_blank" rel="noopener noreferrer" href="https://lists.ubuntu.com/archives/ubuntu-announce/2010-March/000129.html">release announcement</a> and <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntu.com/testing/lucid/beta1">release notes</a> for further details. 
+## Release Meta
+
+<a class="ph" href="/assets/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.png" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/assets/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.png" alt="img7730e22b5eccfe74d5a3d4813e4123cc.png" title="" /></a>
+
+<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntu.com/testing/lucid/beta1#Download">Download</a>
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/releases/10.04/SHA256SUMS">SHA256</a>):
+<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/releases/10.04/ubuntu-10.04-beta1-desktop-i386.iso">ubuntu-10.04-beta1-desktop-i386.iso</a>
+(675MB,
+<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/releases/10.04/ubuntu-10.04-beta1-desktop-i386.iso.torrent">torrent</a>),
+<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/releases/10.04/ubuntu-10.04-beta1-desktop-amd64.iso">ubuntu-10.04-beta1-desktop-amd64.iso</a>
+(679MB,
+<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/releases/10.04/ubuntu-10.04-beta1-desktop-amd64.iso.torrent">torrent</a>).
+Also release today were 10.04 beta 1 builds of
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/kubuntu/10.04">Kubuntu</a>,
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.kubuntu.org/LucidLynx/Beta1/Kubuntu">release
+notes</a>),
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/">Xubuntu</a>),
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/">Xubuntu</a>),  
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/edubuntu/releases/lucid/beta-1/">Edubuntu</a>),
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/mythbuntu/releases/lucid/beta-1/">Mythbuntu</a>,
+<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.mythbuntu.org/10.04/beta1">release
+announcement</a>) and
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/ubuntustudio/releases/lucid/beta-1/">Ubuntu
+Studio</a>).
+
+<em>The Lucid timeline image is courtesy of:
+<a class="ph" target="_blank" rel="noopener noreferrer" href="http://anotherubuntu.blogspot.com/">http://anotherubuntu.blogspot.com/</a></em>
