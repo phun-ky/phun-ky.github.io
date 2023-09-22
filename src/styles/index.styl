@@ -1,0 +1,111 @@
+*.ph,
+*.ph::after,
+*.ph::before
+  margin 0
+  padding 0
+  box-sizing border-box
+  -webkit-font-smoothing antialised
+
+html
+  font-family system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji
+
+html, body
+  height 100%
+  min-height 100%
+
+
+body
+  background-color #181a22
+  color #faf5f7
+  padding 0
+  margin 0
+  line-height 1.5
+  font-family Poppins,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
+
+main.ph
+  flex-grow 1
+
+.ph.container
+  max-width 60rem
+  width 100%
+  margin-left auto
+  margin-right auto
+  margin-top 2.5rem
+  margin-bottom 2.5rem
+
+
+footer.ph.footer
+	font-size 1.25rem
+	z-index 100
+  flex-grow 0
+  margin-top auto
+
+.ph.app
+  display flex
+  flex-direction column
+  height 100%
+  min-height 100%
+  padding 1.25rem
+
+a.ph
+  color #ff9900
+  font-weight 500
+
+
+
+
+p,
+p.ph
+  max-width 65ch
+  font-size 1.125rem
+  line-height 1.75rem
+  color #839496
+
+p.ph.lead
+  color #E4E4E7
+  font-weight 600
+  line-height 1.75rem
+  margin-bottom 2.5rem
+
+h1.ph
+  margin-bottom 2.5rem
+  font-size 3.75rem
+  font-weight 700
+  line-height 1.375
+
+
+
+.demo
+  display flex
+  flex-direction column
+  align-items center
+  justify-content center
+
+.demo > *
+  margin-bottom 2rem
+
+
+
+.ph.glare
+  background linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 51% )
+  position fixed
+  top 0
+  left 0
+  bottom 0
+  right 0
+  pointer-events none
+
+.ph.showcase
+  display grid
+  grid-gap 5rem
+  background-color #f5f5f5
+  padding-top 5rem
+  padding-bottom 5rem
+  border-radius .375rem
+
+header.ph.header
+  display flex
+  justify-content flex-start
+  align-items center
+  flex-grow 0
+  grid-gap 1rem
