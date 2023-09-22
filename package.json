@@ -1,11 +1,17 @@
 {
   "name": "phun-ky.github.io",
   "version": "1.0.0",
+  "type": "module",
   "description": "Website",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./scripts/server"
+    "clean": "rm -rf dist/*",
+    "assets": "mkdir -p dist && cp -a ./public/. ./dist/ && cp -a ./src/assets/. ./dist/",
+    "prebuild": "npm run clean && npm run assets",
+    "build": "rollup -c rollup.config.js",
+    "postbuild": "bash -c 'mv -f ./dist/*.{js,map} ./dist/js'",
+    "build:watch": "rollup -c rollup.config.js -w",
+    "commit": "git cz"
   },
   "repository": {
     "type": "git",
@@ -16,13 +22,42 @@
   "bugs": {
     "url": "https://github.com/phun-ky/phun-ky.github.io/issues"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
+  },
+  "engines": {
+    "node": ">=18.16.0",
+    "npm": ">=9.5.1"
+  },
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
+    "@ironkinoko/rollup-plugin-styles": "^4.0.3",
+    "@markdoc/markdoc": "^0.3.2",
+    "@rollup/plugin-commonjs": "^25.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
+    "cssnano": "^6.0.0",
     "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-compat": "^4.1.2",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
+    "git-cz": "^4.9.0",
+    "glob": "^10.3.5",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
     "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1",
-    "express": "^4.18.2"
+    "rollup": "^3.22.0",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-generate-image-sizes": "^0.0.20",
+    "rollup-plugin-node-externals": "^6.0.1",
+    "rollup-plugin-svg-import": "^2.0.0",
+    "stylus": "^0.59.0"
   }
 }
