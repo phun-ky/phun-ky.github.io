@@ -1,5 +1,5 @@
 import Markdoc from '@markdoc/markdoc';
-import { addClassToNode } from '../lib/add-class-to-node';
+import { addClassToNode } from '../lib/add-class-to-node.js';
 
 const heading = {
   attributes: {

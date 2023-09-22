@@ -4,7 +4,9 @@ import fs from 'node:fs';
 
 import Markdoc from '@markdoc/markdoc';
 
-import { getMarkdocConfig } from './get-markdoc-config';
+import { getMarkdocConfig } from './get-markdoc-config.js';
+import { addClassToNode } from './add-class-to-node.js';
+import { collectHeadings } from './collect-headings.js';
 
 export const getHTML = async (document) => {
   let { ast } = document;
@@ -12,10 +14,7 @@ export const getHTML = async (document) => {
   ast = addClassToNode(ast);
 
   const __dirname = dirname(fileURLToPath(import.meta.url));
-  const TEMPLATE_PATH = resolve(
-    __dirname,
-    '../../../../server/public/template.html'
-  );
+  const TEMPLATE_PATH = resolve(__dirname, '../../../src/assets/template.html');
   const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
   const { frontmatter } = document;
   const config = getMarkdocConfig(document);
@@ -32,9 +31,9 @@ export const getHTML = async (document) => {
     html = TEMPLATE.replace(/{{ CONTENT }}/, rendered);
     // html = html.replace(/{{ TOC }}/, tableOfContents);
     html = html.replace(/{{ PAGE_TITLE }}/, title);
-    html = html.replace(/{{ DOC_TITLE }}/, title);
+    html = html.replace(/{{ TITLE }}/, title);
     // html = html.replace(/{{ BREADCRUMBS }}/, await Breadcrumbs(req.path));
-    html = html.replace(/{{ APPLICATION_NAME }}/, title);
+    // html = html.replace(/{{ APPLICATION_NAME }}/, title);
 
     return html;
   } else {

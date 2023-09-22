@@ -1,10 +1,10 @@
 import Markdoc from '@markdoc/markdoc';
 
-import heading from '../../../schema/heading.markdoc.js';
-import fence from '../../../schema/codeblock.markdoc.js';
-import code from '../../../schema/inline-code.markdoc.js';
-import message from '../../../schema/message.markdoc.js';
-import link from '../../../schema/link.markdoc.js';
+import heading from '../schema/heading.markdoc.js';
+import fence from '../schema/codeblock.markdoc.js';
+import code from '../schema/inline-code.markdoc.js';
+import message from '../schema/message.markdoc.js';
+import link from '../schema/link.markdoc.js';
 
 export const getMarkdocConfig = (document) => {
   const { frontmatter } = document;

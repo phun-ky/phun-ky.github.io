@@ -1,13 +1,15 @@
 import fs from 'node:fs';
+import path from 'node:path';
 
 import { glob } from 'glob';
 import Markdoc from '@markdoc/markdoc';
 
-import { processTokens } from './process-tokens';
-import { parseMarkdocFrontmatter } from './parse-markdoc-frontmatter';
+import { processTokens } from './process-tokens.js';
+import { parseMarkdocFrontmatter } from './parse-markdoc-frontmatter.js';
 
 export const createContentManifest = (ROOT_DIR) => {
-  const files = glob.sync(`${ROOT_DIR}/**/*.md`);
+  const files = glob.sync(`${ROOT_DIR}/*.md`);
+
   const manifest = {};
 
   files.forEach((file) => {
