@@ -236,10 +236,10 @@ There are many, far too many, examples on erroneous data:
 #### In genealogy
 
 <figure class="ph">
-  <img alt="Photo of the Eikeland family tree" src="/assets/img/1522837_10153741673415125_1361780963_o.jpg" class="img-responsiuve img-thumbnail img-rounded"/>
+  <img alt="Photo of the Eikeland family tree" src="/img/blog/1522837_10153741673415125_1361780963_o.jpg" class="img-responsiuve img-thumbnail img-rounded"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" href="/assets/img/1522837_10153741673415125_1361780963_o.jpg">Photo of the Eikeland family tree</a>" by <span class="fn value">Alexander Vassbotn Røyne-Helgesen (<a rel="nofollow" class="ph external text" href="http://phun-ky.net">http://phun-ky.net</a>)</span>. Licensed under Attribution International via <a class="ph" target="_blank" rel="noopener noreferrer" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong class="ph">Figure 4</strong>
+      "<a class="ph" href="/img/blog/1522837_10153741673415125_1361780963_o.jpg">Photo of the Eikeland family tree</a>" by <span class="fn value">Alexander Vassbotn Røyne-Helgesen (<a rel="nofollow" class="ph external text" href="http://phun-ky.net">http://phun-ky.net</a>)</span>. Licensed under Attribution International via <a class="ph" target="_blank" rel="noopener noreferrer" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong class="ph">Figure 4</strong>
     </small>
   </figcaption>
 </figure>

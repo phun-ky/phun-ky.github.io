@@ -1,4 +1,4 @@
-import fs from 'node:fs/promises';
+import fs from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -22,8 +22,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
 const contentManifest = createContentManifest(CONTENT_DIR);
 const files = glob.sync(`${CONTENT_DIR}/*.md`);
-files.forEach(async (file) => {
-  const rawText = await fs.readFile(file, 'utf-8');
+
+files.forEach((file) => {
+  const rawText = fs.readFileSync(file, 'utf-8');
   const tokenizer = new Markdoc.Tokenizer({ html: true });
   const tokens = tokenizer.tokenize(rawText);
   const processed = processTokens(tokens);
@@ -32,7 +33,7 @@ files.forEach(async (file) => {
   const document = contentManifest[frontmatter.route];
 
   if (document) {
-    const html = await getHTML(document);
+    const html = getHTML(document);
 
     if (frontmatter.route) {
       const matches = frontmatter.route.match(
@@ -41,9 +42,9 @@ files.forEach(async (file) => {
       const [string, year, month, day, slug] = matches;
       const pathToDir = join(__dirname, `../../dist/${year}/${month}/${day}`);
       const pathToFile = `${pathToDir}/${slug}.html`;
-      await fs.mkdir(pathToDir, { recursive: true });
+      fs.mkdirSync(pathToDir, { recursive: true });
 
-      await fs.writeFile(pathToFile, html, 'utf-8');
+      fs.writeFileSync(pathToFile, html, 'utf-8');
     } else {
       console.log(frontmatter);
     }

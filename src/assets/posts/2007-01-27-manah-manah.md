@@ -8,7 +8,7 @@ category: 'Archive'
 tags: [funny, the muppet show]
 ---
 
-<img src="/assets/img/blog/img8affec83b72d0aaa7965480f648d303a.png" class="img-responsive img-thumbnail img-rounded"/>
+<img src="/img/blog/img8affec83b72d0aaa7965480f648d303a.png" class="img-responsive img-thumbnail img-rounded"/>
 
 Well, I took a sneak at the daily comic strip of M, authored and drawn by Mads
 Eriksen, and I didn't quite get it, so I googled and came across a YouTub clip
@@ -16,7 +16,7 @@ containing the explanation in form of a old Muppet Show sequence.
 
 Have a look at the comic,then check out the clip:
 
-<img src="/assets/img/mmanah.png" alt="a comic strip by mads eriksen" title="manah manah"/>
+<img src="/img/mmanah.png" alt="a comic strip by mads eriksen" title="manah manah"/>
 
 The norwegian in the last frame is translated into: "...of ALL the lousy
 atte..", got it?

@@ -11,7 +11,7 @@ tags: [conferences, talks, goopen]
 I am attending GoOpen 2008 in Oslo, 8th to 9th of April. Zak Greant from Mozilla
 Foundation and Chris DiBona from Google are some of the speakers at this event.
 
-<img src="/assets/img/GoOpen-2008_logo.jpg" alt="goopen" class="img-responsive img-thumbnail img-rounded"/>
+<img src="/img/GoOpen-2008_logo.jpg" alt="goopen" class="img-responsive img-thumbnail img-rounded"/>
 
 The event is arranged by National Competence Center for Open Source. The annual
 OpenOffice conference is combined with GoOpen this year, double the fun!

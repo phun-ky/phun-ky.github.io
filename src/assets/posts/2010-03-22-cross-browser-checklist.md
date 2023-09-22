@@ -25,7 +25,7 @@ want to share something with you that can help you a bit, and make the procedure
 a bit less painful when you are testing your web pages. Basically, it's a check
 list you can print out to keep track of the testing stages.
 
-<a class="ph" href="/assets/img/blog/imged8ad929e34f4b1f064b21c33d6c4f14.png" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/assets/img/blog/imged8ad929e34f4b1f064b21c33d6c4f14.png" alt="imged8ad929e34f4b1f064b21c33d6c4f14.png" title="" /></a>
+<a class="ph" href="/img/blog/imged8ad929e34f4b1f064b21c33d6c4f14.png" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/img/blog/imged8ad929e34f4b1f064b21c33d6c4f14.png" alt="imged8ad929e34f4b1f064b21c33d6c4f14.png" title="" /></a>
 
 ## Download
 

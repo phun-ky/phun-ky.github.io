@@ -22,7 +22,7 @@ It is a tool for checking foreground and background
 combinations</a> of all DOM elements and determining if they <em>provide
 sufficient contrast when viewed by someone having colour deficits</em>.
 
-<a class="ph" href="/assets/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/assets/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" alt="imgde161476284fdaad2bbc725da30d9df3.png" title="" /></a>
+<a class="ph" href="/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/img/blog/imgde161476284fdaad2bbc725da30d9df3.png" alt="imgde161476284fdaad2bbc725da30d9df3.png" title="" /></a>
 
 All the tests are based on the algorithms suggested by the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.w3c.org">World
