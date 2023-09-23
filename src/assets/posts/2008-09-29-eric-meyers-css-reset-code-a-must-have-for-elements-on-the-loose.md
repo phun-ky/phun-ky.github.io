@@ -16,37 +16,104 @@ To quote Eric Meyer, the contributor
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://meyerweb.com/eric/tools/css/reset/">of
 the code</a>:
 
-<blockquote>The reset styles given here are intentionally very generic. There isn't any default color or background set for the body element, for example. I don't particularly recommend that you just use this in its unaltered state in your own projects. It should be tweaked, edited, extended, and otherwise tuned to match your specific reset baseline. Fill in your preferred colors for the page, links, and so on.
+> The reset styles given here are intentionally very generic. There isn't any
+> default color or background set for the body element, for example. I don't
+> particularly recommend that you just use this in its unaltered state in your
+> own projects. It should be tweaked, edited, extended, and otherwise tuned to
+> match your specific reset baseline. Fill in your preferred colors for the
+> page, links, and so on.
+>
+> In other words, this is a starting point, not a self-contained black box of
+> no-touchiness.
 
-In other words, this is a starting point, not a self-contained black box of
-no-touchiness.</blockquote>
-
-<pre class="brush: css">
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, 
-acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, 
-strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
-caption, tbody, tfoot, thead, tr, th, td {
- margin: 0;
- padding: 0;
+```css
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
   border: 0;
- outline: 0;
+  outline: 0;
   font-size: 100%;
- vertical-align: baseline;
+  vertical-align: baseline;
   background: transparent;
 }
 body {
   line-height: 1;
 }
-ol, ul {
- list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
- content: '';
- content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 
 /* remember to define focus styles! */
@@ -59,12 +126,12 @@ ins {
   text-decoration: none;
 }
 del {
- text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 /* tables still need 'cellspacing="0"' in the markup */
 table {
   border-collapse: collapse;
- border-spacing: 0;
+  border-spacing: 0;
 }
-</pre>
+```
