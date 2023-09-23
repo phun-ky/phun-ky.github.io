@@ -103,6 +103,7 @@ pre.ph {
   line-height: 1.7142857;
   margin-bottom: 1.7142857em;
   margin-top: 1.7142857em;
+  max-height: 60vh;
   overflow-x: auto;
   padding: 0.8571429em 1.1428571em;
 }

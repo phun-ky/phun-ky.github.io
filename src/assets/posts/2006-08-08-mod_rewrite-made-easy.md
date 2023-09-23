@@ -4,7 +4,7 @@ layout: post
 route: /2006/08/08/modrewrite-made-easy
 title: 'mod_rewrite made easy'
 description: ''
-category: 'how-to'
+category: 'How-to'
 tags: [how-to, mod_rewrite, php, semantic urls]
 ---
 
