@@ -36,4 +36,5 @@ displayed to the user/reader/customer/spider ?
 
 To quote Tim Berners-Lee:
 
-<blockquote>There are no reasons at all in theory for people to change URIs (or stop maintaining documents), but millions of reasons in practice.</blockquote>
+> There are no reasons at all in theory for people to change URIs (or stop
+> maintaining documents), but millions of reasons in practice.

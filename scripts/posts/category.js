@@ -36,10 +36,9 @@ function stripHtml(dirtyString) {
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
-const JSON_DIR = join(__dirname, '../../src/assets/posts/json');
 const contentManifest = createContentManifest(CONTENT_DIR);
-const files = glob.sync(`${CONTENT_DIR}/*.md`).sort().reverse().slice(0, 20);
-const frontpagePosts = [];
+const files = glob.sync(`${CONTENT_DIR}/*.md`).sort().reverse();
+const posts = [];
 
 files.forEach((file) => {
   const rawText = fs.readFileSync(file, 'utf-8');
@@ -58,7 +57,7 @@ files.forEach((file) => {
       const [string, year, month, day, slug] = matches;
       const { category, title, description, tags } = frontmatter;
 
-      frontpagePosts.push({
+      posts.push({
         year,
         month,
         day,
@@ -77,10 +76,7 @@ files.forEach((file) => {
   }
 });
 
-const frontpageCategories = [];
-
-let frontpageTags = [];
-
+const categories = [];
 const totalFiles = glob.sync(`${CONTENT_DIR}/*.md`);
 
 totalFiles.forEach((file) => {
@@ -94,31 +90,40 @@ totalFiles.forEach((file) => {
   if (frontmatter.category) {
     const { category } = frontmatter;
 
-    frontpageCategories.push(category);
-  }
-
-  if (frontmatter.tags) {
-    const { tags } = frontmatter;
-
-    frontpageTags = [...frontpageTags, ...tags];
+    categories.push(category);
+  } else {
+    categories.push('archive');
   }
 });
 
-let html = '';
-
+const uniqueCategories = [...new Set(categories)];
 const TEMPLATE_PATH = resolve(
   __dirname,
-  '../../src/assets/templates/frontpage.html'
+  '../../src/assets/templates/category.html'
 );
-const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 
-html = TEMPLATE.replace(
-  /{{FRONTPAGE_POSTS}}/,
-  `<ul class="ph posts">${frontpagePosts
-    .map((post) => {
-      const { title, description, url, year, month, day, category } = post;
+uniqueCategories.forEach((category) => {
+  let html = '';
 
-      return `
+  const categoryPosts = posts.filter((post) => {
+    return post.category.toLowerCase() === category.toLowerCase();
+  });
+
+  let categoryTags = [];
+
+  categoryPosts.forEach(
+    (post) => (categoryTags = [...categoryTags, ...post.tags])
+  );
+
+  const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
+
+  html = TEMPLATE.replace(
+    /{{FRONTPAGE_POSTS}}/,
+    `<ul class="ph posts">${categoryPosts
+      .map((post) => {
+        const { title, description, url, year, month, day, category } = post;
+
+        return `
       <li class="ph post" role="article">
       <a class="ph post-link" href="${url}">
         <h2 class="ph post-title">${title}</h2>
@@ -130,44 +135,55 @@ html = TEMPLATE.replace(
   )}">${category}</a> on <time pubdate datetime="${year}-${month}-${day}" class="ph">${year}/${month}/${day}</time>
         </address>
       </li>`;
-    })
-    .join('\n')}
+      })
+      .join('\n')}
   </ul>`
-);
+  );
 
-html = html.replace(
-  /{{POST_CATEGORIES}}/,
-  `<ul class="ph categories">${[...new Set(frontpageCategories)]
-    .sort()
-    .map((category) => {
-      return `
+  html = html.replace(
+    /{{POST_CATEGORIES}}/,
+    `<ul class="ph categories">${[...uniqueCategories]
+      .sort()
+      .map((category) => {
+        return `
       <li class="ph category">
       <a class="ph category-link" href="/categories/${slugify(
-    category
+    category.toLowerCase()
   )}.html">${category}</a>
 
       </li>`;
-    })
-    .join('\n')}
+      })
+      .join('\n')}
   </ul>`
-);
-html = html.replace(
-  /{{POST_TAGS}}/,
-  `<ul class="ph tags">${[...new Set(frontpageTags)]
-    .sort()
-    .map((tag) => {
-      return `
+  );
+
+  html = html.replace(/{{ CATEGORY_TITLE }}/, category);
+  html = html.replace(/{{ CATEGORY_DESCRIPTION }}/, '');
+  html = html.replace(
+    /{{POST_TAGS}}/,
+    `<ul class="ph tags">${[...new Set(categoryTags)]
+      .sort()
+      .map((tag) => {
+        return `
       <li class="ph tag">
       <a class="ph tag-link" href="/tags/${slugify(
     tag.toLowerCase()
   )}.html">${tag}</a>
 
       </li>`;
-    })
-    .join('\n')}
+      })
+      .join('\n')}
   </ul>`
-);
+  );
 
-const pathToFrontpage = join(__dirname, '../../dist/index.html');
+  const pathToCategoryDir = join(__dirname, '../../dist/categories');
 
-fs.writeFileSync(pathToFrontpage, html, 'utf-8');
+  fs.mkdirSync(pathToCategoryDir, { recursive: true });
+
+  const pathToCategory = join(
+    __dirname,
+    `../../dist/categories/${slugify(category)}.html`
+  );
+
+  fs.writeFileSync(pathToCategory, html, 'utf-8');
+});

@@ -13,5 +13,6 @@ work and what they do.
 
 Download the keynote here:
 
-<a href="/files/acidtests_lecture_nerdvana_week46_2010.odp">ODF</a> or
-<a href="/files/acidtests_lecture_nerdvana_week46_2010.ppt">PPT</a>
+<a class="ph" href="/files/acidtests_lecture_nerdvana_week46_2010.odp">ODF</a>
+or
+<a class="ph" href="/files/acidtests_lecture_nerdvana_week46_2010.ppt">PPT</a>

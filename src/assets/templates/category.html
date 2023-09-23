@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="ph" lang="en">
   <head>
-    <title>{{ PAGE_TITLE }} | lover of life, technologist at heart</title>
+    <title>{{ CATEGORY }} | lover of life, technologist at heart</title>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Language" content="en" />
     <meta name="robots" content="none" />
@@ -24,7 +24,14 @@
       content="Alexander Vassbotn Røyne-Helgesen"
     />
 
-    {{ OPEN_GRAPH}}
+    <meta property="og:title" content="lover of life, technologist at heart" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://phun-ky.net//" />
+    <meta
+      property="og:image"
+      content="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220"
+    />
+    <meta property="og:description" content="" />
     <meta
       property="og:site_name"
       content="Lover of life, technologist at heart"
@@ -38,67 +45,52 @@
     />
 
     <link href="/css/ph.css" rel="stylesheet" type="text/css" />
-    <link href="/css/prism.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="ph">
     <div class="ph app" id="app">
       <header class="ph header">
         <a class="ph home" href="/">home</a>
-        <div class="ph header-menu">
-          <a
-            class="ph"
-            href="https://www.paypal.me/phunky/20"
-            rel="noopener noreferrer"
-            target="_blank"
-            >buy me a coffee?</a
-          >
-          <a
-            class="ph"
-            href="https://github.com/sponsors/phun-ky"
-            rel="noopener noreferrer"
-            target="_blank"
-            >sponsor me!</a
-          >
-        </div>
+        <a
+          class="ph"
+          style="margin-left: auto"
+          href="https://www.paypal.me/phunky/20"
+          rel="noopener noreferrer"
+          target="_blank"
+          >buy me a coffee?</a
+        >
+        <a
+          class="ph"
+          href="https://github.com/sponsors/phun-ky"
+          rel="noopener noreferrer"
+          target="_blank"
+          >sponsor me!</a
+        >
       </header>
       <main>
         <section class="ph section">
-          <div class="ph container">
-            <ul class="ph breadcrumbs">
-              <li class="ph"><a href="/" class="ph">Home</a></li>
-              <li class="ph">
-                <svg
-                  class="ph"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-label="Chevron Right Icon"
-                  fill="currentColor"
-                  stroke="none"
-                  width="20"
-                  height="20"
-                  class="inline-block"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <a href="{{ CATEGORY_URL }}" class="ph">{{ CATEGORY_NAME }}</a>
-              </li>
-            </ul>
-            <h1 class="ph">{{ TITLE }}</h1>
-            {{ POST_META }}
+          <div class="ph container frontpage">
+            <article class="ph">
+              <h1 class="ph frontpage">{{ CATEGORY_TITLE }}</h1>
+              <p class="ph lead frontpage">{{ CATEGORY_DESCRIPTION }}</p>
+            </article>
           </div>
         </section>
-        {{ POST_NOTICE }}
         <section class="ph section">
-          <div class="ph container">{{ CONTENT }}</div>
+          <div class="ph container frontpage frontpage-posts">
+            {{FRONTPAGE_POSTS}}
+            <div class="ph category-navigation">
+              <h3 class="ph categories-title">Categories</h3>
+              {{POST_CATEGORIES}}
+              <h3 class="ph categories-title">Tags</h3>
+              {{POST_TAGS}}
+            </div>
+          </div>
         </section>
         <section class="ph section">
-          <div class="ph container">
+          <div class="ph container frontpage">
             <hr class="ph" />
             <h2 class="ph">About the author</h2>
+
             <p class="ph">
               Hi! My name is Alexander, and I am a creative frontender,
               specializing in UX, accessibility, universal design,
@@ -179,7 +171,7 @@
         </section>
       </main>
       <footer class="ph">
-        <div class="ph container">
+        <div class="ph container frontpage">
           <p class="ph">
             <a
               rel="noopener noreferrer"
@@ -196,7 +188,6 @@
             </a>
             <br />This work by
             <a
-              rel="noopener noreferrer"
               target="_blank"
               class="ph"
               href="http://phun-ky.net"
@@ -207,7 +198,6 @@
             >
             is licensed under a
             <a
-              rel="noopener noreferrer"
               target="_blank"
               class="ph"
               rel="license"
@@ -220,7 +210,5 @@
         </div>
       </footer>
     </div>
-    <script src="https://unpkg.com/prismjs@1.29.0/prism.js"></script>
-    <script src="https://unpkg.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
   </body>
 </html>

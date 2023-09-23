@@ -42,7 +42,195 @@ the DOM._
 
 The dependency loader looks like this:
 
-<script src="https://gist.github.com/phun-ky/f5b297ff1ffa767414e7.js"></script>
+```javascript
+/**
+ * Load dependencies
+ *
+ * Takes three arguments, eventid, scripts_to_load and env_path
+ *
+ * scripts_to_load follows this syntax:
+ *
+ * <script handle from module> : {
+ *   path     : <path to script, relative to environment path>,
+ *   deps     : <optional dependency array with handles>,
+ *   onload   : <optional function to be fired on load of the script>
+ * }
+ *
+ * NOTE: the dependencies must be an actual script object in
+ * scripts_to_load, and in the list before the script that requires them!
+ *
+ * @param   String    eventid   Most likely the name of the application, without spaces
+ * @param   Object    scripts_to_load
+ * @param   String    env_path
+ */
+var loadDeps = function (eventid, scripts_to_load, env_path) {
+  /**
+   * Callback for loading of deps
+   *
+   * @type    Function
+   * @private
+   * @param   Object  script
+   * @param   String  handle
+   * @param   String  eventid
+   */
+  var _callback = function (script, handle, eventid) {
+      console.warn(
+        eventid +
+          ': Script: "' +
+          handle +
+          '" loaded from ' +
+          eventid +
+          ' loader! Please check the build configuration'
+      );
+
+      if (script.onload) {
+        if (typeof script.onload === 'function') {
+          script.onload();
+        }
+      }
+    },
+    _load_dependency = function (env_path, script, handle, eventid) {
+      load(env_path + script.path).thenRun(function () {
+        _callback(script, handle, eventid);
+      });
+    },
+    /**
+     * Is object not in window?
+     *
+     * @type    Function
+     * @param   String
+     * @private
+     * @return  Boolean
+     */
+    _is_not_in_window = function (obj) {
+      return obj in window === false;
+    },
+    /**
+     * Flag for all dependencies loaded
+     *
+     * @type  Boolean
+     * @private
+     */
+    _all_dependencies_loaded,
+    /**
+     * Flag for all libraries loaded
+     *
+     * @type  Boolean
+     * @private
+     */
+    _all_libraries_loaded;
+
+  /**
+   * Loop through scripts_to_load to look for scripts to load
+   *
+   * @param     Object  scripts_to_load
+   * @key       handle  Handle of the script to be loaded
+   * @value     script  The script package itself
+   */
+  $.each(scripts_to_load, function (handle, script) {
+    /**
+     * If the script is not in the window object (not loaded),
+     * and the script to be loaded got dependencies,
+     * loop through the dependency list to load the dependencies before
+     * the main script is loaded
+     */
+    if (_is_not_in_window(handle) && script.deps) {
+      // Do we have a dependency list with someting in it?
+      if (script.deps.length) {
+        /**
+         * Wait for depencies
+         *
+         * @timeout   20
+         */
+        setTimeout(function _waitForDependencies() {
+          _all_dependencies_loaded = true;
+
+          /**
+           * Loop through script.deps to look for scripts to load
+           *
+           * @param     Object      script.deps
+           * @key       i           Index
+           * @value     dependency  The dependency handler
+           */
+          $.each(script.deps, function (i, dependency) {
+            // Is dependency loaded?
+            if (_is_not_in_window(dependency)) {
+              // Set to false, since it is not loaded
+              _all_dependencies_loaded = false;
+            }
+          });
+
+          // If all dependencies are loaded
+          if (_all_dependencies_loaded) {
+            /**
+             * Load the script that required the dependencies,
+             * and we load the script and run any required onload methods
+             */
+            _load_dependency(env_path, script, handle, eventid);
+          } else {
+            /**
+             * Wait for depencies interval
+             *
+             * @call      _waitForDependencies
+             * @timeout   20
+             */
+            setTimeout(_waitForDependencies, 20);
+          }
+        }, 20);
+      } else {
+        /**
+         * If the dependency list is defined, but empty,
+         * we load the script and run any required onload methods
+         */
+        _load_dependency(env_path, script, handle, eventid);
+      }
+    } else if (_is_not_in_window(handle)) {
+      /**
+       * If the script is not in the window object (not loaded),
+       * and have no dependencies (covered in the first conditional statement above),
+       * we load the script and run any required onload methods
+       */
+      _load_dependency(env_path, script, handle, eventid);
+    }
+  });
+
+  /**
+   * Wait for libraries
+   *
+   * @timeout   20
+   */
+  setTimeout(function _checkLibraries() {
+    _all_libraries_loaded = true;
+
+    /**
+     * Loop through scripts_to_load to check if everything is loaded
+     *
+     * @param     Object      scripts_to_load
+     * @key       handle      Handle of the script
+     * @value     script      The script object
+     */
+    $.each(scripts_to_load, function (handle, script) {
+      // Is it loaded?
+      if (_is_not_in_window(handle)) {
+        _all_libraries_loaded = false;
+      }
+    });
+
+    // Is everything loaded?
+    if (_all_libraries_loaded) {
+      $(document).trigger(eventid + ':dependencies:loaded');
+    } else {
+      /**
+       * Wait for libraries interval
+       *
+       * @call      _checkLibraries
+       * @timeout   20
+       */
+      setTimeout(_checkLibraries, 20);
+    }
+  }, 20);
+};
+```
 
 And it takes three arguments: `eventid`, `scripts_to_load` and `env_path`.
 
@@ -57,7 +245,9 @@ And it takes three arguments: `eventid`, `scripts_to_load` and `env_path`.
 
 The scripts to load object can look like this:
 
-<script src="https://gist.github.com/phun-ky/46d49683e9f9aa98ddec.js"></script>
+```
+Missing code!
+```
 
 ## How to use it
 
@@ -65,16 +255,25 @@ Define your own dependencies as the gist describes it above, then, if you want
 to, you can define an event listener to listen to the event fired when all the
 dependencies are loaded:
 
-    $(document).one( '<ID to be used for the events fired>:dependencies:loaded', function (){
-
-      // Do stuff here when we have finished loading the dependencies
-
-    });
+```javascript
+$(document).one(
+  '<ID to be used for the events fired>:dependencies:loaded',
+  function () {
+    // Do stuff here when we have finished loading the dependencies
+  }
+);
+```
 
 Then, you pass that object to the `window.loadDeps` function, with required
 variables:
 
-    window.loadDeps( '<ID to be used for the events fired>', _scripts_to_load, '<relevant relative path where the script resides>' );
+```javascript
+window.loadDeps(
+  '<ID to be used for the events fired>',
+  _scripts_to_load,
+  '<relevant relative path where the script resides>'
+);
+```
 
 And that's it! You have now implemented your own JavaScript dependency loader
 without the use of Require.js!

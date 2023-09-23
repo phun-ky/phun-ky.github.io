@@ -33,15 +33,29 @@ files.forEach((file) => {
   const document = contentManifest[frontmatter.route];
 
   if (document) {
-    const html = getHTML(document);
+    let html = getHTML(document);
 
     if (frontmatter.route) {
       const matches = frontmatter.route.match(
         /\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)/
       );
       const [string, year, month, day, slug] = matches;
+      const dtf = new Intl.DateTimeFormat('en', {
+        year: 'numeric',
+        month: 'long',
+        day: '2-digit'
+      });
+      const d = new Date(`${year}/${month}/${day}`);
+      const date = dtf.format(d.getTime());
+      const postMeta = `<address class="ph byline">
+    Written by Alexander on <time pubdate datetime="${year}-${month}-${day}" class="ph">${date}</time>
+    </address>`;
+
+      html = html.replace(/{{ POST_META }}/, postMeta);
+
       const pathToDir = join(__dirname, `../../dist/${year}/${month}/${day}`);
       const pathToFile = `${pathToDir}/${slug}.html`;
+
       fs.mkdirSync(pathToDir, { recursive: true });
 
       fs.writeFileSync(pathToFile, html, 'utf-8');
