@@ -125,7 +125,7 @@ uniqueTags.forEach((tag) => {
         const { title, description, url, year, month, day, category } = post;
 
         return `
-      <li class="ph post" role="article">
+      <li class="ph post">
       <a class="ph post-link" href="${url}">
         <h2 class="ph post-title">${title}</h2>
         <p class="ph post-description">${description}</p>
