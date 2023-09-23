@@ -1,0 +1,29 @@
+const html = String.raw;
+
+export const getOpenGraphTags = (input = {}) => {
+  const {
+    type = 'website',
+    url = 'https://phun-ky.net',
+    title = 'Lover of life, technologist at heart',
+    siteName = 'Lover of life, technologist at heart',
+    description = 'The world from my point of view, and some pedantic creativity',
+    image =  'https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220',
+    domain = 'phun-ky.net'
+  } = input;
+
+  return html`<meta property="og:url" content="${url}">
+  <meta property="og:type" content="${type}">
+  <meta property="og:title" content="${title}">
+  <meta property="og:description" content="${description}">
+  <meta property="og:image" content="${image}">
+  <meta property="og:site_name" content="${siteName}" />
+  <meta property="og:locale:locale" content="en_GB" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="${domain}">
+  <meta property="twitter:url" content="${url}">
+  <meta name="twitter:title" content="${title}">
+  <meta name="twitter:description" content="${description}">
+  <meta name="twitter:image" content="${image}">`;
+}
+

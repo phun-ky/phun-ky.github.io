@@ -10,6 +10,7 @@ import { processTokens } from './lib/process-tokens.js';
 import { parseMarkdocFrontmatter } from './lib/parse-markdoc-frontmatter.js';
 // import { getDocument } from './lib/get-document.js';
 import jsdom from 'jsdom';
+import { getOpenGraphTags } from './lib/get-open-graph-tags.js';
 // import { getHTML } from './lib/get-html.js';
 
 // const document = getDocument(req);
@@ -134,6 +135,8 @@ html = TEMPLATE.replace(
     .join('\n')}
   </ul>`
 );
+
+html = html.replace(/{{ OPEN_GRAPH }}/, getOpenGraphTags());
 
 html = html.replace(
   /{{POST_CATEGORIES}}/,

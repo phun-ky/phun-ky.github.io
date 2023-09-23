@@ -6,7 +6,7 @@ import Markdoc from '@markdoc/markdoc';
 
 import { getMarkdocConfig } from './get-markdoc-config.js';
 import { addClassToNode } from './add-class-to-node.js';
-import { collectHeadings } from './collect-headings.js';
+import { getOpenGraphTags } from './get-open-graph-tags.js';
 
 function slugify(str) {
   return String(str)
@@ -35,11 +35,12 @@ export const getHTML = (document) => {
   const content = Markdoc.transform(ast, config);
 
   if (content) {
-    const headings = collectHeadings(content);
     // const tableOfContents = TableOfContents(headings, { ts: true });
     const rendered = Markdoc.renderers.html(content) || '';
     const { title } = frontmatter;
-    const { category, tags, year, month, day } = frontmatter;
+    const { category, tags, description, image, route } = frontmatter;
+    const matches = route.match(/\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)/);
+    const [string, year, month, day, slug] = matches;
 
     let html = '';
     let postNotice = '';
@@ -61,20 +62,13 @@ export const getHTML = (document) => {
 
     html = html.replace(
       /{{ OPEN_GRAPH }}/,
-      `<meta property="og:title" content="${title}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://phun-ky.net/${year}/${month}/${day}/${slugify(
-  title
-)}.html" />
-    <meta
-      property="og:image"
-      content="${
-  frontmatter.image
-    ? frontmatter.image
-    : 'https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220'
-}"
-    />
-    <meta property="og:description" content="" />`
+      getOpenGraphTags({
+        type: 'article',
+        title,
+        url: `https://phun-ky.net/${year}/${month}/${day}/${slug}.html`,
+        image,
+        description
+      })
     );
     html = html.replace(/{{ PAGE_TITLE }}/, title);
     html = html.replace(/{{ TITLE }}/, title);
