@@ -65,7 +65,7 @@ export const getHTML = (document) => {
       getOpenGraphTags({
         type: 'article',
         title,
-        url: `https://phun-ky.net/${year}/${month}/${day}/${slug}.html`,
+        url: `https://phun-ky.net/${year}/${month}/${day}/${slug}`,
         image,
         description
       })
@@ -78,7 +78,7 @@ export const getHTML = (document) => {
     html = html.replace(/{{ CATEGORY_NAME }}/, category);
     html = html.replace(
       /{{ CATEGORY_URL }}/,
-      `/categories/${slugify(category)}.html`
+      `/categories/${slugify(category)}`
     );
     // html = html.replace(/{{ BREADCRUMBS }}/, await Breadcrumbs(req.path));
     // html = html.replace(/{{ APPLICATION_NAME }}/, title);

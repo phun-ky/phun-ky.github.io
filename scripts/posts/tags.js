@@ -66,7 +66,7 @@ files.forEach((file) => {
         title,
         description,
         tags,
-        url: `/${year}/${month}/${day}/${slug}.html`
+        url: `/${year}/${month}/${day}/${slug}`
       });
     } else {
       console.log(frontmatter);
@@ -150,7 +150,7 @@ uniqueTags.forEach((tag) => {
       <li class="ph category">
       <a class="ph category-link" href="/categories/${slugify(
     category.toLowerCase()
-  )}.html">${category}</a>
+  )}">${category}</a>
 
       </li>`;
       })
@@ -169,7 +169,7 @@ uniqueTags.forEach((tag) => {
       <li class="ph tag">
       <a class="ph tag-link" href="/tags/${slugify(
     tag.toLowerCase()
-  )}.html">${tag}</a>
+  )}">${tag}</a>
 
       </li>`;
       })
