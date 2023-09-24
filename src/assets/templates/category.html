@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="ph" lang="en">
   <head>
-    <title>{{ CATEGORY }} | lover of life, technologist at heart</title>
+    <title>{{CATEGORY}} | lover of life, technologist at heart</title>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Language" content="en" />
 
@@ -39,355 +39,42 @@
     />
     <meta name="author" content="Alexander Vassbotn Røyne-Helgesen" />
 
-    <meta
-      property="article:author"
-      content="Alexander Vassbotn Røyne-Helgesen"
-    />
 
-    <meta property="og:title" content="lover of life, technologist at heart" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://phun-ky.net//" />
-    <meta
-      property="og:image"
-      content="https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220"
-    />
-    <meta property="og:description" content="" />
-    <meta
-      property="og:site_name"
-      content="Lover of life, technologist at heart"
-    />
-    <meta property="og:locale:locale" content="en_GB" />
+    {{OPEN_GRAPH}}
 
     <link
       rel="Copyright"
       title="License"
       href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
     />
-    <style type="text/css">
-      *.ph,
-      *.ph::after,
-      *.ph::before {
-        margin: 0;
-        padding: 0;
-        word-break: break-word;
-        box-sizing: border-box;
-        -webkit-font-smoothing: antialised;
-      }
-      html {
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
-          Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-      }
-      html,
-      body {
-        height: 100%;
-        min-height: 100%;
-      }
-      body {
-        background-color: #181a22;
-        color: #839496;
-        padding: 0;
-        margin: 0;
-        line-height: 1.5;
-        font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
-          BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-          sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-          Noto Color Emoji;
-      }
-      main.ph {
-        flex-grow: 1;
-      }
-      .ph.container {
-        max-width: 48rem;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
-      }
-      footer.ph.footer {
-        font-size: 1.25rem;
-        z-index: 100;
-        flex-grow: 0;
-        margin-top: auto;
-      }
-      .ph.app {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        min-height: 100%;
-        padding: 1.25rem;
-      }
-      a.ph,
-      a.ph:visited,
-      a.ph:active {
-        color: #f90;
-        font-weight: 500;
-      }
-      a.ph:hover {
-        color: #e4e4e7;
-      }
-      p,
-      p.ph,
-      .ph.byline {
-        font-style: normal;
-        max-width: 65ch;
-        font-size: 1rem;
-        line-height: 1.75rem;
-        color: #839496;
-        margin-top: 1.25em;
-        margin-bottom: 1.25em;
-      }
-      article.ph {
-        color: #839496;
-        font-size: 1rem;
-        line-height: 1.75rem;
-      }
-      p.lead,
-      p.ph.lead {
-        color: #e4e4e7;
-        font-weight: 600;
-        line-height: 1.75rem;
-        margin-bottom: 2.5rem;
-        font-size: 1.125rem;
-      }
-      p.ph.lead.frontpage {
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
-        margin: 0;
-        font-weight: normal;
-        color: inherit;
-      }
-      h1.ph,
-      h2.ph,
-      h3.ph,
-      h4.ph,
-      h5.ph,
-      h6.ph {
-        color: #e4e4e7;
-      }
-      h1.ph {
-        margin-bottom: 2.5rem;
-        font-size: 3.75rem;
-        font-weight: 700;
-        line-height: 1.375;
-      }
-      h1.ph.frontpage {
-        margin-bottom: 2.5rem;
-        font-size: 3rem;
-        line-height: 1.375;
-      }
-      @media screen and (min-width: 1024px) {
-        h1.ph.frontpage {
-          font-size: 4.75rem;
-        }
-      }
-      h2.ph {
-        font-size: 1.75rem;
-        line-height: 1.3333333;
-        margin-bottom: 1rem;
-        margin-top: 2rem;
-      }
-      h3.ph {
-        font-size: 1.5rem;
-        line-height: 1.3333333;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-      }
-      h4.ph {
-        font-size: 1.25rem;
-        line-height: 1.3333333;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-      }
-      header.ph.header {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-grow: 0;
-        grid-gap: 1rem;
-        min-height: 5.5rem;
-      }
-    </style>
-    <link
-      rel="preload"
-      href="/css/ph.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript><link rel="stylesheet" href="/css/ph.css" /></noscript>
+    {{GLOBAL_CSS}}
+    {{HEAD_SCRIPTS}}
   </head>
   <body class="ph">
-    <div class="ph app" id="app">
-      <header class="ph header">
-        <a class="ph home" href="/">home</a>
-        <a
-          class="ph"
-          style="margin-left: auto"
-          href="https://www.paypal.me/phunky/20"
-          rel="noopener noreferrer"
-          target="_blank"
-          >buy me a coffee?</a
-        >
-        <a
-          class="ph"
-          href="https://github.com/sponsors/phun-ky"
-          rel="noopener noreferrer"
-          target="_blank"
-          >sponsor me!</a
-        >
-      </header>
+    <div class="ph app frontpage" id="app">
+      {{PAGE_SECTION_HEADER}}
       <main>
         <section class="ph section">
-          <div class="ph container frontpage">
+          <div class="ph container">
             <article class="ph">
-              <h1 class="ph frontpage">{{ CATEGORY_TITLE }}</h1>
-              <p class="ph lead frontpage">{{ CATEGORY_DESCRIPTION }}</p>
+              <h1 class="ph">{{CATEGORY_TITLE}}</h1>
+              <p class="ph lead">{{CATEGORY_DESCRIPTION}}</p>
             </article>
           </div>
         </section>
         <section class="ph section">
-          <div class="ph container frontpage frontpage-posts">
+          <div class="ph container frontpage-posts">
             {{FRONTPAGE_POSTS}}
             <div class="ph category-navigation">
-              <h3 class="ph categories-title">Categories</h3>
               {{POST_CATEGORIES}}
-              <h3 class="ph categories-title">Tags</h3>
               {{POST_TAGS}}
             </div>
           </div>
         </section>
-        <section class="ph section">
-          <div class="ph container frontpage">
-            <hr class="ph" />
-            <h2 class="ph">About the author</h2>
-
-            <p class="ph">
-              Hi! My name is Alexander, and I am a creative frontender,
-              specializing in UX, accessibility, universal design,
-              frontend-architecture, node and design systems. I am passionate
-              with open source projects and love to dabble with new emerging
-              technologies related to frontend. With over 24 years of frontend
-              experience, I have earned the right to be called a veteran. I am a
-              lover of life, technologist at heart. If I am not coding, I am
-              cooking and I love whisky and cigars. Oh, and coffee, I LOVE
-              coffee!
-            </p>
-            <p class="ph">
-              If you want to know more about me, here is some links you might
-              want to check out:
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="https://github.com/phun-ky"
-                >GitHub</a
-              >,
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="https://www.instagram.com/phun_ky/"
-                >Instagram</a
-              >,
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="https://twitter.com/phun_ky"
-                >Twitter</a
-              >,
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="https://nb-no.facebook.com/phunky.net"
-                >Facebook</a
-              >,
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="http://no.linkedin.com/in/alexanderroyne"
-                >LinkedIn</a
-              >,
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="http://codepen.io/phun-ky/"
-                >CodePen</a
-              >,
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="https://slides.com/phun-ky"
-                >Slides.com</a
-              >,
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                class="ph"
-                href="https://www.npmjs.com/~phun-ky"
-                >npm</a
-              >,
-            </p>
-            <h2 class="ph">Speaker</h2>
-            <p class="ph">
-              I am also an avid speaker on several topics! Check
-              <a
-                href="https://sessionize.com/phun-ky/"
-                class="ph"
-                rel="noopener noreferrer"
-                target="_blank"
-                >out some of the things I speak about</a
-              >, and contact me if you are interested in having my at your next
-              event!
-            </p>
-          </div>
-        </section>
+        {{PAGE_SECTION_AUTHOR}}
       </main>
-      <footer class="ph">
-        <div class="ph container frontpage">
-          <p class="ph">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              class="ph"
-              rel="license"
-              href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-            >
-              <img
-                alt="Creative Commons Licence"
-                style="border-width: 0"
-                width="88"
-                height="31"
-                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
-              />
-            </a>
-            <br />This work by
-            <a
-              target="_blank"
-              class="ph"
-              href="http://phun-ky.net"
-              property="cc:attributionName"
-              rel="cc:attributionURL"
-            >
-              Alexander Vassbotn Røyne-Helgesen</a
-            >
-            is licensed under a
-            <a
-              target="_blank"
-              class="ph"
-              rel="license"
-              href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-            >
-              Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-              International License </a
-            >.
-          </p>
-        </div>
-      </footer>
+      {{PAGE_SECTION_FOOTER}}
     </div>
+    {{BODY_SCRIPTS}}
   </body>
 </html>
