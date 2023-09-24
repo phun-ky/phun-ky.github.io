@@ -1,15 +1,15 @@
 const html = String.raw;
 
-export const getOpenGraphTags = (input = {}) => {
+export const OpenGraphTags = (props = {}) => {
   const {
     type = 'website',
     url = 'https://phun-ky.net',
-    title = 'Lover of life, technologist at heart',
-    siteName = 'Lover of life, technologist at heart',
+    title = 'lover of life, technologist at heart',
+    siteName = 'lover of life, technologist at heart',
     description = 'The world from my point of view, and some pedantic creativity',
     image =  'https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220',
     domain = 'phun-ky.net'
-  } = input;
+  } = props;
 
   return html`<meta property="og:url" content="${url}">
   <meta property="og:type" content="${type}">
@@ -26,4 +26,3 @@ export const getOpenGraphTags = (input = {}) => {
   <meta name="twitter:description" content="${description}">
   <meta name="twitter:image" content="${image}">`;
 }
-
