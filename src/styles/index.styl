@@ -1,12 +1,5 @@
 @import './variables.styl'
 
-.ph.frontpage
-  & .ph.container
-    max-width 1024px
-    margin-top 1.25rem
-    margin-bottom 1.25rem
-
-
 .ph.showcase
   display grid
   grid-gap 5rem
@@ -248,6 +241,7 @@ article.ph
   & li.ph
     & > code.language-none
       background var(--ph-color-code-background)
+      color var(--ph-color-code)
       font-size 0.875rem
       padding 0.25rem 0.5rem
       border-radius 0.375rem
@@ -287,33 +281,9 @@ article.ph
       text-decoration underline
 
 
-.ph.darkmode-button
-  border none
-  border-radius 50%
-  height 3rem
-  width 3rem
-  background-color transparent
-  color var(--ph-color-text)
+
+.ph.sustainable-verification
   display flex
-  justify-content center
-  align-items center
-  cursor pointer
-  &:active,
-  &:hover
-    background-color var(--ph-color-well-background)
-  & > svg.ph
-    pointer events none
-    height 2rem
-    width 2rem
+  grid-gap 1rem
+  flex-wrap wrap
 
-.ph.hide-dark
-  display none
-
-.ph.hide-light
-  display block
-
-.ph.theme--light
-  & .hide-light
-    display none
-  & .hide-dark
-    display block

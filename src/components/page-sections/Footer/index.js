@@ -42,6 +42,14 @@ export const Footer = () => {
         International License </a
       >.
     </p>
+    <div class="ph sustainable-verification">
+    <div id="wcb" class="ph carbonbadge">
+      <div class="ph" id="wcb_p">
+        <span class="ph" id="wcb_g">0.00g of CO<sub class="ph">2</sub>/view</span><a class="ph" id="wcb_a" target="_blank" rel="noreferrer noopener" href="https://www.websitecarbon.com/website/phun-ky-net/">Website Carbon</a></div>
+        <span class="ph" id="wcb_2">&nbsp;Cleaner than 100% of pages tested</span>
+     </div>
+     <a class="ph" href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fphun-ky.net%2F"><img src="https://api.thegreenwebfoundation.org/greencheckimage/phun-ky.net" height="64" width="142" alt="This website is hosted Green - checked by thegreenwebfoundation.org"/></a>
+     </div>
   </div>
 </footer>`;
 };

@@ -42,6 +42,11 @@ export const GlobalCSS = () => {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
+  .ph.frontpage .ph.container {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    max-width: 1024px;
+  }
   footer.ph.footer {
     font-size: 1.25rem;
     z-index: 100;
@@ -160,6 +165,47 @@ export const GlobalCSS = () => {
     justify-content: flex-end;
     grid-gap: 1rem;
   }
+  .ph.header-menu a.ph {
+    display: none;
+  }
+  @media screen and (min-width: 640px) {
+    .ph.header-menu a.ph {
+      display: inline-block;
+    }
+  }
+  .ph.darkmode-button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    color: var(--ph-color-text);
+    cursor: pointer;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    width: 3rem;
+  }
+  .ph.darkmode-button:active,
+  .ph.darkmode-button:hover {
+    background-color: var(--ph-color-well-background);
+  }
+  .ph.darkmode-button > svg.ph {
+    pointer: events none;
+    height: 2rem;
+    width: 2rem;
+  }
+  .ph.hide-dark {
+    display: none;
+  }
+  .ph.hide-light {
+    display: block;
+  }
+  .ph.theme--light .hide-light {
+    display: none;
+  }
+  .ph.theme--light .hide-dark {
+    display: block;
+  }
 </style>
 <link
   rel="preload"
@@ -167,5 +213,12 @@ export const GlobalCSS = () => {
   as="style"
   onload="this.onload=null;this.rel='stylesheet'"
 />
-<noscript><link rel="stylesheet" href="/css/ph.css" /></noscript>`;
+<noscript><link rel="stylesheet" href="/css/ph.css" /></noscript>
+<link
+  rel="preload"
+  href="/css/carbonbadge.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript><link rel="stylesheet" href="/css/carbonbadge.css" /></noscript>`;
 };
