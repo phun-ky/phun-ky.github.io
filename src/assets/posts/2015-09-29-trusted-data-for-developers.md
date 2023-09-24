@@ -22,7 +22,7 @@ your shit together.
 </p>
 
 <figure class="ph">
-  <img title="The four horsemen of the apocalypse" alt="A painting of the four horsemen of the apocalypse" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg" class="img-thumbnail img-responsive img-rounded"/>
+  <img title="The four horsemen of the apocalypse" alt="A painting of the four horsemen of the apocalypse" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
       "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Apocalypse_vasnetsov.jpg#/media/File:Apocalypse_vasnetsov.jpg">Apocalypse vasnetsov</a>" by <a class="ph" href="//en.wikipedia.org/wiki/Viktor_Vasnetsov" class="extiw" title="en:Viktor Vasnetsov">Viktor M. Vasnetsov</a> - <a rel="nofollow" class="ph external free" href="http://lj.rossia.org/users/john_petrov/166993.html">http://lj.rossia.org/users/john_petrov/166993.html</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 1</strong>
