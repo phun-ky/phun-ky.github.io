@@ -26,7 +26,7 @@ voted blank. There was a large disagreement in Norway between the other
 organizations and it finally became clear that Standard Norge should decide what
 Norway votes in the OOXML debate.
 
-<img src="/img/blog/img3bb1ad086c4aaf14565ac0457ffbea19.jpg" alt="The OOXML specifications from Microsoft" class="img-responsive img-thumbnail img-rounded" />
+<img src="/img/blog/img3bb1ad086c4aaf14565ac0457ffbea19.jpg" alt="The OOXML specifications from Microsoft" class="ph" />
 
 A press release from Standard Norge:
 
