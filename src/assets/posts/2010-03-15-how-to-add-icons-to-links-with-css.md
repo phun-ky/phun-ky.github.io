@@ -3,7 +3,8 @@ layout: post
 
 route: /2010/03/15/how-to-add-icons-to-links-with-css
 title: 'How to add icons to links with css'
-description: ''
+description: 'Have you ever thought your links looked boring and that they needed the little
+extra? Well, fear not, for I have the solution!'
 category: 'Archive'
 tags: []
 ---

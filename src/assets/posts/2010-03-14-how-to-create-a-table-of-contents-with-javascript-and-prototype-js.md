@@ -1,53 +1,95 @@
 ---
 layout: post
-
 route: /2010/03/14/how-to-create-a-table-of-contents-with-javascript-and-prototypejs
 title: 'How to create a table of contents with javascript and prototype.js'
-description: ''
-category: 'Archive'
-tags: []
+description: 'Well, if you write long posts every now and then and you want your users to access the information in an easy way instead of splitting up the post in several pages, this is a very nice solution to this issue'
+category: 'How-to'
+tags: ['javascript', 'toc','table of contents']
 ---
 
 Well, if you write long posts every now and then and you want your users to
 access the information in an easy way instead of splitting up the post in
 several pages, this is a very nice solution to this issue.
 
+{% message type="note" title="Note" %}
+
+You might want to add some styling to the levels in the table of contents, so that the user can differentiate between levels.
+
+{% /message %}
+
 ## Step one: Add html element to the page
 
-<pre class="brush: html">
-&lt;div id="toc" style="display:none;">Post content:&lt;br />&lt;/div>
-</pre>
+```html
+<div id="toc" style="display:none;">
+  <strong>
+    Table of Contents
+  </strong>
+</div>
+```
 
 ## Step two: Add the javascript
 
-<pre class="brush: javascript">
-// When page has finished loading
-Event.observe(window,'load',function(event) {  
- // Check if the element exists
- if($('toc')){
-    var show = false;
-    var toc_i = 0;
-   // Check the div contaning headings you want to have in your table of contents  
-   $$('#post_content h2,#post_content h3').each(function(element){
-      toc_i++;
-     show      = true;
-      // Add an id to the headings for linking
-     toc_title_id    = 'article_chapter_' + toc_i;
-      $(element).id     = toc_title_id;
-      if(element.tagName == 'H3'){          
-       $('toc').innerHTML  += '&nbsp;&nbsp;&nbsp;&nbsp;- &lt;a href="#' + $(element).id + '" onclick="$(element).scrollTo($(element));">' + element.innerHTML.stripTags() + '&lt;/a>&lt;br /' + '>';       
-     }
-      else{
-        $('toc').innerHTML  += toc_i + '. &lt;a href="#' + $(element).id + '" onclick="$(element).scrollTo($(element));">' + element.innerHTML.stripTags() + '&lt;/a>&lt;br /' + '>';
-      }
-      // Scroll to top
-     $(element).innerHTML  += '&lt;a href="#post_content" onclick="$(\'post_content\').scrollTo($(\'post_content\'));" class="backToTop">#top&lt;/a>';
-    }); 
-   if(show){
-      $('toc').appear();
-   }
+```javascript
+const createTableOfContents = (postContainerSelector, levels = 4) => {
+  const tableOfContentsElement = document.getElementById('toc');
+
+  if (!tableOfContentsElement) {
+    return; // Exit early if the element doesn't exist
   }
-});
-</pre>
+
+  const headingLevels = Array.from({ length: levels }, (_, i) => i + 1);
+  const selector = headingLevels.map(h => `${postContainerSelector} h${h}`).join(',');
+  const headingElements = document.querySelectorAll(selector);
+
+  if (headingElements.length === 0) {
+    return; // Exit if no heading elements found
+  }
+
+  const createUniqueId = (element, index) => {
+    let elementID = element.getAttribute('id');
+
+    if (!elementID) {
+      elementID = String(element.textContent)
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9 -]/g, '')
+        .replace(/\s+/g, '_')
+        .replace(/-+/g, '_');
+
+      element.setAttribute('id', `${elementID}_${index + 1}`);
+    }
+
+    return elementID;
+  };
+
+  const listElement = document.createElement('ol');
+
+  headingElements.forEach((element, index) => {
+    const elementID = createUniqueId(element, index);
+
+    const tableOfContentsItemElement = document.createElement('li');
+    const tableOfContentsActionElement = document.createElement('a');
+
+    tableOfContentsActionElement.setAttribute('href', `#${elementID}`);
+    tableOfContentsActionElement.textContent = element.textContent;
+
+    tableOfContentsItemElement.appendChild(tableOfContentsActionElement);
+    listElement.appendChild(tableOfContentsItemElement);
+  });
+  
+  tableOfContentsElement.appendChild(listElement);
+
+  tableOfContentsElement.style.display = 'block';
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {createTableOfContents('article')});
+} else {
+  createTableOfContents('article');
+}
+
+```
 
 That's practically it! Enjoy.
