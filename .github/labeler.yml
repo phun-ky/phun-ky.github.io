@@ -25,7 +25,7 @@
   - 'rollup.config.js'
   - 'rollup.*.config.js'
 'mindless: docs':
-  - '**/*.md',
+  - '**/*.md'
   - '!src/assets/posts/*.md'
 '📄 article update':
   - 'src/assets/posts/*.md'
