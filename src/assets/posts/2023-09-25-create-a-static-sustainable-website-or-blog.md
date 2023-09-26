@@ -302,33 +302,13 @@ As you see, we are not using a minifier here, but you can add that if you requir
 {% /message %}
 
 
-
-```shell-session
-📦 static-blog.github.io
- ├── 📁 node_modules
- ├── 📄 .browserslistrc
- ├── 📄 .editorconfig
- ├── 📄 .gitignore
- ├── 📄 .nojekyll
- ├── 📄 .postcssrc.cjs
- ├── 📄 .stylintrc
- ├── 📄 package-lock.json
- ├── 📄 package.json
- ├── 📄 README.md
- └── 📄 rollup.config.js
-```
-
 ### Paths structure
 
 Currently, we have this:
 
-
 ```shell-session
 📦 static-blog.github.io
  ├── 📁 node_modules
- ├── 📁 scripts
-   └── 📁 posts
-     └── 📄 create.js
  ├── 📄 .browserslistrc
  ├── 📄 .editorconfig
  ├── 📄 .gitignore
@@ -555,7 +535,7 @@ Where `year` is 4 digit year, `month` is two digit, for example `02` for Februar
 
 Now, open the post in your editor, and add these frontmatter properties:
 
-```markdown
+```yaml
 ---
 route: /2023/09/30/static-blog
 title: 'Create a static, sustainable website or blog'

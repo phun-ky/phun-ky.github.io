@@ -1,4 +1,5 @@
 :root
+  --ph-font-family ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif
   --ph-color-link #6CA7F9
   --ph-color-link-hover #6CA7F9
   --ph-color-link-active #6CA7F9
@@ -6,13 +7,19 @@
   --ph-color-text #9FA8AD
   --ph-color-text-accent #E4E4E7
   --ph-color-well-background rgba(159, 168, 173,0.1)
-  --ph-color-notice-warning #D29922
-  --ph-color-code-background #002B36
-  --ph-color-code #839496
+  --ph-color-code-block-background var(--ph-color-well-background)
+  --ph-color-code-block #E4E4E7
+  --ph-color-code var(--ph-color-text-accent)
   --ph-color-background #181A22
-  --ph-color-notice-note #2F81F7;
-  --ph-color-notice-important #A371f7;
-  --ph-color-notice-error #F85149;
+  --ph-color-background-notice-warning rgba(210, 153, 34, 0.2);
+  --ph-color-background-notice-note rgba(47, 129, 247, 0.2);
+  --ph-color-background-notice-important rgba(163, 113, 247, 0.2);
+  --ph-color-background-notice-error rgba(248, 81, 73, 0.2);
+  --ph-color-code-color-1 #738D96
+  --ph-color-code-color-2 #b58900
+  --ph-color-code-color-3 #2aa198
+  --ph-color-code-color-4 #2C90D8
+  --ph-color-code-color-5 #93a1a1
 
 :root.theme--light
   --ph-color-link #0750B6
@@ -22,7 +29,12 @@
   --ph-color-text #454444
   --ph-color-text-accent #000000
   --ph-color-well-background rgba(159, 168, 173,0.1)
-  --ph-color-notice-warning #D29922
-  --ph-color-code-background #002B36
-  --ph-color-code #839496
+  --ph-color-code-block-background var(--ph-color-well-background)
+  --ph-color-code-block #000000
+  --ph-color-code var(--ph-color-text-accent)
   --ph-color-background #FFFFFF
+  --ph-color-code-color-1 #5C757A
+  --ph-color-code-color-2 #8F6B00
+  --ph-color-code-color-3 #207E77
+  --ph-color-code-color-4 #2075B1
+  --ph-color-code-color-5 #647373
