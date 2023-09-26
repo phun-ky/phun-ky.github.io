@@ -3,7 +3,7 @@ layout: post
 
 route: /2006/08/04/castro-for-cuba
 title: 'Castro for Cuba?'
-description: ''
+description: 'Lately the news had a brief(!?) moment from news from the Middle East. The news came from the only communist state in the Western Hemisphere, Cuba'
 category: 'Archive'
 tags: [politics, cuba, us-relations]
 ---
@@ -11,7 +11,7 @@ tags: [politics, cuba, us-relations]
 Lately the news had a brief(!?) moment from news from the Middle East. The news
 came from the only communist state in the Western Hemisphere, Cuba.
 
-<img class="ph img-responsive img-thumbnail img-rounded" src="/img/blog/imge7dc9ba36a726bc1161d86692f6271f5.jpg"/>
+<img class="ph" src="/img/blog/imge7dc9ba36a726bc1161d86692f6271f5.jpg"/>
 
 We have not neglected that Fidel Castro is getting older, but we've to go some
 decades back to see some real controversity from Cuba. Still, the USA consider

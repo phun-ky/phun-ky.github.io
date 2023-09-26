@@ -17,7 +17,7 @@ During a project at work, we were given a task on how a given industry could go 
 </p>
 
 <figure class="ph">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png" class="img-responsive img-rounded img-thumbnail"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
       "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:CollatzFractal.png#/media/File:CollatzFractal.png">CollatzFractal</a>" by <a class="ph" href="//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&amp;action=edit&amp;redlink=1" class="new" title="User:Pokipsy76 (page does not exist)">Pokipsy76</a> - English wikipedia. Licensed under Public Domain via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong class="ph">Figure 1</strong>

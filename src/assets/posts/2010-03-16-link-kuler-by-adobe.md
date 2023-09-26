@@ -19,7 +19,7 @@ It reminds me of a bloated, but better version of
 It's very easy to use and the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://kuler.adobe.com">Kuler</a>
 concept offers a great deal of community interaction.
-<a class="ph" href="/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" rel="lightbox[article]" title="Overview of Kuler"><img class="ph img-responsive img-rounded img-thumbnail" src="/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" alt="imgb8e0364d2cf482072ff519e1ac9a146d.png" title="" /></a>
+<a class="ph" href="/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" rel="lightbox[article]" title="Overview of Kuler"><img class="ph" src="/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.png" alt="imgb8e0364d2cf482072ff519e1ac9a146d.png" title="" /></a>
 
 ## Side note
 

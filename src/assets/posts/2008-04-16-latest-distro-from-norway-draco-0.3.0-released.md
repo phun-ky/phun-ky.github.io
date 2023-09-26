@@ -3,7 +3,7 @@ layout: post
 
 route: /2008/04/16/latest-distro-from-norway-draco-030-released
 title: 'latest distro from norway, draco 0.3.0 released'
-description: ''
+description: 'The latest Draco Linux distro is out! Fresh from Norway'
 category: 'Archive'
 tags: []
 ---
@@ -20,7 +20,7 @@ and on an ISO image. This release also introduces Draco Desktop. Draco Desktop
 contains the latest stable Draco release, bundled with software from the latest
 pkgsrc branch. Draco Desktop defaults to Xfce, with Fluxbox as an option."
 
-<img src="/img/slim.jpg" alt="" class="reflect rheight18"/>
+<img src="/img/blog/slim.jpg" alt="" class="ph"/>
 Read more about <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.dracolinux.org/">Draco here</a>.
 
 Download
