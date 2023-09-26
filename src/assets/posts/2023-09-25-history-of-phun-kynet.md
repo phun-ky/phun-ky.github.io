@@ -94,6 +94,8 @@ Still some shades of blue.
 
 Aaand in 2006 I switched the color palette, to red. How original. A bit more writing, mostly related to gaming, CS and World of Warcraft. Hm, still doing music and movie reports apparently.
 
+_You can actually see more of this version in the [last image of Linux here](/2006/08/09/got-a-new-cat-linux)_
+
 I remember I created the red doodle in MS Paint. \*cringe\*
 
 

@@ -16,7 +16,7 @@ In the current project I am working on, we wanted to load our dependencies in "s
 </p>
 
 <figure class="ph">
-  <img alt="Photo of a ISS module" aria-describedby="iss_module" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg" class="img-responsive img-rounded img-thumbnail"/>
+  <img alt="Photo of a ISS module" aria-describedby="iss_module" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
       "<a class="ph" id="iss_module" href="https://commons.wikimedia.org/wiki/File:ISS_Habitation_module.jpg#/media/File:ISS_Habitation_module.jpg">ISS Habitation module</a>" by NASA - <a rel="nofollow" class="ph external free" href="http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html">http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 1</strong>

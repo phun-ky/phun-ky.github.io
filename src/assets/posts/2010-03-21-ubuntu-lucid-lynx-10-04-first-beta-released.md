@@ -14,14 +14,14 @@ Steve Langasek has announced the availability of the first beta release of
 
 ## Press release
 
-<a class="ph" href="/img/blog/img099a71a07b61c740dd96461a12d0dd1e.jpg" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/img/blog/img099a71a07b61c740dd96461a12d0dd1e.jpg" alt="img099a71a07b61c740dd96461a12d0dd1e.jpg" title="" /></a>
+<a class="ph" href="/img/blog/img099a71a07b61c740dd96461a12d0dd1e.jpg" rel="lightbox[article]" title=""><img class="ph" src="/img/blog/img099a71a07b61c740dd96461a12d0dd1e.jpg" alt="img099a71a07b61c740dd96461a12d0dd1e.jpg" title="" /></a>
 
 <blockquote>The Ubuntu team is pleased to announce the first beta release of Ubuntu 10.04 LTS Desktop, Server, and Netbook editions and of Ubuntu 10.04 Server for Ubuntu Enterprise Cloud (UEC) 
 and Amazon's EC2. Ubuntu 10.04 LTS Desktop and Netbook editions continue the trend of ever-faster boot speeds, with improved start-up times and a streamlined, smoother boot experience. Ubuntu 10.04 LTS Server edition provides even better integration of the Ubuntu Enterprise Cloud, with its install-time cloud setup.</blockquote> 
 Read the <a class="ph" target="_blank" rel="noopener noreferrer" href="https://lists.ubuntu.com/archives/ubuntu-announce/2010-March/000129.html">release announcement</a> and <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntu.com/testing/lucid/beta1">release notes</a> for further details. 
 ## Release Meta
 
-<a class="ph" href="/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.png" rel="lightbox[article]" title=""><img class="ph img-responsive img-rounded img-thumbnail" src="/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.png" alt="img7730e22b5eccfe74d5a3d4813e4123cc.png" title="" /></a>
+<a class="ph" href="/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.png" rel="lightbox[article]" title=""><img class="ph" src="/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.png" alt="img7730e22b5eccfe74d5a3d4813e4123cc.png" title="" /></a>
 
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntu.com/testing/lucid/beta1#Download">Download</a>
 (<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/releases/10.04/SHA256SUMS">SHA256</a>):
