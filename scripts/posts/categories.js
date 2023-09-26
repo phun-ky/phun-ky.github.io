@@ -83,7 +83,7 @@ uniqueCategories.forEach((category) => {
 
   html = TEMPLATE.replace(
     /{{FRONTPAGE_POSTS}}/,
-    PostsList(categoryPosts)
+    PostsList(categoryPosts, '*')
   );
   html = html.replace(
     /{{POST_CATEGORIES}}/,
