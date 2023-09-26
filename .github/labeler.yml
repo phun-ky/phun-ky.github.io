@@ -27,7 +27,7 @@
 'mindless: docs':
   - '**/*.md'
   - '!src/assets/posts/*.md'
-'📄 article update':
+  - '📄 article update':
   - 'src/assets/posts/*.md'
 'mindless: dependencies':
   - 'package-lock.json'
