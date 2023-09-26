@@ -12,14 +12,11 @@ The release of Ubuntu 8.10 Intrepid Ibex is getting closer with the release of
 the 8.10 RC.
 
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://distrowatch.com/table.php?distribution=ubuntu">DistroWatch.com</a>
-reports that the release candidate for <a href="ubuntu">Ubuntu</a> 8.10
+reports that the release candidate for Ubuntu> 8.10
 "Intrepid Ibex" is out:
 
-<blockquote>
-  <span class="bqstart">&#8220;</span>
-  "The Ubuntu team is pleased to announce the Release Candidate for Ubuntu 8.10 Desktop and Server. We consider this release candidate to be complete, stable, and suitable for testing by any user. Ubuntu 8.10 Desktop edition delivers the features you need for an increasingly mobile digital life, including 3G wireless support and guest sessions that lets users temporarily share computers without compromising security. Ubuntu 8.10 Server edition consolidates its support for virtualization with an integrated Virtual Machine builder, and brings with it a fully-supported Java stack and support for per-user directory encryption."
- <span class="bqend">&#8220;</span>
-</blockquote>
+> "The Ubuntu team is pleased to announce the Release Candidate for Ubuntu 8.10 Desktop and Server. We consider this release candidate to be complete, stable, and suitable for testing by any user. Ubuntu 8.10 Desktop edition delivers the features you need for an increasingly mobile digital life, including 3G wireless support and guest sessions that lets users temporarily share computers without compromising security. Ubuntu 8.10 Server edition consolidates its support for virtualization with an integrated Virtual Machine builder, and brings with it a fully-supported Java stack and support for per-user directory encryption."
+
 
 Read the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://lists.ubuntu.com/archives/ubuntu-announce/2008-October/000115.html">release

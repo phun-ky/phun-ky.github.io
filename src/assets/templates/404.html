@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html class="ph" lang="en">
   <head>
-    <title>{{CATEGORY}} | lover of life, technologist at heart</title>
+    <title>404 Page not found | lover of life, technologist at heart</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; block-all-mixed-content; font-src 'self' https: data:; img-src 'self' https: data:;  object-src 'none'; script-src 'self' 'unsafe-inline'; script-src-attr 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https: 'unsafe-inline'; upgrade-insecure-requests"
+    />
     <meta charset="utf-8" />
     <meta http-equiv="Content-Language" content="en" />
 
@@ -11,6 +15,7 @@
       name="application-name"
       content="lover of life, technologist at heart"
     />
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -33,6 +38,7 @@
     <meta name="msapplication-TileColor" content="#181a22" />
     <meta name="msapplication-config" content="/meta/browserconfig.xml" />
     <meta name="theme-color" content="#181a22" />
+
     <meta
       name="description"
       content="The world from my point of view, and some pedantic creativity"
@@ -57,22 +63,33 @@
         <section class="ph section">
           <div class="ph container">
             <article class="ph">
-              <h1 class="ph">{{CATEGORY_TITLE}}</h1>
-              <p class="ph lead">{{CATEGORY_DESCRIPTION}}</p>
+              <h1 class="ph">
+                404 Page not found
+              </h1>
+              <p class="ph lead">
+                I'm sorry, the URL you were looking for was not found. Don't worry, it's most likely my fault, not yours!
+              </p>
+              <p class="ph">
+                Feel free to <a class="ph" href="https://github.com/phun-ky/phun-ky.github.io/issues/new/choose" target="_blank" rel="noopener noreferrer">create an issue</a>, if you think it is a missing post or something important.
+              </p>
             </article>
           </div>
         </section>
         <section class="ph section">
-          <div class="ph container frontpage-posts">
-            <div class="ph">
-            {{FRONTPAGE_POSTS}}
-            </div>
-            <div class="ph category-navigation">
-              {{POST_CATEGORIES}}
-              {{POST_TAGS}}
-            </div>
+          <div class="ph container">
+            <figure class="ph">
+              <blockquote class="ph">
+                <p class="ph">
+                  There are no reasons at all in theory for people to change URIs (or stop maintaining documents), but millions of reasons in practice.
+                </p>
+              </blockquote>
+              <figcaption class="ph">
+                &mdash; Sir Tim Berners-Lee, <cite class=""><a href="https://www.w3.org/Provider/Style/All.html" class="ph" target="_blank" rel="noopener noreferrer">Style Guide for online hypertext</a> by Sir Tim Berners-Lee</cite>
+              </figcaption>
+            </figure>
           </div>
         </section>
+
         {{PAGE_SECTION_AUTHOR}}
       </main>
       {{PAGE_SECTION_FOOTER}}

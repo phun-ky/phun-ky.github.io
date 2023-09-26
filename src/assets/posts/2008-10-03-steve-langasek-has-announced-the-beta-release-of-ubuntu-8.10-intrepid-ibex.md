@@ -10,12 +10,10 @@ tags: []
 ---
 
 Distrowatch.com with the good stuff: Steve Langasek has announced the beta
-release of <a href="ubuntu">Ubuntu</a> 8.10 "Intrepid Ibex":
+release of Ubuntu 8.10 "Intrepid Ibex":
 
-<blockquote>
-  <span class="bqstart">&#8220;</span>
-    The Ubuntu team is pleased to announce the beta release of Ubuntu 8.10 Desktop and Server. Ubuntu 8.10 Desktop Edition delivers the features you need for an increasingly mobile digital life, including 3G wireless support and guest sessions that lets users temporarily share computers without compromising security. Ubuntu 8.10 Server consolidates its support for virtualization with an integrated virtual machine builder, and brings with it a fully-supported Java stack and support for per-user directory encryption. The Ubuntu 8.10 family of variants, Kubuntu, Xubuntu, UbuntuStudio, and Mythbuntu, also reach beta status today."
- <span class="bqend">&#8220;</span>
+> The Ubuntu team is pleased to announce the beta release of Ubuntu 8.10 Desktop and Server. Ubuntu 8.10 Desktop Edition delivers the features you need for an increasingly mobile digital life, including 3G wireless support and guest sessions that lets users temporarily share computers without compromising security. Ubuntu 8.10 Server consolidates its support for virtualization with an integrated virtual machine builder, and brings with it a fully-supported Java stack and support for per-user directory encryption. The Ubuntu 8.10 family of variants, Kubuntu, Xubuntu, UbuntuStudio, and Mythbuntu, also reach beta status today."
+ 
 </blockquote>
 
 Read the

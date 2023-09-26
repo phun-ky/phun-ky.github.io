@@ -34,7 +34,7 @@ After 1 week? Month? Year? Decade?
 And furthermore, when "when" is decided upon by anyone, how should this be
 displayed to the user/reader/customer/spider ?
 
-To quote Tim Berners-Lee:
+To quote Sir Tim Berners-Lee:
 
 > There are no reasons at all in theory for people to change URIs (or stop
 > maintaining documents), but millions of reasons in practice.
