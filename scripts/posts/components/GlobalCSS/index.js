@@ -117,9 +117,15 @@ export const GlobalCSS = () => {
   }
   h1.ph {
     margin-bottom: 2.5rem;
-    font-size: 3.75rem;
+    font-size: 3rem;
+    line-height: 1.25;
     font-weight: 700;
-    line-height: 1.375;
+  }
+  @media screen and (min-width: 1024px) {
+    h1.ph {
+      font-size: 3.75rem;
+      line-height: 1.375;
+    }
   }
   .ph.frontpage h1.ph {
     margin-bottom: 2.5rem;

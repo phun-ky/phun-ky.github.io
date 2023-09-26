@@ -536,7 +536,7 @@ We're ready to go! Go into `src/assets/posts` and create your first post:
 
 ```shell-session
 $ cd src/assets/posts
-$ touch 2023-09-24-<slug-of-your-post>
+$ touch 2023-09-24-<slug-of-your-post>.md
 ```
 
 Where `<slug-of-your-post>` is the slug for your post. Don't worry, you can change the file name later.
