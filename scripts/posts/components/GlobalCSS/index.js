@@ -12,8 +12,7 @@ export const GlobalCSS = () => {
     -webkit-font-smoothing: antialised;
   }
   html {
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
-      Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-family: var(--ph-font-family,system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji);
   }
   html,
   body {
@@ -26,10 +25,9 @@ export const GlobalCSS = () => {
     padding: 0;
     margin: 0;
     line-height: 1.5;
-    font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+    font-family: ui-sans-serif, system-ui, -apple-system,
       BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-      Noto Color Emoji;
+      sans-serif;
   }
   main.ph {
     flex-grow: 1;
@@ -117,9 +115,15 @@ export const GlobalCSS = () => {
   }
   h1.ph {
     margin-bottom: 2.5rem;
-    font-size: 3rem;
+    font-size: 2.25rem;
     line-height: 1.25;
     font-weight: 700;
+  }
+  @media screen and (min-width: 768px) {
+    h1.ph {
+      font-size: 3rem;
+      line-height: 1.375;
+    }
   }
   @media screen and (min-width: 1024px) {
     h1.ph {
@@ -161,7 +165,7 @@ export const GlobalCSS = () => {
     align-items: center;
     flex-grow: 0;
     grid-gap: 1rem;
-    min-height: 5.5rem;
+    min-height: 3rem;
   }
   .ph.header-menu {
     margin-left: auto;

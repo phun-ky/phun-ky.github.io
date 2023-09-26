@@ -8,7 +8,6 @@ category: 'Archive'
 tags: [politics, middle-east]
 ---
 
-<div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-warning-sign"></span>The link to the New Yorker article in this post is dead.</div>
 The truce that started 0500 GMT today is not as effective as we would like. Right after the resolution was accepted by the Israeli government, the Israeli ground forces in Lebanon was trippled. Funny way of making truce..
 But as the author of <a class="ph" target="_blank" rel="noopener noreferrer" href="http://nidstang.blogspot.com/2006/08/en-realpolitisk-fantasiverden.html">Borderlines</a> , he is mentioning a very good point:
 

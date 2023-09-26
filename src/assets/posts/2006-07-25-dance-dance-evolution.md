@@ -8,8 +8,6 @@ category: 'Archive'
 tags: [funny]
 ---
 
-<div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-warning-sign"></span>The link to thatvideosite.com in this post is dead.</div>
-
 Some amusement in these dark times. No, this is not a post about the crazy dance
 machine jippo that even a kid or a guy with crutches can win, or the game where
 you lure your granny to try it and watch her fall down and break a hip or two;
