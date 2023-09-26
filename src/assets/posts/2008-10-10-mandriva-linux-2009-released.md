@@ -11,13 +11,9 @@ tags: []
 If you've been up to date with the beta and rc releases lately, this won't come
 as a surprise:
 
-<a href="mandriva">Mandriva</a> Linux 2009 has been released:
+Mandriva Linux 2009 has been released:
 
-<blockquote>
-  <span class="bqstart">&#8220;</span>
-  We have released Mandriva Linux 2009, the new release of our distribution. 2009 is a bold release which brings the new KDE 4.1 as the default desktop, along with a re-designed installer and Mandriva Control Center, and many other new features. Other significant updates include GNOME 2.24, OpenOffice.org 3, Mozilla Firefox 3, and kernel 2.6.27. Key features include new graphical in-line upgrade capability, netbook compatibility, class-leading hardware support, and support for working with mobile devices.
-  <span class="bqend">&#8220;</span>
-</blockquote>
+> We have released Mandriva Linux 2009, the new release of our distribution. 2009 is a bold release which brings the new KDE 4.1 as the default desktop, along with a re-designed installer and Mandriva Control Center, and many other new features. Other significant updates include GNOME 2.24, OpenOffice.org 3, Mozilla Firefox 3, and kernel 2.6.27. Key features include new graphical in-line upgrade capability, netbook compatibility, class-leading hardware support, and support for working with mobile devices.
 
 
 Read the
