@@ -2,12 +2,13 @@
 route: /2014/03/22/how-to-fix-failed-to-build-gem-native-extension-when-installing-jekyll
 title:
   "How to fix 'Failed to build gem native extension' when installing jekyll"
-description: ''
-category: 'How-to'
+description: 'I came across this error when I tried to install jekyll on my ubuntu laptop for
+testing out jekyll bootstrap locally'
+category: 'Programming'
 tags: [how-to, gem, ruby, error, apt-get, ubuntu]
 ---
 
-Came across this error when I tried to install jekyll on my ubuntu laptop for
+I came across this error when I tried to install jekyll on my ubuntu laptop for
 testing out jekyll bootstrap locally:
 
 ```shell-session

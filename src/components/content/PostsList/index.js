@@ -2,8 +2,8 @@ import { slugify } from "../../../utils/slugify.js";
 
 const html = String.raw;
 
-export const PostsList = (posts) => {
-  return html`<ul class="ph posts">${posts
+export const PostsList = (posts,quantity = 20, excludeCategory) => {
+  return html`<ul class="ph posts">${posts.filter(post => excludeCategory ? excludeCategory.toLowerCase() !== post.category.toLowerCase() : true).slice(0, quantity)
     .map((post) => {
       const { title, description, url, year, month, day, category } = post;
 
@@ -14,7 +14,7 @@ export const PostsList = (posts) => {
       <p class="ph post-description">${description}</p>
     </a>
     <address class="ph post-meta">
-      Written by Alexander in <a class="ph" href="/categories/${slugify(
+      Written by <a href="/" class="ph">Alexander</a> in <a class="ph" href="/categories/${slugify(
   category.toLowerCase()
 )}">${category}</a> on <time pubdate datetime="${year}-${month}-${day}" class="ph">${year}/${month}/${day}</time>
       </address>
