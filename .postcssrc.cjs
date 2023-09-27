@@ -10,7 +10,7 @@ module.exports = {
       reduceIdents: false,
       reduceInitial: false,
       reduceTransforms: false,
-      zindex: false
-    })
-  ]
+      zindex: false,
+    }),
+  ],
 };

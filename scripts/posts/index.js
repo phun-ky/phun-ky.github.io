@@ -37,7 +37,7 @@ const categories = [];
 files.forEach((file) => {
   const rawText = fs.readFileSync(file, 'utf-8');
   const frontmatter = getFrontmatter(rawText);
-  const {year, month, day, slug, category, title, description} = frontmatter;
+  const { year, month, day, slug, category, title, description } = frontmatter;
 
   posts.push({
     year,
@@ -47,7 +47,7 @@ files.forEach((file) => {
     category,
     title,
     description,
-    tags:frontmatter.tags,
+    tags: frontmatter.tags,
     url: `/${year}/${month}/${day}/${slug}`
   });
 
@@ -61,8 +61,6 @@ files.forEach((file) => {
     tags = [...tags, ...frontmatter.tags];
   }
 });
-
-
 
 html = TEMPLATE.replace(
   /{{FRONTPAGE_POSTS}}/,
@@ -79,11 +77,6 @@ html = html.replace(
   /{{POST_CATEGORIES}}/,
   Categories([...new Set(categories)])
 );
-html = html.replace(
-  /{{POST_TAGS}}/,
-  Tags([...new Set(tags)])
-);
-
-
+html = html.replace(/{{POST_TAGS}}/, Tags([...new Set(tags)]));
 
 fs.writeFileSync(pathToFrontpage, html, 'utf-8');
