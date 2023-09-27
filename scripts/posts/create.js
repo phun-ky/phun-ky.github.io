@@ -23,7 +23,6 @@ import { Header } from '../../src/components/page-sections/Header/index.js';
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
 
-
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
 const TEMPLATE_PATH = resolve(
@@ -43,7 +42,8 @@ files.forEach((file) => {
     let html = '';
 
     const rendered = getHTML(document);
-    const {year, month, day, slug, category, title, image, description} = frontmatter;
+    const { year, month, day, slug, category, title, image, description } =
+      frontmatter;
 
     html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
     html = html.replace(
@@ -67,7 +67,10 @@ files.forEach((file) => {
     html = html.replace(/{{TITLE}}/, title);
     html = html.replace(/{{DESCRIPTION}}/, description);
     html = html.replace(/{{POST_NOTICE}}/, ArchiveNotice(category));
-    html = html.replace(/{{BREADCRUMBS}}/, Breadcrumbs(category,`/categories/${slugify(category)}` ));
+    html = html.replace(
+      /{{BREADCRUMBS}}/,
+      Breadcrumbs(category, `/categories/${slugify(category)}`)
+    );
     html = html.replace(/{{POST_META}}/, PostByline(year, month, day));
 
     const pathToDir = join(__dirname, `../../dist/${year}/${month}/${day}`);

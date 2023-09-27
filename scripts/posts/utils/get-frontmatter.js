@@ -9,12 +9,12 @@ export const getFrontmatter = (text) => {
   const processed = processTokens(tokens);
   const ast = Markdoc.parse(processed);
   const frontmatter = parseMarkdocFrontmatter(ast);
-  const {route} = frontmatter;
+  const { route } = frontmatter;
 
-  if(route){
+  if (route) {
     const matches = route.match(/\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)/);
 
-    if(matches){
+    if (matches) {
       // eslint-disable-next-line no-unused-vars
       const [string, year, month, day, slug] = matches;
 
@@ -25,6 +25,5 @@ export const getFrontmatter = (text) => {
     }
   }
 
-
   return frontmatter;
-}
+};

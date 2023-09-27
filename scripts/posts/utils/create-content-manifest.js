@@ -20,7 +20,7 @@ export const createContentManifest = (ROOT_DIR) => {
 
     manifest[frontmatter.route] = {
       ast,
-      frontmatter,
+      frontmatter
     };
   });
 

@@ -5,7 +5,7 @@ const heading = {
   attributes: {
     href: { type: String, required: true },
     target: { type: String },
-    rel: { type: String },
+    rel: { type: String }
   },
   transform(node, config) {
     node = addClassToNode(node);
@@ -21,11 +21,11 @@ const heading = {
     return new Markdoc.Tag(
       'a',
       {
-        ...attributes,
+        ...attributes
       },
       children
     );
-  },
+  }
 };
 
 export default heading;
