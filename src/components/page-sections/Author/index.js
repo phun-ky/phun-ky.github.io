@@ -44,13 +44,6 @@ export const Author = () => {
           rel="noopener noreferrer"
           target="_blank"
           class="ph"
-          href="https://nb-no.facebook.com/phunky.net"
-          >Facebook</a
-        >,
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          class="ph"
           href="http://no.linkedin.com/in/alexanderroyne"
           >LinkedIn</a
         >,
