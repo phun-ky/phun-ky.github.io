@@ -11,9 +11,9 @@ export const processTokens = (tokens) => {
           tag: 'html-tag',
           attributes: [
             { type: 'attribute', name: 'name', value: name },
-            { type: 'attribute', name: 'attrs', value: attrs },
-          ],
-        },
+            { type: 'attribute', name: 'attrs', value: attrs }
+          ]
+        }
       });
     },
 
@@ -26,9 +26,9 @@ export const processTokens = (tokens) => {
       output.push({
         type: 'tag_close',
         nesting: -1,
-        meta: { tag: 'html-tag' },
+        meta: { tag: 'html-tag' }
       });
-    },
+    }
   });
 
   for (const token of tokens) {

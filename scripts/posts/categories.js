@@ -41,7 +41,8 @@ files.forEach((file) => {
   const document = contentManifest[frontmatter.route];
 
   if (document) {
-    const { category, title, description, tags, year, month, day, slug } = frontmatter;
+    const { category, title, description, tags, year, month, day, slug } =
+      frontmatter;
 
     posts.push({
       year,
@@ -67,7 +68,6 @@ files.forEach((file) => {
 
 const uniqueCategories = [...new Set(categories)];
 
-
 uniqueCategories.forEach((category) => {
   let html = '';
 
@@ -81,14 +81,8 @@ uniqueCategories.forEach((category) => {
     (post) => (categoryTags = [...categoryTags, ...post.tags])
   );
 
-  html = TEMPLATE.replace(
-    /{{FRONTPAGE_POSTS}}/,
-    PostsList(categoryPosts, '*')
-  );
-  html = html.replace(
-    /{{POST_CATEGORIES}}/,
-    Categories(uniqueCategories)
-  );
+  html = TEMPLATE.replace(/{{FRONTPAGE_POSTS}}/, PostsList(categoryPosts, '*'));
+  html = html.replace(/{{POST_CATEGORIES}}/, Categories(uniqueCategories));
   html = html.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
   html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
   html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
@@ -98,18 +92,12 @@ uniqueCategories.forEach((category) => {
   html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
   html = html.replace(/{{CATEGORY_TITLE}}/, category);
   html = html.replace(/{{CATEGORY_DESCRIPTION}}/, '');
-  html = html.replace(
-    /{{POST_TAGS}}/,
-    Tags([...new Set(categoryTags)])
-  );
-
-
+  html = html.replace(/{{POST_TAGS}}/, Tags([...new Set(categoryTags)]));
 
   const pathToCategory = join(
     __dirname,
     `../../dist/categories/${slugify(category)}.html`
   );
-
 
   fs.writeFileSync(pathToCategory, html, 'utf-8');
 });

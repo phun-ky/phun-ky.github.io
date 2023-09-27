@@ -14,14 +14,9 @@ import { Header } from '../../src/components/page-sections/Header/index.js';
 let html = '';
 
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));
-const TEMPLATE_PATH = resolve(
-  DIR_NAME,
-  '../../src/assets/templates/404.html'
-);
+const TEMPLATE_PATH = resolve(DIR_NAME, '../../src/assets/templates/404.html');
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const pathTo404 = join(DIR_NAME, '../../dist/404.html');
-
-
 
 html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
 html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
@@ -30,7 +25,5 @@ html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
 html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
 html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
 html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
-
-
 
 fs.writeFileSync(pathTo404, html, 'utf-8');

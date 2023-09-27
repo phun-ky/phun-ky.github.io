@@ -3,7 +3,7 @@ import Markdoc from '@markdoc/markdoc';
 const fence = {
   children: ['inline'],
   attributes: {
-    language: { type: String },
+    language: { type: String }
   },
   transform(node, config) {
     const attributes = node.transformAttributes(config);
@@ -16,13 +16,13 @@ const fence = {
         new Markdoc.Tag(
           'code',
           {
-            class: `ph ${node.attributes['language']} language-${node.attributes['language']}`,
+            class: `ph ${node.attributes['language']} language-${node.attributes['language']}`
           },
           children
-        ),
+        )
       ]
     );
-  },
+  }
 };
 
 export default fence;

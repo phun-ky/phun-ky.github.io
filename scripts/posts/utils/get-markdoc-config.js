@@ -14,23 +14,23 @@ export const getMarkdocConfig = (document) => {
       'html-tag': {
         attributes: {
           name: { type: String, required: true },
-          attrs: { type: Object },
+          attrs: { type: Object }
         },
         transform(node, config) {
           const { name, attrs } = node.attributes;
           const children = node.transformChildren(config);
 
           return new Markdoc.Tag(name, attrs, children);
-        },
-      },
+        }
+      }
     },
     nodes: {
       heading,
       link,
       fence,
-      code,
+      code
     },
-    variables: frontmatter,
+    variables: frontmatter
   };
 
   return config;

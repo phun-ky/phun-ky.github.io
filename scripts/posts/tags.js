@@ -20,7 +20,6 @@ import { Header } from '../../src/components/page-sections/Header/index.js';
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
 
-
 let allTags = [];
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -44,7 +43,8 @@ files.forEach((file) => {
   const document = contentManifest[frontmatter.route];
 
   if (document) {
-    const {year, month, day, slug, category, description, title, tags} = frontmatter;
+    const { year, month, day, slug, category, description, title, tags } =
+      frontmatter;
 
     posts.push({
       year,
@@ -74,7 +74,6 @@ files.forEach((file) => {
 
 const uniqueTags = [...new Set(allTags)];
 
-
 uniqueTags.forEach((tag) => {
   let html = '';
 
@@ -83,10 +82,7 @@ uniqueTags.forEach((tag) => {
 
   tagPosts.forEach((post) => tagCategories.push(post.category));
 
-  html = TEMPLATE.replace(
-    /{{FRONTPAGE_POSTS}}/,
-    PostsList(tagPosts)
-  );
+  html = TEMPLATE.replace(/{{FRONTPAGE_POSTS}}/, PostsList(tagPosts));
   html = html.replace(
     /{{POST_CATEGORIES}}/,
     Categories([...new Set(tagCategories)])
@@ -101,10 +97,7 @@ uniqueTags.forEach((tag) => {
   html = html.replace(/{{TAG_TITLE}}/, tag);
   html = html.replace(/{{TAG}}/, tag);
   html = html.replace(/{{TAG_DESCRIPTION}}/, '');
-  html = html.replace(
-    /{{POST_TAGS}}/,
-    Tags([...new Set([tag])])
-  );
+  html = html.replace(/{{POST_TAGS}}/, Tags([...new Set([tag])]));
 
   const pathToTag = join(__dirname, `../../dist/tags/${slugify(tag)}.html`);
 
