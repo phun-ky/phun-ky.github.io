@@ -10,7 +10,7 @@ const generateID = (children, attributes) => {
     throw new Error('Children not defined');
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  // eslint-disable-next-line
   return children
     .filter((child) => typeof child === 'string')
     .join(' ')
@@ -20,7 +20,7 @@ const generateID = (children, attributes) => {
 };
 const heading = {
   attributes: {
-    level: { type: String },
+    level: { type: String }
   },
   transform(node, config) {
     node = addClassToNode(node);
@@ -33,11 +33,11 @@ const heading = {
       `h${level}`,
       {
         id: generateID(children, attributes),
-        class: attributes.class,
+        class: attributes.class
       },
       children
     );
-  },
+  }
 };
 
 export default heading;

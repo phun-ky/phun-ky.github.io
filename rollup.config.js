@@ -19,7 +19,7 @@ export default [
       sourcemap: true,
       exports: 'named',
       dir: 'dist',
-      assetFileNames: '[name][extname]',
+      assetFileNames: '[name][extname]'
     },
 
     plugins: [
@@ -30,17 +30,17 @@ export default [
       // }),
       svg({
         // process SVG to DOM Node or String. Default: false
-        stringify: true,
+        stringify: true
       }),
       styles({
         mode: ['extract', './css/ph.css'],
         url: false,
-        minimize: true,
+        minimize: true
       }),
       json(),
       nodeResolve(),
       commonjs(),
-      terser(),
-    ],
-  },
+      terser()
+    ]
+  }
 ];

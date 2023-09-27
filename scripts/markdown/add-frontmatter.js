@@ -21,7 +21,6 @@ function slugify(str) {
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
-
 const files = glob.sync(`${CONTENT_DIR}/*.md`);
 
 files.forEach(async (file) => {
