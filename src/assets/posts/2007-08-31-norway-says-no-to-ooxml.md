@@ -25,7 +25,7 @@ voted blank. There was a large disagreement in Norway between the other
 organizations and it finally became clear that Standard Norge should decide what
 Norway votes in the OOXML debate.
 
-<img src="/img/blog/img3bb1ad086c4aaf14565ac0457ffbea19.webp" alt="The OOXML specifications from Microsoft" class="ph" />
+![The OOXML specifications from Microsoft](/img/blog/img3bb1ad086c4aaf14565ac0457ffbea19.webp)
 
 A press release from Standard Norge:
 
@@ -35,7 +35,7 @@ A press release from Standard Norge:
 > its present form.
 
 I wrote earlier about
-<a class="ph" href="/2007/08/29/the-ooxml-problem/">OOXML</a>, and I urge you to
+[OOXML](/2007/08/29/the-ooxml-problem/), and I urge you to
 sign the petition (follow the link in the article) against OOXML.
 
 Standard Norge actually gives a conditioned yes to OOXML, but that's a big NO
@@ -46,5 +46,5 @@ The picture to this post is the 6000 pages of OOXML specifications from
 Microsoft
 
 Sources:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://digi.no">Digi.no</a>
+[Digi.no](http://digi.no)
 .

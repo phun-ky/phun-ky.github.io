@@ -14,7 +14,7 @@ blocks in hard drive.
 With Clonezilla, one can clone a 5 GB system to 40 clients in about 10 minutes.
 
 Download it
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://clonezilla.sourceforge.net/download/sourceforge/">here</a>
+[here](http://clonezilla.sourceforge.net/download/sourceforge/)
 
 Read more about Clonezilla live
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://clonezilla.sourceforge.net/">here</a>
+[here](http://clonezilla.sourceforge.net/)

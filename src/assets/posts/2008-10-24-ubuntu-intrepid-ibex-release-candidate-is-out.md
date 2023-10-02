@@ -10,7 +10,7 @@ tags: []
 The release of Ubuntu 8.10 Intrepid Ibex is getting closer with the release of
 the 8.10 RC.
 
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://distrowatch.com/table.php?distribution=ubuntu">DistroWatch.com</a>
+[DistroWatch.com](http://distrowatch.com/table.php?distribution=ubuntu)
 reports that the release candidate for Ubuntu> 8.10
 "Intrepid Ibex" is out:
 
@@ -23,28 +23,28 @@ announcement</a> and
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntu.com/getubuntu/releasenotes/810">release
 notes</a> for more information.
 
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntu.com/testing/intrepid/beta">Download</a>
-(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/8.10/MD5SUMS">MD5</a>):
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://mirror.anl.gov/pub/ubuntu-iso/CDs/8.10/ubuntu-8.10-rc-desktop-i386.iso">ubuntu-8.10-rc-desktop-i386.iso</a>
+[Download](http://www.ubuntu.com/testing/intrepid/beta)
+([MD5](http://releases.ubuntu.com/8.10/MD5SUMS)):
+[ubuntu-8.10-rc-desktop-i386.iso](http://mirror.anl.gov/pub/ubuntu-iso/CDs/8.10/ubuntu-8.10-rc-desktop-i386.iso)
 (698MB,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/8.10/ubuntu-8.10-rc-desktop-i386.iso.torrent">torrent</a>),
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://ubuntu.media.mit.edu/ubuntu-releases/8.10/ubuntu-8.10-rc-desktop-amd64.iso">ubuntu-8.10-rc-desktop-amd64.iso</a>
+[torrent](http://releases.ubuntu.com/8.10/ubuntu-8.10-rc-desktop-i386.iso.torrent)),
+[ubuntu-8.10-rc-desktop-amd64.iso](http://ubuntu.media.mit.edu/ubuntu-releases/8.10/ubuntu-8.10-rc-desktop-amd64.iso)
 (698MB,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/8.10/ubuntu-8.10-rc-desktop-amd64.iso.torrent">torrent</a>).
+[torrent](http://releases.ubuntu.com/8.10/ubuntu-8.10-rc-desktop-amd64.iso.torrent)).
 
-Also available are 8.10 RC CD images for <a href="kubuntu">Kubuntu</a>
-(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://releases.ubuntu.com/releases/kubuntu/8.10">download</a>,
+Also available are 8.10 RC CD images for [Kubuntu](kubuntu)
+([download](http://releases.ubuntu.com/releases/kubuntu/8.10),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.kubuntu.org/IntrepidIbex/RC/Kubuntu">release
-notes</a>), <a href="xubuntu">Xubuntu</a>
-(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/xubuntu/releases/8.10/rc">download</a>,
+notes</a>), [Xubuntu](xubuntu)
+([download](http://cdimage.ubuntu.com/xubuntu/releases/8.10/rc),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.ubuntu.com/IntrepidIbex/RC/Xubuntu">release
-notes</a>), <a href="ubuntustudio">Ubuntu Studio</a>
-(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/ubuntustudio/releases/8.10/rc">download</a>)
-and <a href="mythbuntu">Mythbuntu</a>
-(<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/mythbuntu/releases/8.10/rc">download</a>).
+notes</a>), [Ubuntu Studio](ubuntustudio)
+([download](http://cdimage.ubuntu.com/ubuntustudio/releases/8.10/rc))
+and [Mythbuntu](mythbuntu)
+([download](http://cdimage.ubuntu.com/mythbuntu/releases/8.10/rc)).
 
 You can read more of my Ubuntu-posts here:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://phun-ky.net/search/intrepid">http://phun-ky.net/search/intrepid</a>.
+[http://phun-ky.net/search/intrepid](http://phun-ky.net/search/intrepid).
 
 If you're interested in a first impression of Intrepid Ibex, you can read
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://lifehacker.com/5058730/first-look-at-ubuntu-810-intrepid-ibex-beta">this

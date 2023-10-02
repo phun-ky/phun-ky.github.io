@@ -12,6 +12,6 @@ work and what they do.
 
 Download the keynote here:
 
-<a class="ph" href="/files/acidtests_lecture_nerdvana_week46_2010.odp">ODF</a>
+[ODF](/files/acidtests_lecture_nerdvana_week46_2010.odp)
 or
-<a class="ph" href="/files/acidtests_lecture_nerdvana_week46_2010.ppt">PPT</a>
+[PPT](/files/acidtests_lecture_nerdvana_week46_2010.ppt)

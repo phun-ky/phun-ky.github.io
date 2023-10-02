@@ -1,6 +1,6 @@
 ---
 layout: post
-description: 'It has been two years <a class="ph" target="_blank" rel="noopener noreferrer" href="http://phun-ky.net/2008/03/attending-goopen-2008">since last time</a>, but at last, this year I am attending <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.goopen.no">GoOpen</a> 2010!'
+description: 'It has been two years [since last time](http://phun-ky.net/2008/03/attending-goopen-2008), but at last, this year I am attending [GoOpen](http://www.goopen.no) 2010!'
 route: /2010/03/29/attending-goopen-2010
 title: 'Attending GoOpen 2010!'
 category: 'Archive'
@@ -28,7 +28,7 @@ tags: [conference, goopen]
 
 I will try to get a hold of these keynotes:
 
-### Cloud Computing opportunities - by Business Director Amazon Web Services, <a class="ph" target="_blank" rel="noopener noreferrer" href="http://lu.linkedin.com/in/martinbuhr">Martin Buhr</a>
+### Cloud Computing opportunities - by Business Director Amazon Web Services, [Martin Buhr](http://lu.linkedin.com/in/martinbuhr)
 
 > His role is to drive increased awareness of Amazon's cloud computing offerings
 > in Europe, the Middle East, and Africa, grow the customer and revenue base,
@@ -44,7 +44,7 @@ I will try to get a hold of these keynotes:
 > for Neomar, a Silicon Valley startup backed by Research in Motion, which
 > securely extended enterprise applications to mobile devices.
 
-### Is public information public? - by CTO Opera Software, <a class="ph" target="_blank" rel="noopener noreferrer" href="http://people.opera.com/howcome/">Håkon Wium Lie</a>
+### Is public information public? - by CTO Opera Software, [Håkon Wium Lie](http://people.opera.com/howcome/)
 
 > The government in Norway produce plenty of digital information that isn't made
 > available for everyone. Privacy/data security and the national safety could be
@@ -52,7 +52,7 @@ I will try to get a hold of these keynotes:
 > information retained with no reason. Why is it like this and how can we change
 > this?
 
-### <a class="ph" target="_blank" rel="noopener noreferrer" href="http://wimp.no/">WiMP</a> process numbers with free software - by Per Einar Dybvik and Martin Stangeland
+### [WiMP](http://wimp.no/) process numbers with free software - by Per Einar Dybvik and Martin Stangeland
 
 Per Einar Dybvik from Aspiro Music and Martin Stangeland from Conduct AS
 presents how the Pentaho Open Source BI solution has been utilized and how they
@@ -62,7 +62,7 @@ implemented it.
 
 I really going to enjoy this one, not just because she is presenting a keynote
 on how they've used
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.osgeo.org/">OSGeo</a>,
+[OSGeo](http://www.osgeo.org/),
 but because the keynote speaker is my cousin (first cousin once removed)!
 
 ### A Government's Vision Becomes Reality: OSS Implementation in the Malaysian Public Sector - by Tan King Ing
@@ -142,7 +142,7 @@ own business.
 
 ## Follow GoOpen
 
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://vimeo.com/channels/82181">http://vimeo.com/channels/82181</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.flickr.com/photos/friprog/sets/72157623294474110/">http://www.flickr.com/photos/friprog/sets/72157623294474110/</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://blogg.friprog.no/">http://blogg.friprog.no/</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://twitter.com/GoOpen/">http://twitter.com/GoOpen/</a>
+- [http://vimeo.com/channels/82181](http://vimeo.com/channels/82181)
+- [http://www.flickr.com/photos/friprog/sets/72157623294474110/](http://www.flickr.com/photos/friprog/sets/72157623294474110/)
+- [http://blogg.friprog.no/](http://blogg.friprog.no/)
+- [http://twitter.com/GoOpen/](http://twitter.com/GoOpen/)

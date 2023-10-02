@@ -9,4 +9,4 @@ tags: []
 
 Just do it. Glad to see this product available!
 
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.dell.com">http://www.dell.com</a>
+[http://www.dell.com](http://www.dell.com)

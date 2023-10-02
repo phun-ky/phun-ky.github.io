@@ -15,14 +15,14 @@ on, the DVD was DVD-R, so to install Ubuntu Studio on my stationary, I had to
 rip out my DVD+-R drive from my HTPC.. Took some pix of it, but adding them
 later.
 
-<img src="/img/blog/imga22ebea86c37fcb440ac1dc8890221c9.webp" class="ph"/>
+![](/img/blog/imga22ebea86c37fcb440ac1dc8890221c9.webp)
 
 After I got it installed, I tried the basic: get the network connection up ASAP.
 Just had to plug it in, nothing more. Brutal! After that I tried to install
 pidgin (or any other through apt-get), but it turns out that was pretty annoying
 due to the fact that the first repository in the list was the DVD, and I removed
 that drive right after the install.. I found the solution at
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://monkeyblog.org/ubuntu/installing/#enabling_extra_repositories">monkeyblog</a>
+[monkeyblog](http://monkeyblog.org/ubuntu/installing/#enabling_extra_repositories)
 right after I posted for help in another forum. The solution was to disable the
 local repositories.
 

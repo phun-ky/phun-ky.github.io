@@ -12,7 +12,7 @@ As I mentioned in one of my earlier posts, I'm
 2008</a>, a conference about Open Source arranged by the National Competence
 Center for Open Source.
 
-<img src="/img/GoOpen-2008_logo.webp" alt="goopen" class="ph"/>
+![goopen](/img/GoOpen-2008_logo.webp)
 
 I've already made my mind about which sessions I'll attend:
 

@@ -16,7 +16,7 @@ that is :P )
 
 To check out the book, you can download a free chapter to see if it has any
 interest for you, visit
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.sitepoint.com/books/ajax1/">SitePoint</a>.
+[SitePoint](http://www.sitepoint.com/books/ajax1/).
 
 The reason why I suddenly dive into AJAX is just because it is hip in the web
 development nowadays. When I say hip, I mean that it is the customers that want

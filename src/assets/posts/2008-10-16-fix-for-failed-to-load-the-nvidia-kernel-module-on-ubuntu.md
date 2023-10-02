@@ -16,7 +16,7 @@ this with similar errors):
 So, the fix:
 
 First, go here:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.nvidia.com/Download/index.aspx?lang=en-us">http://www.nvidia.com/Download/index.aspx?lang=en-us</a>
+[http://www.nvidia.com/Download/index.aspx?lang=en-us](http://www.nvidia.com/Download/index.aspx?lang=en-us)
 to get the latest NVIDIA drivers. Install them as root after you've reset x
 (ctrl+alt+backspace). Then reboot.
 

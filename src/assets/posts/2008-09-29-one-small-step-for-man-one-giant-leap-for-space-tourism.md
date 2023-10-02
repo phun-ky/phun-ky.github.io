@@ -10,7 +10,7 @@ tags: []
 A big congratulations to
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Elon_Musk">Elon
 Musk</a>a> and his company
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/SpaceX">SpaceX</a>
+[SpaceX](http://en.wikipedia.org/wiki/SpaceX)
 for the first privately sponsored rocket to reach orbit!
 
 This is another milestone after the human endavour of the space race that

@@ -16,21 +16,25 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasn
    2. [NASA, the Mars Climate Orbiter](#nasa-the-mars-climate-orbiter)
 2. [What can we learn from this?](#what-can-we-learn-from-this)
 
-<figure class="ph">
-  <img title="The four horsemen of the apocalypse" alt="A painting of the four horsemen of the apocalypse" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Apocalypse_vasnetsov.jpg#/media/File:Apocalypse_vasnetsov.jpg">Apocalypse vasnetsov</a>" by <a class="ph" href="//en.wikipedia.org/wiki/Viktor_Vasnetsov" class="extiw" title="en:Viktor Vasnetsov">Viktor M. Vasnetsov</a> - <a rel="nofollow" class="ph external free" href="http://lj.rossia.org/users/john_petrov/166993.html">http://lj.rossia.org/users/john_petrov/166993.html</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="A painting of the four horsemen of the apocalypse"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg>"
+%}
+
+Image by [Viktor M. Vasnetsov](//en.wikipedia.org/wiki/Viktor_Vasnetsov) - [http://lj.rossia.org/users/john_petrov/166993.html](http://lj.rossia.org/users/john_petrov/166993.html). Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
+  
+{% /figure %}
 
 How do you ask? Well, how is your data? Can it be trusted? Do you think the
 users of your systems are safe without trusted data?
 
 > Anything that can go wrong will go wrong.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Murphy%27s_law">https://en.wikipedia.org/wiki/Murphy%27s_law</a>
+> <footer class="ph">
+>
+> – [https://en.wikipedia.org/wiki/Murphy%27s_law](https://en.wikipedia.org/wiki/Murphy%27s_law)
+>
+> </footer>
 
 Well, let me tell you what possibly could go wrong (or in reality, will go
 wrong):
@@ -66,7 +70,11 @@ engineered event.)_
 > those direct reports simply did not match anything about the erroneous data
 > received from NORAD
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms">https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms</a>
+> <footer class="ph">
+>
+> – [https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms](https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms)
+>
+> </footer>
 
 Be grateful that SAC checked with other sources about this alleged nuclear
 attack, or we would not have been here today.
@@ -89,17 +97,20 @@ and disintegrated".
 > the spacecraft for the effects of thruster firings. This software expected its
 > inputs to be in newton-seconds.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">Cause
+> <footer class="ph">
+>
+> – <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">Cause
 > of failure, Mars Climate Orbiter</a>
+>
+> </footer>
 
-<figure class="ph">
-  <img src="/img/blog/uf011824.webp" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      <a class="ph" target="_blank" rel="noopener noreferrer" href="http://ars.userfriendly.org/cartoons/?id=20080824">userfriendly.org</a>
-      </small>
-  </figcaption>
-</figure>
+{% figure
+  description="userfriendly.org"
+  src="/img/blog/uf011824.webp"
+  url="<http://ars.userfriendly.org/cartoons/?id=20080824>"
+%}
+
+{% /figure %}
 
 ## What can we learn from this?
 
@@ -117,22 +128,28 @@ robots?
 > hm. I've lost a machine.. literally _lost_. it responds to ping, it works
 > completely, I just can't figure out where in my apartment it is.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="http://bash.org/?5273">http://bash.org/?5273</a>
+> <footer class="ph">
+> – [http://bash.org/?5273](http://bash.org/?5273)
+>
+> </footer>
 
 But how could you do it better? How can your data be safe? "How can I make sure
 I have data that is trustworthy?".
 
 This is not about just sanitation of data, using tests and verify outcomes. This
 is about making sure the data is trusted, and the solution is
-<a class="ph" href="/2015/09/09/trusted-data/">"Trusted Data"</a>. When we are
+["Trusted Data"](/2015/09/09/trusted-data/). When we are
 dealing with data, we have to make sure that the data is trustworthy. As
 <a class="ph" href="/2015/09/14/how-to-work-with-trusted-data/">previously
 mentioned</a>, there are some key pointers you can adhere to, to work with
-<a class="ph" href="/2015/09/09/trusted-data/">"Trusted Data"</a>.
+["Trusted Data"](/2015/09/09/trusted-data/).
 
 > Assumption is the mother of all fuckups
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=wg4trPZFUwc">https://www.youtube.com/watch?v=wg4trPZFUwc</a>
+> <footer class="ph">
+> – [https://www.youtube.com/watch?v=wg4trPZFUwc](https://www.youtube.com/watch?v=wg4trPZFUwc)
+>
+> </footer>
 
 Never assume anything when it comes to data, or interpretation of data. Be
 skeptic, curious. Go into the matter, tear it apart and analyse it. See things
