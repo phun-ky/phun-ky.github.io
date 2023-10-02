@@ -10,7 +10,7 @@
     "prebuild": "npm run clean && npm run assets && node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js",
     "build": "rollup -c rollup.config.js",
     "postbuild": "bash -c 'mv -f ./dist/*.{js,map} ./dist/js'",
-    "build:watch": "rollup -c rollup.config.js -w",
+    "build:watch": "NODE_ENV=development rollup -c rollup.config.js -w",
     "commit": "git cz"
   },
   "repository": {

@@ -1,5 +1,7 @@
 import { slugify } from '../../../utils/slugify.js';
 
+import { Link } from '../Link/index.js';
+
 const html = String.raw;
 
 export const Categories = (categories) => {
@@ -10,9 +12,9 @@ export const Categories = (categories) => {
     .map((category) => {
       return `
     <li class="ph category">
-    <a class="ph category-link" href="/categories/${slugify(
+  ${Link({className: 'category-link', to: `/categories/${slugify(
     category.toLowerCase()
-  )}">${category}</a>
+  )}`, content: category})}
 
     </li>`;
     })

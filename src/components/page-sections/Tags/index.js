@@ -1,5 +1,7 @@
 import { slugify } from '../../../utils/slugify.js';
 
+import { Link } from '../../navigation/Link/index.js';
+
 const html = String.raw;
 
 export const Tags = (tags) => {
@@ -11,9 +13,7 @@ export const Tags = (tags) => {
     .sort()
     .map((tag) => {
       return html`<li class="ph tag">
-            <a class="ph tag-link" href="/tags/${slugify(tag.toLowerCase())}">
-              ${tag}
-            </a>
+      ${Link({to: `/tags/${slugify(tag.toLowerCase())}`, className: 'tag-link', content: tag })}
           </li>`;
     })
     .join('\n')}

@@ -1,3 +1,6 @@
+import { Link } from '../Link/index.js';
+
+
 const html = String.raw;
 
 export const Breadcrumbs = (category, categoryURL) => {
@@ -21,7 +24,7 @@ export const Breadcrumbs = (category, categoryURL) => {
           clip-rule="evenodd"
         ></path>
       </svg>
-      <a href="${categoryURL}" class="ph">${category}</a>
+      ${Link({to: categoryURL, content: category})}
     </li>
   </ul>`;
 };
