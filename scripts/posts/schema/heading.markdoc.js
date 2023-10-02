@@ -1,5 +1,6 @@
 import Markdoc from '@markdoc/markdoc';
 import { addClassToNode } from '../utils/add-class-to-node.js';
+import { slugify } from '../../../src/utils/slugify.js';
 
 const generateID = (children, attributes) => {
   if (attributes.id && typeof attributes.id === 'string') {
@@ -11,12 +12,9 @@ const generateID = (children, attributes) => {
   }
 
   // eslint-disable-next-line
-  return children
+  return slugify(children
     .filter((child) => typeof child === 'string')
-    .join(' ')
-    .replace(/[?]/g, '')
-    .replace(/\s+/g, '-')
-    .toLowerCase();
+    .join(' '));
 };
 const heading = {
   attributes: {
