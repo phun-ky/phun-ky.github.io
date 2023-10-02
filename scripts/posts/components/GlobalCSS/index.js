@@ -142,6 +142,14 @@ export const GlobalCSS = () => {
           line-height: 1.375;
         }
       }
+      h1.ph > em.ph {
+        font-weight: normal;
+        max-width: 65ch;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        display: block;
+        color: var(--ph-color-text);
+      }
       .ph.frontpage h1.ph {
         margin-bottom: 2.5rem;
         font-size: 3rem;
