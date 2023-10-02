@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/17/photo-netcom-poked-telenor
 title: 'Photo: NetCom poked Telenor'
-description: ''
 category: 'Archive'
 tags: []
 ---

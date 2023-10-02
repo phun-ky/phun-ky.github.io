@@ -3,7 +3,6 @@ layout: post
 
 route: /2009/01/04/message-from-gaza-spread-the-word
 title: 'Message from Gaza, spread the word'
-description: ''
 category: 'Archive'
 tags: []
 ---

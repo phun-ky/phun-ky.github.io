@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/08/07/congrats-www
 title: 'Congrats www!'
-description: ''
 category: 'Archive'
 tags: []
 ---

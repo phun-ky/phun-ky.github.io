@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/08/opposition-states-norway-voted-no-to-ooxml
 title: 'Opposition states: - Norway voted no to OOXML'
-description: ''
 category: 'Archive'
 tags:
   [

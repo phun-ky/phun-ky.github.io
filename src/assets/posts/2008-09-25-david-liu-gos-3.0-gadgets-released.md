@@ -2,7 +2,6 @@
 layout: post
 route: /2008/09/25/david-liu-gos-3.0-gadgets-released
 title: 'David Liu gOS 3.0 "Gadgets" released'
-description: ''
 category: 'Archive'
 tags: []
 ---

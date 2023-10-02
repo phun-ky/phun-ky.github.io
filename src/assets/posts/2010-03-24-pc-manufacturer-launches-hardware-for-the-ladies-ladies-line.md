@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/24/pc-manufacturer-launches-hardware-for-the-ladies-ladies-line
 title: 'PC-manufacturer Launches Hardware for the Ladies: ladies line'
-description: ''
 category: 'Archive'
 tags: []
 ---

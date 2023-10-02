@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/17/the-winners-of-the-world-whiskies-awards-2010
 title: 'The winners of the World Whiskies Awards 2010 '
-description: ''
 category: 'Archive'
 tags: []
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/02/09/squid-log-parser
 title: 'Squid log parser'
-description: ''
 category: 'Archive'
 tags: [squid, caching, server, backend, log, logging, parsing]
 ---

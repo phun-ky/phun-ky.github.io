@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/07/25/we-stopped-for-a-swim-on-dovrefjell
 title: 'we stopped for a swim on dovrefjell'
-description: ''
 category: 'Archive'
 tags: []
 ---

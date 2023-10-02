@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/08/14/reliable-truce-in-the-middle-east
 title: 'Reliable truce in the Middle East?'
-description: ''
 category: 'Archive'
 tags: [politics, middle-east]
 ---

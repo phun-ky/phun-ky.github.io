@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/11/07/its-friday-again-yahoo
 title: "It's friday, again... Yahoo!"
-description: ''
 category: 'Archive'
 tags: []
 ---

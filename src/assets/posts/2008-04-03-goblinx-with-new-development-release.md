@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/03/goblinx-with-new-development-release
 title: 'Goblinx with new development release'
-description: ''
 category: 'Archive'
 tags: [linux, linux news, goblinx]
 ---

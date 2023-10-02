@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/09/05/iso-says-no-to-ooxml
 title: 'ISO says no to OOXML!'
-description: ''
 category: 'Archive'
 tags:
   [

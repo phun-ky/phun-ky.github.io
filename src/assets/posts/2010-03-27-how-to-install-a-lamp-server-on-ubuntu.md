@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/27/how-to-install-a-lamp-server-on-ubuntu
 title: 'How to install a LAMP server on Ubuntu'
-description: ''
 category: 'Archive'
 tags: []
 ---

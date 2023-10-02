@@ -1,5 +1,6 @@
 import Markdoc from '@markdoc/markdoc';
 
+import figure from '../schema/figure.markdoc.js';
 import heading from '../schema/heading.markdoc.js';
 import fence from '../schema/codeblock.markdoc.js';
 import code from '../schema/inline-code.markdoc.js';
@@ -10,6 +11,7 @@ export const getMarkdocConfig = (document) => {
   const { frontmatter } = document;
   const config = {
     tags: {
+      figure,
       message,
       'html-tag': {
         attributes: {

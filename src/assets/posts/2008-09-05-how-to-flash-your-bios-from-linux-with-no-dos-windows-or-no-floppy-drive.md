@@ -4,7 +4,6 @@ layout: post
 route: /2008/09/05/how-to-flash-your-bios-from-linux-with-no-doswindows-or-no-floppy-drive
 title:
   'how to flash your bios from linux with no dos/windows or no floppy drive'
-description: ''
 category: 'Archive'
 tags: []
 ---

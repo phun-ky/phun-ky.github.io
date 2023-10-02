@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/02/09/xhtml-javascript-flash-validated
 title: 'XHTML JavaScript flash validated?'
-description: ''
 category: 'Archive'
 tags: [programming, scripting, xhtml, javascript, flash, validation]
 ---

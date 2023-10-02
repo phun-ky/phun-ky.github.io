@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/01/what-is-april-fools
 title: "What is April Fool's?"
-description: ''
 category: 'Archive'
 tags: [funny, april fool's]
 ---

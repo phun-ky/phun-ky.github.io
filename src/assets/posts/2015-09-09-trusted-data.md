@@ -3,27 +3,30 @@ route: /2015/09/09/trusted-data
 title: 'Trusted Data'
 tagline: 'What is Trusted Data?'
 description:
-  'We live in a plane in the space-time continuum surrounded by data. An
-  inconceivable amount of data. Every day we observe, process, interpret,
-  analyse and act upon data. Not just with computers, but with anything,
-  everywhere. We watch TV, use social media, we look through the window, we
-  smell the rain, we sense the tingling feeling on our feet when walking
-  barefooted in the grass. We collect data 24/7, even when we sleep. With so
-  much data out there, how can we trust it? What is Trusted Data?'
+  We live in a <a class="ph" target="_blank" rel="noopener noreferrer" href="https://simple.wikipedia.org/wiki/Space-time">plane in the space-time continuum</a> surrounded by data. An inconceivable amount of data. Every day we observe, process, interpret, analyse and act upon data. Not just with computers, but with anything, everywhere. We watch TV, use social media, we look through the window, we smell the rain, we sense the tingling feeling on our feet when walking barefooted in the grass. We collect data 24/7, even <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Neuroscience_of_sleep">when we sleep.</a> With so much data out there, how can we trust it? What is "Trusted Data"?
 category: 'Technology'
 tags: [trusted-data, data]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/640px-Social_Network_Analysis_Visualization.png
 ---
 
-<p class="ph lead">
-  We live in a <a class="ph" target="_blank" rel="noopener noreferrer" href="https://simple.wikipedia.org/wiki/Space-time">plane in the space-time continuum</a> surrounded by data. An inconceivable amount of data. Every day we observe, process, interpret, analyse and act upon data. Not just with computers, but with anything, everywhere. We watch TV, use social media, we look through the window, we smell the rain, we sense the tingling feeling on our feet when walking barefooted in the grass. We collect data 24/7, even <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Neuroscience_of_sleep">when we sleep.</a> With so much data out there, how can we trust it? What is "Trusted Data"?
-</p>
+**Table of Contents**
+
+1. [What is data?](#what-is-data)
+2. [What is trust?](#what-is-trust)
+3. [Trusted data](#trusted-data)
+   1. [What is a source?](#what-is-a-source)
+   2. [Verification of data](#verification-of-data)
+   3. [Examples of erroneous data](#examples-of-erroneous-data)
+   4. [What makes data untrustworthy?](#what-makes-data-untrustworthy)
+   5. [What risks are involved when we have untrustworthy data?](#what-risks-are-involved-when-we-have-untrustworthy-data)
+   6. [Interpretation of data](#interpretation-of-data)
+4. [A final word](#a-final-word)
 
 <figure class="ph">
   <img alt="A picture of the Milky Way seen in the night sky in Black Rock Desert Nevada" aria-describedby="Milky_Way_Night_Sky_Black_Rock_Desert_Nevada" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg/643px-Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" id="Milky_Way_Night_Sky_Black_Rock_Desert_Nevada" href="https://commons.wikimedia.org/wiki/File:Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg#/media/File:Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg">Milky Way Night Sky Black Rock Desert Nevada</a>" by <a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01">Steve Jurvetson</a> - <a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01/898622334">Flickr</a>. Licensed under <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 1</strong>
+      "<a class="ph" id="Milky_Way_Night_Sky_Black_Rock_Desert_Nevada" href="https://commons.wikimedia.org/wiki/File:Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg#/media/File:Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg">Milky Way Night Sky Black Rock Desert Nevada</a>" by <a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01">Steve Jurvetson</a> - <a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01/898622334">Flickr</a>. Licensed under <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -56,7 +59,7 @@ lies in the terminology used.
   <img aria-describedby="Social_Network_Analysis_Visualization" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/640px-Social_Network_Analysis_Visualization.png" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" id="Social_Network_Analysis_Visualization" href="https://commons.wikimedia.org/wiki/File:Social_Network_Analysis_Visualization.png#/media/File:Social_Network_Analysis_Visualization.png">Social Network Analysis Visualization</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:MartinGrandjean~commonswiki" title="User:MartinGrandjean~commonswiki" class="ph mw-redirect">MartinGrandjean</a> - <span class="int-own-work" lang="en">Own work</span>&nbsp;: <a rel="nofollow" class="ph external free" href="http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png">http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png</a>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 2</strong>
+      "<a class="ph" id="Social_Network_Analysis_Visualization" href="https://commons.wikimedia.org/wiki/File:Social_Network_Analysis_Visualization.png#/media/File:Social_Network_Analysis_Visualization.png">Social Network Analysis Visualization</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:MartinGrandjean~commonswiki" title="User:MartinGrandjean~commonswiki" class="ph mw-redirect">MartinGrandjean</a> - <span class="int-own-work" lang="en">Own work</span>&nbsp;: <a rel="nofollow" class="ph external free" href="http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png">http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png</a>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -110,13 +113,13 @@ When we collect, interpret and analyse data, we have to rely on a certain trust
 to the data we work with. The trust we rely on can be grouped in three levels of
 trust:
 
-> ### Deterrence-based trust (rules):
+> ### Deterrence-based trust (rules)
 >
 > Deterrence-based trust means that there are rules in place that prevent one
 > person from taking advantage of, or harming another person. In society, we
 > have laws that govern our behaviour in personal and business settings.
 >
-> ### Knowledge-based trust (experience):
+> ### Knowledge-based trust (experience)
 >
 > This level of trust means that I have had enough experience with you and
 > knowledge of your behaviour that I have a pretty good idea of how you will
@@ -124,7 +127,7 @@ trust:
 > time where there has been a consistent display of trustworthy behaviour that I
 > believe I can trust you with the everyday type issues we experience together.
 >
-> ### Identity-based trust (identity):
+> ### Identity-based trust (identity)
 >
 > This level of trust means that you know my hopes, dreams, goals, ambitions,
 > fears, and doubts. I trust you at this level because over the course of time I
@@ -175,7 +178,7 @@ explore this:
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Source-de-l%27Orbe.jpg/640px-Source-de-l%27Orbe.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-    "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Source-de-l%27Orbe.jpg#/media/File:Source-de-l%27Orbe.jpg">Source-de-l'Orbe</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:Micha_L._Rieser" title="User:Micha L. Rieser">Micha L. Rieser</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong class="ph">Figure 3</strong>
+    "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Source-de-l%27Orbe.jpg#/media/File:Source-de-l%27Orbe.jpg">Source-de-l'Orbe</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:Micha_L._Rieser" title="User:Micha L. Rieser">Micha L. Rieser</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -239,7 +242,7 @@ There are many, far too many, examples on erroneous data:
   <img alt="Photo of the Eikeland family tree" src="/img/blog/1522837_10153741673415125_1361780963_o.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" href="/img/blog/1522837_10153741673415125_1361780963_o.jpg">Photo of the Eikeland family tree</a>" by <span class="fn value">Alexander Vassbotn Røyne-Helgesen (<a rel="nofollow" class="ph external text" href="http://phun-ky.net">http://phun-ky.net</a>)</span>. Licensed under Attribution International via <a class="ph" target="_blank" rel="noopener noreferrer" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong class="ph">Figure 4</strong>
+      "<a class="ph" href="/img/blog/1522837_10153741673415125_1361780963_o.jpg">Photo of the Eikeland family tree</a>" by <span class="fn value">Alexander Vassbotn Røyne-Helgesen (<a rel="nofollow" class="ph external text" href="http://phun-ky.net">http://phun-ky.net</a>)</span>. Licensed under Attribution International via <a class="ph" target="_blank" rel="noopener noreferrer" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -266,7 +269,7 @@ the scientific progress of the time.
   <img aria-describedby="Carta_Marina" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Carta_Marina.jpeg/640px-Carta_Marina.jpeg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" id="Carta_Marina" href="https://commons.wikimedia.org/wiki/File:Carta_Marina.jpeg#/media/File:Carta_Marina.jpeg">Carta Marina</a>" by <a class="ph" href="//en.wikipedia.org/wiki/Olaus_Magnus" class="extiw" title="w:Olaus Magnus">Olaus Magnus</a> - <a rel="nofollow" class="ph external free" href="http://www.npm.ac.uk/rsdas/projects/carta_marina/">http://www.npm.ac.uk/rsdas/projects/carta_marina/</a> "Carta Marina satellite images". Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 5</strong>
+      "<a class="ph" id="Carta_Marina" href="https://commons.wikimedia.org/wiki/File:Carta_Marina.jpeg#/media/File:Carta_Marina.jpeg">Carta Marina</a>" by <a class="ph" href="//en.wikipedia.org/wiki/Olaus_Magnus" class="extiw" title="w:Olaus Magnus">Olaus Magnus</a> - <a rel="nofollow" class="ph external free" href="http://www.npm.ac.uk/rsdas/projects/carta_marina/">http://www.npm.ac.uk/rsdas/projects/carta_marina/</a> "Carta Marina satellite images". Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -314,7 +317,7 @@ particular.
   <img aria-describedby="Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG/640px-Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" id="Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background" href="https://commons.wikimedia.org/wiki/File:Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG#/media/File:Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG">Man highlining in Yosemite National Park with El Capitan in the background</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:Liannadavis" title="User:Liannadavis">LiAnna Davis</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 6</strong>
+      "<a class="ph" id="Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background" href="https://commons.wikimedia.org/wiki/File:Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG#/media/File:Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG">Man highlining in Yosemite National Park with El Capitan in the background</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:Liannadavis" title="User:Liannadavis">LiAnna Davis</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -393,7 +396,7 @@ interpret data.
   <img aria-describedby="Quarts_of_milk" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Quarts_of_milk_%285092042245%29_%283%29.jpg/640px-Quarts_of_milk_%285092042245%29_%283%29.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" id="Quarts_of_milk" href="https://commons.wikimedia.org/wiki/File:Quarts_of_milk_(5092042245)_(3).jpg#/media/File:Quarts_of_milk_(5092042245)_(3).jpg">Quarts of milk (5092042245) (3)</a>" by <a rel="nofollow" class="ph external text" href="http://www.flickr.com/people/24431382@N03">Eric Fischer</a> - <a rel="nofollow" class="ph external text" href="http://www.flickr.com/photos/walkingsf/5092042245/">Quarts of milk</a>. Licensed under <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong class="ph">Figure 7</strong>
+      "<a class="ph" id="Quarts_of_milk" href="https://commons.wikimedia.org/wiki/File:Quarts_of_milk_(5092042245)_(3).jpg#/media/File:Quarts_of_milk_(5092042245)_(3).jpg">Quarts of milk (5092042245) (3)</a>" by <a rel="nofollow" class="ph external text" href="http://www.flickr.com/people/24431382@N03">Eric Fischer</a> - <a rel="nofollow" class="ph external text" href="http://www.flickr.com/photos/walkingsf/5092042245/">Quarts of milk</a>. Licensed under <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
     </small>
   </figcaption>
 </figure>

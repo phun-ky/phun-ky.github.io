@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/03/22/usability-and-its-evil-neighbour-flash
 title: 'Usability and its evil neighbour, flash'
-description: ''
 category: 'Archive'
 tags: [usability, flash, ux, accessibility]
 ---

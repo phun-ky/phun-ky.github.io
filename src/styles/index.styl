@@ -16,15 +16,43 @@
 
 figcaption.ph
   font-size 0.875rem
-  color var(--ph-color-text)
   line-height 1.25rem
+  color var(--ph-color-text)
   opacity 0.8
   max-width none
   padding-top 0.5rem
+  font-style italic
+
+figure
+  & figcaption.ph
+    &::before
+      font-weight 700
+      font-style normal
+      content "Figure " counter(figure)
+
+figcaption.ph
+  & p.ph:first-child
+    margin-top 0
+  & p.ph
+    font-size 0.875rem
+    line-height 1.25rem
+    max-width none
+    font-style italic
+
+figure.ph
+  counter-increment figure
 
 figure.ph
   & > pre
     margin 0
+
+figure.ph
+  & :not(figcaption)
+    & img
+      width 100%
+      height 100%
+      object-fit cover
+      margin 0
 
 figcaption.ph
   & a
@@ -53,10 +81,18 @@ blockquote.ph
     padding 5rem 1.1428571em 0.8571429em 4rem
 
 
-blockquote.ph + figcaption.ph
-  padding-left 2rem
-  @media screen and (min-width: 1024px)
-    padding-left 4rem
+blockquote.ph
+  & em.ph
+    display block
+    font-size 0.875rem
+    line-height 1.25rem
+    font-weight normal
+    color var(--ph-color-text)
+    opacity 0.8
+    max-width none
+    padding-top 0.5rem
+    font-style italic
+    text-align right
 
 
 blockquote.ph
@@ -358,10 +394,13 @@ article.ph
   flex-wrap wrap
 
 
-a[href^="https://youtube.com"].ph.player,
-a[href^="https://www.youtube.com"].ph.player,
-a[href^="https://vimeo.com"].ph.player,
-a[href^="https://www.vimeo.com"].ph.player
+:not(figcaption.ph) > a[href^="https://youtube.com"].ph,
+:not(figcaption.ph) > a[href^="https://www.youtube.com"].ph,
+:not(figcaption.ph) > a[href^="https://vimeo.com"].ph,
+:not(figcaption.ph) > a[href^="https://i.vimeocdn"].ph,
+:not(figcaption.ph) > a[href^="https://player.vimeo.com"].ph,
+:not(figcaption.ph) > a[href^="https://videos.files.wordpres"].ph,
+:not(figcaption.ph) > a[href^="https://www.vimeo.com"].ph
   position relative
   display block
   &::before
@@ -389,3 +428,147 @@ a[href^="https://www.vimeo.com"].ph.player
     content "`"
   &::after
     content "`"
+
+
+:not(pre) > code[class*="language-"].ph
+  color var(--ph-color-text)
+  font-weight normal
+
+.ph.definition
+  background-color var(--ph-color-well-background)
+  border-radius 0.375rem
+  color var(--ph-color-text-accent)
+  overflow-x auto
+  padding 0.75rem 1rem
+  margin-bottom 1.5rem
+  margin-top 1.5rem
+  font-size 0.75rem
+  line-height 1rem
+  @media screen and (min-width: 1024px)
+    font-size 0.875rem
+    line-height 1.5rem
+    margin-bottom 2rem
+    margin-top 2rem
+    padding 1rem 1.5rem
+
+
+.ph.definition
+  & p.ph
+    font-size 0.75rem
+    line-height 1.25rem
+    @media screen and (min-width: 1024px)
+      font-size 0.875rem
+      line-height 1.5rem
+
+.ph.definition
+  & .ph.word
+    font-size 1.125rem
+    line-height 1.25rem
+    display block
+    width 100%
+    text-align left
+    @media screen and (min-width: 1024px)
+      font-size 1.25rem
+      line-height 2rem
+
+.ph.definition
+  & .ph.example-sentence,
+  & .ph.states
+    color var(--ph-color-text)
+
+.ph.definition
+  & .ph.example-sentence
+    &::before
+      content '"'
+    &::after
+      content '"'
+
+.ph.class
+  color var(--ph-color-text-accent)
+
+.ph.definition
+  & .ph.badge
+    background-color var(--ph-color-well-background)
+    padding 0.25rem 0.5rem
+    text-transform uppercase
+    color var(--ph-color-text)
+    border-radius 0.375rem
+
+
+.ph.definition
+  & > ol
+    display flex
+    flex-direction column
+    grid-gap 1rem
+    & > li::marker
+      font-weight 700
+
+
+.ph.definition
+  & > ol
+    & ul
+      margin-top 1rem
+      margin-bottom 1rem
+      & > li
+        list-style   disc
+
+.ph.definition
+  & li
+    padding-left 0.75rem
+
+
+.ph.definition
+  & .ph.phonetic
+    font-family 'Menlo for Powerline', 'Menlo Regular for Powerline', 'DejaVu Sans Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+
+
+article.ph
+  & h2.ph,
+  & h3.ph,
+  & h4.ph
+    & .ph.years-ago
+      font-weight 300
+      line-height 100%
+      font-style italic
+      font-size 70%
+      display inline-block
+      margin-left 1ch
+      &::before
+        content "("
+      &::after
+        content ")"
+
+
+.ph.ascii-flow
+  & > pre.ph
+    margin 0
+    pointer-events none
+    user-select none
+    line-height 1rem
+    display flex
+    justify-content center
+    align-items center
+
+
+article.ph p.ph a.ph img.ph
+  width 100%
+
+
+.ph.explicit
+  position relative
+  overflow hidden
+  &::before
+    background-color var(--ph-color-well-background)
+    z-index 100
+    content "Explicit content. Click to view"
+    position absolute
+    display flex
+    justify-content center
+    align-items center
+    top 0
+    left 0
+    right 0
+    bottom 0
+  & > img
+    filter blur(30px)
+

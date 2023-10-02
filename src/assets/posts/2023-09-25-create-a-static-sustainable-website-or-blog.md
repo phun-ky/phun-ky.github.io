@@ -1,7 +1,6 @@
 ---
 route: /2023/09/25/create-a-static-sustainable-website-or-blog
 title: 'Create a static, sustainable website or blog'
-tagline: ''
 description:
   'Over the years, I have made several types of blog engines, and sites, and I
   have never really been happy with anything, but this guide is one of the best
@@ -10,26 +9,21 @@ category: 'Projects'
 tags: [how-to, blog, javascript, rollup, nodejs, npm, github, yaml]
 ---
 
-<p class="ph lead">Over the years, I have made several types of blog engines, and sites, and I have never really been happy with anything, but this guide is one of the best attempts so far!</p>
-
 **Table of Contents**
 
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-  - [npm](#npm)
-  - [Dependencies](#dependencies)
-  - [npm scripts](#npm-scripts)
-  - [Configuration files](#configuration-files)
-  - [Rollup](#rollup)
-  - [Paths structure](#paths-structure)
-    - [JavaScript](#javascript)
-    - [CSS](#css)
-    - [Styles](#styles)
-  - [Convert posts](#convert-posts)
-  - [The article template](#the-article-template)
-- [Create your first post!](#create-your-first-post)
-- [Build and view your first post](#build-and-view-your-first-post)
-- [Summary](#summary)
+1. [Prerequisites](#prerequisites)
+2. [Setup](#setup)
+   1. [npm](#npm)
+   2. [Dependencies](#dependencies)
+   3. [npm scripts](#npm-scripts)
+   4. [Configuration files](#configuration-files)
+   5. [Rollup](#rollup)
+   6. [Paths structure](#paths-structure)
+   7. [Convert posts](#convert-posts)
+   8. [The article template](#the-article-template)
+3. [Create your first post](#create-your-first-post)
+4. [Build and view your first post](#build-and-view-your-first-post)
+5. [Summary](#summary)
 
 I have created my own blog engines with php, cakephp, static with macromedia
 dreamweaver (if you remember that..), jekyll and even tried to move my blogging
@@ -444,8 +438,8 @@ files.forEach((file) => {
     const { year, month, day, slug, title, description } = frontmatter;
 
     html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
-    html = html.replaceAll(/{{TITLE}}/, title);
-    html = html.replaceAll(/{{DESCRIPTION}}/, description);
+    html = html.replaceAll(/{{TITLE}}/g, title);
+    html = html.replaceAll(/{{DESCRIPTION}}/g, description);
 
     const pathToDir = join(__dirname, `../../dist/${year}/${month}/${day}`);
     const pathToFile = `${pathToDir}/${slug}.html`;
@@ -558,7 +552,6 @@ Now, open the post in your editor, and add these frontmatter properties:
 ---
 route: /2023/09/30/static-blog
 title: 'Create a static, sustainable website or blog'
-description: ''
 category: 'Projects'
 tags: [how-to, blog, JavaScript, rollup, nodejs, npm, github, yaml]
 ---

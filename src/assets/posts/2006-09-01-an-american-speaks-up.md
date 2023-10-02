@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/09/01/an-american-speaks-up
 title: 'An American speaks up!'
-description: ''
 category: 'Archive'
 tags: [politics, US]
 ---

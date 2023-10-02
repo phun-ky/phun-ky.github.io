@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/05/18/ubuntu-studio-install-part-2
 title: 'Ubuntu studio install: part 2'
-description: ''
 category: 'Archive'
 tags: [how-to, install, ubuntu, ubuntu studio, linux]
 ---

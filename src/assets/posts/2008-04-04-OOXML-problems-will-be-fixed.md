@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/04/ooxml-problems-will-be-fixed
 title: 'OOXML problems will be fixed'
-description: ''
 category: 'Archive'
 tags:
   [

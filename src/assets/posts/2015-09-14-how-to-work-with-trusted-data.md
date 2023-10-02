@@ -3,22 +3,18 @@ route: /2015/09/14/how-to-work-with-trusted-data
 title: 'How to work with Trusted Data'
 tagline: 'What can we do to make sure the data we have is trustworthy?'
 description:
-  'The previous article on Trusted Data, covered the definition on the term, but
-  the article did not provide any leads yet on how to act on this. How do you
-  work with data and ensure the data is trustworthy?'
+  'The <a class="ph" href="/2015/09/09/trusted-data">previous article on "Trusted Data"</a>, covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?'
 category: 'Technology'
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg
 tags: [trusted-data, data, how-to]
 ---
 
-<p class="ph lead">
+**Table of Contents**
 
-The <a class="ph" href="/2015/09/09/trusted-data/">previous article on "Trusted
-Data"</a>, covered the definition on the term, but the article did not provide
-any leads yet on how to act on this. How do you work with data and ensure the
-data is trustworthy?
-
-</p>
+1. [Sources](#sources)
+2. [Interpretation](#interpretation)
+3. [Data](#data)
+4. [A final word](#a-final-word)
 
 We will now cover those questions, and we begin with some key areas on how you
 can collect and process data. This could be used as a check list to make data
@@ -28,7 +24,7 @@ more trustworthy.
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg#/media/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg">RAILROAD WORK CREW IMPROVES THE TRACKS AND BED OF THE ATCHISON, TOPEKA AND SANTA FE RAILROAD NEAR BELLEFONT, KANSAS... - NARA - 556012</a>" by <span class="fn value">Charles O'Rear, 1941-, Photographer (<a rel="nofollow" class="ph external text" href="//research.archives.gov/person/3403717">NARA record: 3403717</a>)</span> - <a class="ph" href="//en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration" class="extiw" title="en:U.S. National Archives and Records Administration">U.S. National Archives and Records Administration</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 1</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg#/media/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg">RAILROAD WORK CREW IMPROVES THE TRACKS AND BED OF THE ATCHISON, TOPEKA AND SANTA FE RAILROAD NEAR BELLEFONT, KANSAS... - NARA - 556012</a>" by <span class="fn value">Charles O'Rear, 1941-, Photographer (<a rel="nofollow" class="ph external text" href="//research.archives.gov/person/3403717">NARA record: 3403717</a>)</span> - <a class="ph" href="//en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration" class="extiw" title="en:U.S. National Archives and Records Administration">U.S. National Archives and Records Administration</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
     </small>
   </figcaption>
 </figure>

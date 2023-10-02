@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/16/where-have-i-been-intrepid-ibex-is-ubuntu-810
 title: 'where have I been? intrepid ibex is ubuntu 8.10'
-description: ''
 category: 'Archive'
 tags: []
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/16/mandriva-has-announced-the-release-of-mandriva-enterprise-server-51
 title: 'Mandriva has announced the release of Mandriva Enterprise Server 5.1'
-description: ''
 category: 'Archive'
 tags: []
 ---

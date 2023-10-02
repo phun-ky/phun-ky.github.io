@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/23/gparted-livecd-is-now-updated-to-version-034-6
 title: 'gparted livecd is now updated to version 0.3.4-6'
-description: ''
 category: 'Archive'
 tags: []
 ---

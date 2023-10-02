@@ -9,8 +9,6 @@ category: 'How-to'
 tags: ['css']
 ---
 
-Have you ever thought your links looked boring and that they needed the little
-extra? Well, fear not, for I have the solution!
 
 ## The CSS
 

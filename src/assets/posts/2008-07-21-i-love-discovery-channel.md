@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/07/21/i-love-discovery-channel
 title: 'i love discovery channel'
-description: ''
 category: 'Archive'
 tags: []
 ---

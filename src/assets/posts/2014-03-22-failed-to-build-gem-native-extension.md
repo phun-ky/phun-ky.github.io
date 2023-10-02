@@ -8,9 +8,6 @@ category: 'Programming'
 tags: [how-to, gem, ruby, error, apt-get, ubuntu]
 ---
 
-I came across this error when I tried to install jekyll on my ubuntu laptop for
-testing out jekyll bootstrap locally:
-
 ```shell-session
 $ sudo gem install jekyll
 Building native extensions.  This could take a while...
@@ -33,5 +30,5 @@ Apparently this is due to a missing `ruby-dev`-package according to this issue:
 And this is how you fix it:
 
 ```shell-session
-$ sudo apt-get install ruby-dev
+sudo apt-get install ruby-dev
 ```

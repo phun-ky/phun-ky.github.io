@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/31/red-hat-enterprise-linux-55-released
 title: 'Red Hat Enterprise Linux 5.5 released'
-description: ''
 category: 'Archive'
 tags: []
 ---

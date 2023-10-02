@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/06/20/internet-monopoly-in-norway
 title: 'Internet monopoly in norway'
-description: ''
 category: 'Archive'
 tags: [internet norway, telenor, NIX, monopoly, news]
 ---

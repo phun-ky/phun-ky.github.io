@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/05/how-to-remove-empty-lines-in-vivim
 title: 'how to remove empty lines in vi/vim'
-description: ''
 category: 'Archive'
 tags: []
 ---

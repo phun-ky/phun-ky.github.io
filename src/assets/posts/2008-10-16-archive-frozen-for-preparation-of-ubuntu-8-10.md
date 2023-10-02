@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/10/16/archive-frozen-for-preparation-of-ubuntu-810
 title: 'Archive frozen for preparation of Ubuntu 8.10'
-description: ''
 category: 'Archive'
 tags: []
 ---

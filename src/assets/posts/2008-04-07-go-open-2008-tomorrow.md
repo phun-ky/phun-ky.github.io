@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/07/goopen-2008-tomorrow
 title: 'GoOpen 2008 tomorrow'
-description: ''
 category: 'Archive'
 tags: [conferences, goopen]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/02/05/seherno-relaunched-on-new-cms
 title: 'seher.no relaunched on new CMS'
-description: ''
 category: 'Archive'
 tags: [site releases, work]
 ---

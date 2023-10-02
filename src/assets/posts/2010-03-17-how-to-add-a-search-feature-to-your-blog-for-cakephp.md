@@ -3,16 +3,24 @@ layout: post
 
 route: /2010/03/17/how-to-add-a-search-feature-to-your-blog-for-cakephp
 title: 'How to add a search feature to your blog for cakephp'
-description: ''
+description: 'I was looking for a decent search feature to add to my blog, and after some reading around, I found this feature very easy and interesting. I found a <a href="http://bakery.cakephp.org/articles/view/search-feature-to-cakephp-blog-example" class="ph" target="_blank" rel="noreferrer noopener">how to in the bakery</a>, but as several users pointed out, it lacked simplicity and a reindex feature. I kept it to the basics and hope this will work as easy for you as it did for me.'
 category: 'Archive'
 tags: ['php', 'cakephp']
 ---
 
-I was looking for a decent search feature to add to my blog, and after some
-reading around, I found this feature very easy and interesting. I found a
-[how to in the bakery](http://bakery.cakephp.org/articles/view/search-feature-to-cakephp-blog-example),
-but as several users pointed out, it lacked simplicity and a reindex feature. I
-kept it to the basics and hope this will work as easy for you as it did for me.
+**Table of Contents**
+
+1. [Step 1: Download Searchable Behaviour](#step-1-download-searchable-behaviour)
+2. [Step 2: Create Table For Indexes](#step-2-create-table-for-indexes)
+3. [Step 3: Add SearchIndex Model](#step-3-add-searchindex-model)
+4. [Step 4: Update Your Post Model](#step-4-update-your-post-model)
+5. [Step 5: Add Actions In Your Post Controller](#step-5-add-actions-in-your-post-controller)
+6. [Step 6: Add Search Input Field](#step-6-add-search-input-field)
+7. [Step 7: Add search.ctp](#step-7-add-searchctp)
+8. [Step 8: Update Routes](#step-8-update-routes)
+9. [Step 9: Reindex Your Data](#step-9-reindex-your-data)
+10. [Step 10: Add functions to your post model](#step-10-add-functions-to-your-post-model)
+11. [Step 11: Add function to Post Controller](#step-11-add-function-to-post-controller)
 
 ## Step 1: Download Searchable Behaviour
 
