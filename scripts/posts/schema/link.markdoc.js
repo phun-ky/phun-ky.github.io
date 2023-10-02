@@ -14,8 +14,9 @@ const heading = {
     const { href } = attributes;
     const children = node.transformChildren(config);
 
-    if (href && href.indexOf('https') === 0) {
+    if (href && href.indexOf('/') !== 0) {
       attributes.target = '_blank';
+      attributes.rel = 'noreferrer noopener';
     }
 
     return new Markdoc.Tag(
