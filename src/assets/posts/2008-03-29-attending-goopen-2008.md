@@ -8,7 +8,7 @@ category: 'Archive'
 tags: [conferences, talks, goopen]
 ---
 
-![GoOpen logo](/img/blog/GoOpen-2008_logo.jpg)
+![GoOpen logo](/img/blog/GoOpen-2008_logo.webp)
 
 The event is arranged by National Competence Center for Open Source. The annual
 OpenOffice conference is combined with GoOpen this year, double the fun!

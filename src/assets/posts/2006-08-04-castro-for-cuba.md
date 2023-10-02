@@ -9,7 +9,7 @@ tags: [politics, cuba, us-relations]
 ---
 
 
-![© AP/Scanpix](/img/blog/imge7dc9ba36a726bc1161d86692f6271f5.jpg)
+![© AP/Scanpix](/img/blog/imge7dc9ba36a726bc1161d86692f6271f5.webp)
 
 We have not neglected that Fidel Castro is getting older, but we've to go some decades back to see some real controversity from Cuba. Still, the USA consider him as a dictator and they have to treat him as one. I am counting the days before the first wave of the "liberating forces of USA" arrives in Cuba..
 

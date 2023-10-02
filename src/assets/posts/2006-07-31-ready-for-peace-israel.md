@@ -16,7 +16,7 @@ call for an immediate end of the hostilities. Kofi Annan clearly states:
 > "Action is needed now before many more children, women and men become
 > casualties of a conflict over which they have no control."
 
-<img class="ph" src="/img/blog/img0be6bdbbfcb7e79dc5d12a59f2441dee.jpg"/>
+<img class="ph" src="/img/blog/img0be6bdbbfcb7e79dc5d12a59f2441dee.webp"/>
 
 Even though the world urges all sides of the conflict to immediate cease fire,
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://news.bbc.co.uk/2/hi/middle_east/5230192.stm">Israel
