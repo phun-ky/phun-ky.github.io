@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/10/10/mandriva-linux-2009-released
 title: 'Mandriva Linux 2009 released'
-description: ''
 category: 'Archive'
 tags: []
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/11/09/fedora-core-8-released
 title: 'Fedora Core 8 released'
-description: ''
 category: 'Archive'
 tags: [linux, linux news, fedora, fedora core 8]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/01/norways-yes-to-ooxml-recieves-formal-protest
 title: "Norway's yes to OOXML recieves formal protest"
-description: ''
 category: 'Archive'
 tags:
   [

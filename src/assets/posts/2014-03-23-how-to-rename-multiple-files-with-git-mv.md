@@ -1,14 +1,10 @@
 ---
 route: /2014/03/23/how-to-rename-multiple-files-with-git-mv
 title: 'How to rename multiple files with git mv'
-description: 'I needed a solution where I had to rename multiple files with git mv, instead of renaming every file first, then use git rm and then git add. Came across a solution that I have tweaked to fit my need'
+description: 'I needed a solution where I had to rename multiple files with <code class="ph language-">git mv</code>, instead of renaming every file first, then use <code class="ph language-">git rm</code> and then <code class="ph language-">git add</code>. Came across a solution that I have tweaked to fit my need'
 category: 'How-to'
 tags: [git, rename, how-to]
 ---
-
-I needed a solution where I had to rename multiple files with `git mv`, instead of
-renaming every file first, then use `git rm` and then `git add`. Came across a
-solution that I have tweaked to fit my need:
 
 ```bash
 # Rename multiple files

@@ -16,5 +16,17 @@ export const BodyScripts = () => {
         }
       });
     }
+
+    const yearsAgoElements = document.querySelectorAll('.ph.years-ago');
+
+    if(yearsAgoElements && yearsAgoElements.length !== 0){
+      yearsAgoElements.forEach(element => {
+        const year = element.getAttribute('data-year');
+
+        if(year){
+          element.textContent = ${'`'}${'$'}{year}, ${'$'}{new Date().getFullYear() - year} years ago${'`'};
+        }
+      })
+    }
   </script>`;
 };

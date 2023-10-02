@@ -2,7 +2,6 @@
 layout: post
 route: /2008/10/16/fix-for-failed-to-load-the-nvidia-kernel-module-on-ubuntu
 title: 'Fix for "Failed to load the NVIDIA kernel module" on Ubuntu'
-description: ''
 category: 'Archive'
 tags: []
 ---

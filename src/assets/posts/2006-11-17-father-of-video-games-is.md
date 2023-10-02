@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/11/17/father-of-video-games-is
 title: 'Father of Video Games is?'
-description: ''
 category: 'Archive'
 tags: [video games, history, gaming, gaming history]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/07/28/will-there-ever-be-peace
 title: 'Will there ever be peace?'
-description: ''
 category: 'Archive'
 tags: [politics, middle-east]
 ---

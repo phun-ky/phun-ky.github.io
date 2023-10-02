@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/01/clonezilla-live-1010-7
 title: 'Clonezilla live 1.0.10-7'
-description: ''
 category: 'Archive'
 tags: [linux news, linux, clonezilla]
 ---

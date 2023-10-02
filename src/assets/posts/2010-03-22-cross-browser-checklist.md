@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/22/cross-browser-checklist
 title: 'Cross Browser Checklist'
-description: ''
 category: 'Archive'
 tags: []
 ---

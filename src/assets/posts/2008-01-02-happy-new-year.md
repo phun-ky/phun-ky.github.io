@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/01/02/happy-new-year
 title: 'Happy New Year'
-description: ''
 category: 'Archive'
 tags: [happy new year, personal, greetings]
 ---

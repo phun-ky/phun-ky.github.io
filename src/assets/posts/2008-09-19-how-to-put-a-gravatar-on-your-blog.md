@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/19/how-to-put-a-gravatar-on-your-blog
 title: 'how to put a gravatar on your blog'
-description: ''
 category: 'Archive'
 tags: []
 ---

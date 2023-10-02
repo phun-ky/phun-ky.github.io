@@ -2,7 +2,6 @@
 layout: post
 route: /2008/10/21/how-to-make-a-transparent-png-that-ie6-supports-with-the-gimp
 title: 'How to make a transparent png that IE6 supports with The Gimp'
-description: ''
 category: 'Archive'
 tags: []
 ---

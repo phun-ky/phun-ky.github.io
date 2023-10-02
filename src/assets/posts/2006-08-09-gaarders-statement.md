@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/08/09/gaarders-statement
 title: "Gaarder's  statement"
-description: ''
 category: 'Archive'
 tags: [political, middle-east]
 ---

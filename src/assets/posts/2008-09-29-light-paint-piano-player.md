@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/29/light-paint-piano-player
 title: 'Light-Paint Piano Player'
-description: ''
 category: 'Archive'
 tags: []
 ---

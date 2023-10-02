@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/31/link-color-scheme-designer
 title: 'Link: Color Scheme Designer'
-description: ''
 category: 'Archive'
 tags: []
 ---

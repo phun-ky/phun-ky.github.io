@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/11/17/i-do-not-want-to-wii-no-more
 title: 'I do not want to Wii no more'
-description: ''
 category: 'Archive'
 tags: [wii, nintendo, nintendo wii, gaming, console, video console, video games]
 ---

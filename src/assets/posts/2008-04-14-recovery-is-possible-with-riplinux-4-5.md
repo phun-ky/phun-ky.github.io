@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/14/recovery-is-possible-with-riplinux-latest-release
 title: 'recovery is possible, with RIPLinux latest release'
-description: ''
 category: 'Archive'
 tags: []
 ---

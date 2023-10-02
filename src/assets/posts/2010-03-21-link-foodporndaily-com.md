@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/21/link-foodporndailycom
 title: 'Link: FoodPornDaily.com'
-description: ''
 category: 'Archive'
 tags: []
 ---

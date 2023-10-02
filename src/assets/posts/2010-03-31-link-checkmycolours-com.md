@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/31/link-checkmycolourscom
 title: 'Link: CheckMyColours.com'
-description: ''
 category: 'Archive'
 tags: []
 ---

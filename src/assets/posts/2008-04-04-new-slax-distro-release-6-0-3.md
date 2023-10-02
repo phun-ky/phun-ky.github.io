@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/04/new-slax-distro-release-603
 title: 'new slax distro release - 6.0.3'
-description: ''
 category: 'Archive'
 tags: []
 ---

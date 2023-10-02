@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/03/27/fedora-core-9-beta-released
 title: 'Fedora Core 9 beta released'
-description: ''
 category: 'Archive'
 tags: [linux, linux news, fedora, fedora core 9]
 ---

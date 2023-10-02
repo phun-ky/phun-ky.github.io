@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/08/31/how-to-override-css-with-javascript
 title: 'How to override CSS with JavaScript'
-description: ''
 category: 'Archive'
 tags: [how-to, javascript, css, style]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/10/24/ubuntu-intrepid-ibex-release-candidate-is-out
 title: 'Ubuntu Intrepid Ibex release candidate is out!'
-description: ''
 category: 'Archive'
 tags: []
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/08/10/4g-wimax-in-usa-now
 title: '4g WiMax in USA? Now?'
-description: ''
 category: 'Archive'
 tags: [tech-news, 4g, mobile internet, mobile data, 3g]
 ---

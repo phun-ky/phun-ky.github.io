@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/03/get-your-statistics-on-with-clicky
 title: 'Get your statistics on with clicky!'
-description: ''
 category: 'Archive'
 tags: [statistics]
 ---

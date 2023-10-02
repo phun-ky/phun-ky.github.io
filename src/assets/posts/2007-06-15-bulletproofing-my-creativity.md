@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/06/15/bulletproofing-my-creativity
 title: 'Bulletproofing my creativity'
-description: ''
 category: 'Archive'
 tags: [books]
 ---

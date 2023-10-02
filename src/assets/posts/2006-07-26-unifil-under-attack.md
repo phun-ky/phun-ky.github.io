@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/07/26/unifil-under-attack
 title: 'UNIFIL under attack'
-description: ''
 category: 'Archive'
 tags: [politics, middle-east]
 ---

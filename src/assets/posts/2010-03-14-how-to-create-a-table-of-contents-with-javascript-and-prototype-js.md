@@ -7,10 +7,6 @@ category: 'How-to'
 tags: ['javascript', 'toc','table of contents']
 ---
 
-Well, if you write long posts every now and then and you want your users to
-access the information in an easy way instead of splitting up the post in
-several pages, this is a very nice solution to this issue.
-
 {% message type="note" title="Note" %}
 
 You might want to add some styling to the levels in the table of contents, so that the user can differentiate between levels.

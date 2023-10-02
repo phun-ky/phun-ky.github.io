@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/11/10/phun-ky-does-prague
 title: 'phun-ky does Prague'
-description: ''
 category: 'Archive'
 tags: [vacation, europe, prague]
 ---

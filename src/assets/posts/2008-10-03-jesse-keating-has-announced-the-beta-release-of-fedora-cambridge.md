@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/10/03/jesse-keating-has-announced-the-beta-release-of-fedora-cambridge
 title: 'Jesse Keating has announced the beta release of Fedora Cambridge'
-description: ''
 category: 'Archive'
 tags: []
 ---

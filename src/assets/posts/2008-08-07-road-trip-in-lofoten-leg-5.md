@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/08/07/road-trip-in-lofoten-leg-5
 title: 'road trip in lofoten, leg 5'
-description: ''
 category: 'Archive'
 tags: []
 ---

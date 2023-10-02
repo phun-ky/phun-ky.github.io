@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/04/my-april-desktop
 title: 'my april desktop'
-description: ''
 category: 'Archive'
 tags: [desktop, background]
 ---

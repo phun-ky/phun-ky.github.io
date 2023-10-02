@@ -5,7 +5,6 @@ route: /2008/09/24/how-to-use-javascript-to-insert-text-at-cursor-position-in-a-
 title:
   'how to use javascript to insert text at cursor position in a form input
   element'
-description: ''
 category: 'Archive'
 tags: []
 ---

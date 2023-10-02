@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/03/31/adobe-released-air-alpha-for-linux
 title: 'Adobe released Air alpha for Linux'
-description: ''
 category: 'Archive'
 tags: [linux, linux news, adobe air, adobe]
 ---

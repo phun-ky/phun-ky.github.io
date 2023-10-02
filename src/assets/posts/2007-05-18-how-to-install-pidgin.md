@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/05/18/how-to-install-pidgin
 title: 'How to install Pidgin'
-description: ''
 category: 'Archive'
 tags: [how-to, pidgin, ubuntu, ubuntu feisty, install]
 ---

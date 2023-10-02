@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/11/12/bush-with-a-half-monty
 title: 'Bush with a half monty'
-description: ''
 category: 'Archive'
 tags: [funny, politics, US]
 ---

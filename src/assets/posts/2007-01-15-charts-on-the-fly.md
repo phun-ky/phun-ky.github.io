@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/01/15/charts-on-the-fly
 title: 'Charts on the fly'
-description: ''
 category: 'Archive'
 tags: [charts, flash, swf, php]
 ---

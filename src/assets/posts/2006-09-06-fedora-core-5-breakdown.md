@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/09/06/fedora-core-5-breakdown
 title: 'Fedora Core 5 Breakdown'
-description: ''
 category: 'Archive'
 tags: [linux, fedora]
 ---

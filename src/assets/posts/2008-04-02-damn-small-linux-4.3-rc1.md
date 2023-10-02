@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/02/damn-small-linux-with-new-release-candidate
 title: 'Damn Small Linux with new release candidate'
-description: ''
 category: 'Archive'
 tags: [linux, linux news, damn small linux]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/08/18/the-last-leg-and-great-news
 title: 'the last leg and great news!'
-description: ''
 category: 'Archive'
 tags: []
 ---

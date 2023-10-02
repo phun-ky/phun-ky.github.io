@@ -5,7 +5,6 @@ route: /2010/03/21/netcom-launches-a-portable-wifi-tomorrow-monday-22nd-march-at
 title:
   'NetCom launches a Portable Wifi tomorrow, monday 22nd march, at 13.00 CET:
   Miniruter'
-description: ''
 category: 'Archive'
 tags: []
 ---

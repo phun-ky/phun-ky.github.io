@@ -4,7 +4,6 @@ layout: post
 route: /2008/10/03/steve-langasek-has-announced-the-beta-release-of-ubuntu-810-intrepid-ibex
 title:
   'Steve Langasek has announced the beta release of Ubuntu 8.10 Intrepid Ibex'
-description: ''
 category: 'Archive'
 tags: []
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/12/07/what-is-the-perfect-blog
 title: 'What is the Perfect Blog?'
-description: ''
 category: 'Archive'
 tags: [blogging, blog]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/07/28/norwegian-cartoonist-takes-on-the-world
 title: 'Norwegian cartoonist takes on the world'
-description: ''
 category: 'Archive'
 tags: [politics, middle-east]
 ---

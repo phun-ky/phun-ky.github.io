@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/29/one-small-step-for-man-one-giant-leap-for-space-tourism
 title: 'One small step for man, one giant leap for space tourism'
-description: ''
 category: 'Archive'
 tags: []
 ---

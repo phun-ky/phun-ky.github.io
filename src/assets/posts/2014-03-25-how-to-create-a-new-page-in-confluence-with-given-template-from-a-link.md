@@ -16,14 +16,10 @@ tags: [how-to, template, confluence]
   <img alt="The Atlassian Logo" aria-describedby="atlassian" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/500px-Atlassian-logo.svg.png" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" id="atlassian" href="https://commons.wikimedia.org/wiki/File:Atlassian-logo.svg#/media/File:Atlassian-logo.svg">Atlassian-logo</a>" by <a rel="nofollow" class="ph external text" href="https://www.atlassian.com">www.atlassian.com</a> - <a rel="nofollow" class="ph external free" href="https://www.atlassian.com/ko/dms/wac/images/press/Resources/presskits/HipChat_Fast_Facts.pdf">https://www.atlassian.com/ko/dms/wac/images/press/Resources/presskits/HipChat_Fast_Facts.pdf</a>. Licensed under Public Domain via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong class="ph">Figure 1</strong>
+      "<a class="ph" id="atlassian" href="https://commons.wikimedia.org/wiki/File:Atlassian-logo.svg#/media/File:Atlassian-logo.svg">Atlassian-logo</a>" by <a rel="nofollow" class="ph external text" href="https://www.atlassian.com">www.atlassian.com</a> - <a rel="nofollow" class="ph external free" href="https://www.atlassian.com/ko/dms/wac/images/press/Resources/presskits/HipChat_Fast_Facts.pdf">https://www.atlassian.com/ko/dms/wac/images/press/Resources/presskits/HipChat_Fast_Facts.pdf</a>. Licensed under Public Domain via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
     </small>
   </figcaption>
 </figure>
-
-<p class="ph lead">
-  I was trying to solve an issue, amidst the documentation haze for my latest applications, to create a new page with a given template from a link, to spare me the hazzle of doing it "manually".
-</p>
 
 ## Investigation
 

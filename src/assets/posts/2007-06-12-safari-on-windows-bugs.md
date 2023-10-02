@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/06/12/safari-on-windows-bugs
 title: 'Safari on Windows bugs!'
-description: ''
 category: 'Archive'
 tags: [safari, windows, safari beta, bugs]
 ---

@@ -3,29 +3,24 @@ route: /2015/09/29/trusted-data-for-developers
 title: 'Trusted data for developers'
 tagline: 'Or how to start the apocalypse'
 description:
-  'Hey, you. Yes, YOU! The developer reading this article. Are you ready to call
-  the four horsemen and start the apocalypse? Start the next nuclear holocaust?
-  Kill patients? Bankrupt banks? Do I have your attention yet?'
+  'Hey, you. Yes, YOU! The developer reading this article. Are you ready to call the four horsemen and start the apocalypse? Start the next nuclear holocaust? Kill patients? Bankrupt banks? Do I have your attention yet?<br/><br/>Yes? Good. Because all of this can happen, and will happen, if you do not keep your shit together'
 category: 'Technology'
 tags: [trusted-data, data, how-to]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg
 ---
 
-<p class="ph lead">
-Hey, you. Yes, YOU! The developer reading this article. Are you ready to call
-the four horsemen and start the apocalypse? Start the next nuclear holocaust?
-Kill patients? Bankrupt banks? Do I have your attention yet?
-</p>
-<p class="ph lead">
-Yes? Good. Because all of this can happen, and will happen, if you do not keep
-your shit together.
-</p>
+**Table of Contents**
+
+1. [Incidents due to erroneous data](#incidents-due-to-erroneous-data)
+   1. [1980 NORAD NUCFLASH](#1980-norad-nucflash)
+   2. [NASA, the Mars Climate Orbiter](#nasa-the-mars-climate-orbiter)
+2. [What can we learn from this?](#what-can-we-learn-from-this)
 
 <figure class="ph">
   <img title="The four horsemen of the apocalypse" alt="A painting of the four horsemen of the apocalypse" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Apocalypse_vasnetsov.jpg#/media/File:Apocalypse_vasnetsov.jpg">Apocalypse vasnetsov</a>" by <a class="ph" href="//en.wikipedia.org/wiki/Viktor_Vasnetsov" class="extiw" title="en:Viktor Vasnetsov">Viktor M. Vasnetsov</a> - <a rel="nofollow" class="ph external free" href="http://lj.rossia.org/users/john_petrov/166993.html">http://lj.rossia.org/users/john_petrov/166993.html</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 1</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Apocalypse_vasnetsov.jpg#/media/File:Apocalypse_vasnetsov.jpg">Apocalypse vasnetsov</a>" by <a class="ph" href="//en.wikipedia.org/wiki/Viktor_Vasnetsov" class="extiw" title="en:Viktor Vasnetsov">Viktor M. Vasnetsov</a> - <a rel="nofollow" class="ph external free" href="http://lj.rossia.org/users/john_petrov/166993.html">http://lj.rossia.org/users/john_petrov/166993.html</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -101,7 +96,7 @@ and disintegrated".
   <img src="/img/blog/uf011824.gif" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      <a class="ph" target="_blank" rel="noopener noreferrer" href="http://ars.userfriendly.org/cartoons/?id=20080824">userfriendly.org</a> <strong class="ph">Figure 2</strong>
+      <a class="ph" target="_blank" rel="noopener noreferrer" href="http://ars.userfriendly.org/cartoons/?id=20080824">userfriendly.org</a>
       </small>
   </figcaption>
 </figure>

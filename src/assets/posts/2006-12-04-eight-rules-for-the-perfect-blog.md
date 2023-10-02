@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/12/04/eight-rules-for-the-perfect-blog
 title: 'Eight rules for the Perfect Blog'
-description: ''
 category: 'Archive'
 tags: [blogging, blog]
 ---

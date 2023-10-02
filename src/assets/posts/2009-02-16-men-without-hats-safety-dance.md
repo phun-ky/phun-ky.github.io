@@ -3,7 +3,6 @@ layout: post
 
 route: /2009/02/16/we-can-dance-if-we-want-to
 title: 'We can dance if we want to!'
-description: ''
 category: 'Archive'
 tags: []
 ---

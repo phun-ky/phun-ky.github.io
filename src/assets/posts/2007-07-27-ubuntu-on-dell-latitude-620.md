@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/07/27/ubuntu-on-dell-latitude-620
 title: 'Ubuntu on Dell Latitude 620'
-description: ''
 category: 'Archive'
 tags: [ubuntu, dell, dell latitude]
 ---

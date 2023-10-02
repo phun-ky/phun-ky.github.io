@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/03/how-to-speed-up-your-site
 title: 'How to speed up your site'
-description: ''
 category: 'Archive'
 tags: [tweaking, programming, tuning, how-to]
 ---
