@@ -43,6 +43,7 @@ const figure = {
     const attributes = node.transformAttributes(config);
     const children = node.transformChildren(config);
 
+
     if(!attributes['url'] && attributes['src']){
       attributes['url'] = attributes['src'];
     }

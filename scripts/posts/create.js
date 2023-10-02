@@ -42,8 +42,12 @@ files.forEach((file) => {
     let html = '';
     let rendered = getHTML(document);
 
+
+
     const { year, month, day, slug, category, title, image, tagline, description } =
       frontmatter;
+
+
 
     if(rendered.indexOf('<article class="ph">') === 0){
       if(description){

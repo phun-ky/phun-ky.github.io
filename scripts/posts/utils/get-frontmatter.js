@@ -11,6 +11,7 @@ export const getFrontmatter = (text) => {
   const frontmatter = parseMarkdocFrontmatter(ast);
   const { route } = frontmatter;
 
+
   if (route) {
     const matches = route.match(/\/([0-9]{4})\/([0-9]{2})\/([0-9]{2})\/(.*)/);
 
