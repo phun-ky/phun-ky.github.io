@@ -3,23 +3,17 @@ route: /2014/03/24/working-with-javascript-modules-how-to-load-javascript-depend
 title:
   'Working with javascript modules, how to load JavaScript dependencies without
   require.js'
-description:
-  'In the current project I am working on, we wanted to load our dependencies in
-  synchronous order without the use of a big library like require.js.'
+description: In the current project I am working on, we wanted to load our dependencies in "synchronous" order without the use of a big library like <a class="ph" target="_blank" rel="noopener noreferrer" href="http://requirejs.org/">require.js</a>.
 category: 'How-to'
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg
 tags: [javascript, dependencies, load.js, how-to]
 ---
 
-<p class="ph lead">
-In the current project I am working on, we wanted to load our dependencies in "synchronous" order without the use of a big library like <a class="ph" target="_blank" rel="noopener noreferrer" href="http://requirejs.org/">require.js</a>.
-</p>
-
 <figure class="ph">
   <img alt="Photo of a ISS module" aria-describedby="iss_module" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" id="iss_module" href="https://commons.wikimedia.org/wiki/File:ISS_Habitation_module.jpg#/media/File:ISS_Habitation_module.jpg">ISS Habitation module</a>" by NASA - <a rel="nofollow" class="ph external free" href="http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html">http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>. <strong class="ph">Figure 1</strong>
+      "<a class="ph" id="iss_module" href="https://commons.wikimedia.org/wiki/File:ISS_Habitation_module.jpg#/media/File:ISS_Habitation_module.jpg">ISS Habitation module</a>" by NASA - <a rel="nofollow" class="ph external free" href="http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html">http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
     </small>
   </figcaption>
 </figure>

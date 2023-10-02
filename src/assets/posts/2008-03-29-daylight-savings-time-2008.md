@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/03/29/remember-to-set-your-clock
 title: 'Remember to set your clock'
-description: ''
 category: 'Archive'
 tags: [info, dst]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/11/08/colorpix-on-ubuntu
 title: 'Colorpix on Ubuntu'
-description: ''
 category: 'Archive'
 tags: [ubuntu, how-to, colorpix]
 ---

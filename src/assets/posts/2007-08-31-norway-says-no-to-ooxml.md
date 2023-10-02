@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/08/31/norway-says-no-to-ooxml
 title: 'Norway says no to OOXML'
-description: ''
 category: 'Archive'
 tags:
   [

@@ -10,10 +10,15 @@ category: 'How-to'
 tags: [seo, search-engines, search-parameters, javascript, prototype.js]
 ---
 
-I needed some code to help visitors on one of our sites at Aller Internett, to
-be able to spot the content where the search parameters where mentioned. After
-some searching and tutorial scavenging, I came up with this script. Add it to
-the bottom of you page for best practice.
+**Table of Contents**
+
+1. [Step one: Define searchterms var](#step-one-define-searchterms-var)
+2. [Step two: parseReferrer function](#step-two-parsereferrer-function)
+3. [Step three: locateSearchTerms function](#step-three-locatesearchterms-function)
+4. [Step four: highlightSearchTerms function](#step-four-highlightsearchterms-function)
+5. [Step five: Trigger the feature](#step-five-trigger-the-feature)
+
+Add it to the bottom of you page for best practice.
 
 ## Step one: Define searchterms var
 
@@ -77,8 +82,6 @@ that matches and wraps it with a span tag. It could be simplified, but it works
 Remember to make a css class named highlight with the wanted css for the higlights
 
 {% /message %}
-
-
 
 ```javascript
 function highlightSearchTerms(sword) {

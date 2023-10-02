@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/03/31/system-rescue-cd
 title: 'System Rescue CD'
-description: ''
 category: 'Archive'
 tags: [linux news, linux, system rescue cd]
 ---

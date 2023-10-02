@@ -4,7 +4,6 @@ layout: post
 route: /2008/04/08/demonstration-against-microsoft-ooxml-wednesday-9-april-1200-oslo-norway
 title:
   'Demonstration against microsoft OOXML wednesday 9 april @ 12:00 oslo, norway'
-description: ''
 category: 'Archive'
 tags:
   [

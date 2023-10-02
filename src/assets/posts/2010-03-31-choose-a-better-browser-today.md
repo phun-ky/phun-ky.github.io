@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/31/choose-a-better-browser-today
 title: 'Choose a better browser today!'
-description: ''
 category: 'Archive'
 tags: []
 ---

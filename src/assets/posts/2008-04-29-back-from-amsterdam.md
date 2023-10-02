@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/29/back-from-amsterdam
 title: 'back from amsterdam'
-description: ''
 category: 'Archive'
 tags: []
 ---

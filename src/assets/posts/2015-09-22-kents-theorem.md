@@ -12,15 +12,11 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.
 tags: [digital-business, business-strategy]
 ---
 
-<p class="ph lead">
-During a project at work, we were given a task on how a given industry could go digital via a disruptive or transformative path, and we quickly agreed upon a theorem provided by one of our team members, <a class="ph" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/profile/view?id=AAkAAAQDtO8Bju1IMzQRnnRSbrEoBmQ4Xdgw82Q">Kent Andersen</a>. We liked it so much, that we coined it "Kent's theorem".
-</p>
-
 <figure class="ph">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:CollatzFractal.png#/media/File:CollatzFractal.png">CollatzFractal</a>" by <a class="ph" href="//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&amp;action=edit&amp;redlink=1" class="new" title="User:Pokipsy76 (page does not exist)">Pokipsy76</a> - English wikipedia. Licensed under Public Domain via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <strong class="ph">Figure 1</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:CollatzFractal.png#/media/File:CollatzFractal.png">CollatzFractal</a>" by <a class="ph" href="//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&amp;action=edit&amp;redlink=1" class="new" title="User:Pokipsy76 (page does not exist)">Pokipsy76</a> - English wikipedia. Licensed under Public Domain via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -36,8 +32,11 @@ prepared for the digital world:
 > case, replaces existing products (solutions). An example of this could be
 > mobile banks (app).
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/profile/view?id=AAkAAAQDtO8Bju1IMzQRnnRSbrEoBmQ4Xdgw82Q">Kent
-> Andersen</a>
+> <footer class="ph">
+>
+> – [Kent Andersen](https://www.linkedin.com/profile/view?id=AAkAAAQDtO8Bju1IMzQRnnRSbrEoBmQ4Xdgw82Q)
+>
+> </footer>
 
 What this refers to, is that companies that for years have been doing what they
 always have been doing, tries to innovate by repeating them selves and copy the

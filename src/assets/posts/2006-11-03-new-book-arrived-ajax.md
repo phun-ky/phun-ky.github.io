@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/11/03/new-book-arrived-ajax
 title: 'New book arrived, AJAX'
-description: ''
 category: 'Archive'
 tags: [books, sitepoint, learning]
 ---

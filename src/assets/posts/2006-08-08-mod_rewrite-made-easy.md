@@ -8,12 +8,7 @@ category: 'How-to'
 tags: [how-to, mod_rewrite, php, semantic urls]
 ---
 
-Lately I have been trying to make all my links to look so pretty that even art
-critics could say something nice about them, and to make it easier for visitors
-to remember my links. And believe me, it is actually easier than it seems.
-
-How? Well, the solution to this problem was the use of
-<a class="ph" target="_blank" rel="noopener noreferrer" href="">mod_rewrite</a>.
+How? Well, the solution to this problem was the use of [mod_rewrite](https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html).
 
 I am not going to explain to you what it is in depth, but basically, it rewrites
 URI's and also makes it easier for search engines to find your pages. A little
@@ -42,6 +37,4 @@ RewriteRule ^(.*)$ http://phun-ky.net/$1 [r=301,nc,L]
 ```
 
 If this was hard or you want to learn more, check out the cheat sheet posted
-with this post or read this
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://corz.org/serv/tricks/htaccess2.php">.htaccess
-tips and tricks</a>.
+with this post or read this [.htaccess](http://corz.org/serv/tricks/htaccess2.php) tips and tricks.

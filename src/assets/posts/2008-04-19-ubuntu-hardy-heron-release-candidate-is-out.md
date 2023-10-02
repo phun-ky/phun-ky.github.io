@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/19/ubuntu-hardy-heron-release-candidate-is-out
 title: 'ubuntu hardy heron release candidate is out!'
-description: ''
 category: 'Archive'
 tags: []
 ---

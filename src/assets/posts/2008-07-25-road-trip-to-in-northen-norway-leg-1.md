@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/07/25/road-trip-to-lofoten-in-northen-norway-leg-1
 title: 'road trip to lofoten in northen-norway, leg 1'
-description: ''
 category: 'Archive'
 tags: []
 ---

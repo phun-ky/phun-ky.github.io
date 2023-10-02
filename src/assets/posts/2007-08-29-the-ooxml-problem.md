@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/08/29/the-ooxml-problem
 title: 'The OOXML problem'
-description: ''
 category: 'Archive'
 tags:
   [

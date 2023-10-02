@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/10/10/its-friday-at-last-once-again
 title: "It's friday at last, once again"
-description: ''
 category: 'Archive'
 tags: []
 ---

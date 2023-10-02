@@ -1,7 +1,6 @@
 ---
 route: /2018/01/02/webgl-and-data-visualisation
 title: 'WebGL and Data Visualisation'
-tagline: 'Curious how you can give your data data a bit more depth and and a new perspective? WebGL is the tool for you!'
 description:
   'Have you ever wondered how you can give those statistical data a bit more depth, give those graphs a whole new dimension or make scientific results more understandable? Fear not, WebGL is the tool for you!'
 category: 'Programming'
@@ -9,17 +8,20 @@ tags: [webgl, data visualisation, data visualization, opengl, charts, technology
 image: /img/blog/0 -or0ghitMp_hXvSe.webp
 ---
 
+**Table of Contents**
 
-<p class="ph lead">
-Have you ever wondered how you can give those statistical data a bit more depth, give those graphs a whole new dimension or make scientific results more understandable? Fear not, WebGL is the tool for you!
-</p>
-
+1. [What is WebGL?](#what-is-webgl)
+2. [Why use WebGL?](#why-use-webgl)
+3. [Why should I care about WebGL?](#why-should-i-care-about-webgl)
+4. [What is it actually good for?](#what-is-it-actually-good-for)
+5. [What are the drawbacks of using WebGL?](#what-are-the-drawbacks-of-using-webgl)
+6. [Well, I have my charts](#well-i-have-my-charts)
 
 <figure class="ph">
   <img title="Prometheus: High Resolution Star Map Photo" alt="A still from the movie Prometheus, depicting the 3D navigational map" src="/img/blog/0 -or0ghitMp_hXvSe.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/0 -or0ghitMp_hXvSe.webp">Prometheus: High Resolution Star Map Photo</a>" from <a class="ph" href="https://dailydead.com" title="en:Daily Dead">Daily Dead</a>. Licensed by Daily Dead, All rights reserved. <strong class="ph">Figure 1</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/0 -or0ghitMp_hXvSe.webp">Prometheus: High Resolution Star Map Photo</a>" from <a class="ph" href="https://dailydead.com" title="en:Daily Dead">Daily Dead</a>. Licensed by Daily Dead, All rights reserved.
     </small>
   </figcaption>
 </figure>
@@ -34,7 +36,7 @@ This article aims to try to explain the reasons why you should use WebGL, and es
   <img title="Screenshot of a data visualization example with WebGL" alt="Screenshot of a data visualization example with WebGL" src="/img/blog/1 y829Kq51CqEvnobDA2Fq9w.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 y829Kq51CqEvnobDA2Fq9w.webp">Screenshot of a data visualization example with WebGL</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong class="ph">Figure 2</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 y829Kq51CqEvnobDA2Fq9w.webp">Screenshot of a data visualization example with WebGL</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -61,11 +63,10 @@ So, you can use WebGL to make cool stuff in the browser!? Well, yes. Due to the 
   <img title="Screenshot of WebGL browser support" alt="Screenshot of WebGL browser support" src="/img/blog/1 xBkRq8bhqnpD-bXMTA4ckA.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 xBkRq8bhqnpD-bXMTA4ckA.webp">Screenshot of WebGL browser support</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong class="ph">Figure 3</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 xBkRq8bhqnpD-bXMTA4ckA.webp">Screenshot of WebGL browser support</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
-
 
 ## Why should I care about WebGL?
 
@@ -199,11 +200,10 @@ function setUnitQuad(gl) {
 
 <figcaption class="ph">
   <small class="ph">
-    "WebGL and Data visualization example." <strong class="ph">Figure 4</strong>
+    "WebGL and Data visualization example."
   </small>
 </figcaption>
 </figure>
-
 
 There are several frameworks out there to help you with this. For both WebGL and OpenGL. Yes, you heard that right. You can get a 3D artist/designer/animator to generate the vertex/shader code for you to use in your WebGL application. Or you can use existing models from games, like World of Warcraft, which they’ve done in this demo: <a href="http://vjeux.github.io/jsWoWModelViewer/" class="ph" target="_blank" rel="noopener noreferrer">http://vjeux.github.io/jsWoWModelViewer/</a>.
 
@@ -223,7 +223,7 @@ With WebGL, you can put more depth and meaning to your data. It allows you to pr
   <img title="Screenshot of Temperature Anomalies" alt="Screenshot of Temperature Anomalies" src="/img/blog/1 1nohOFqrk8zii6K0XTvNRw.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 1nohOFqrk8zii6K0XTvNRw.webp">Screenshot</a> of "<a class="ph" target="_blank" rel="noopener noreferrer" href="http://philogb.github.io/page/temperature-anomalies/">Temperature Anomalies</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong class="ph">Figure 5</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 1nohOFqrk8zii6K0XTvNRw.webp">Screenshot</a> of "<a class="ph" target="_blank" rel="noopener noreferrer" href="http://philogb.github.io/page/temperature-anomalies/">Temperature Anomalies</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -234,7 +234,7 @@ You can give more effect to your visualisation, giving more context to the infor
   <img title="Screenshot of Temperature Anomalies" alt="Screenshot of Temperature Anomalies" src="/img/blog/1 s01d6s7Bq8zFgzxww-ldYA.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 s01d6s7Bq8zFgzxww-ldYA.webp">Screenshot</a> of "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://pudding.cool/2017/01/making-it-big/">Making it big</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>. <strong class="ph">Figure 6</strong>
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/1 s01d6s7Bq8zFgzxww-ldYA.webp">Screenshot</a> of "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://pudding.cool/2017/01/making-it-big/">Making it big</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>

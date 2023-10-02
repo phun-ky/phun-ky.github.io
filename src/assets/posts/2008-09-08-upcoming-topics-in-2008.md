@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/08/upcoming-topics-in-2008
 title: 'upcoming topics in 2008'
-description: ''
 category: 'Archive'
 tags: []
 ---

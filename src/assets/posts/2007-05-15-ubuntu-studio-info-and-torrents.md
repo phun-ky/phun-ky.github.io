@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/05/15/ubuntu-studio-info-and-torrents
 title: 'Ubuntu studio info and torrents'
-description: ''
 category: 'Archive'
 tags: [linux, ubuntu, ubuntu studio]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/07/25/dance-dance-evolution
 title: 'Dance Dance Evolution'
-description: ''
 category: 'Archive'
 tags: [funny]
 ---

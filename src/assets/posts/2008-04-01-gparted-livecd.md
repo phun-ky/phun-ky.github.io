@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/01/gparted-livecd
 title: 'Gparted livecd '
-description: ''
 category: 'Archive'
 tags: [linux news, linux, gparted livecd]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/30/monthly-top-10-linux-distros-march
 title: 'Monthly top 10 Linux Distros: March'
-description: ''
 category: 'Archive'
 tags: []
 ---

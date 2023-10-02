@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/11/23/link-multiple-backgrounds-and-css-gradients
 title: 'Link: Multiple Backgrounds and CSS Gradients'
-description: ''
 category: 'Archive'
 tags: ['link']
 ---

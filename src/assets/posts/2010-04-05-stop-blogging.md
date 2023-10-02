@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/04/05/stop-blogging
 title: 'Stop Blogging?'
-description: ''
 category: 'Archive'
 tags: []
 ---

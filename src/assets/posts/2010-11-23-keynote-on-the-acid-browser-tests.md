@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/11/23/keynote-on-the-acid-browser-tests
 title: 'Keynote on the ACID Browser Tests'
-description: ''
 category: 'Archive'
 tags: []
 ---

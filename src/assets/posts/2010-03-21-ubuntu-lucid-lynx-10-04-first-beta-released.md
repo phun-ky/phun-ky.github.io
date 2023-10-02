@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/21/ubuntu-lucid-lynx-1004-first-beta-released
 title: 'Ubuntu Lucid Lynx 10.04 First Beta Released'
-description: ''
 category: 'Archive'
 tags: []
 ---

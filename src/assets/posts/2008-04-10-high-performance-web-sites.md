@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/10/high-performance-web-sites
 title: 'high performance web sites'
-description: ''
 category: 'Archive'
 tags: []
 ---

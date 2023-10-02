@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/08/30/hardy-heron-succeeds-gutsy-gibbon
 title: 'Hardy Heron succeeds Gutsy Gibbon'
-description: ''
 category: 'Archive'
 tags: [linux, news, linux news, ubuntu news, ubuntu, hardy heron, gutsy gibbon]
 ---

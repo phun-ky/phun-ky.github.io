@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/03/29/norway-says-yes-to-ooxml-despite-protests
 title: 'Norway says yes to OOXML despite protests'
-description: ''
 category: 'Archive'
 tags:
   [

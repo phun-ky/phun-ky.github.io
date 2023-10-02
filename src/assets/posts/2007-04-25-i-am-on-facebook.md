@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/04/25/i-am-on-facebook
 title: 'I am on facebook'
-description: ''
 category: 'Archive'
 tags: [some, social media, facebook]
 ---

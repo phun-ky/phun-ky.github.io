@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/08/08/is-programming-so-hard
 title: 'Is programming so hard?'
-description: ''
 category: 'Archive'
 tags: [programming, code, scripting]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/04/twitter-me-this-twitter-me-that
 title: 'twitter me this, twitter me that'
-description: ''
 category: 'Archive'
 tags: []
 ---

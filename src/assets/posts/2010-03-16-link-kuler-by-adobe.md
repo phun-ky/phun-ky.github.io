@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/03/16/link-kuler-by-adobe
 title: 'Link: Kuler by Adobe'
-description: ''
 category: 'Archive'
 tags: []
 ---

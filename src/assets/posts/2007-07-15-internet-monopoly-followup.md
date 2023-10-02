@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/07/15/internet-monopoly-followup
 title: 'Internet monopoly followup'
-description: ''
 category: 'Archive'
 tags: [internet norway, telenor, NIX, monopoly, news]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2006/07/31/ready-for-peace-israel
 title: 'Ready for peace Israel?'
-description: ''
 category: 'Archive'
 tags: [politics, middle-east]
 ---

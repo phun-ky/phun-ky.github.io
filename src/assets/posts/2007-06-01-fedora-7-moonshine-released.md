@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/06/01/fedora-7-moonshine-released
 title: 'Fedora 7 Moonshine released!'
-description: ''
 category: 'Archive'
 tags: [linux, fedora, fedora 7, fedora moonshine]
 ---

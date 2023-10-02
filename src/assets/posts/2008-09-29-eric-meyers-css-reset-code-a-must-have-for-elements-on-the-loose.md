@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/29/eric-meyers-css-reset-code-a-must-have-for-elements-on-the-loose
 title: 'Eric Meyers CSS Reset code - a must-have for elements on the loose'
-description: ''
 category: 'Archive'
 tags: []
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/06/my-favourite-web-comics
 title: 'My favourite web comics'
-description: ''
 category: 'Archive'
 tags: [funny, comics, personal]
 ---

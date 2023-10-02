@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/08/09/fedora-core-8-test-1-out
 title: 'Fedora Core 8 test 1 out!'
-description: ''
 category: 'Archive'
 tags: [linux, fedora, fedora core, fedora core 8, fedora 8, news, tech news]
 ---

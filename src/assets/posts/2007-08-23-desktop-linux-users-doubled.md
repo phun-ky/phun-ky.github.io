@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/08/23/desktop-linux-users-doubled
 title: 'Desktop linux users doubled'
-description: ''
 category: 'Archive'
 tags: [linux, linux news, news]
 ---

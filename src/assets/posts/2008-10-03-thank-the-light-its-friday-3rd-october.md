@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/10/03/thank-the-light-its-friday
 title: "Thank the Light, it's friday!"
-description: ''
 category: 'Archive'
 tags: []
 ---

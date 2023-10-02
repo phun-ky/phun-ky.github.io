@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/04/03/gobolinux-with-new-development-release
 title: 'GoboLinux with new development release!'
-description: ''
 category: 'Archive'
 tags: [linux, linux news, gogolinux]
 ---

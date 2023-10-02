@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/05/how-to-get-your-icenet-d50-modem-to-work-on-ubuntu
 title: 'how to get your ice.net d50 modem to work on ubuntu'
-description: ''
 category: 'Archive'
 tags: []
 ---

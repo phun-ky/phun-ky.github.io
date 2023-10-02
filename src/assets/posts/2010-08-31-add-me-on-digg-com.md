@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/08/31/add-me-on-diggcom
 title: 'Add me on digg.com'
-description: ''
 category: 'Archive'
 tags: []
 ---

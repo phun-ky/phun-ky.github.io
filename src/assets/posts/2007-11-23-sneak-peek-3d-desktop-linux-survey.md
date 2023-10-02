@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/11/23/sneak-peek-at-lfs-3rd-annual-desktop-linux-survey
 title: "Sneak peek at LF's 3rd annual desktop linux survey"
-description: ''
 category: 'Archive'
 tags: [linux foundation, survey, linux, desktop linux]
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/03/20/online-magazines-and-seo
 title: 'online magazines and SEO'
-description: ''
 category: 'Archive'
 tags: [SEO]
 ---

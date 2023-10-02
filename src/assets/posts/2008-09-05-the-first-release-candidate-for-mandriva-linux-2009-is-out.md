@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/09/05/the-first-release-candidate-for-mandriva-linux-2009-is-out
 title: 'the first release candidate for mandriva linux 2009 is out'
-description: ''
 category: 'Archive'
 tags: []
 ---

@@ -3,7 +3,6 @@ layout: post
 
 route: /2008/11/21/ozzy-ozborn-is-the-prince-of-darkness-and-little-steven-rocks
 title: 'Ozzy Ozborn is the Prince of Darkness, and Little Steven rocks!'
-description: ''
 category: 'Archive'
 tags: []
 ---

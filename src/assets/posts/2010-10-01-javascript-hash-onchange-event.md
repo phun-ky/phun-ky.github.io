@@ -3,7 +3,6 @@ layout: post
 
 route: /2010/10/01/javascript-hash-onchange-event
 title: 'Javascript Hash onChange event'
-description: ''
 category: 'Archive'
 tags: [how-to, javascript, onhashchange]
 ---

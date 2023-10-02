@@ -3,7 +3,6 @@ layout: post
 
 route: /2007/09/26/dreamscene-effect-on-ubuntu
 title: 'Dreamscene effect on Ubuntu'
-description: ''
 category: 'Archive'
 tags: [ubuntu, dreamscene, how-to, windows dreamscene]
 ---
