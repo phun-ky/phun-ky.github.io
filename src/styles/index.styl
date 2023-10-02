@@ -1,4 +1,27 @@
 @import './variables.styl'
+@import './a11y.styl'
+
+
+.ph
+  & *
+    &:focus
+      outline var(--ph-color-link) solid 0.1875rem
+      outline-offset 0.125rem
+
+
+.ph
+  & *
+    &:focus:not(:focus-visible)
+      outline none
+
+
+.ph
+  & *
+    &:focus-visible
+      outline var(--ph-color-link) solid 0.1875rem
+      outline-offset 0.125rem
+
+
 
 .ph.showcase
   display grid
