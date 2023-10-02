@@ -74,7 +74,7 @@ figure.ph
     & img
       width 100%
       height 100%
-      object-fit cover
+      object-fit contain
       margin 0
 
 figcaption.ph
@@ -105,17 +105,18 @@ blockquote.ph
 
 
 blockquote.ph
-  & em.ph
-    display block
-    font-size 0.875rem
-    line-height 1.25rem
-    font-weight normal
-    color var(--ph-color-text)
-    opacity 0.8
-    max-width none
-    padding-top 0.5rem
-    font-style italic
-    text-align right
+  & footer.ph
+    & > *.ph
+      display block
+      font-size 0.875rem
+      line-height 1.25rem
+      font-weight normal
+      color var(--ph-color-text)
+      opacity 0.8
+      max-width none
+      padding-top 0.5rem
+      font-style italic
+      text-align right
 
 
 blockquote.ph
@@ -417,13 +418,13 @@ article.ph
   flex-wrap wrap
 
 
-:not(figcaption.ph) > a[href^="https://youtube.com"].ph,
-:not(figcaption.ph) > a[href^="https://www.youtube.com"].ph,
-:not(figcaption.ph) > a[href^="https://vimeo.com"].ph,
-:not(figcaption.ph) > a[href^="https://i.vimeocdn"].ph,
-:not(figcaption.ph) > a[href^="https://player.vimeo.com"].ph,
-:not(figcaption.ph) > a[href^="https://videos.files.wordpres"].ph,
-:not(figcaption.ph) > a[href^="https://www.vimeo.com"].ph
+:not(figcaption.ph):not(footer.ph) > a[href^="https://youtube.com"].ph,
+:not(figcaption.ph):not(footer.ph) > a[href^="https://www.youtube.com"].ph,
+:not(figcaption.ph):not(footer.ph) > a[href^="https://vimeo.com"].ph,
+:not(figcaption.ph):not(footer.ph) > a[href^="https://i.vimeocdn"].ph,
+:not(figcaption.ph):not(footer.ph) > a[href^="https://player.vimeo.com"].ph,
+:not(figcaption.ph):not(footer.ph) > a[href^="https://videos.files.wordpres"].ph,
+:not(figcaption.ph):not(footer.ph) > a[href^="https://www.vimeo.com"].ph
   position relative
   display block
   &::before
@@ -595,3 +596,7 @@ article.ph p.ph a.ph img.ph
   & > img
     filter blur(30px)
 
+
+
+figcaption.ph > p.ph:first-of-type
+	display inline
