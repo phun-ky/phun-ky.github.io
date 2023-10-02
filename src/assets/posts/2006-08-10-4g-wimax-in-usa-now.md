@@ -31,7 +31,7 @@ WiMax here</a>. Btw, there are NO entries on 4g on Wikipedia, give it a thought.
 <span class="medium">update!</span>
 
 I've asked the journalist of the 4g article in VG,
-<a href="mailto:pal.unanue@vg.no">Pål Unanue-Zahl</a> to reflect over this issue
+[Pål Unanue-Zahl](mailto:pal.unanue@vg.no) to reflect over this issue
 and to check this post. His reply was:
 
 > They use it more like a nick name, nothing more. 3G and words like it are

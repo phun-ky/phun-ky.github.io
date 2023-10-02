@@ -10,7 +10,7 @@ tags: [linux, ubuntu, ubuntu studio]
 I've been counting the days now, to the day when I am throwing out Windows XP
 Professional on my stationary computer and installing a Linux distro.
 
-<img src="/img/blog/imge8e06119c45046979746fd0f269f22a8.webp" class="ph"/>
+![](/img/blog/imge8e06119c45046979746fd0f269f22a8.webp)
 
 The day has come, right now, this very instant I am downloading the Ubuntu
 Studio Feisty Fawn 7.04. I Will let you know when the install fest starts, most
@@ -18,14 +18,14 @@ likely after dinner, and will update you on the WTF's and the "oooooh" about it
 all.
 
 The
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntustudio.com/home">Ubuntustudio.com</a>
+[Ubuntustudio.com](http://www.ubuntustudio.com/home)
 server is on and off, so thanks to some digging I found some other torrents to
 make use of:
 
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://ubuntustudio.org/files/UbuntuStudio_7.04.torrent">http://ubuntustudio.org/files/UbuntuStudio_7.04.torrent</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://fluxbuntu.org/UbuntuStudio_7.04.torrent">http://fluxbuntu.org/UbuntuStudio_7.04.torrent</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntugids.be/UbuntuStudio_7.04.torrent">http://www.ubuntugids.be/UbuntuStudio_7.04.torrent</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.velmont.net/UbuntuStudio_7.04.torrent">http://www.velmont.net/UbuntuStudio_7.04.torrent</a>
+- [http://ubuntustudio.org/files/UbuntuStudio_7.04.torrent](http://ubuntustudio.org/files/UbuntuStudio_7.04.torrent)
+- [http://fluxbuntu.org/UbuntuStudio_7.04.torrent](http://fluxbuntu.org/UbuntuStudio_7.04.torrent)
+- [http://www.ubuntugids.be/UbuntuStudio_7.04.torrent](http://www.ubuntugids.be/UbuntuStudio_7.04.torrent)
+- [http://www.velmont.net/UbuntuStudio_7.04.torrent](http://www.velmont.net/UbuntuStudio_7.04.torrent)
 
 And if you want to add the Ubuntu Studio repo:
 

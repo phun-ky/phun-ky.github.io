@@ -7,7 +7,7 @@ category: 'Archive'
 tags: [linux, fedora, fedora core, fedora core 8, fedora 8, news, tech news]
 ---
 
-<div class="alert alert-info" role="alert"><strong class="ph">Update!</strong> read my article about the release of Fedora 8, the <a class="alert-link" href="http://phun-ky.net/2007/11/fedora-8-released">final version here</a>.</div>
+<div class="alert alert-info" role="alert"><strong class="ph">Update!</strong> read my article about the release of Fedora 8, the [final version here](http://phun-ky.net/2007/11/fedora-8-released).</div>
 
 Well, thing evolves and get better, or worse. For the Fedora series, it looks
 like things are getting better and better for each core release.

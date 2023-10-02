@@ -15,6 +15,6 @@ standardising all icons and themes to make it easy for novice users to learn
 about available applications.
 
 Download it
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.goblinx.com.br/en/downloads.htm">here</a>.
+[here](http://www.goblinx.com.br/en/downloads.htm).
 
-Read more about it <a href=" http://www.goblinx.com.br/">here</a>.
+Read more about it [here]( http://www.goblinx.com.br/).

@@ -27,7 +27,7 @@ example shows that arbitrary differentiations between files of the same category
 were also removed).
 
 Download it
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.gobolinux.org/?page=downloads">here</a>.
+[here](http://www.gobolinux.org/?page=downloads).
 
 Read more about it
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.gobolinux.org/">here</a>.
+[here](http://www.gobolinux.org/).

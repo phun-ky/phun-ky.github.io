@@ -8,7 +8,7 @@ tags: []
 ---
 
 Directly from
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.distrowatch.com">DistroWatch.com</a>:
+[DistroWatch.com](http://www.distrowatch.com):
 Red Hat, Inc. has announced the release of Red Hat Enterprise Linux (RHEL) 5.5,
 the fifth update of its commercial, enterprise-class Linux distribution:
 
@@ -37,4 +37,4 @@ notes</a> for a detailed list of changes and improvements.
 Installation ISO images for RHEL 5.5 are available to existing subscribers via
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://rhn.redhat.com/">Red
 Hat Networks</a>, while new customers can download a 30-day trial edition from
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.redhat.com/rhel/details/eval/">here</a>.
+[here](http://www.redhat.com/rhel/details/eval/).

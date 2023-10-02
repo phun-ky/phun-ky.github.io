@@ -12,14 +12,14 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.
 tags: [digital-business, business-strategy]
 ---
 
-<figure class="ph">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:CollatzFractal.png#/media/File:CollatzFractal.png">CollatzFractal</a>" by <a class="ph" href="//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&amp;action=edit&amp;redlink=1" class="new" title="User:Pokipsy76 (page does not exist)">Pokipsy76</a> - English wikipedia. Licensed under Public Domain via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="CollatzFractal"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png>"
+%}
+
+Image by [Pokipsy76](//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&amp;action=edit&amp;redlink=1) - English wikipedia. Licensed under Public Domain via [Wikimedia Commons](//commons.wikimedia.org/wiki/).
+  
+{% /figure %}
 
 "Kent's theorem" is a theorem about how businesses have to transform to be
 prepared for the digital world:

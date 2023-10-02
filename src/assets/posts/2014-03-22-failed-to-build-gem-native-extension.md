@@ -25,7 +25,7 @@ Results logged to /var/lib/gems/1.9.1/gems/fast-stemmer-1.0.2/ext/gem_make.out
 ```
 
 Apparently this is due to a missing `ruby-dev`-package according to this issue:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="https://github.com/jekyll/jekyll-help/issues/209">https://github.com/jekyll/jekyll-help/issues/209</a>.
+[https://github.com/jekyll/jekyll-help/issues/209](https://github.com/jekyll/jekyll-help/issues/209).
 
 And this is how you fix it:
 

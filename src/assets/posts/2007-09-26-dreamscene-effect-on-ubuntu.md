@@ -42,6 +42,6 @@ line in the terminal:
     gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop true && nautilus
 
 Sources:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.winmatrix.com">winmatrix.com</a>
+[winmatrix.com](http://www.winmatrix.com)
 <br/> (m.sudoku - "DreamScene for Linux: Screensaver as Desktop Wallpaper"),
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.wikipedia.org">wikipedia.org</a>(dreamscene).
+[wikipedia.org](http://www.wikipedia.org)(dreamscene).

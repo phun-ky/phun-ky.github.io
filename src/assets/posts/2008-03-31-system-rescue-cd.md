@@ -21,7 +21,7 @@ everything. The kernel of the system supports most important file systems
 and NFS). SystemRescueCd is based on the Gentoo Live CD.
 
 Download it
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.sysresccd.org/download.en.php">here</a>.
+[here](http://www.sysresccd.org/download.en.php).
 
 Visit the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.sysresccd.org/">System

@@ -23,21 +23,21 @@ notes</a> for more information, but also check out the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://wiki.mandriva.com/en/2009.0_Errata">errata
 page</a> for a list of known issues and workarounds.
 
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.mandriva.com/en/download">Download</a>
+[Download](http://www.mandriva.com/en/download)
 the "Free" installation DVDs or the "One" installable live CDs from here:
-<a href="ftp://ftp.u-strasbg.fr/pub/linux/distributions/Mandriva/official/iso/2009.0/mandriva-linux-free-2009-dvd-i586.iso">mandriva-free-2009-dvd-i586.iso</a>
+[mandriva-free-2009-dvd-i586.iso](ftp://ftp.u-strasbg.fr/pub/linux/distributions/Mandriva/official/iso/2009.0/mandriva-linux-free-2009-dvd-i586.iso)
 (4,382MB,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-free-2009-dvd-i586.iso.md5">MD5</a>,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://torrent.mandriva.com/public/mandriva-linux-free-2009-dvd-i586.torrent">torrent</a>),
-<a href="ftp://ftp.uninett.no/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-free-2009-dvd-x86_64.iso">mandriva-free-2009-dvd-x86_64.iso</a>
+[MD5](http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-free-2009-dvd-i586.iso.md5),
+[torrent](http://torrent.mandriva.com/public/mandriva-linux-free-2009-dvd-i586.torrent)),
+[mandriva-free-2009-dvd-x86_64.iso](ftp://ftp.uninett.no/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-free-2009-dvd-x86_64.iso)
 (4,412MB,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-free-2009-dvd-x86_64.iso.md5">MD5</a>,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://torrent.mandriva.com/public/mandriva-linux-free-2009-dvd-x86_64.torrent">torrent</a>),
-<a href="ftp://ftp.free.fr/mirrors/ftp.mandriva.com/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-KDE4-int-cdrom-i586.iso">mandriva-one-2009-KDE4-int-cdrom-i586.iso</a>
+[MD5](http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-free-2009-dvd-x86_64.iso.md5),
+[torrent](http://torrent.mandriva.com/public/mandriva-linux-free-2009-dvd-x86_64.torrent)),
+[mandriva-one-2009-KDE4-int-cdrom-i586.iso](ftp://ftp.free.fr/mirrors/ftp.mandriva.com/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-KDE4-int-cdrom-i586.iso)
 (702MB,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-KDE4-int-cdrom-i586.iso.md5">MD5</a>,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://torrent.mandriva.com/public/mandriva-linux-one-2009-KDE4-int-cdrom-i586.torrent">torrent</a>),
-<a href="ftp://ftp.free.fr/mirrors/ftp.mandriva.com/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-GNOME-int-cdrom-i586.iso">mandriva-one-2009-GNOME-int-cdrom-i586.iso</a>
+[MD5](http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-KDE4-int-cdrom-i586.iso.md5),
+[torrent](http://torrent.mandriva.com/public/mandriva-linux-one-2009-KDE4-int-cdrom-i586.torrent)),
+[mandriva-one-2009-GNOME-int-cdrom-i586.iso](ftp://ftp.free.fr/mirrors/ftp.mandriva.com/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-GNOME-int-cdrom-i586.iso)
 (607MB,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-GNOME-int-cdrom-i586.iso.md5">MD5</a>,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://torrent.mandriva.com/public/mandriva-linux-one-2008-spring-GNOME-int-cdrom-i586.torrent">torrent</a>).
+[MD5](http://distrib-coffee.ipsl.jussieu.fr/pub/linux/MandrivaLinux/official/iso/2009.0/mandriva-linux-one-2009-GNOME-int-cdrom-i586.iso.md5),
+[torrent](http://torrent.mandriva.com/public/mandriva-linux-one-2008-spring-GNOME-int-cdrom-i586.torrent)).

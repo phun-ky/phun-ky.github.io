@@ -14,9 +14,9 @@ you lure your granny to try it and watch her fall down and break a hip or two;
 dance revolution</a>, I hate that stuff. (But I love it when women do it ^^ ).
 
 Scimmed
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.thatvideosite.com">thatvideosite.com</a>
+[thatvideosite.com](http://www.thatvideosite.com)
 and came across this:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.thatvideosite.com/view/2316.html">http://www.thatvideosite.com/view/2316.html</a>
+[http://www.thatvideosite.com/view/2316.html](http://www.thatvideosite.com/view/2316.html)
 the memories flows in on you when you watch it, and you will laugh.
 
 Kinda reminds you that you really looked stupid when you danced..

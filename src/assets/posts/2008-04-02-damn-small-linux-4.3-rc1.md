@@ -21,7 +21,7 @@ support as well. If you like Damn Small Linux you can install it on your hard
 drive. Because all the applications are small and light it makes a very good
 choice for older hardware.
 
-Read more about it <a href="  http://www.damnsmalllinux.org/">here</a>.
+Read more about it [here](  http://www.damnsmalllinux.org/).
 
 Download it
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.damnsmalllinux.org/download.html">here</a>
+[here](http://www.damnsmalllinux.org/download.html)

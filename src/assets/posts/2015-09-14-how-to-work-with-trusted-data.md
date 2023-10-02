@@ -3,7 +3,7 @@ route: /2015/09/14/how-to-work-with-trusted-data
 title: 'How to work with Trusted Data'
 tagline: 'What can we do to make sure the data we have is trustworthy?'
 description:
-  'The <a class="ph" href="/2015/09/09/trusted-data">previous article on "Trusted Data"</a>, covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?'
+  'The [previous article on "Trusted Data"](/2015/09/09/trusted-data), covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?'
 category: 'Technology'
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg
 tags: [trusted-data, data, how-to]
@@ -13,6 +13,7 @@ tags: [trusted-data, data, how-to]
 
 1. [Sources](#sources)
 2. [Interpretation](#interpretation)
+   1. [False positives](#false-positives)
 3. [Data](#data)
 4. [A final word](#a-final-word)
 
@@ -20,14 +21,14 @@ We will now cover those questions, and we begin with some key areas on how you
 can collect and process data. This could be used as a check list to make data
 more trustworthy.
 
-<figure class="ph">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg#/media/File:RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON,_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT,_KANSAS..._-_NARA_-_556012.jpg">RAILROAD WORK CREW IMPROVES THE TRACKS AND BED OF THE ATCHISON, TOPEKA AND SANTA FE RAILROAD NEAR BELLEFONT, KANSAS... - NARA - 556012</a>" by <span class="fn value">Charles O'Rear, 1941-, Photographer (<a rel="nofollow" class="ph external text" href="//research.archives.gov/person/3403717">NARA record: 3403717</a>)</span> - <a class="ph" href="//en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration" class="extiw" title="en:U.S. National Archives and Records Administration">U.S. National Archives and Records Administration</a>. Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="RAILROAD WORK CREW IMPROVES THE TRACKS AND BED OF THE ATCHISON, TOPEKA AND SANTA FE RAILROAD NEAR BELLEFONT, KANSAS... - NARA - 556012"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg>"
+%}
+
+by Charles O'Rear, 1941-, Photographer ([NARA record: 3403717](//research.archives.gov/person/3403717)) - [U.S. National Archives and Records Administration](//en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration). Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
+  
+{% /figure %}
 
 ## Sources
 
@@ -42,8 +43,11 @@ more trustworthy.
 > studies on the subject. And there's the problem of trying to decide which
 > studies have produced reliable results.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://owl.english.purdue.edu/owl/resource/553/01/">Evaluating
-> Sources: Overview, Online Writing Lab, Purdue University</a>
+> <footer class="ph">
+>
+> – [Evaluating Sources: Overview, Online Writing Lab, Purdue University](https://owl.english.purdue.edu/owl/resource/553/01/)
+>
+> </footer>
 
 If you have used the source before, you have probably acquired a level of trust
 with that source, relying on the data it provides. If you have not used the
@@ -130,7 +134,10 @@ One example on false positives that could have resulted in World War 3, is the
 > were detected. The culprit? A training tape had accidentally been run and
 > generated the false positive signals.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident">http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident</a>
+> <footer class="ph">
+>
+> – [http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident](http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident)
+> </footer>
 
 ## Data
 
@@ -147,8 +154,11 @@ unit-tests, data validation, checking charsets and protocols.
 
 > The best way to find out if you can trust somebody is to trust them.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikiquote.org/wiki/Talk:Ernest_Hemingway">Ernest
-> Hemingway</a>
+> <footer class="ph">
+>
+> – [Ernest Hemingway](https://en.wikiquote.org/wiki/Talk:Ernest_Hemingway)
+>
+> </footer>
 
 In the end, you will have to have a whole lot of trust in yourself to be able to
 collect, analyse, interpret and relay data that can be trusted. You cannot trust
@@ -158,19 +168,17 @@ information, be certain you have the correct information.
 
 ---
 
-<div class="alert alert-info">
+{% message type="info" %}
 
 There are some organizations and standards that work to enhance and refine data
 and credibility of sources.
 
-<p class="ph"><a class="ph" target="_blank" rel="noopener noreferrer" href="http://credibility.stanford.edu/">The Stanford Web Credibility Research Project</a> (part of <a class="ph" target="_blank" rel="noopener noreferrer" href="http://captology.stanford.edu/">the Persuasive Technology Lab</a>) at Stanford University are investigating questions such as:</p>
+[The Stanford Web Credibility Research Project](http://credibility.stanford.edu/) (part of [the Persuasive Technology Lab](http://captology.stanford.edu/)) at Stanford University are investigating questions such as:
 
-<ul>
-<li>What causes people to believe (or not believe) what they find on the Web?</li>
-<li>What strategies do users employ in evaluating the credibility of on-line sources?</li>
-<li>What contextual and design factors influence these assessments and strategies?</li>
-</ul>
+- *What causes people to believe (or not believe) what they find on the Web?
+- *What strategies do users employ in evaluating the credibility of on-line sources?
+- *What contextual and design factors influence these assessments and strategies?
 
-<p class="ph"><a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/TrustRank">TrustRank</a> is a technique used for semi-automatic separation of useful web pages from spam.</p>
+[TrustRank](https://en.wikipedia.org/wiki/TrustRank) is a technique used for semi-automatic separation of useful web pages from spam.
 
-</div>
+{% /message %}

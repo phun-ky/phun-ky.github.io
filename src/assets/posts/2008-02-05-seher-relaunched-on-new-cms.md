@@ -8,11 +8,11 @@ tags: [site releases, work]
 ---
 
 2 weeks ago we signed off
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.seher.no">seher.no</a>
+[seher.no](http://www.seher.no)
 . We've exported the site from Polopoly(Java Server Pages) to our own CMS and
 servers (LAMP).
 
-<img src="/img/blog/img73491b03c42e59e25aefaa81a03b04d0.webp" class="ph" />
+![](/img/blog/img73491b03c42e59e25aefaa81a03b04d0.webp)
 
 Seher.no reaches 140 000 unique visitors.
 
