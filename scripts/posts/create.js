@@ -40,12 +40,30 @@ files.forEach((file) => {
 
   if (document) {
     let html = '';
+    let rendered = getHTML(document);
 
-    const rendered = getHTML(document);
-    const { year, month, day, slug, category, title, image, description } =
+    const { year, month, day, slug, category, title, image, tagline, description } =
       frontmatter;
 
-    html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
+    if(rendered.indexOf('<article class="ph">') === 0){
+      if(description){
+        rendered = rendered.replace('<article class="ph">',`<article class="ph"><p class="ph lead">${description}</p>`);
+      }
+
+      html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
+    } else {
+      if(description){
+        html = TEMPLATE.replace(/{{CONTENT}}/, `
+        <p class="ph lead">
+        ${description}
+        </p>
+        ${rendered}
+        `);
+      } else {
+        html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
+      }
+    }
+
     html = html.replace(
       /{{OPEN_GRAPH}}/,
       OpenGraphTags({
@@ -53,7 +71,7 @@ files.forEach((file) => {
         title,
         url: `https://phun-ky.net/${year}/${month}/${day}/${slug}`,
         image,
-        description
+        description: description ? description.replaceAll(/(&nbsp;|<([^>]+)>)/ig,'').replaceAll(/"/g,'&quot;') : null
       })
     );
     html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
@@ -63,9 +81,19 @@ files.forEach((file) => {
     html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
     html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
     html = html.replace(/{{ARTICLE_CSS}}/, ArticleCSS());
-    html = html.replace(/{{PAGE_TITLE}}/, title);
-    html = html.replace(/{{TITLE}}/, title);
-    html = html.replace(/{{DESCRIPTION}}/, description);
+    html = html.replaceAll(/{{TITLE}}/g, title);
+
+    if(description){
+      html = html.replaceAll(/{{DESCRIPTION}}/g, description.replaceAll(/(&nbsp;|<([^>]+)>)/ig,'').replaceAll(/"/g,'&quot;'));
+    }
+
+
+    if(tagline && typeof tagline === 'string' && tagline.length !== 0){
+      html = html.replaceAll(/{{TAGLINE}}/g, `<br/><em class="ph">– ${tagline}</em>`);
+    } else {
+      html = html.replaceAll(/{{TAGLINE}}/g, '');
+    }
+
     html = html.replace(/{{POST_NOTICE}}/, ArchiveNotice(category));
     html = html.replace(
       /{{BREADCRUMBS}}/,
