@@ -5,13 +5,13 @@ route: /2007/01/27/manah-manah
 title: 'manah manah!'
 description: 'Well, I took a sneak at the daily comic strip of M, authored and drawn by Mads Eriksen, and I did not quite get it, so I googled and came across a YouTub clip containing the explanation in form of a old Muppet Show sequence'
 category: 'Archive'
-image: /img/blog/img8affec83b72d0aaa7965480f648d303a.png
+image: /img/blog/img8affec83b72d0aaa7965480f648d303a.webp
 tags: [funny, comics, the muppet show]
 ---
 
 Have a look at the comic,then check out the clip:
 
-![a comic strip by mads eriksen](/img/blog/mmanah.png "manah manah")
+![a comic strip by mads eriksen](/img/blog/mmanah.webp "manah manah")
 
 The norwegian in the last frame is translated into: "...of ALL the dirty tric..", got it?
 

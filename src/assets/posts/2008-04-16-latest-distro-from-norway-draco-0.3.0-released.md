@@ -18,7 +18,7 @@ and on an ISO image. This release also introduces Draco Desktop. Draco Desktop
 contains the latest stable Draco release, bundled with software from the latest
 pkgsrc branch. Draco Desktop defaults to Xfce, with Fluxbox as an option."
 
-<img src="/img/blog/slim.jpg" alt="" class="ph"/>
+<img src="/img/blog/slim.webp" alt="" class="ph"/>
 Read more about <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.dracolinux.org/">Draco here</a>.
 
 Download

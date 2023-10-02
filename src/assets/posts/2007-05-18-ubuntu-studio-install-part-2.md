@@ -15,7 +15,7 @@ on, the DVD was DVD-R, so to install Ubuntu Studio on my stationary, I had to
 rip out my DVD+-R drive from my HTPC.. Took some pix of it, but adding them
 later.
 
-<img src="/img/blog/imga22ebea86c37fcb440ac1dc8890221c9.jpg" class="ph"/>
+<img src="/img/blog/imga22ebea86c37fcb440ac1dc8890221c9.webp" class="ph"/>
 
 After I got it installed, I tried the basic: get the network connection up ASAP.
 Just had to plug it in, nothing more. Brutal! After that I tried to install

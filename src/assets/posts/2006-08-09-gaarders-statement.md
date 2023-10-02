@@ -14,12 +14,12 @@ a statement </a> that many had reaction to. He opens fire against the Israeli
 goverment and rule. He directs critics against the way the slaughter is managed.
 Bottom line, he speeks his mind.
 
-<img class="ph" src="/img/blog/imgb2e24e196afca8cfbffe02d46be8be06.jpg"/>
+<img class="ph" src="/img/blog/imgb2e24e196afca8cfbffe02d46be8be06.webp"/>
 
 But still, there are many objections towards his statement. Gaarder has even
 been threatened for life! Freedom of speech is a good thing, right?
 
- <img src="/img/blog/jews.jpg" alt="jews against jews" class="ph"/>
+ <img src="/img/blog/jews.webp" alt="jews against jews" class="ph"/>
 
 Came across an image that clearly states that it isn't just jewes that supports
 Israel, it's jews that are against Israel!

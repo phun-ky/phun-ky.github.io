@@ -12,7 +12,7 @@ latest seventh generation video console from Nintendo. I am so fed up with Wii,
 even Xbox 360 looks more tempting.. Don't worry, I will get Wii, but not right
 now. It's not scheduled to release before 8th of December.
 
-<img src="/img/blog/imga0b8cb1e28fdc0ee8b6a4244c5e27847.jpg" class="ph"/>
+<img src="/img/blog/imga0b8cb1e28fdc0ee8b6a4244c5e27847.webp" class="ph"/>
 
 I will add a link for my norwegian readers to the paper after I get a grade on
 it. Cross your fingers, I need a D or better to pass this course!

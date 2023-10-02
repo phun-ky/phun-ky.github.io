@@ -3,8 +3,8 @@ route: /2023/10/02/future-interfaces
 title: 'Future interfaces'
 tagline: 'What the SciFi-scene promised us, and how far are we?'
 description: "In the ever-evolving landscape of human-machine interaction, the concept of future interfaces has intrigued generations of dreamers, innovators, and storytellers. In a world where technology continually stretches our imaginations, we find ourselves at the crossroads of fiction and reality, pondering what lies ahead. Let's take a journey through time and cinematic realms, from the imaginative 1950s sci-fi to the awe-inspiring marvels of today, to explore the sci-fi scene's promises and how they've materialized in our world. This is an exploration of how films reference existing technology, how technology fuels filmmakers' creativity, how films, in turn, inspire new tech, and examples of fresh visions of interfaces."
-category: 'Other'
-tags: []
+category: 'Design'
+tags: ['interfaces', 'design', 'technology', 'future', 'science fiction', 'scifi','movies']
 ---
 
 
@@ -142,7 +142,7 @@ In this section, I try to point out the different interfaces we see in science f
 
 ### Predator<span class="ph years-ago" data-year="1987"></span>
 
-{% figure description="Image of Predator's arm panel" src="/img/blog/2e148ce014e5baf9ac8c8410cd45ad1f.jpg" %}
+{% figure description="Image of Predator's arm panel" src="/img/blog/2e148ce014e5baf9ac8c8410cd45ad1f.webp" %}
 
 Predator's arm panel is basically his toolbox. It controls all of his weapons, makes him invisible and even self-destructs when he has been defeated. The design has an impenetrable, alien language touchscreen display encased in a bulky metal box fixed to the Predator's arm.
 
@@ -152,7 +152,7 @@ While most of the team working on Predator were part of the macho man action wor
 
 ### Star Trek: Deep Space Nine<span class="ph years-ago" data-year="1993"></span>
 
-{% figure description="Image of a PADD" src="/img/blog/df7eafbbc5fde6a1766caa21b682d6e4.jpg" url="<http://memory-alpha.wikia.com/wiki/PADD>" %}
+{% figure description="Image of a PADD" src="/img/blog/df7eafbbc5fde6a1766caa21b682d6e4.webp" url="<http://memory-alpha.wikia.com/wiki/PADD>" %}
 
 "PADD" is an acronym for Personal Access Display Device, a hand-held computer interface, used as early as the 22nd century and well into the 24th century.
 
@@ -166,7 +166,7 @@ Many seem to think that Apple or Samsung had the first types of tables or pads (
 
 ### Star Trek: The Next  Generation<span class="ph years-ago" data-year="1987"></span>
 
-{% figure description="Image of the TR-560 Tricorder" src="/img/blog/dcdcdba164c70803fafa8c1486c8e937.jpg" %}
+{% figure description="Image of the TR-560 Tricorder" src="/img/blog/dcdcdba164c70803fafa8c1486c8e937.webp" %}
 {% /figure %}
 
 This is not the earliest example of a tricorder that we see in the Star Trek franchise, but one of the most common in the shows after Star Trek ToS. Basically, it is a medical device that registers many vital properties on the subject examined.
@@ -175,7 +175,7 @@ Has there been any approach to create this in real life? Yes. The latest product
 
 I see now that they have made it wireless, and it goes by the name of Vscan Air™ handheld ultrasound
 
-{% figure description="Vscan Air™ handheld ultrasound" url="<https://handheldultrasound.gehealthcare.com/>" src="/img/blog/vscanair-min.png" %}
+{% figure description="Vscan Air™ handheld ultrasound" url="<https://handheldultrasound.gehealthcare.com/>" src="/img/blog/vscanair-min.webp" %}
 
 Vscan Air CL and Vscan Air SL set a new standard in handheld ultrasound — both flexible, wireless dual-probes deliver crystal clear images anytime, anywhere in healthcare. Designed for the individual, ultra portable ultrasound is always with you — cordless, customizable, and intuitive.
 
@@ -183,7 +183,7 @@ Vscan Air CL and Vscan Air SL set a new standard in handheld ultrasound — both
 
 ### eXistenZ<span class="ph years-ago" data-year="1999"></span>
 
-{% figure description="Controller from eXistenZ" src="/img/blog/a96457b59efdb2618e98a6a7bf884409.jpg" %}
+{% figure description="Controller from eXistenZ" src="/img/blog/a96457b59efdb2618e98a6a7bf884409.webp" %}
 
 {% /figure %}
 
@@ -193,7 +193,7 @@ The key difference is what it is made of. This is a biological device, as in, it
 
 ### 2001: A space odyssee<span class="ph years-ago" data-year="1968"></span>
 
-{% figure description="Space suit from the movie 2001: A space odysee" src="/img/blog/1602fb2732ae00cfb04c2dd300c8f405.png" %}
+{% figure description="Space suit from the movie 2001: A space odysee" src="/img/blog/1602fb2732ae00cfb04c2dd300c8f405.webp" %}
 
 {% /figure %}
 
@@ -203,7 +203,7 @@ What we see though, is that the interface use for communications/controls seems 
 
 ### Star Trek: The Original Series<span class="ph years-ago" data-year="1966"></span>
 
-{% figure description="Earliest tricorder in Star Trek" url="<https://en.wikipedia.org/wiki/Tricorder>" src="/img/blog/11b5b344659f2886009ab1be8d785122.jpg" %}
+{% figure description="Earliest tricorder in Star Trek" url="<https://en.wikipedia.org/wiki/Tricorder>" src="/img/blog/11b5b344659f2886009ab1be8d785122.webp" %}
 
 In the science-fictional Star Trek universe, a tricorder is a multifunction hand-held device used for sensor scanning, data analysis, and recording data.
 
@@ -213,7 +213,7 @@ Three primary variants of the tricorder appear in Star Trek, issued by the ficti
 
 ### Demolition Man<span class="ph years-ago" data-year="1993"></span>
 
-{% figure description="The sex scene from Demolition Man" src="/img/blog/7bbccb48fa8e39774f4a764d1846a4ce.png" %}
+{% figure description="The sex scene from Demolition Man" src="/img/blog/7bbccb48fa8e39774f4a764d1846a4ce.webp" %}
 
 {% /figure %}
 
@@ -221,7 +221,7 @@ In this future, we do not have touched based sex. Boring. And that was what the 
 
 ### FU-FME<span class="ph years-ago" data-year="2002"></span>
 
-{% figure rating="explicit" description="The fu-fme product" url="<http://www.easylife.org/fufme/>" src="/img/blog/7e6ef660c3acce71ac42d78ba5982909.JPG" %}
+{% figure rating="explicit" description="The fu-fme product" url="<http://www.easylife.org/fufme/>" src="/img/blog/7e6ef660c3acce71ac42d78ba5982909.webp" %}
 
 FuckU-FuckMe(tm) for Windows 95, Windows 98, and Windows NT provides the most complete remote sex solution for the Internet and corporate intranet.
 
@@ -241,7 +241,7 @@ However, we see that more and more sexual gadgets comes with remote control, and
 
 ### The Avengers<span class="ph years-ago" data-year="2012"></span>
 
-{% figure description="One of the monitors with content you see in The Avengers" src="/img/blog/0269aa80dabf0c90c5b1649accb1cf27.png" %}
+{% figure description="One of the monitors with content you see in The Avengers" src="/img/blog/0269aa80dabf0c90c5b1649accb1cf27.webp" %}
   
 {% /figure %}
 
@@ -249,7 +249,7 @@ It looks very cool and sleek and futuristic, but trying to focus on something on
 
 ### Star Trek: The Next  Generation<span class="ph years-ago" data-year="1987"></span>
 
-{% figure description="The LCARS Graphical User Interface" src="/img/blog/7454d475520d12aed2aa0f9b89839f5d.gif" %}
+{% figure description="The LCARS Graphical User Interface" src="/img/blog/7454d475520d12aed2aa0f9b89839f5d.webp" %}
 
 The LCARS graphical user interface</a>" was designed by scenic art supervisor and technical consultant Michael Okuda. The original design concept was influenced by a request from Gene Roddenberry that the instrument panels not have a great deal of activity on them. This minimalized look was designed to give a sense that the technology was much more advanced than in the original Star Trek.
   
@@ -259,7 +259,7 @@ There is something simple and beautiful about this, so simplistic and so effecti
 
 ### The Hunger Games<span class="ph years-ago" data-year="2012"></span>
 
-{% figure description="Scene from The Hunger Games" src="/img/blog/d536dcdcbc3f2ec16a981001a0fb5ec1.png" %}
+{% figure description="Scene from The Hunger Games" src="/img/blog/d536dcdcbc3f2ec16a981001a0fb5ec1.webp" %}
 
 {% /figure %}
 
@@ -267,7 +267,7 @@ It looks cool, and blue.., but if I remember correctly, the desk interfaces also
 
 ### Star Wars: The Return of the Jedi<span class="ph years-ago" data-year="1983"></span>
 
-{% figure description="The targeting system of a T-65B X-wing starfighter in action" src="/img/blog/c9f929c3af9ad26998eab3c6e69e056d.gif" %}
+{% figure description="The targeting system of a T-65B X-wing starfighter in action" src="/img/blog/c9f929c3af9ad26998eab3c6e69e056d.webp" %}
 
 The targeting system of a T-65B X-wing starfighter in action</a>"
 
@@ -281,13 +281,13 @@ Christian told Esquire that while working on the film he discovered that "if I b
 
 ### Blade Runner<span class="ph years-ago" data-year="1982"></span>
 
-{% figure description="Scene from Blade Runner" src="/img/blog/1acbd2e473bd33faa0663ddc27896bf7.png" %}
+{% figure description="Scene from Blade Runner" src="/img/blog/1acbd2e473bd33faa0663ddc27896bf7.webp" %}
 
 {% /figure %}
 
 ### Alien<span class="ph years-ago" data-year="1979"></span>
 
-{% figure description="Prompt scene from Alien" src="/img/blog/c15a80a4acc63dd19fa0e5aaa19330ba.gif" %}
+{% figure description="Prompt scene from Alien" src="/img/blog/c15a80a4acc63dd19fa0e5aaa19330ba.webp" %}
 
 {% /figure %}
 
@@ -309,7 +309,7 @@ In all practicalities a cool gadget, but the targeted user group, for now, is ve
 
 ### Google Glass<span class="ph years-ago" data-year="2011"></span>
 
-{% figure description="Google Glass" src="/img/blog/6f65c951714a6d351efd8fb3432f60b6.jpg" %}
+{% figure description="Google Glass" src="/img/blog/6f65c951714a6d351efd8fb3432f60b6.webp" %}
 
 {% /figure %}
 
@@ -321,7 +321,7 @@ In this section of the talk, I tried to combine cool Heads up display (HUD) uses
 
 ### Minority Report<span class="ph years-ago" data-year="2002"></span>
 
-{% figure description="A HUD from the movie Minority Report" src="/img/blog/9d934350c07fbcdd38cc61c6d32dacf1.png" %}
+{% figure description="A HUD from the movie Minority Report" src="/img/blog/9d934350c07fbcdd38cc61c6d32dacf1.webp" %}
 
 {% /figure %}
 
@@ -329,7 +329,7 @@ This looks very rigid and fixed, and it's stock, meaning that it is not in parti
 
 ### Iron Man<span class="ph years-ago" data-year="2008"></span>
 
-{% figure description="A HUD from the movie Minority Report" src="/img/blog/249bf6217c7a271cadf63147d680ec4b.gif" %}
+{% figure description="A HUD from the movie Minority Report" src="/img/blog/249bf6217c7a271cadf63147d680ec4b.webp" %}
 
 {% /figure %}
 
@@ -363,7 +363,7 @@ Every time I see this scene, I crack up, it is hilarious how Scotty tries to use
 
 ### Minority Report<span class="ph years-ago" data-year="2002"></span>
 
-{% figure description="Tony Starks HUD from Iron Man" src="/img/blog/7ebba539ea448bc05d00bce3c699ffc3.png" %}
+{% figure description="Tony Starks HUD from Iron Man" src="/img/blog/7ebba539ea448bc05d00bce3c699ffc3.webp" %}
 
 {% /figure %}
 
@@ -371,7 +371,7 @@ I never really quite understood the interface for this "device" from the movie. 
 
 ### The Matrix<span class="ph years-ago" data-year="1999"></span>
 
-{% figure description="Scene from The Matrix" src="/img/blog/84b15c75741b7e7465e502f391160321.jpg" %}
+{% figure description="Scene from The Matrix" src="/img/blog/84b15c75741b7e7465e502f391160321.webp" %}
 
 {% /figure %}
 
@@ -379,7 +379,7 @@ This is the most obtrusive interaction I have ever seen, if my memory serves me 
 
 ### Prometheus<span class="ph years-ago" data-year="2012"></span>
 
-{% figure description="Scene from the movie Prometheus" src="/img/blog/b3a9f720b74a6d1e8921268f7eacaf5c.jpeg" %}
+{% figure description="Scene from the movie Prometheus" src="/img/blog/b3a9f720b74a6d1e8921268f7eacaf5c.webp" %}
 
 {% /figure %}
 
@@ -387,7 +387,7 @@ Prometheus is for me one of the better visual movies, in both scenery, filmatogr
 
 ### Star Gate Universe<span class="ph years-ago" data-year="2009"></span>
 
-{% figure description="The Destiny interface chair" src="/img/blog/29ef4ead0572f4996453301e13f199c7.png" %}
+{% figure description="The Destiny interface chair" src="/img/blog/29ef4ead0572f4996453301e13f199c7.webp" %}
 
 {% /figure %}
 
@@ -395,7 +395,7 @@ I really loved Star Gate Universe. Brilliant actors, good story, but cancelled..
 
 ### X-Men<span class="ph years-ago" data-year="2000"></span>
 
-{% figure description="Charles Xavier using the Cerebro" src="/img/blog/64b9b079495f2f86e56269eb9f4f2c49.png" %}
+{% figure description="Charles Xavier using the Cerebro" src="/img/blog/64b9b079495f2f86e56269eb9f4f2c49.webp" %}
 
 {% /figure %}
 
@@ -403,7 +403,7 @@ The Cerebro was a machine that was used to enhance brain waves, especially of th
 
 ### Star Gate Universe<span class="ph years-ago" data-year="2009"></span>
 
-{% figure description="Star Gate Universe long-range communication stones" url="<https://stargate.fandom.com/wiki/Long-range_communication_stone>" src="/img/blog/bb2ab9a5c7ed485b15759682b574a132.jpg" %}
+{% figure description="Star Gate Universe long-range communication stones" url="<https://stargate.fandom.com/wiki/Long-range_communication_stone>" src="/img/blog/bb2ab9a5c7ed485b15759682b574a132.webp" %}
 
 {% /figure %}
 
@@ -411,7 +411,7 @@ The simplest interface I have seen so far. You pick up a stone, put it on the li
 
 ### Johnny Mnemonic<span class="ph years-ago" data-year="1995"></span>
 
-{% figure description="Scene from Johnny Mnemonic" src="/img/blog/0c3fdee2c36880ff4363f6f2871283fc.gif" %}
+{% figure description="Scene from Johnny Mnemonic" src="/img/blog/0c3fdee2c36880ff4363f6f2871283fc.webp" %}
 
 We see Johnny type something on his virtual keyboard, then selects from a pull down menu.
 
@@ -425,7 +425,7 @@ There is a reason why we do not use this everywhere, but at the time, it looked 
 
 ### Star Trek: The Next  Generation<span class="ph years-ago" data-year="1987"></span>
 
-{% figure description="The holosuite/holodeck from Star Trek" src="/img/blog/a9469f75eb3e27cb6f8696cfcd9fb55c.jpg" %}
+{% figure description="The holosuite/holodeck from Star Trek" src="/img/blog/a9469f75eb3e27cb6f8696cfcd9fb55c.webp" %}
 
 {% /figure %}
 
@@ -441,13 +441,13 @@ Yeah, no. It is cool and all, but I see no real practical usage of theremins con
 
 ### Fifth Element<span class="ph years-ago" data-year="1997"></span>
 
-{% figure description="Scene from the movie Fifth Element, where a woman changes the color of her nails instantaniously by interfacing with a device" src="/img/blog/071f794a80fd2ac5e3429430b2387009.png" %}
+{% figure description="Scene from the movie Fifth Element, where a woman changes the color of her nails instantaniously by interfacing with a device" src="/img/blog/071f794a80fd2ac5e3429430b2387009.webp" %}
   
 {% /figure %}
 
 ### Total Recall<span class="ph years-ago" data-year="1990"></span>
 
-{% figure description="Scene from the movie Total Recall, where a woman changes the color of her nails by using a pen-like device" src="/img/blog/212b38a275b1b53d3e74deae47532593.png" %}
+{% figure description="Scene from the movie Total Recall, where a woman changes the color of her nails by using a pen-like device" src="/img/blog/212b38a275b1b53d3e74deae47532593.webp" %}
 
 {% /figure %}
 
@@ -521,13 +521,13 @@ In the talk, I added some more images from the movies, talking about each one of
 
 ### Alien<span class="ph years-ago" data-year="1979"></span>
 
-{% figure description="A rendered view of one of the cockpits in one of the ships in the Alien franchise" src="/img/blog/6de630532c95224dac380f480c89a98d.png" %}
+{% figure description="A rendered view of one of the cockpits in one of the ships in the Alien franchise" src="/img/blog/6de630532c95224dac380f480c89a98d.webp" %}
 
 {% /figure %}
 
 ### 2001: A space odyssee<span class="ph years-ago" data-year="1968"></span>
 
-{% figure description="Scene from 2001: A space odyssee" src="/img/blog/f7062ced6c66dbae760743be12774387.jpg" %}
+{% figure description="Scene from 2001: A space odyssee" src="/img/blog/f7062ced6c66dbae760743be12774387.webp" %}
 
 {% /figure %}
 
@@ -535,7 +535,7 @@ Dark room, bright lights, tangible buttons. Looks familiar?
 
 ### Mission to mars<span class="ph years-ago" data-year="2000"></span>
 
-{% figure description="An arm based unit " src="/img/blog/447a87b83d7858eac3652cb9bc2b0902.png" %}
+{% figure description="An arm based unit " src="/img/blog/447a87b83d7858eac3652cb9bc2b0902.webp" %}
 
 {% /figure %}
 
@@ -543,7 +543,7 @@ Simple, informative and bulky.
 
 ### Star Trek: Into Darkness<span class="ph years-ago" data-year="2013"></span>
 
-{% figure description="Scene from Star Trek: Into Darkness,from the bridge of the Enterprise" src="/img/blog/9fc69bbdb4926dd8109a2821650a69a5.jpg" %}
+{% figure description="Scene from Star Trek: Into Darkness,from the bridge of the Enterprise" src="/img/blog/9fc69bbdb4926dd8109a2821650a69a5.webp" %}
 
 {% /figure %}
 
@@ -551,7 +551,7 @@ Not a too big fan of the reboot timeline, and the lens flare over usage of JJ Ab
 
 ### Jurassic Park<span class="ph years-ago" data-year="1993"></span>
 
-{% figure description="3d map scene of the database from Jurassic Park" src="/img/blog/54b9f73d0edcce9018fe38405366a820.jpg" %}
+{% figure description="3d map scene of the database from Jurassic Park" src="/img/blog/54b9f73d0edcce9018fe38405366a820.webp" %}
 
 {% /figure %}
 
@@ -559,7 +559,7 @@ You simply cannot avoid mentioning this scene. It looked so cool! A 3d map of a 
 
 ### Star Wars<span class="ph years-ago" data-year="1977"></span>
 
-{% figure description="R2-D2 accessing the computer on the Death Star" src="/img/blog/f7ce07a764cfd04f7b40d49d1bbcaf88.jpg" %}
+{% figure description="R2-D2 accessing the computer on the Death Star" src="/img/blog/f7ce07a764cfd04f7b40d49d1bbcaf88.webp" %}
 
 {% /figure %}
 
@@ -567,13 +567,13 @@ Male port connecting to a female port, to access a computer. Oh, and of course, 
 
 ### The day the earth stood still<span class="ph years-ago" data-year="1951"></span>
 
-{% figure description="Scene from The day the earth stood still" src="/img/blog/57b9046afa77da4d3d1efef3eb5eddf1.jpg" %}
+{% figure description="Scene from The day the earth stood still" src="/img/blog/57b9046afa77da4d3d1efef3eb5eddf1.webp" %}
 
 {% /figure %}
 
 ### Star Trek: The Original Series<span class="ph years-ago" data-year="1966"></span>
 
-{% figure description="Nyota Uhura, portrayed by Nichelle Nichols, in front of the communications console" src="/img/blog/13708d7e880af2b5c556db2b09ecb310.png" %}
+{% figure description="Nyota Uhura, portrayed by Nichelle Nichols, in front of the communications console" src="/img/blog/13708d7e880af2b5c556db2b09ecb310.webp" %}
 
 {% /figure %}
 
@@ -581,19 +581,19 @@ Still, even though we are in the far future, the visual effects portrays the nee
 
 ### Alien<span class="ph years-ago" data-year="1979"></span>
 
-{% figure description="Scene from the movie Alien" src="/img/blog/47b03ddcbfe5e0b2add23baff412e4fd.jpg" %}
+{% figure description="Scene from the movie Alien" src="/img/blog/47b03ddcbfe5e0b2add23baff412e4fd.webp" %}
 
 {% /figure %}
 
 ### Back to the future<span class="ph years-ago" data-year="1985"></span>
 
-{% figure description="The display and input  for time travel in the Delorean" src="/img/blog/06dc87bffb57319041985d977535792d.jpg" %}
+{% figure description="The display and input  for time travel in the Delorean" src="/img/blog/06dc87bffb57319041985d977535792d.webp" %}
 
 {% /figure %}
 
 ### Blade Runner<span class="ph years-ago" data-year="1982"></span>
 
-{% figure description="Still from Bladerunner, scene from within a vehicle with several displays" src="/img/blog/ca1b82e45ef57d47e90e8067de045a7d.jpg" %}
+{% figure description="Still from Bladerunner, scene from within a vehicle with several displays" src="/img/blog/ca1b82e45ef57d47e90e8067de045a7d.webp" %}
 
 {% /figure %}
 
@@ -639,7 +639,7 @@ Still, even though we are in the far future, the visual effects portrays the nee
 
 ### Ultrahaptics<span class="ph years-ago" data-year="2013"></span>
 
-{% figure description="Image of the concept car interface with Leap Motion" src="/img/blog/dab5c7b213be878dae6f4d8392d7cd7a.jpg" %}
+{% figure description="Image of the concept car interface with Leap Motion" src="/img/blog/dab5c7b213be878dae6f4d8392d7cd7a.webp" %}
 
 Haptic controls: No amount of photos can make them look good. Try it out, though: It's a little bit like magic. If you look closely, you can see the Leap Motion that's being used for the hand tracking. The haptic feedback comes from the ultrasonic array immediately below the Leap Motion.
 
@@ -657,7 +657,7 @@ AirTouch debuted at CES 2016 and uses sensors on the dash to pick up hand gestur
 
 ### Electric vehicle engine experimental for Fantasy by Gleb Kuznetsov✈ for FΛNTΛSY<span class="ph years-ago" data-year="2016"></span>
 
-{% figure description="Electric vehicle engine experimental for Fantasy by Gleb Kuznetsov✈ for FΛNTΛSY" src="/img/blog/dc19014b8a8be885ac8b77adb6784bb7.gif" %}
+{% figure description="Electric vehicle engine experimental for Fantasy by Gleb Kuznetsov✈ for FΛNTΛSY" src="/img/blog/dc19014b8a8be885ac8b77adb6784bb7.webp" %}
 
 {% /figure %}
 
@@ -714,7 +714,7 @@ html{
 }
 ```
 
-{% figure src="/img/blog/futture-interfaces-codepen-min.png" description="Screenshot of Sakura Animation using WebGl" %}
+{% figure src="/img/blog/futture-interfaces-codepen-min.webp" description="Screenshot of Sakura Animation using WebGl" %}
 
 See the Pen "[Sakura Animation using WebGl](https://codepen.io/phun-ky/pen/MELrzv)" by Alexander Vassbotn Røyne-Helgesen ([@phun-ky](https://codepen.io/phun-ky))
   on [CodePen](https://codepen.io)
