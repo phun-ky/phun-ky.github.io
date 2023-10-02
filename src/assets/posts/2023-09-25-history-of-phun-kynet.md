@@ -22,10 +22,10 @@ them and see how much they have evolved, or not. Bear in mind that the
 CSS, so the outcome of the screenshots is not 100%, but you get the gist of it.
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-01.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-01.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-01.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-01.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -53,10 +53,10 @@ computer hardware company with my brother and a couple of our friends, but that
 is another story.
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-02.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-02.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-02.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-02.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -70,10 +70,10 @@ clan pages, including my own clan, "pSc", proud scottsmen clan. \*cringe\*
 Big dreams, big dreams..
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-03.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-03.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-03.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-03.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -84,10 +84,10 @@ I think I was in conscription (mandatory military service) when I created this
 version.I still loved the blue-ish color I see.
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-04.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-04.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-04.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-04.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -100,10 +100,10 @@ already there, the link to 508, which was the forerunner for the WCAG standards.
 Still some shades of blue.
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-05.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-05.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-05.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-05.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -118,10 +118,10 @@ _You can actually see more of this version in the
 I remember I created the red doodle in MS Paint. \*cringe\*
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-06.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-06.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-06.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-06.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -131,10 +131,10 @@ politics and linux releases apparently. And the tag line that I still use was
 born. "The world from my point of view, and some pedantic creativity".
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-07.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-07.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-07.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-07.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -143,10 +143,10 @@ Yep, nope. Never doing that again. Skewed boxes with too much shadow?
 \*facepalm\*
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-08.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-08.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-08.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-08.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -154,10 +154,10 @@ Yep, nope. Never doing that again. Skewed boxes with too much shadow?
 Better, but still. Dull, boring, green.
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-09.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-09.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-09.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-09.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -166,10 +166,10 @@ Well, at least I get my headshot up now. And the current title for my blog was
 made: "lover of life, technologist at heart".
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-10.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-10.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-10.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-10.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -177,10 +177,10 @@ made: "lover of life, technologist at heart".
 New headshot, new color palette. Not much.
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-11.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-11.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-11.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-11.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>
@@ -188,10 +188,10 @@ New headshot, new color palette. Not much.
 Another change in the picture. And now new posts!?
 
 <figure class="ph">
-  <img title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-12.jpg" class="ph"/>
+  <img loading="lazy" title="Screenshot of a previous version phun-ky.net" alt="Screenshot of a previous version phun-ky.net" src="/img/blog/history-of-phun-ky-12.webp" class="ph"/>
   <figcaption class="ph">
     <small class="ph">
-      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-12.jpg">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
+      "<a class="ph" target="_blank" rel="noopener noreferrer" href="/img/blog/history-of-phun-ky-12.webp">Screenshot of a previous version phun-ky.net</a>" by <a class="ph" href="https://phun-ky.net" title="en:Alexander Vassbotn Røyne-Helgesen">Alexander Vassbotn Røyne-Helgesen</a>. Licensed under Attribution International via <a class="ph" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
     </small>
   </figcaption>
 </figure>

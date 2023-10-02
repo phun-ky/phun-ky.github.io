@@ -11,7 +11,7 @@ tags: [politics, darfur, refugees, africa]
 Amnesty International has now released a site where YOU can monitor and see for
 yourself the destrucion and genocide that is happening in Sudan.
 
-![eyes on darfur](/img/blog/eyesondarfur.jpg)
+![eyes on darfur](/img/blog/eyesondarfur.webp)
 
 ## About the project
 

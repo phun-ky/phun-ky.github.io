@@ -22,7 +22,7 @@ tags: [conference, goopen]
 2. [What is GoOpen](#what-is-goopen)
 3. [Follow GoOpen](#follow-goopen)
 
-![Attending GoOpen 2010](/assets/img/blog/imgc4928b9eb8ca15678b567d7c5864c1f0.png)
+![Attending GoOpen 2010](/assets/img/blog/imgc4928b9eb8ca15678b567d7c5864c1f0.webp)
 
 ## Main keynotes
 

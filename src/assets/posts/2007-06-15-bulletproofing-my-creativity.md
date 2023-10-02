@@ -17,7 +17,7 @@ the books.
 The shipment is not due until late next month, because I forgot I could order
 from amazon.co.uk. But it's worth waiting for.
 
-<img src="/img/blog/img19e321279da6d7a5b13fa323b143ab74.jpg" class="ph"/>
+<img src="/img/blog/img19e321279da6d7a5b13fa323b143ab74.webp" class="ph"/>
 
 But I want you to ask yourself this: What do you do to bulletproof your
 professional creativity? Do you attend courses? Take lectures? Conferences? Read

@@ -12,7 +12,7 @@ tags: [site releases, work]
 . We've exported the site from Polopoly(Java Server Pages) to our own CMS and
 servers (LAMP).
 
-<img src="/img/blog/img73491b03c42e59e25aefaa81a03b04d0.jpg" class="ph" />
+<img src="/img/blog/img73491b03c42e59e25aefaa81a03b04d0.webp" class="ph" />
 
 Seher.no reaches 140 000 unique visitors.
 
