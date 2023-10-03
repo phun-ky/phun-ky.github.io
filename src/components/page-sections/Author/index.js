@@ -78,7 +78,7 @@ export const Author = () => {
           rel="noopener noreferrer"
           target="_blank"
           >out some of the things I speak about</a
-        >, and contact me if you are interested in having my at your next event!
+        >, and contact me if you are interested in having me at your next event!
       </p>
     </div>
   </section>`;
