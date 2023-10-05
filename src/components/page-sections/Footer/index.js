@@ -19,7 +19,7 @@ export const Footer = () => {
             src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
           />
         </a>
-        <br />This work by
+        <br />This work, and all assets created by
         <a
           rel="noopener noreferrer"
           target="_blank"

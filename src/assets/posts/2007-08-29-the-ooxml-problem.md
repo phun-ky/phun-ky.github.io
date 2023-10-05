@@ -20,7 +20,7 @@ As some of you might have noticed, the hottest debate nowadays is the debate on
 Microsofts new document format, the OOXML (Office Open XML) and Microsofts
 attempt to get the OOXML standard ISO certified.
 
-<img src="/img/blog/imgdff43cd40ceec7106f2d0ead22a65640.webp" class="ph"/>
+![](/img/blog/imgdff43cd40ceec7106f2d0ead22a65640.webp)
 
 ## What is OOXML?
 

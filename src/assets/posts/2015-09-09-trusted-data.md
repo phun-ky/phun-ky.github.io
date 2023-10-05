@@ -3,7 +3,16 @@ route: /2015/09/09/trusted-data
 title: 'Trusted Data'
 tagline: 'What is Trusted Data?'
 description:
-  We live in a <a class="ph" target="_blank" rel="noopener noreferrer" href="https://simple.wikipedia.org/wiki/Space-time">plane in the space-time continuum</a> surrounded by data. An inconceivable amount of data. Every day we observe, process, interpret, analyse and act upon data. Not just with computers, but with anything, everywhere. We watch TV, use social media, we look through the window, we smell the rain, we sense the tingling feeling on our feet when walking barefooted in the grass. We collect data 24/7, even <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Neuroscience_of_sleep">when we sleep.</a> With so much data out there, how can we trust it? What is "Trusted Data"?
+  We live in a <a class="ph" target="_blank" rel="noopener noreferrer"
+  href="https://simple.wikipedia.org/wiki/Space-time">plane in the space-time
+  continuum</a> surrounded by data. An inconceivable amount of data. Every day
+  we observe, process, interpret, analyse and act upon data. Not just with
+  computers, but with anything, everywhere. We watch TV, use social media, we
+  look through the window, we smell the rain, we sense the tingling feeling on
+  our feet when walking barefooted in the grass. We collect data 24/7, even <a
+  class="ph" target="_blank" rel="noopener noreferrer"
+  href="https://en.wikipedia.org/wiki/Neuroscience_of_sleep">when we sleep.</a>
+  With so much data out there, how can we trust it? What is "Trusted Data"?
 category: 'Technology'
 tags: [trusted-data, data]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/640px-Social_Network_Analysis_Visualization.png
@@ -22,14 +31,21 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_
    6. [Interpretation of data](#interpretation-of-data)
 4. [A final word](#a-final-word)
 
-<figure class="ph">
-  <img alt="A picture of the Milky Way seen in the night sky in Black Rock Desert Nevada" aria-describedby="Milky_Way_Night_Sky_Black_Rock_Desert_Nevada" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg/643px-Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" id="Milky_Way_Night_Sky_Black_Rock_Desert_Nevada" href="https://commons.wikimedia.org/wiki/File:Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg#/media/File:Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg">Milky Way Night Sky Black Rock Desert Nevada</a>" by <a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01">Steve Jurvetson</a> - <a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01/898622334">Flickr</a>. Licensed under <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="A picture of the Milky Way seen in the night sky in Black Rock Desert Nevada"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg/643px-Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg>"
+%}
+
+by
+<a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01">Steve
+Jurvetson</a> -
+[Flickr](http://flickr.com/photos/44124348109@N01/898622334).
+Licensed under
+<a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC
+BY 2.0</a> via
+[Commons](https://commons.wikimedia.org/wiki/).
+
+{% /figure %}
 
 If we take in consideration, the whole observable universe,
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Orders_of_magnitude_(data)">scientists
@@ -55,14 +71,21 @@ lies in the terminology used.
 
 ## What is data?
 
-<figure class="ph">
-  <img aria-describedby="Social_Network_Analysis_Visualization" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/640px-Social_Network_Analysis_Visualization.png" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" id="Social_Network_Analysis_Visualization" href="https://commons.wikimedia.org/wiki/File:Social_Network_Analysis_Visualization.png#/media/File:Social_Network_Analysis_Visualization.png">Social Network Analysis Visualization</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:MartinGrandjean~commonswiki" title="User:MartinGrandjean~commonswiki" class="ph mw-redirect">MartinGrandjean</a> - <span class="int-own-work" lang="en">Own work</span>&nbsp;: <a rel="nofollow" class="ph external free" href="http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png">http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png</a>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="Social_Network_Analysis_Visualization"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/640px-Social_Network_Analysis_Visualization.png>"
+%}
+
+by
+[MartinGrandjean](//commons.wikimedia.org/wiki/User:MartinGrandjean~commonswiki) -
+<span class="int-own-work" lang="en">Own work</span>&nbsp;:
+[http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png](http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png).
+Licensed under
+<a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC
+BY-SA 3.0</a> via
+[Commons](https://commons.wikimedia.org/wiki/).
+
+{% /figure %}
 
 Suman Deb Roy and Wenjun Zeng defines, in their book
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://books.google.no/books?id=Z1hDBAAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">Social
@@ -78,7 +101,12 @@ sensory input.
 > continuous, or analogue signals which behave in a continuous manner, or
 > represent information using a continuous function.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Digital_data">https://en.wikipedia.org/wiki/Digital_data</a>
+> <footer class="ph">
+>
+> –
+> [https://en.wikipedia.org/wiki/Digital_data](https://en.wikipedia.org/wiki/Digital_data)
+>
+> </footer>
 
 Digital data could be described as data that is collected and represented
 through a digital interface.
@@ -95,7 +123,12 @@ through a digital interface.
 > involves the risk of failure or harm to the trustor if the trustee will not
 > behave as desired.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Trust_%28social_sciences%29">https://en.wikipedia.org/wiki/Trust\_(social_sciences)</a>
+> <footer class="ph">
+>
+> –
+> [https://en.wikipedia.org/wiki/Trust_social_sciences)](https://en.wikipedia.org/wiki/Trust_%28social_sciences%29)
+>
+> </footer>
 
 The definition of trust regarding relationship between people and technology is
 a bit more cumbersome, since it describes a state that conflicts with the
@@ -107,7 +140,12 @@ rational reflection of human beings:
 > complex technologies. However, rational reflection leads to the rejection of
 > an ability to trust technological artifacts.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Trust_%28social_sciences%29">https://en.wikipedia.org/wiki/Trust\_(social_sciences)</a>
+> <footer class="ph">
+>
+> –
+> [https://en.wikipedia.org/wiki/Trust_social_sciences)](https://en.wikipedia.org/wiki/Trust_%28social_sciences%29)
+>
+> </footer>
 
 When we collect, interpret and analyse data, we have to rely on a certain trust
 to the data we work with. The trust we rely on can be grouped in three levels of
@@ -135,7 +173,12 @@ trust:
 > haven’t taken advantage of me. You have proven yourself to be loyal,
 > understanding, and accepting.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.leadergrow.com/articles/201-degrees-of-trust">http://www.leadergrow.com/articles/201-degrees-of-trust</a>
+> <footer class="ph">
+>
+> –
+> [http://www.leadergrow.com/articles/01-degrees-of-trust](http://www.leadergrow.com/articles/201-degrees-of-trust)
+>
+> </footer>
 
 "Trusted Data", regardless the level of trust, is data you can rely on to
 process information from, information used to gain knowledge, make decisions and
@@ -153,8 +196,11 @@ term?
 > use, and be delivered in formats and time frames that are appropriate to
 > specific consumers of reports and other manifestations of data.
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="http://tdwi.org/articles/2010/11/04/experts-trusted-data.aspx">Russom,
-> Philip - The Ramifications of Trusted Data</a>
+> <footer class="ph">
+>
+> – [Russom, Philip - The Ramifications of Trusted Data](http://tdwi.org/articles/2010/11/04/experts-trusted-data.aspx)
+>
+> </footer>
 
 Philip Russom describes "Trusted Data" as a concept that is easily quantified by
 the conditions of the data. He quantifies that "Trusted Data" should:
@@ -172,16 +218,27 @@ explore this:
 > Definition: Any thing or place from which something comes, arises, or is
 > obtained
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="http://dictionary.reference.com/browse/source">http://dictionary.reference.com/browse/source</a>
+> <footer class="ph">
+>
+> –
+> [http://dictionary.reference.com/browse/source](http://dictionary.reference.com/browse/source)
+>
+> </footer>
 
-<figure class="ph">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Source-de-l%27Orbe.jpg/640px-Source-de-l%27Orbe.jpg" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-    "<a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Source-de-l%27Orbe.jpg#/media/File:Source-de-l%27Orbe.jpg">Source-de-l'Orbe</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:Micha_L._Rieser" title="User:Micha L. Rieser">Micha L. Rieser</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="Source-de-l'Orbe"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Source-de-l%27Orbe.jpg/640px-Source-de-l%27Orbe.jpg>"
+%}
+
+by
+<a class="ph" href="//commons.wikimedia.org/wiki/User:Micha_L._Rieser" title="User:Micha L. Rieser">Micha
+L. Rieser</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed
+under
+<a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC
+BY-SA 3.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia
+Commons</a>.
+
+{% /figure %}
 
 A source could be a landscape, a scent, a taste, a book, a human, an API, a show
 on the television. Sources can give erroneous data, so how can we trust a
@@ -238,14 +295,17 @@ There are many, far too many, examples on erroneous data:
 
 #### In genealogy
 
-<figure class="ph">
-  <img alt="Photo of the Eikeland family tree" src="/img/blog/1522837_10153741673415125_1361780963_o.webp" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" href="/img/blog/1522837_10153741673415125_1361780963_o.webp">Photo of the Eikeland family tree</a>" by <span class="fn value">Alexander Vassbotn Røyne-Helgesen (<a rel="nofollow" class="ph external text" href="http://phun-ky.net">http://phun-ky.net</a>)</span>. Licensed under Attribution International via <a class="ph" target="_blank" rel="noopener noreferrer" href="http://creativecommons.org/licenses/by/4.0/">Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="Photo of the Eikeland family tree"
+  src="/img/blog/1522837_10153741673415125_1361780963_o.webp"
+%}
+
+by <span class="fn value">Alexander Vassbotn Røyne-Helgesen
+([http://phun-ky.net](http://phun-ky.net))</span>.
+Licensed under Attribution International via
+[Commons](http://creativecommons.org/licenses/by/4.0/).
+
+{% /figure %}
 
 The longer back you research in genealogy, there are fewer or no decent and
 verified sources. Family trees can be based on other family trees that have
@@ -265,14 +325,19 @@ myths and legends, folklore and what the people in that time did not fully
 understand. But later in the 17th century, the monsters vanished, relative to
 the scientific progress of the time.
 
-<figure class="ph">
-  <img aria-describedby="Carta_Marina" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Carta_Marina.jpeg/640px-Carta_Marina.jpeg" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" id="Carta_Marina" href="https://commons.wikimedia.org/wiki/File:Carta_Marina.jpeg#/media/File:Carta_Marina.jpeg">Carta Marina</a>" by <a class="ph" href="//en.wikipedia.org/wiki/Olaus_Magnus" class="extiw" title="w:Olaus Magnus">Olaus Magnus</a> - <a rel="nofollow" class="ph external free" href="http://www.npm.ac.uk/rsdas/projects/carta_marina/">http://www.npm.ac.uk/rsdas/projects/carta_marina/</a> "Carta Marina satellite images". Licensed under Public Domain via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="Carta Marina"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Carta_Marina.jpeg/640px-Carta_Marina.jpeg>"
+%}
+
+by
+<a class="ph" href="//en.wikipedia.org/wiki/Olaus_Magnus" class="extiw" title="w:Olaus Magnus">Olaus
+Magnus</a> -
+[http://www.npm.ac.uk/rsdas/projects/carta_marina/](http://www.npm.ac.uk/rsdas/projects/carta_marina/)
+"Carta Marina satellite images". Licensed under Public Domain via
+[Commons](https://commons.wikimedia.org/wiki/).
+
+{% /figure %}
 
 In these modern times, we rarely find these data anomalies (or abnormalities),
 due to satellite mapping and greater understanding. One of these rarities was
@@ -313,14 +378,19 @@ particular.
 
 ### What risks are involved when we have untrustworthy data?
 
-<figure class="ph">
-  <img aria-describedby="Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG/640px-Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" id="Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background" href="https://commons.wikimedia.org/wiki/File:Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG#/media/File:Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG">Man highlining in Yosemite National Park with El Capitan in the background</a>" by <a class="ph" href="//commons.wikimedia.org/wiki/User:Liannadavis" title="User:Liannadavis">LiAnna Davis</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a class="ph" target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/">Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="Man highlining in Yosemite National Park with El Capitan in the background"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG/640px-Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG>"
+%}
+
+by
+<a class="ph" href="//commons.wikimedia.org/wiki/User:Liannadavis" title="User:Liannadavis">LiAnna
+Davis</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under
+<a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC
+BY-SA 3.0</a> via
+[Commons](https://commons.wikimedia.org/wiki/).
+
+{% /figure %}
 
 The risks involved with untrustworthy data could be sectioned into groups
 depending on the impact of these risks.
@@ -369,9 +439,12 @@ Health risks could be:
 - Severe injury
 - Terminal illness
 
-<div class="alert alert-warning" role="alert">
-  <em>This risk/impact grouping is not based on any empirical or statistic data, but a rough grouping by the author.</em>
-</div>
+{% message type="warning" %}
+
+This risk/impact grouping is not based on any empirical or statistic data, but a
+rough grouping by the author.
+
+{% /message %}
 
 The grouping above is just a small collection of risks related to untrustworthy
 data. Data that is erroneous when relayed. But what about the interpretation of
@@ -390,16 +463,28 @@ interpret data.
 > asks him, "Why did you get 13 gallons of milk?" The programmer says, "There
 > were eggs!"
 >
-> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/Jokes/comments/1nmkfq/a_programmer_is_going_to_the_grocery_store/">https://www.reddit.com/r/Jokes/comments/1nmkfq/a_programmer_is_going_to_the_grocery_store/</a>
+> <footer class="ph">
+>
+> –
+> [https://www.reddit.com/r/Jokes/comments/1nmkfq/a_programmer_is_going_to_the_grocery_store/](https://www.reddit.com/r/Jokes/comments/1nmkfq/a_programmer_is_going_to_the_grocery_store/)
+>
+> </footer>
 
-<figure class="ph">
-  <img aria-describedby="Quarts_of_milk" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Quarts_of_milk_%285092042245%29_%283%29.jpg/640px-Quarts_of_milk_%285092042245%29_%283%29.jpg" class="ph"/>
-  <figcaption class="ph">
-    <small class="ph">
-      "<a class="ph" id="Quarts_of_milk" href="https://commons.wikimedia.org/wiki/File:Quarts_of_milk_(5092042245)_(3).jpg#/media/File:Quarts_of_milk_(5092042245)_(3).jpg">Quarts of milk (5092042245) (3)</a>" by <a rel="nofollow" class="ph external text" href="http://www.flickr.com/people/24431382@N03">Eric Fischer</a> - <a rel="nofollow" class="ph external text" href="http://www.flickr.com/photos/walkingsf/5092042245/">Quarts of milk</a>. Licensed under <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.
-    </small>
-  </figcaption>
-</figure>
+{% figure
+  description="Quarts of milk"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Quarts_of_milk_%285092042245%29_%283%29.jpg/640px-Quarts_of_milk_%285092042245%29_%283%29.jpg>"
+%}
+
+by
+<a rel="nofollow" class="ph external text" href="http://www.flickr.com/people/24431382@N03">Eric
+Fischer</a> -
+<a rel="nofollow" class="ph external text" href="http://www.flickr.com/photos/walkingsf/5092042245/">Quarts
+of milk</a>. Licensed under
+<a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC
+BY 2.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia
+Commons</a>.
+
+{% /figure %}
 
 To sum this up progammatically:
 

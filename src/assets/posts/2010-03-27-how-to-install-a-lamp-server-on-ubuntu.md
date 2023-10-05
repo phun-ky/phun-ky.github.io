@@ -10,7 +10,7 @@ tags: []
 I was trying to install a LAMP server locally and after some guides and
 questions I managed to get it up and running smoothly. How hard is it? Well, it
 is not that hard, thanks to
-<a class="ph" target="_blank" rel="noopener noreferrer" href="https://help.ubuntu.com/community/Tasksel">Tasksel</a>
+[Tasksel](https://help.ubuntu.com/community/Tasksel)
 (Note: this will only work from Ubuntu 7.04 Feisty Fawn and above):
 
     sudo tasksel install lamp-server
@@ -33,14 +33,14 @@ phpmyadmin. To replace php5-common, run the following two commands:
 
 ## More help?
 
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="https://help.ubuntu.com/community/ApacheMySQLPHP#After%20installing%20PHP">ApacheMySQLPHP</a>
+- [ApacheMySQLPHP](https://help.ubuntu.com/community/ApacheMySQLPHP#After%20installing%20PHP)
 - <a class="ph" target="_blank" rel="noopener noreferrer" href="http://netbeans.org/kb/docs/php/configure-php-environment-ubuntu.html#lamp">Configuring
   the PHP Development Environment in Linux Ubuntu</a>
 
 ## What is LAMP?
 
 From
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29">Wikipedia</a>:
+[Wikipedia](http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29):
 
 > LAMP is an acronym for a solution stack of free, open source software,
 > originally coined from the first letters of Linux (operating system), Apache

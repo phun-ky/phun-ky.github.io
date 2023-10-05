@@ -53,7 +53,7 @@ A must to have in mind is this: the only good way to get really good page
 rankings, is to get linked and plugged by other sites. Nothing more, nothing
 less. The tips and tricks you hear all around you, even here, will only adjust
 and fine tune your blog or magazine.
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://lorelle.wordpress.com/2006/06/28/wordpress-and-seo-tips-and-techniques/">Lorelle</a>
+[Lorelle](http://lorelle.wordpress.com/2006/06/28/wordpress-and-seo-tips-and-techniques/)
 states this perfectly:
 
 > These tips won't flood your blog with visitors - no SEO tips will. Use these

@@ -12,7 +12,7 @@ observers where killed under an Israeli attack. This is not tolerable!
 
 Ehud Olmert is apologizing lightly and is not pleased of the accusation that
 they bombed
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/UNIFIL">UNIFIL</a>
+[UNIFIL](http://en.wikipedia.org/wiki/UNIFIL)
 forces with intent.
 
 Kofi Annan is "shocked" and demands a full investigation of the Israeli attack.

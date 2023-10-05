@@ -8,7 +8,7 @@ category: 'Programming'
 tags: ['mysql']
 ---
 
-It is a reported <a class="ph" target="_blank" rel="noopener noreferrer" href="http://bugs.mysql.com/bug.php?id=21527" rel="nofollow">bug at MySQL</a>, and the page states that the bug is closed. According to the <a class="ph" target="_blank" rel="noopener noreferrer" href="http://forums.mysql.com/read.php?10,108835,108835#msg-108835" rel="nofollow">forums at MySQL</a> it seemed to be an easy fix;
+It is a reported [bug at MySQL](http://bugs.mysql.com/bug.php?id=21527), and the page states that the bug is closed. According to the [forums at MySQL](http://forums.mysql.com/read.php?10,108835,108835#msg-108835) it seemed to be an easy fix;
 
 ```sql
 GRANT SELECT,LOCK TABLES ON database.* TO 'username'@'localhost'; 

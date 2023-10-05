@@ -9,27 +9,27 @@ tags: []
 
 After browsing the blogosphere today I stumbled upon a very nice color scheme
 web application created by Adobe:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://kuler.adobe.com">Kuler</a>.
+[Kuler](http://kuler.adobe.com).
 It reminds me of a bloated, but better version of
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://colorschemer.com/">Colorschemer</a>.
+[Colorschemer](http://colorschemer.com/).
 
 ## Easy to use
 
 It's very easy to use and the
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://kuler.adobe.com">Kuler</a>
+[Kuler](http://kuler.adobe.com)
 concept offers a great deal of community interaction.
-<a class="ph" href="/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp" rel="lightbox[article]" title="Overview of Kuler"><img class="ph" src="/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp" title="" /></a>
+[![](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)
 
 ## Side note
 
 Remember, if you want to pick colours from your desktop, or from everywhere else
 on your computer, you can use
-<a class="ph" href="/2007/11/colorpix-on-ubuntu">Colorpix</a> from
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://colorschemer.com/">Colorschemer</a>.
+[Colorpix](/2007/11/colorpix-on-ubuntu) from
+[Colorschemer](http://colorschemer.com/).
 
 ## <em>Update:</em> Is Kuler a rip off?
 
 Hm, I just discovered that Kuler is a rip off of colourlovers.com:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.colourlovers.com/web/blog/2007/07/06/for-the-record-adobe-kuler-vs-colourlovers" rel="nofollow">http://www.colourlovers.com/web/blog/2007/07/06/for-the-record-adobe-kuler-vs-colourlovers</a>
+[http://www.colourlovers.com/web/blog/2007/07/06/for-the-record-adobe-kuler-vs-colourlovers](http://www.colourlovers.com/web/blog/2007/07/06/for-the-record-adobe-kuler-vs-colourlovers)
 /
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://visualrinse.com/2007/07/07/adobe-ripped-off-a-blogger-to-create-kuler/" rel="nofollow">http://visualrinse.com/2007/07/07/adobe-ripped-off-a-blogger-to-create-kuler/</a>
+[http://visualrinse.com/2007/07/07/adobe-ripped-off-a-blogger-to-create-kuler/](http://visualrinse.com/2007/07/07/adobe-ripped-off-a-blogger-to-create-kuler/)

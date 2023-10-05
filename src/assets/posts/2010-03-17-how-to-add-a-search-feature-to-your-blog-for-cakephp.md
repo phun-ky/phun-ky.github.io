@@ -3,7 +3,7 @@ layout: post
 
 route: /2010/03/17/how-to-add-a-search-feature-to-your-blog-for-cakephp
 title: 'How to add a search feature to your blog for cakephp'
-description: 'I was looking for a decent search feature to add to my blog, and after some reading around, I found this feature very easy and interesting. I found a <a href="http://bakery.cakephp.org/articles/view/search-feature-to-cakephp-blog-example" class="ph" target="_blank" rel="noreferrer noopener">how to in the bakery</a>, but as several users pointed out, it lacked simplicity and a reindex feature. I kept it to the basics and hope this will work as easy for you as it did for me.'
+description: 'I was looking for a decent search feature to add to my blog, and after some reading around, I found this feature very easy and interesting. I found a [how to in the bakery](http://bakery.cakephp.org/articles/view/search-feature-to-cakephp-blog-example), but as several users pointed out, it lacked simplicity and a reindex feature. I kept it to the basics and hope this will work as easy for you as it did for me.'
 category: 'Archive'
 tags: ['php', 'cakephp']
 ---
@@ -156,7 +156,7 @@ Search results <?php if(!empty($query)){ echo 'for <em>"' . $query . '"</em>';} 
 </h1>
 <?php foreach ($results as $post): ?>
 <div style="" class="searchResultHolder curved-5">
-<?php echo '<a style="font-size:14px;text-transform:capitalize;" href="/' . date('Y',$post['Post']['published']) . '/' . date('m',$post['Post']['published']) . '/' . $post['Post']['slug'] . '">' . ucfirst($post['Post']['title']) . '</a>, <em>published: '.date('Y-m-d H:i:s',$post['Post']['published']).' </em>';?><br />
+<?php echo '[' . ucfirst($post['Post']['title']) . '](/' . date('Y',$post['Post']['published']) . '/' . date('m',$post['Post']['published']) . '/' . $post['Post']['slug'] . '), <em>published: '.date('Y-m-d H:i:s',$post['Post']['published']).' </em>';?><br />
 <?php
 $str = $post['Post']['text'];
 $str = $text->excerpt($str, $query, 200);

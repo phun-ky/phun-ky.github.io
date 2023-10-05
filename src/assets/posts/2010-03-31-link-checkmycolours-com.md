@@ -10,7 +10,7 @@ tags: []
 After reading the article
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.alistapart.com/articles/contrast-is-king/">Contrast
 is king</a> at A List Apart, I checked out one of the tools that was mentioned:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.checkmycolours.com/">CheckMyColours.com</a>.
+[CheckMyColours.com](http://www.checkmycolours.com/).
 It's pretty nifty and will help you deal with your sites accessibility. Got any
 other nice tools for accessibility? Please suggest one or two in the comments!
 
@@ -21,7 +21,7 @@ It is a tool for checking foreground and background
 combinations</a> of all DOM elements and determining if they <em>provide
 sufficient contrast when viewed by someone having colour deficits</em>.
 
-<a class="ph" href="/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp" rel="lightbox[article]" title=""><img class="ph" src="/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp" title="" /></a>
+[![](/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp)](/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp)
 
 All the tests are based on the algorithms suggested by the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.w3c.org">World

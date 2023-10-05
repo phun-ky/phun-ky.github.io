@@ -10,7 +10,7 @@ tags: []
 Yes, yet
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://colorschemedesigner.com/">another
 colour scheme tool</a>. Not as fancy as
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://phun-ky.net/2010/03/link-kuler-by-adobe">Kuler</a>,
+[Kuler](http://phun-ky.net/2010/03/link-kuler-by-adobe),
 but I've tested it somewhat and I find this a bit better. Don't ask me why, but
 I just do ;)
 

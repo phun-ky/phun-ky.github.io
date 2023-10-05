@@ -7,11 +7,11 @@ tags: []
 ---
 
 More good news on the
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://distrowatch.com/">DistroWatch.com</a>
+[DistroWatch.com](http://distrowatch.com/)
 feed!
 
 David Liu has announced the release of
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.thinkgos.com/">gOS</a>
+[gOS](http://www.thinkgos.com/)
 3.0 "Gadgets" edition, an Ubuntu-based distribution featuring a large number of
 pre-installed Google desktop gadgets:
 
@@ -22,7 +22,7 @@ Visit the project's
 page</a> to read the release announcement and see the product's
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.thinkgos.com/gos-features.php">features
 page</a> to learn more about the distribution's capabilities.
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.thinkgos.com/dgadgets.php">Download</a>
+[Download](http://www.thinkgos.com/dgadgets.php)
 the live CD image from here:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://gos.qmoon.com/releases/gos3gadgets/gos-3.0-gadgets-20080924.iso">gos-3.0-gadgets-20080924.iso</a>
+[gos-3.0-gadgets-20080924.iso](http://gos.qmoon.com/releases/gos3gadgets/gos-3.0-gadgets-20080924.iso)
 (687MB).

@@ -19,13 +19,13 @@ problems at least! David Maynor, a contributor to the Errata Security blog is
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://erratasec.blogspot.com/2007/06/niiiice.html">continuously
 updating his post with new bugs</a> in Safari.
 
-<img src="/img/safaribug.webp" alt="no head or span tags shown" class="ph"/>
+![no head or span tags shown](/img/safaribug.webp)
 
 "The world best browser" indeed.. I did not test the other features, 'cause I
 was so hung up on the fact that it could not display tags correctly. At first
 glance, I thought that it was my fault with some really bad CSS, but no, I found
 the same bug on external sites as well, like:
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.vg.no">vg.no</a>
+[vg.no](http://www.vg.no)
 , the most used news site in Norway.
 
 I took notice that several bloggers that I'm reading did mention some problems

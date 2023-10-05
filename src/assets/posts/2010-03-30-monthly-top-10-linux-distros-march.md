@@ -8,17 +8,17 @@ tags: []
 ---
 
 An unofficial list from
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.distrowatch.com">DistroWatch.com</a>
+[DistroWatch.com](http://www.distrowatch.com)
 gives us a picture on the most popular Linux Distros in March:
 
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.ubuntu.com">Ubuntu</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://fedoraproject.org/">Fedora</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://pclinuxos.com/">PCLinuxOS</a>
+- [Ubuntu](http://www.ubuntu.com)
+- [Fedora](http://fedoraproject.org/)
+- [PCLinuxOS](http://pclinuxos.com/)
 - <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.linuxmint.com/">Mint
   </a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.opensuse.org/en/">openSUSE</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.debian.org/">Debian</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www2.mandriva.com/">Mandriva</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://sabayonlinux.org/">Sabayon</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.ubuntu.com/Lubuntu">Lubuntu</a>
-- <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.archlinux.org/">Arch</a>
+- [openSUSE](http://www.opensuse.org/en/)
+- [Debian](http://www.debian.org/)
+- [Mandriva](http://www2.mandriva.com/)
+- [Sabayon](http://sabayonlinux.org/)
+- [Lubuntu](https://wiki.ubuntu.com/Lubuntu)
+- [Arch](http://www.archlinux.org/)

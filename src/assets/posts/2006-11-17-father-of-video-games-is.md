@@ -10,12 +10,12 @@ tags: [video games, history, gaming, gaming history]
 During the research for my paper, I stumbled over an article that claimed that
 the father of the video games was William Higinbotham. The article was published
 on a norwegian site for research papers,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.forskning.no/Artikler/2004/mars/1077822052.02">forskning.no</a>
+[forskning.no](http://www.forskning.no/Artikler/2004/mars/1077822052.02)
 a view also supported by an article on
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/William_Higinbotham">Wikipedia.org</a>.
+[Wikipedia.org](http://en.wikipedia.org/wiki/William_Higinbotham).
 Quite amazing the setup he used for the game. But that's not the point, further
 in my research I stumbled across
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.pong-story.com/">PONG-Story</a>,
+[PONG-Story](http://www.pong-story.com/),
 a site dedicated to "the inventor of the video game" written by David Winter.
 
 I contaced Winter via mail and asked him for a comment on these articles, read
