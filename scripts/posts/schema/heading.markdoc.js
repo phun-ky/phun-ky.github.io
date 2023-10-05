@@ -12,7 +12,20 @@ const generateID = (children, attributes) => {
   }
 
   // eslint-disable-next-line
-  return slugify(children
+
+  const res = [];
+  const cb = (e) => {
+    if(typeof e === 'string'){
+      res.push(e);
+    }
+
+    e.children && e.children.forEach(cb);
+  };
+
+  children.forEach(cb);
+
+
+  return slugify(res
     .filter((child) => typeof child === 'string')
     .join(' '));
 };
@@ -26,14 +39,22 @@ const heading = {
     const attributes = node.transformAttributes(config);
     const children = node.transformChildren(config);
     const level = node.attributes.level;
+    const id = generateID(children, attributes);
 
     return new Markdoc.Tag(
       `h${level}`,
       {
-        id: generateID(children, attributes),
+        id,
         class: attributes.class
       },
-      children
+      [
+        ...children,
+        new Markdoc.Tag('a',{
+          class: 'ph heading-link',
+          href: `#${id}`,
+          role: 'presentation'
+        })
+      ]
     );
   }
 };
