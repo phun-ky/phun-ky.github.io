@@ -454,9 +454,6 @@ article.ph
     content "`"
 
 
-:not(pre) > code[class*="language-"].ph
-  color var(--ph-color-text)
-  font-weight normal
 
 .ph.definition
   background-color var(--ph-color-well-background)
@@ -600,3 +597,16 @@ article.ph p.ph a.ph img.ph
 
 figcaption.ph > p.ph:first-of-type
 	display inline
+
+
+
+
+
+h1, h2, h3, h4, h5, h6
+  &:hover
+    & .ph.heading-link
+      &::before
+        content "#"
+        display inline-block
+        margin-left 1ch
+        font-size inherit
