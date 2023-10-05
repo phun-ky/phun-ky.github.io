@@ -105,7 +105,7 @@ npm init
 After you've done that, install the required dependencies:
 
 ```shell-session
-npm i -D @ironkinoko/rollup-plugin-styles @markdoc/markdoc @rollup/plugin-commonjs @rollup/plugin-node-resolve @rollup/plugin-terser cssnano glob htmlparser2 js-yaml postcss postcss-cli rollup rollup-plugin-node-externals stylus
+npm i -D @ironkinoko/rollup-plugin-styles @markdoc/markdoc @rollup/plugin-commonjs @rollup/plugin-node-resolve cssnano glob htmlparser2 js-yaml postcss postcss-cli rollup rollup-plugin-node-externals stylus
 ```
 
 {% message type="note" title="Note" %}
@@ -209,7 +209,6 @@ Your `package.json` should look something like this:
     "@markdoc/markdoc": "^0.3.2",
     "@rollup/plugin-commonjs": "^25.0.1",
     "@rollup/plugin-node-resolve": "^15.0.2",
-    "@rollup/plugin-terser": "^0.4.1",
     "cssnano": "^6.0.0",
     "glob": "^10.3.5",
     "htmlparser2": "^9.0.0",
