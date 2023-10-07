@@ -36,9 +36,9 @@ to strip out the typings if you want.
    2. [Configuration files](#configuration-files)
    3. [Rollup](#rollup)
    4. [Folder structure](#folder-structure)
-      1. [Public](#public)
-      2. [JavaScript](#javascript)
-      3. [CSS](#css)
+      1. [`public`](#public)
+      2. [`src/assets/js`](#srcassetsjs)
+      3. [`src/assets/css`](#srcassetscss)
       4. [Styles](#styles)
 4. [SPA](#spa)
    1. [`src/lib/spa/index.ts`](#srclibspaindexts)
@@ -117,12 +117,8 @@ Cloning into vanilla-js-spa.github.io
 Then `cd` into your project:
 
 ```shell-session
-cd vanilla-js-spa.github.io
-```
-
-Your director should look something like this:
-
-```shell-session
+$ cd vanilla-js-spa.github.io
+$ struct
 📦 vanilla-js-spa.github.io
  ├── 📄 .gitignore
  └── 📄 README.md
@@ -135,10 +131,24 @@ Looks empty, right? Let us proceed.
 Initialize npm, change the stuff you want with the interactive tool:
 
 ```shell-session
-npm init
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: 
 ```
 
+After you have done that, you will have a directory something like this:
+
 ```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  ├── 📄 .gitignore
  ├── 📄 package.json
@@ -147,24 +157,18 @@ npm init
 
 #### Dependencies
 
-After you've done that, install the required dependencies:
+After you've done that, install the required dependencies. First the dependencies required to build our application, then the dependency required for our SPA to work optimally:
 
 ```shell-session
-npm i -D @ironkinoko/rollup-plugin-styles @rollup/plugin-commonjs @rollup/plugin-node-resolve cssnano postcss postcss-cli rollup rollup-plugin-dts rollup-plugin-node-externals rollup-plugin-typescript2 stylus ts-node tsconfig-paths tslib typescript 
-```
+$ npm i -D @ironkinoko/rollup-plugin-styles @rollup/plugin-commonjs @rollup/plugin-node-resolve cssnano postcss postcss-cli rollup rollup-plugin-dts rollup-plugin-node-externals rollup-plugin-typescript2 stylus ts-node tsconfig-paths tslib typescript 
+added 295 packages, and audited 296 packages in 7s
 
-```shell-session
-npm i -S diff-dom
-```
+found 0 vulnerabilities
+$ npm i -S diff-dom
+added 1 package, and audited 2 packages in 438ms
 
-{% message type="note" title="Note" %}
-
-If you want, this is a great step to add linting stuff like `eslint` and
-`prettier`
-
-{% /message %}
-
-```shell-session
+found 0 vulnerabilities
+$ struct
 📦 vanilla-js-spa.github.io
  ├── 📁 node_modules
  ├── 📄 .gitignore
@@ -175,9 +179,8 @@ If you want, this is a great step to add linting stuff like `eslint` and
 
 {% message type="note" title="Note" %}
 
-I use Stylus for my styling, you can choose `sass/scss` or `less` if you prefer
-that. Just remember to install the correct dependencies, and use the correct
-configuration files
+If you want, this is a great step to add linting stuff like `eslint` and
+`prettier`
 
 {% /message %}
 
@@ -286,19 +289,18 @@ used in this setup, you might want to add some configuration files:
 
 * `.browserslistrc`
 * `.editorconfig`
-* `.nojekyll`
 * `.postcssrc.cjs`
 * `.stylintrc`
 * `tsconfig.json`
 * `tslint.json`
 
 ```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  ├── 📁 node_modules
  ├── 📄 .browserslistrc
  ├── 📄 .editorconfig
  ├── 📄 .gitignore
- ├── 📄 .nojekyll
  ├── 📄 .postcssrc.cjs
  ├── 📄 .stylintrc
  ├── 📄 package-lock.json
@@ -308,20 +310,33 @@ used in this setup, you might want to add some configuration files:
  └── 📄 tslint.json
 ```
 
-{% message type="note" title="Note" %}
-
-`.nojekyll` is used here, to make sure to buypass any Jekyll processing on
-[Github Pages](http://pages.github.com/).
-
-{% /message %}
-
 ### Rollup
 
 To be able to process `*.styl` files and produced bundled JavaScript, we are
 using `rollup`. Start creating your `rollup.config.js`:
 
+{% message type="note" title="Note" %}
+
+I use Stylus for my styling, you can choose `sass/scss` or `less` if you prefer
+that. Just remember to install the correct dependencies, and use the correct
+configuration files
+
+{% /message %}
+
 ```shell-session
-touch rollup.config.js
+$ touch rollup.config.js
+$ struct
+📦 vanilla-js-spa.github.io
+ ├── 📁 node_modules
+ ├── 📄 .browserslistrc
+ ├── 📄 .editorconfig
+ ├── 📄 .gitignore
+ ├── 📄 .postcssrc.cjs
+ ├── 📄 .stylintrc
+ ├── 📄 package-lock.json
+ ├── 📄 package.json
+ ├── 📄 README.md
+ └── 📄 rollup.config.js
 ```
 
 And it should look something like this:
@@ -367,26 +382,10 @@ export default [
 
 ### Folder structure
 
-Currently, we have this:
+Now, let us add some more folders to our app:
 
 ```shell-session
-📦 vanilla-js-spa.github.io
- ├── 📁 node_modules
- ├── 📄 .browserslistrc
- ├── 📄 .editorconfig
- ├── 📄 .gitignore
- ├── 📄 .nojekyll
- ├── 📄 .postcssrc.cjs
- ├── 📄 .stylintrc
- ├── 📄 package-lock.json
- ├── 📄 package.json
- ├── 📄 README.md
- └── 📄 rollup.config.js
-```
-
-Now, let us add some more folders to this:
-
-```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  ├── 📁 node_modules
  …
@@ -410,7 +409,7 @@ Now, let us add some more folders to this:
  └── 📄 rollup.config.js
 ```
 
-#### Public
+#### `public`
 
 We need a place to consume the SPA, so create `public/index.html`, and put this
 into it:
@@ -421,16 +420,10 @@ into it:
   <head>
     <title>vanilla-js-spa</title>
     <meta charset="utf-8" />
-    <meta http-equiv="Content-Language" content="en" />
-    <meta name="robots" content="none" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <div id="app"></div>
-
     <link async href="/css/vanilla-js-spa.css" rel="stylesheet" type="text/css" />
-
     <script
       defer
       type="module"
@@ -441,7 +434,7 @@ into it:
 </html>
 ```
 
-#### JavaScript
+#### `src/assets/js`
 
 Here you can put any JavaScript you want, that is prebuilt. For example a custom
 [Prism](https://prismjs.com/) build.
@@ -455,25 +448,27 @@ So if you haven't added any `*.js` file, add a dummy file:
 Go into the `src/assets/js` directory and create a `dummy.js` file:
 
 ```shell-session
-cd src/assets/js
-echo "console.log('dummy');" > dummy.js
+$ cd src/assets/js
+$ echo "console.log('dummy');" > dummy.js
+$ cat dummy.js
+console.log('dummy');
 ```
 
 {% /message %}
 
-{% message type="note" title="Note" %}
+{% message type="warning" title="Warning" %}
 
 These files will **not** be processed
 
 {% /message %}
 
-#### CSS
+#### `src/assets/css`
 
 In the `css` folder, you can put any css file you want, for example a custom
 styling for `prismjs`, your custom [tailwindcss](https://tailwindcss.com/) or
 any other library you would use.
 
-{% message type="note" title="Note" %}
+{% message type="warning" title="Warning" %}
 
 These files will **not** be processed
 
@@ -485,8 +480,10 @@ Then go to the `styles` folder to create a `index.styl` file, for all your
 styles.
 
 ```shell-session
-cd src/styles
-touch index.styl
+$ cd src/styles
+$ touch index.styl
+$ struct
+  └── 📄 index.styl
 ```
 
 Then in `src/main.ts`, add the import of your global styles, rollup will handle this
@@ -505,6 +502,7 @@ Now, let's get into the JavaScript part of this!
 Create a folder `spa`, inside ofr `src/lib`, and then `index.ts`:
 
 ```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  …
  ├── 📁 src
@@ -830,6 +828,7 @@ Then, create a directory, `src/lib/spa/types`, and create an `index.ts`-file,
 and enter the referenced types used in the previous file:
 
 ```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  …
  ├── 📁 src
@@ -894,6 +893,7 @@ We obviously need a router! inside of `src/lib/spa`, create the directory
 `src/lib/spa/router`, and add these files:
 
 ```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  …
  ├── 📁 src
@@ -1045,6 +1045,7 @@ To make everything play nice together, we need some utils that we have
 referenced so far:
 
 ```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  …
  └── 📁 src
@@ -1285,6 +1286,8 @@ export const navigateTo = async (url: string) => {
 `update-nodes.ts` is the most important file in the SPA,
 since it is doing what we love most about framework SPAs:
 It only updates the nodes that has changed!
+
+This is also the _only_ dependency this SPA uses in production.
 
 ```typescript
 import { stringToHTML } from './string-to-html';
@@ -1529,10 +1532,10 @@ export const StartPage = async () => {
 };
 ```
 
-{% message type="important" "Important" %}
+{% message type="important" title="Important" %}
 
 Notice the usage of the `data-link` attribute? This is to make sure we are using
-the built in method of navigating in the SPA, so we can use `pushState`
+the built in method of navigating in the SPA, so we can use `pushState`.
 
 {% /message %}
 
@@ -1579,11 +1582,44 @@ export const PageNotFoundPage = () => {
 If you now run `npm run build` and then `npm run dev`, you will see the result
 in your browser!
 
+```shell-session
+$ npm run build
+> vanilla-js-spa@1.0.0 prebuild
+> npm run clean && npm run assets
+> vanilla-js-spa@1.0.0 clean
+> rm -rf dist/*
+> vanilla-js-spa@1.0.0 assets
+> mkdir -p dist && cp -a ./public/. ./dist/ && cp -a ./src/assets/. ./dist/
+> vanilla-js-spa@1.0.0 build
+> rollup -c rollup.config.js
+src/main.ts → dist...
+created dist in 1.2s
+> vanilla-js-spa@1.0.0 postbuild
+> bash -c 'mv -f ./dist/*.{js,map} ./dist/js'
+```
+
+```shell-session
+$ npm run dev
+> vanilla-js-spa@1.0.0 dev
+> npx browser-sync start -s "dist" --files "dist/*.*"  --single
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3002
+    External: http://192.168.86.36:3002
+ --------------------------------------
+          UI: http://localhost:3003
+ UI External: http://localhost:3003
+ --------------------------------------
+[Browsersync] Serving files from: dist
+[Browsersync] Watching files...
+```
+
 ## Summary
 
 You should have your directory to look something like this:
 
 ```shell-session
+$ struct
 📦 vanilla-js-spa.github.io
  ├── 📁 node_modules
  ├── 📁 src
@@ -1630,7 +1666,6 @@ You should have your directory to look something like this:
  ├── 📄 .browserslistrc
  ├── 📄 .editorconfig
  ├── 📄 .gitignore
- ├── 📄 .nojekyll
  ├── 📄 .postcssrc.cjs
  ├── 📄 .stylintrc
  ├── 📄 package-lock.json

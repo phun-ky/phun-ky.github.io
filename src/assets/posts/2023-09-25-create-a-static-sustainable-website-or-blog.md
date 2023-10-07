@@ -11,19 +11,23 @@ tags: [how-to, blog, javascript, rollup, nodejs, npm, github, yaml]
 
 **Table of Contents**
 
-1. [Prerequisites](#prerequisites)
-2. [Setup](#setup)
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Setup](#setup)
    1. [npm](#npm)
    2. [Dependencies](#dependencies)
    3. [npm scripts](#npm-scripts)
    4. [Configuration files](#configuration-files)
    5. [Rollup](#rollup)
-   6. [Paths structure](#paths-structure)
+   6. [Folder structure](#folder-structure)
+      1. [`src/assets/js`](#srcassetsjs)
+      2. [`src/assets/css`](#srcassetscss)
+      3. [`src/styles`](#srcstyles)
    7. [Convert posts](#convert-posts)
    8. [The article template](#the-article-template)
-3. [Create your first post](#create-your-first-post)
-4. [Build and view your first post](#build-and-view-your-first-post)
-5. [Summary](#summary)
+4. [Create your first post](#create-your-first-post)
+5. [Build and view your first post](#build-and-view-your-first-post)
+6. [Summary](#summary)
 
 I have created my own blog engines with php, cakephp, static with macromedia
 dreamweaver (if you remember that..), jekyll and even tried to move my blogging
@@ -31,7 +35,9 @@ to medium.com. But each attempt has left a tangy and bitter taste in my mouth.
 
 So, what did I do? I created a new blog engine.. Well, one that I really like!
 
-Features provided with this guide:
+## Features
+
+These are the features I required:
 
 - Using markdown for quick writing
 - Low impact on the environment
@@ -40,10 +46,11 @@ Features provided with this guide:
 - Tag pages (not covered here)
 - Article pages
 - Create static content
+- Minimal usage of html tags in markdown files (not covered here)
 
 ## Prerequisites
 
-Knowledge of:
+**Knowledge of**:
 
 - NodeJS
 - npm
@@ -52,7 +59,7 @@ Knowledge of:
 - yaml
 - JavaScript
 
-Tools:
+**Tools**:
 
 - terminal
 - editor
@@ -74,10 +81,8 @@ Cloning into static-blog.github.io
 Then `cd` into your project:
 
 ```shell-session
-cd static-blog.github.io
-```
-
-```
+$ cd static-blog.github.io
+$ struct
 📦 static-blog.github.io
  ├── 📄 .gitignore
  └── 📄 README.md
@@ -90,10 +95,24 @@ Looks empty, right? Let us proceed.
 Initialize npm, change the stuff you want with the interactive tool:
 
 ```shell-session
-npm init
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: 
 ```
 
+After you have done that, you will have a directory something like this:
+
 ```shell-session
+$ struct
 📦 static-blog.github.io
  ├── 📄 .gitignore
  ├── 📄 package.json
@@ -105,7 +124,8 @@ npm init
 After you've done that, install the required dependencies:
 
 ```shell-session
-npm i -D @ironkinoko/rollup-plugin-styles @markdoc/markdoc @rollup/plugin-commonjs @rollup/plugin-node-resolve cssnano glob htmlparser2 js-yaml postcss postcss-cli rollup rollup-plugin-node-externals stylus
+$ npm i -D @ironkinoko/rollup-plugin-styles @markdoc/markdoc @rollup/plugin-commonjs @rollup/plugin-node-resolve cssnano glob htmlparser2 js-yaml postcss postcss-cli rollup rollup-plugin-node-externals stylus
+added …
 ```
 
 {% message type="note" title="Note" %}
@@ -115,7 +135,10 @@ If you want, this is a great step to add linting stuff like `eslint` and
 
 {% /message %}
 
+After you have done that, you will have a directory something like this:
+
 ```shell-session
+$ struct
 📦 static-blog.github.io
  ├── 📁 node_modules
  ├── 📄 .gitignore
@@ -233,19 +256,18 @@ Remember to set the `author` and `license` fields
 If you are like me and love to fine granulate options for the different modules
 used in this setup, you might want to add some configuration files:
 
-- .browserslistrc
-- .editorconfig
-- .nojekyll
-- .postcssrc.cjs
-- .stylintrc
+- `.browserslistrc`
+- `.editorconfig`
+- `.postcssrc.cjs`
+- `.stylintrc`
 
 ```shell-session
+$ struct
 📦 static-blog.github.io
  ├── 📁 node_modules
  ├── 📄 .browserslistrc
  ├── 📄 .editorconfig
  ├── 📄 .gitignore
- ├── 📄 .nojekyll
  ├── 📄 .postcssrc.cjs
  ├── 📄 .stylintrc
  ├── 📄 package-lock.json
@@ -253,20 +275,25 @@ used in this setup, you might want to add some configuration files:
  └── 📄 README.md
 ```
 
-{% message type="note" title="Note" %}
-
-`.nojekyll` is used here, to make sure to buypass any Jekyll processing on
-[Github Pages](http://pages.github.com/).
-
-{% /message %}
-
 ### Rollup
 
 To be able to process `*.styl` files and produced bundled JavaScript, we are
 using `rollup`. Start creating your `rollup.config.js`:
 
 ```shell-session
-touch rollup.config.js
+$ touch rollup.config.js
+$ struct 
+📦 static-blog.github.io
+ ├── 📁 node_modules
+ ├── 📄 .browserslistrc
+ ├── 📄 .editorconfig
+ ├── 📄 .gitignore
+ ├── 📄 .postcssrc.cjs
+ ├── 📄 .stylintrc
+ ├── 📄 package-lock.json
+ ├── 📄 package.json
+ ├── 📄 README.md
+ └── 📄 rollup.config.js
 ```
 
 And it should look something like this:
@@ -307,28 +334,12 @@ require it!
 
 {% /message %}
 
-### Paths structure
-
-Currently, we have this:
-
-```shell-session
-📦 static-blog.github.io
- ├── 📁 node_modules
- ├── 📄 .browserslistrc
- ├── 📄 .editorconfig
- ├── 📄 .gitignore
- ├── 📄 .nojekyll
- ├── 📄 .postcssrc.cjs
- ├── 📄 .stylintrc
- ├── 📄 package-lock.json
- ├── 📄 package.json
- ├── 📄 README.md
- └── 📄 rollup.config.js
-```
+### Folder structure
 
 Now, let us add some more folders to this:
 
 ```shell-session
+$ struct
 📦 static-blog.github.io
  ├── 📁 node_modules
  …
@@ -344,7 +355,7 @@ Now, let us add some more folders to this:
  └── 📄 rollup.config.js
 ```
 
-#### JavaScript
+#### `src/assets/js`
 
 Remember earlier, from the npm scripts, that we copy over the `assets` folder
 into `dist`? Well, we need a dummy file for the copying of js to work:
@@ -352,23 +363,27 @@ into `dist`? Well, we need a dummy file for the copying of js to work:
 Go into the `src/assets/js` directory and create a `dummy.js` file:
 
 ```shell-session
-cd src/assets/js
-echo "console.log('dummy');" > dummy.js
+$ cd src/assets/js
+$ echo "console.log('dummy');" > dummy.js
+$ cat dummy.js
+console.log('dummy');
 ```
 
-#### CSS
+#### `src/assets/css`
 
 In the `css` folder, you can put any css file you want, for example a custom
 styling for `prismjs`, or any other library you would use.
 
-#### Styles
+#### `src/styles`
 
 Then go to the `styles` folder to create a `index.styl` file, for all your
 styles.
 
 ```shell-session
-cd src/styles
-touch index.styl
+$ cd src/styles
+$ touch index.styl
+$ struct
+  └── 📄 index.styl
 ```
 
 Then in `src/main.js`, add the import of your styles, rollup will handle this
@@ -387,19 +402,11 @@ files!
 Create a directory named `scripts`, and make a file named `create.js` inside:
 
 ```shell-session
-mkdir scripts
-cd scripts
-touch create.js
-```
-
-```shell-session
-📦 static-blog.github.io
- …
- ├── 📁 scripts
-   └── 📁 posts
-     └── 📄 create.js
- …
- └── 📄 rollup.config.js
+$ mkdir scripts
+$ cd scripts
+$ touch create.js
+$ struct
+  └── 📄 create.js
 ```
 
 Open up `create.js` in your editor and add this:
@@ -465,20 +472,10 @@ Now, let us create the template for all of our posts! Create a `article.html`
 file in `src/assets/templates`:
 
 ```shell-session
-cd src/assets/templates
-touch article.html
-```
-
-```shell-session
-📦 static-blog.github.io
- …
- ├── 📁 src
-   ├── 📁 assets
-     …
-     └── 📁 templates
-       └── 📄 article.html
- …
- └── 📄 rollup.config.js
+$ cd src/assets/templates
+$ touch article.html
+$ struct
+  └── 📄 article.html
 ```
 
 And it could look something like this:
@@ -523,8 +520,10 @@ We will cover the post path in the next chapter.
 We're ready to go! Go into `src/assets/posts` and create your first post:
 
 ```shell-session
-cd src/assets/posts
-touch 2023-09-24-<slug-of-your-post>.md
+$ cd src/assets/posts
+$ touch 2023-09-24-<slug-of-your-post>.md
+$ struct
+  └── 📄 2023-09-24-<slug-of-your-post>.md
 ```
 
 Where `<slug-of-your-post>` is the slug for your post. Don't worry, you can
@@ -569,6 +568,7 @@ And now you are ready to write your post! Write something down, and we will
 proceed! Eventually, your `posts`-folder would look something like this:
 
 ```shell-session
+$ struct
 📦 static-blog.github.io
  …
  ├── 📁 src
@@ -596,8 +596,38 @@ Now, we're ready to see it in action.
 From the root of your project, do this:
 
 ```shell-session
-npm run build
-npm run dev
+$ npm run build
+> static-blog@1.0.0 prebuild
+> npm run clean && npm run assets && node scripts/posts/create.js
+> static-blog@1.0.0 clean
+> rm -rf dist/*
+> static-blog@1.0.0 assets
+> mkdir -p dist && cp -a ./src/assets/. ./dist/
+> static-blog@1.0.0 build
+> rollup -c rollup.config.js
+src/main.js → dist...
+(!) Generated an empty chunk
+"main"
+created dist in 592ms
+> static-blog@1.0.0 postbuild
+> bash -c 'mv -f ./dist/*.{js,map} ./dist/js'
+```
+
+```shell-session
+$ npm run dev
+> static-blog@1.0.0 dev
+> npx browser-sync start -s "dist" --files "dist/*.*"
+[Browsersync] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.86.36:3000
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ --------------------------------------
+[Browsersync] Serving files from: dist
+[Browsersync] Watching files...
+
 ```
 
 These commands will build your files, convert your posts and copy your assets,
@@ -620,6 +650,7 @@ After you have run `npm run build`, the `dist`-folder should look something like
 this:
 
 ```shell-session
+$ struct
 📦 static-blog.github.io
  …
  ├── 📁 dist
