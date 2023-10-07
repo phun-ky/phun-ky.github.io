@@ -92,7 +92,7 @@ pre[class*='language-'] .token.entity {
 }
 code[class*='language-'] .token.debug,
 pre[class*='language-'] .token.debug {
-  color: red;
+  color: var(--ph-color-code-color-8);
 }
 
 pre,
@@ -104,7 +104,7 @@ pre.ph {
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
-  max-height: 60vh;
+  max-height: 80vh;
   overflow-x: auto;
   padding: 0.75rem 1rem;
 }
@@ -124,7 +124,20 @@ code,
 kbd,
 samp,
 pre {
-  font-family: 'Menlo for Powerline', 'Menlo Regular for Powerline',
-    'DejaVu Sans Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
-    monospace;
+  font-family: var(--ph-font-family-code);
+}
+
+
+
+
+.ph span.inline-color-wrapper{
+  border-radius: 50%;
+  border: 1pt solid white;
+  background-clip: padding-box;
+  outline: none;
+  margin: 0 .5ch 0 .333ch
+}
+
+.theme--light .ph span.inline-color-wrapper{
+  border: 1pt solid black;
 }
