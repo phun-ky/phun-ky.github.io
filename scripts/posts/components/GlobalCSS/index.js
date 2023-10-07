@@ -64,8 +64,8 @@ export const GlobalCSS = () => {
       .ph.app {
         display: flex;
         flex-direction: column;
-        height: 100%;
         min-height: 100%;
+        position: relative;
         padding: 1.25rem;
       }
       a.ph {
@@ -185,6 +185,12 @@ export const GlobalCSS = () => {
         flex-grow: 0;
         grid-gap: 1rem;
         min-height: 3rem;
+      }
+      @media screen and (min-width: 1440px) {
+        header.ph.header {
+          position: sticky;
+          top: 24px;
+        }
       }
       .ph.header-menu {
         margin-left: auto;
