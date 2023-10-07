@@ -1,15 +1,17 @@
 :root
   --ph-font-family ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif
+  --ph-font-family-code 'Menlo for Powerline', 'Menlo Regular for Powerline', 'DejaVu Sans Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
   --ph-color-link #6CA7F9
   --ph-color-link-hover #6CA7F9
   --ph-color-link-active #6CA7F9
   --ph-color-link-visited #6CA7F9
   --ph-color-text #9FA8AD
   --ph-color-text-accent #E4E4E7
+  --ph-color-message var(--ph-color-text)
   --ph-color-well-background rgba(159, 168, 173,0.1)
   --ph-color-code-block-background var(--ph-color-well-background)
-  --ph-color-code-block #E4E4E7
-  --ph-color-code var(--ph-color-text-accent)
+  --ph-color-code-block var(--ph-color-code-color-6)
+  --ph-color-code var(--ph-color-code-color-6)
   --ph-color-background #181A22
   --ph-color-background-notice-warning rgba(210, 153, 34, 0.2);
   --ph-color-background-notice-note rgba(47, 129, 247, 0.2);
@@ -17,11 +19,14 @@
   --ph-color-background-notice-error rgba(248, 81, 73, 0.2);
   --ph-color-background-notice-success rgba(46, 160, 67, 0.2);
   --ph-color-background-notice-info var(--ph-color-well-background)
-  --ph-color-code-color-1 #738D96
-  --ph-color-code-color-2 #b58900
-  --ph-color-code-color-3 #2aa198
-  --ph-color-code-color-4 #2C90D8
-  --ph-color-code-color-5 #93a1a1
+  --ph-color-code-color-1 #859BA3
+  --ph-color-code-color-2 #C79500
+  --ph-color-code-color-3 #2CAAA0
+  --ph-color-code-color-4 #469EDD
+  --ph-color-code-color-5 #8C9B9B
+  --ph-color-code-color-6 #E4E4E7
+  --ph-color-code-color-7 #262831
+  --ph-color-code-color-8 #FF6666
 
 :root.theme--light
   --ph-color-link #0750B6
@@ -30,13 +35,21 @@
   --ph-color-link-visited #0750B6
   --ph-color-text #454444
   --ph-color-text-accent #000000
+  --ph-color-message var(--ph-color-text-accent)
   --ph-color-well-background rgba(159, 168, 173,0.1)
   --ph-color-code-block-background var(--ph-color-well-background)
-  --ph-color-code-block #000000
-  --ph-color-code var(--ph-color-text-accent)
   --ph-color-background #FFFFFF
-  --ph-color-code-color-1 #5C757A
-  --ph-color-code-color-2 #8F6B00
-  --ph-color-code-color-3 #207E77
-  --ph-color-code-color-4 #2075B1
-  --ph-color-code-color-5 #647373
+  --ph-color-background-notice-warning rgba(210, 153, 34, 0.2);
+  --ph-color-background-notice-note rgba(47, 129, 247, 0.2);
+  --ph-color-background-notice-important rgba(163, 113, 247, 0.2);
+  --ph-color-background-notice-error rgba(248, 81, 73, 0.2);
+  --ph-color-background-notice-success rgba(46, 160, 67, 0.2);
+  --ph-color-background-notice-info var(--ph-color-well-background)
+  --ph-color-code-color-1 #566D71
+  --ph-color-code-color-2 #806200
+  --ph-color-code-color-3 #1E766D
+  --ph-color-code-color-4 #1D699F
+  --ph-color-code-color-5 #5C6A6A
+  --ph-color-code-color-6 #000000
+  --ph-color-code-color-7 #F5F6F7
+  --ph-color-code-color-8 #CD0404

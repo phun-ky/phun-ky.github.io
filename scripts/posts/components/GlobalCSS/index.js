@@ -64,8 +64,8 @@ export const GlobalCSS = () => {
       .ph.app {
         display: flex;
         flex-direction: column;
-        height: 100%;
         min-height: 100%;
+        position: relative;
         padding: 1.25rem;
       }
       a.ph {
@@ -186,6 +186,12 @@ export const GlobalCSS = () => {
         grid-gap: 1rem;
         min-height: 3rem;
       }
+      @media screen and (min-width: 1440px) {
+        header.ph.header {
+          position: sticky;
+          top: 24px;
+        }
+      }
       .ph.header-menu {
         margin-left: auto;
         min-height: 3rem;
@@ -243,6 +249,7 @@ export const GlobalCSS = () => {
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript><link rel="stylesheet" href="/css/ph.css" /></noscript>
+    <link rel="stylesheet" media="print" href="/css/print.css" />
     <link
       rel="preload"
       href="/css/carbonbadge.css"

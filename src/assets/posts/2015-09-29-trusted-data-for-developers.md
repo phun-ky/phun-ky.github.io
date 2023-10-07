@@ -129,6 +129,7 @@ robots?
 > completely, I just can't figure out where in my apartment it is.
 >
 > <footer class="ph">
+>
 > – [http://bash.org/?5273](http://bash.org/?5273)
 >
 > </footer>
@@ -147,6 +148,7 @@ mentioned</a>, there are some key pointers you can adhere to, to work with
 > Assumption is the mother of all fuckups
 >
 > <footer class="ph">
+>
 > – [https://www.youtube.com/watch?v=wg4trPZFUwc](https://www.youtube.com/watch?v=wg4trPZFUwc)
 >
 > </footer>
