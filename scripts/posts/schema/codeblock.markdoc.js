@@ -11,7 +11,10 @@ const fence = {
 
     return new Markdoc.Tag(
       'pre',
-      { ...attributes, class: `ph language-${node.attributes['language']}` },
+      {
+        ...attributes,
+        class: `ph language-${node.attributes['language']}`
+      },
       [
         new Markdoc.Tag(
           'code',
