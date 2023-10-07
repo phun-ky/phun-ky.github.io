@@ -1,0 +1,31 @@
+* {
+  color: black !important;
+  background-color: white !important;
+}
+
+p.ph {
+  max-width: none !important;
+}
+
+.ph.header,
+.ph.breadcrumbs,
+.ph.author,
+.ph.sustainable-verification,
+.inline-color-wrapper {
+  display: none !important;
+}
+
+.ph.app{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+img{
+  max-height: 300px;
+}
+
+pre,
+.ph.message,
+.ph.definition {
+  border: 1pt solid black !important;
+}
