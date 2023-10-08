@@ -616,7 +616,7 @@ h1, h2, h3, h4, h5, h6
         font-size inherit
 
 
-pre.ph
+.ph.code-toolbar
   position relative
   & .ph.tools
     position absolute
@@ -636,6 +636,8 @@ pre.ph
     color var(--ph-color-text)
     font-family var(--ph-font-family)
     font-size 0.75rem
+    pointer-events none
+    user-select none
   & .ph.copy
     background-color transparent
     appearance none
