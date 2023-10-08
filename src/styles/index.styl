@@ -389,9 +389,12 @@ article.ph
   padding-top 1.25rem
   padding-bottom 1.25rem
   list-style none
+  position relative
   display flex
   justify-content flex-start
   align-items center
+  @media screen and (min-width: 1440px)
+    z-index 200
 
   & li:not(:first-of-type)
     color var(--ph-color-text-accent)
@@ -756,3 +759,10 @@ table.ph
 table.ph
   & code.ph
     word-break initial
+
+
+main.ph
+  & a.ph
+    @media screen and (min-width: 1440px)
+      z-index 300
+      position relative
