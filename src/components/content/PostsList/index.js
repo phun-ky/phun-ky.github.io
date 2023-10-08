@@ -26,7 +26,7 @@ export const PostsList = (posts, quantity = 20, excludeCategory) => {
       const { title, url, year, month, day } = post;
 
       return html`<li class="ph">
-              ${Link({to: url, content: title})} –
+              ${Link({ to: url, content: title })} –
               <time pubdate datetime="${year}-${month}-${day}" class="ph"
                 >${year}/${month}/${day}</time
               >
