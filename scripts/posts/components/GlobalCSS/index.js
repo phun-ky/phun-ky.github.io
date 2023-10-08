@@ -92,6 +92,9 @@ export const GlobalCSS = () => {
         margin-top: 1.25em;
         margin-bottom: 1.25em;
       }
+      .ph.byline time, .ph.byline .ph.read-time {
+        opacity: 0.7;
+      }
       article.ph {
         color: var(--ph-color-text, #9fa8ad);
         font-size: 1rem;

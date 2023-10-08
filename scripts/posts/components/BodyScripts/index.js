@@ -48,9 +48,15 @@ export const BodyScripts = () => {
       })
     }
 
-    //     element.appendChild(toolsElement);
+    const readTimeElement = document.querySelector('.ph.read-time');
 
-    //   })
-    // }
+    if(readTimeElement){
+      const article = document.querySelector('article');
+      const baseReadTime = article.textContent.replaceAll('\n','').trim().split(" ").length/265
+      const imageReadTime = document.querySelectorAll('article img').length * 5 / 60
+      // const codeReadTime = [...article.querySelectorAll('pre')].map(e => e.textContent.split(' ').length).reduce((a,b) => a + b, 0 ) / 265;
+      const totalReadTime = Math.ceil(baseReadTime + imageReadTime);
+      readTimeElement.textContent = ${'`'}• ${'$'}{totalReadTime} min read${'`'};
+    }
   </script>`;
 };
