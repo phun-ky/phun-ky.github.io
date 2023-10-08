@@ -3,6 +3,7 @@ import Markdoc from '@markdoc/markdoc';
 import { getMarkdocConfig } from './get-markdoc-config.js';
 import { addClassToNode } from './add-class-to-node.js';
 
+
 export const getHTML = (document) => {
   let { ast } = document;
 
@@ -13,6 +14,8 @@ export const getHTML = (document) => {
 
   if (content) {
     const rendered = Markdoc.renderers.html(content) || '';
+
+
 
     return rendered;
   } else {

@@ -10,18 +10,48 @@ const fence = {
     const children = node.transformChildren(config);
 
     return new Markdoc.Tag(
-      'pre',
+      'div',
       {
-        ...attributes,
-        class: `ph language-${node.attributes['language']}`
+        class: 'ph code-toolbar'
       },
       [
         new Markdoc.Tag(
-          'code',
+          'div',
           {
-            class: `ph ${node.attributes['language']} language-${node.attributes['language']}`
+            class: 'ph tools'
           },
-          children
+          [
+            new Markdoc.Tag(
+              'span',
+              {
+                class: 'ph language'
+              },
+              [node.attributes['language']]
+            ),
+            new Markdoc.Tag(
+              'button',
+              {
+                class: 'ph copy'
+              },
+              ['copy']
+            )
+          ]
+        ),
+        new Markdoc.Tag(
+          'pre',
+          {
+            ...attributes,
+            class: `ph language-${node.attributes['language']}`
+          },
+          [
+            new Markdoc.Tag(
+              'code',
+              {
+                class: `ph ${node.attributes['language']} language-${node.attributes['language']}`
+              },
+              children
+            )
+          ]
         )
       ]
     );

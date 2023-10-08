@@ -29,44 +29,34 @@ export const BodyScripts = () => {
       })
     }
 
-    // const preElements = document.querySelectorAll('pre');
+    const copyCodeButtonElements = document.querySelectorAll('.ph.code-toolbar .ph.copy');
 
-    // if(preElements && preElements.length !== 0){
-    //   preElements.forEach(element => {
-    //     const attrs = Array.from(element.attributes).reduce((attrs,attribute) => {attrs[attribute.name] = attribute.value; return attrs;},{})
-    //     const { language } = attrs;
+    if(copyCodeButtonElements && copyCodeButtonElements.length !== 0){
+      copyCodeButtonElements.forEach(buttonElement => {
+        buttonElement.addEventListener('click', e => {
+          const toolbarElement = e.target.closest('.ph.code-toolbar');
 
-    //     if(!language || language === '' || language === 'shell-session'){
-    //       return;
-    //     }
+          if(toolbarElement){
+            const preElement = toolbarElement.querySelector('pre');
+            if(preElement){
+              navigator.clipboard.writeText(preElement.textContent);
+            }
+          }
 
-    //     const toolsElement = document.createElement('span');
-    //     toolsElement.classList.add('ph');
-    //     toolsElement.classList.add('tools');
+        })
 
-    //     const languageElement = document.createElement('span');
-    //     languageElement.textContent = language;
-    //     languageElement.classList.add('ph');
-    //     languageElement.classList.add('language');
-    //     toolsElement.appendChild(languageElement);
+      })
+    }
 
-    //     const buttonElement = document.createElement('button');
-    //     buttonElement.textContent = 'copy';
-    //     buttonElement.classList.add('ph');
-    //     buttonElement.classList.add('copy');
-    //     toolsElement.appendChild(buttonElement);
+    const readTimeElement = document.querySelector('.ph.read-time');
 
-    //     buttonElement.addEventListener('click', e => {
-    //       const preElement = e.target.closest('pre');
-
-    //       if(preElement){
-    //         navigator.clipboard.writeText(preElement.textContent);
-    //       }
-    //     })
-
-    //     element.appendChild(toolsElement);
-
-    //   })
-    // }
+    if(readTimeElement){
+      const article = document.querySelector('article');
+      const baseReadTime = article.textContent.replaceAll('\n','').trim().split(" ").length/265
+      const imageReadTime = document.querySelectorAll('article img').length * 5 / 60
+      // const codeReadTime = [...article.querySelectorAll('pre')].map(e => e.textContent.split(' ').length).reduce((a,b) => a + b, 0 ) / 265;
+      const totalReadTime = Math.ceil(baseReadTime + imageReadTime);
+      readTimeElement.textContent = ${'`'}• ${'$'}{totalReadTime} min read${'`'};
+    }
   </script>`;
 };
