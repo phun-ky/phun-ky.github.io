@@ -14,7 +14,7 @@ export const PostByline = (year, month, day) => {
     10
   );
   const displayDate =
-    diffDays > 6 ? `on ${formattedDate}` : `${diffDays} days ago`;
+    diffDays > 6 ? `on ${formattedDate}` : diffDays === 0 ? 'today' : `${diffDays} days ago`;
 
   return html`<address class="ph byline">
     Written by <a href="/" class="ph">Alexander</a>
