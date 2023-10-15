@@ -54,7 +54,11 @@ export const PostsList = (posts, quantity = 20, excludeCategory) => {
         10
       );
       const displayDate =
-            diffDays > 6 ? `on ${formattedDate}` : `${diffDays} days ago`;
+            diffDays > 6
+              ? `on ${formattedDate}`
+              : diffDays === 0
+                ? 'today'
+                : `${diffDays} days ago`;
 
       return html` <li class="ph post">
             ${Link({
