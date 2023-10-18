@@ -24,7 +24,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
 const TEMPLATE_PATH = resolve(
   __dirname,
-  '../../src/assets/templates/category.html'
+  '../../src/pages/Category/template.html'
 );
 const contentManifest = createContentManifest(CONTENT_DIR);
 const files = glob.sync(`${CONTENT_DIR}/*.md`).sort().reverse();

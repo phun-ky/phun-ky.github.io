@@ -31,7 +31,7 @@ const posts = [];
 const categories = [];
 const TEMPLATE_PATH = resolve(
   __dirname,
-  '../../src/assets/templates/tags.html'
+  '../../src/pages/Tags/template.html'
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 
