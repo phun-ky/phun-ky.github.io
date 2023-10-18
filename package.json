@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rm -rf dist/*",
     "assets": "mkdir -p dist && cp -a ./src/assets/. ./dist/",
-    "prebuild": "npm run clean && npm run assets && node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js",
+    "prebuild": "npm run clean && npm run assets && node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/projects/projects.js && node scripts/projects/speccer.js",
     "build": "rollup -c rollup.config.js",
     "postbuild": "bash -c 'mv -f ./dist/*.{js,map} ./dist/js'",
     "build:watch": "NODE_ENV=development rollup -c rollup.config.js -w",
@@ -62,5 +62,8 @@
     "rollup-plugin-node-externals": "^6.0.1",
     "rollup-plugin-svg-import": "^2.0.0",
     "stylus": "^0.60.0"
+  },
+  "dependencies": {
+    "@phun-ky/speccer": "^8.0.2"
   }
 }

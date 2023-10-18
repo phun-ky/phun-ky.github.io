@@ -50,10 +50,20 @@ export const GlobalCSS = () => {
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
       }
+
       .ph.frontpage .ph.container {
         margin-bottom: 1.25rem;
         margin-top: 1.25rem;
         max-width: 1024px;
+      }
+
+      .ph.project .ph.banner .ph.container {
+        max-width: 48rem;
+        width: 100%;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
       }
       footer.ph.footer {
         font-size: 1.25rem;
@@ -194,6 +204,11 @@ export const GlobalCSS = () => {
           position: sticky;
           top: 20px;
           z-index: 100;
+        }
+
+        .ph.project header.ph.header {
+          position: static;
+          top: unset;
         }
       }
       .ph.header-menu {
