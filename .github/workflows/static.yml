@@ -38,6 +38,7 @@ jobs:
       - name: Install dependencies
         run: | # Install and link dependencies
           npm i
+          npm i @phun-ky/speccer@latest
         env:
           GH_TOKEN: ${{secrets.GH_TOKEN}}
       - name: Build # Build

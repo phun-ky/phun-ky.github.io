@@ -3,6 +3,7 @@ const html = String.raw;
 export const Header = () => {
   return html`<header class="ph header">
     <a class="ph home" href="/">home</a>
+    <a class="ph projects-home" href="/projects">projects</a>
     <div class="ph header-menu">
       <a
         class="ph"

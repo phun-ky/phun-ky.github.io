@@ -50,10 +50,20 @@ export const GlobalCSS = () => {
         margin-top: 2.5rem;
         margin-bottom: 2.5rem;
       }
+
       .ph.frontpage .ph.container {
         margin-bottom: 1.25rem;
         margin-top: 1.25rem;
         max-width: 1024px;
+      }
+
+      .ph.project .ph.banner .ph.container {
+        max-width: 48rem;
+        width: 100%;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
       }
       footer.ph.footer {
         font-size: 1.25rem;
@@ -92,7 +102,8 @@ export const GlobalCSS = () => {
         margin-top: 1.25em;
         margin-bottom: 1.25em;
       }
-      .ph.byline time, .ph.byline .ph.read-time {
+      .ph.byline time,
+      .ph.byline .ph.read-time {
         opacity: 0.7;
       }
       article.ph {
@@ -174,12 +185,16 @@ export const GlobalCSS = () => {
         line-height: 1.3333333;
         margin-bottom: 1rem;
         margin-top: 1rem;
+        font-weight: 400;
       }
       h4.ph {
         font-size: 1.25rem;
         line-height: 1.3333333;
         margin-bottom: 1rem;
         margin-top: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--ph-color-text);
       }
       header.ph.header {
         display: flex;
@@ -194,6 +209,11 @@ export const GlobalCSS = () => {
           position: sticky;
           top: 20px;
           z-index: 100;
+        }
+
+        .ph.project header.ph.header {
+          position: static;
+          top: unset;
         }
       }
       .ph.header-menu {
@@ -229,7 +249,7 @@ export const GlobalCSS = () => {
         background-color: var(--ph-color-well-background);
       }
       .ph.darkmode-button > svg.ph {
-        pointer: events none;
+        pointer-events: none;
         height: 2rem;
         width: 2rem;
       }
@@ -244,6 +264,9 @@ export const GlobalCSS = () => {
       }
       .ph.theme--light .hide-dark {
         display: block;
+      }
+      p.ph:has(> img[src^='/img']) {
+        max-width: none;
       }
     </style>
     <link

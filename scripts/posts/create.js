@@ -5,7 +5,6 @@ import fs from 'node:fs';
 
 import { glob } from 'glob';
 
-
 import { createContentManifest } from './utils/create-content-manifest.js';
 import { getHTML } from './utils/get-html.js';
 import { getFrontmatter } from './utils/get-frontmatter.js';
@@ -28,7 +27,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
 const TEMPLATE_PATH = resolve(
   __dirname,
-  '../..//src/assets/templates/article.html'
+  '../../src/pages/Article/template.html'
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const contentManifest = createContentManifest(CONTENT_DIR);
@@ -43,27 +42,38 @@ files.forEach((file) => {
     let html = '';
     let rendered = getHTML(document);
 
+    const {
+      year,
+      month,
+      day,
+      slug,
+      category,
+      title,
+      image,
+      tagline,
+      description
+    } = frontmatter;
 
-
-    const { year, month, day, slug, category, title, image, tagline, description } =
-      frontmatter;
-
-
-
-    if(rendered.indexOf('<article class="ph">') === 0){
-      if(description){
-        rendered = rendered.replace('<article class="ph">',`<article class="ph"><p class="ph lead">${description}</p>`);
+    if (rendered.indexOf('<article class="ph">') === 0) {
+      if (description) {
+        rendered = rendered.replace(
+          '<article class="ph">',
+          `<article class="ph"><p class="ph lead">${description}</p>`
+        );
       }
 
       html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
     } else {
-      if(description){
-        html = TEMPLATE.replace(/{{CONTENT}}/, `
+      if (description) {
+        html = TEMPLATE.replace(
+          /{{CONTENT}}/,
+          `
         <p class="ph lead">
         ${description}
         </p>
         ${rendered}
-        `);
+        `
+        );
       } else {
         html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
       }
@@ -76,7 +86,11 @@ files.forEach((file) => {
         title,
         url: `https://phun-ky.net/${year}/${month}/${day}/${slug}`,
         image,
-        description: description ? description.replaceAll(/(&nbsp;|<([^>]+)>)/ig,'').replaceAll(/"/g,'&quot;') : null
+        description: description
+          ? description
+            .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
+            .replaceAll(/"/g, '&quot;')
+          : null
       })
     );
     html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
@@ -88,13 +102,20 @@ files.forEach((file) => {
     html = html.replace(/{{ARTICLE_CSS}}/, ArticleCSS());
     html = html.replaceAll(/{{TITLE}}/g, title);
 
-    if(description){
-      html = html.replaceAll(/{{DESCRIPTION}}/g, description.replaceAll(/(&nbsp;|<([^>]+)>)/ig,'').replaceAll(/"/g,'&quot;'));
+    if (description) {
+      html = html.replaceAll(
+        /{{DESCRIPTION}}/g,
+        description
+          .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
+          .replaceAll(/"/g, '&quot;')
+      );
     }
 
-
-    if(tagline && typeof tagline === 'string' && tagline.length !== 0){
-      html = html.replaceAll(/{{TAGLINE}}/g, `<br/><em class="ph">– ${tagline}</em>`);
+    if (tagline && typeof tagline === 'string' && tagline.length !== 0) {
+      html = html.replaceAll(
+        /{{TAGLINE}}/g,
+        `<br/><em class="ph">– ${tagline}</em>`
+      );
     } else {
       html = html.replaceAll(/{{TAGLINE}}/g, '');
     }
