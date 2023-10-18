@@ -5,7 +5,6 @@ import fs from 'node:fs';
 
 import { glob } from 'glob';
 
-
 import { createContentManifest } from './utils/create-content-manifest.js';
 import { getHTML } from './utils/get-html.js';
 import { getFrontmatter } from './utils/get-frontmatter.js';
@@ -87,7 +86,11 @@ files.forEach((file) => {
         title,
         url: `https://phun-ky.net/${year}/${month}/${day}/${slug}`,
         image,
-        description: description ? description.replaceAll(/(&nbsp;|<([^>]+)>)/ig,'').replaceAll(/"/g,'&quot;') : null
+        description: description
+          ? description
+            .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
+            .replaceAll(/"/g, '&quot;')
+          : null
       })
     );
     html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
@@ -99,13 +102,20 @@ files.forEach((file) => {
     html = html.replace(/{{ARTICLE_CSS}}/, ArticleCSS());
     html = html.replaceAll(/{{TITLE}}/g, title);
 
-    if(description){
-      html = html.replaceAll(/{{DESCRIPTION}}/g, description.replaceAll(/(&nbsp;|<([^>]+)>)/ig,'').replaceAll(/"/g,'&quot;'));
+    if (description) {
+      html = html.replaceAll(
+        /{{DESCRIPTION}}/g,
+        description
+          .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
+          .replaceAll(/"/g, '&quot;')
+      );
     }
 
-
-    if(tagline && typeof tagline === 'string' && tagline.length !== 0){
-      html = html.replaceAll(/{{TAGLINE}}/g, `<br/><em class="ph">– ${tagline}</em>`);
+    if (tagline && typeof tagline === 'string' && tagline.length !== 0) {
+      html = html.replaceAll(
+        /{{TAGLINE}}/g,
+        `<br/><em class="ph">– ${tagline}</em>`
+      );
     } else {
       html = html.replaceAll(/{{TAGLINE}}/g, '');
     }
