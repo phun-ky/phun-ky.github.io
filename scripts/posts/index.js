@@ -26,7 +26,7 @@ const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(DIR_NAME, '../../src/assets/posts');
 const TEMPLATE_PATH = resolve(
   DIR_NAME,
-  '../../src/assets/templates/frontpage.html'
+  '../../src/pages/Index/template.html'
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const files = glob.sync(`${CONTENT_DIR}/*.md`).sort().reverse();

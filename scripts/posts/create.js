@@ -28,7 +28,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
 const TEMPLATE_PATH = resolve(
   __dirname,
-  '../..//src/assets/templates/article.html'
+  '../../src/pages/Article/template.html'
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const contentManifest = createContentManifest(CONTENT_DIR);
@@ -43,27 +43,38 @@ files.forEach((file) => {
     let html = '';
     let rendered = getHTML(document);
 
+    const {
+      year,
+      month,
+      day,
+      slug,
+      category,
+      title,
+      image,
+      tagline,
+      description
+    } = frontmatter;
 
-
-    const { year, month, day, slug, category, title, image, tagline, description } =
-      frontmatter;
-
-
-
-    if(rendered.indexOf('<article class="ph">') === 0){
-      if(description){
-        rendered = rendered.replace('<article class="ph">',`<article class="ph"><p class="ph lead">${description}</p>`);
+    if (rendered.indexOf('<article class="ph">') === 0) {
+      if (description) {
+        rendered = rendered.replace(
+          '<article class="ph">',
+          `<article class="ph"><p class="ph lead">${description}</p>`
+        );
       }
 
       html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
     } else {
-      if(description){
-        html = TEMPLATE.replace(/{{CONTENT}}/, `
+      if (description) {
+        html = TEMPLATE.replace(
+          /{{CONTENT}}/,
+          `
         <p class="ph lead">
         ${description}
         </p>
         ${rendered}
-        `);
+        `
+        );
       } else {
         html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
       }
