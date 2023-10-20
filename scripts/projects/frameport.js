@@ -17,13 +17,13 @@ let html = '';
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const TEMPLATE_PATH = resolve(
   DIR_NAME,
-  '../../src/pages/Projects/pages/Speccer/template.html'
+  '../../src/pages/Projects/pages/Frameport/template.html'
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
-const pathToDir = join(DIR_NAME, '../../dist/projects/speccer');
-const pathToSpeccerPage = join(
+const pathToDir = join(DIR_NAME, '../../dist/projects/frameport');
+const pathToFrameportPage = join(
   DIR_NAME,
-  '../../dist/projects/speccer/index.html'
+  '../../dist/projects/frameport/index.html'
 );
 
 fs.mkdirSync(pathToDir, { recursive: true });
@@ -31,12 +31,11 @@ fs.mkdirSync(pathToDir, { recursive: true });
 html = TEMPLATE.replace(
   /{{OPEN_GRAPH}}/,
   OpenGraphTags({
-    title: '@phun-ky/speccer',
-    siteName: 'Viewports on the fly!',
+    title: '@phun-ky/frameport',
+    siteName: 'A zero dependency package to highlight elements',
     description:
-      'Speccer is a zero dependency JavaScript package to highlight elements on web pages and in documentation. It\'s easy to use and highly customizable, making it the perfect tool for developers, designers, and content creators alike.',
-    image: '/img/speccer/speccer-opengraph.webp',
-    image2: '/img/speccer/speccer-showcase.jpeg'
+      'Frameport is a zero dependency JavaScript package to highlight elements on web pages and in documentation. It\'s easy to use and highly customizable, making it the perfect tool for developers, designers, and content creators alike.',
+    
   })
 );
 html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
@@ -47,4 +46,4 @@ html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
 html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
 html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer('MIT'));
 
-fs.writeFileSync(pathToSpeccerPage, html, 'utf-8');
+fs.writeFileSync(pathToFrameportPage, html, 'utf-8');

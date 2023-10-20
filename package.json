@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rm -rf dist/*",
     "assets": "mkdir -p dist && cp -a ./src/assets/. ./dist/",
-    "prebuild": "npm run clean && npm run assets && node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/projects/projects.js && node scripts/projects/speccer.js",
+    "prebuild": "npm run clean && npm run assets && node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/projects/projects.js && node scripts/projects/speccer.js && node scripts/projects/frameport.js",
     "build": "rollup -c rollup.config.js",
     "postbuild": "bash -c 'mv -f ./dist/*.{js,map} ./dist/js'",
     "build:watch": "NODE_ENV=development rollup -c rollup.config.js -w",
