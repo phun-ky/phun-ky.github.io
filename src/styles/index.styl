@@ -801,6 +801,36 @@ main.ph
           display block
 
 
+.ph.app.project.frameport
+  & .ph.hero
+    height auto
+    @media screen and (min-width: 1024px)
+      display flex
+    & .ph.logo,
+    & .ph.reel
+      display none
+    & .ph.content
+      padding-top 4rem
+      padding-bottom 4rem
+      background-color #4682b4
+      color black
+      flex-direction column
+      & .ph.slogan
+        position relative
+
+      & svg
+        max-width 50%
+      & .ph.slogan
+        display none
+        text-align center
+        font-size 1rem
+        text-transform uppercase
+        font-weight 600
+        width 50%
+        @media screen and (min-width: 1024px)
+          display block
+
+
 .ph.app.project.speccer
   & .ph.banner
     background-image radial-gradient(
@@ -818,6 +848,33 @@ main.ph
     & .ph.slogan
       margin 0 auto
       color #ffc72c
+      display none
+      text-align center
+      font-size 1.3rem
+      text-transform uppercase
+      font-weight 600
+      width 100%
+      max-width 80%
+      @media screen and (min-width: 1024px)
+        display block
+
+.ph.app.project.frameport
+  & .ph.banner
+    background-image radial-gradient(
+        circle,
+        rgba(38, 42, 59, 1) 0%,
+        rgba(24, 26, 34, 1) 100%
+      )
+    color var(--ph-color-text-accent)
+    flex-direction column
+    & svg
+      width 100%
+      max-width 80%
+      display block
+      margin 0 auto
+    & .ph.slogan
+      margin 0 auto
+      color #4682b4
       display none
       text-align center
       font-size 1.3rem
@@ -934,6 +991,12 @@ main.ph
   & .ph.feature
     @media screen and (min-width: 1024px)
       max-width 320px
+    & .ph.icon
+      height 3rem
+      width 3rem
+      margin-bottom 1rem;
+      margin-top 1rem
+      color var(--color-text-accent)
     & img.ph
       width 100%
       border 2pt solid var(--ph-color-well-background)
