@@ -1,8 +1,8 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
 import styles from '@ironkinoko/rollup-plugin-styles';
-import terser from '@rollup/plugin-terser';
 import svg from 'rollup-plugin-svg-import';
+import terser from '@rollup/plugin-terser';
 import commonjs from '@rollup/plugin-commonjs';
 // import { generateImageSizes } from 'rollup-plugin-generate-image-sizes';
 
