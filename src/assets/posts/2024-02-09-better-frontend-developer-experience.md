@@ -10,14 +10,9 @@ category: 'Programming'
 tags: [developer, experience, programming]
 ---
 
-Over my 24 years of programming, developing applications, snippets, servers,
-APIs etc, I have been through a lot of different coding setups, editors,
-environments and so on. To sum up parts of my experience, I am attempting to
-disclose to you how you can have the best frontend developer experience.
-
-However, I am _not_ going to tell you how to set up your editor directly,
-because every developer has a different opinion on what extension, theme,
-setting etc that is best, my self included.
+However, I am _not_ going to tell you how to set up your editor directly. Every
+developer has a different opinion on which extension, theme, setting etc that is
+best, my self included.
 
 {% message type="note" title="Note" %}
 
