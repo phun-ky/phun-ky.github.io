@@ -947,19 +947,7 @@ main.ph
 
 
 .ph.button
-  padding 0.5rem 1rem
-  min-height 48px
-  max-width 25ch
-  min-width 10ch
-  text-decoration none
-  display inline-flex
-  justify-content center
-  align-items center
-  background-color transparent
-  color var(--ph-color-text)
-  border 2pt solid var(--ph-color-text)
-  border-radius 12px
-  &:hover
+  padding 0.5rem 1rem✘
     border-color var(--ph-color-link)
     color var(--ph-color-link)
 
@@ -1028,3 +1016,49 @@ main.ph
   @media screen and (max-width: 1023px)
     display none !important
 
+
+
+figure.ph.stance
+  display flex
+  flex-direction column
+  & .ph.code-toolbar
+    & pre.ph
+      margin 0
+      border-bottom-left-radius 0
+      border-top-left-radius 0
+
+  & figcaption.ph
+    &::before
+      content none
+    font-size inherit
+    font-style inherit
+    color var(--ph-color-text-accent)
+
+  & > div
+    &::after
+      position absolute
+      bottom 1rem
+      right 1rem
+      font-size 2rem
+
+
+figure.ph.stance.dont
+  & .ph.code-toolbar
+    & .ph.tools
+      display none
+    & pre.ph
+      background-color rgba(255,0,0,0.2)
+      border-left 4pt solid red
+  & > div
+    &::after
+      content "✘"
+
+
+figure.ph.stance.do
+  & .ph.code-toolbar
+    & pre.ph
+      background-color rgba(0,255,0,0.2)
+      border-left 4pt solid green
+  & > div
+    &::after
+      content "✔"
