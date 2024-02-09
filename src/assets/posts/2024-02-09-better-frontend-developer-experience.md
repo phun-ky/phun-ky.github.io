@@ -1,5 +1,5 @@
 ---
-route: /2024/01/05/better-frontend-developer-experience
+route: /2024/02/09/better-frontend-developer-experience
 title: 'Better frontend developer experience'
 description:
   'Over my 24 years of programming, developing applications, snippets, servers,
