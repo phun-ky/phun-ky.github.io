@@ -1149,7 +1149,31 @@ Shared application services and providers
 
 {% message type="note" title="Features vs services vs pages vs scenes" %}
 
-Make some paragraphs about this
+I've come across several phrases used to describe grouped code, and those groups
+that works for me is:
+
+- **Features**: Describes a feature on a page, that _can_ be reusable, but is
+  not mandatory to be reusable.
+- **Services**: A service or group of code that either processes and/or fetches
+  data for shared features/pages/components etc.
+- **Pages**: Kind of self explanatory, the pages where a router is pointing to,
+  or url is pointing to.
+- **Views**: A large feature set on a page that can replace larger parts of the
+  page.
+
+**Scenes**:
+
+This is a wording I haven't familiarized myself with when it comes to frontend
+development, And I find the definition of this a bit odd. From what I can tell,
+it is derived from mobile development, especially iOS development, where a scene
+is one "view" of the application.
+
+If a "scene" is a page, then the application/site is the "stage", and a "scene"
+has many "props", If my interpretation of this is correctly. But then again,
+it's not calling a spade a spade. A page is a page. I more aliken the wording
+"scene" to "views", where a page can have many views/scenes.
+
+**Remember!** This is _my_ take on this.
 
 {% /message %}
 
@@ -1309,6 +1333,11 @@ And you can do `npm run release`!
 
 Use a decent CI/CD setup, I love
 [GitHub Actions](https://github.com/features/actions).
+
+I always use these actions, regardless of the type of project I am working on:
+
+- <https://github.com/actions/labeler>
+- <https://github.com/pozil/auto-assign-issue>
 
 ## Extrapolate
 
