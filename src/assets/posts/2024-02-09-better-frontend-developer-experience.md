@@ -18,7 +18,9 @@ best, my self included.
 
 This is not 100% objective, but formed from my experience, and what works for
 me. I am not trying to persuade you to use or do something that works great for
-_me_. YMMV
+_me_. <abbr class="ph" title="Your Mileage May Vary">YMMV</abbr> (
+[Your Mileage May Vary](https://www.oxfordlearnersdictionaries.com/us/definition/english/ymmv)
+)
 
 {% /message %}
 
@@ -806,9 +808,7 @@ This strategy aims to minimize code coupling and reduce side effects for
 improved maintainability.
 
 This is how I recommend to set it up, based on what I feel works best for me.
-<abbr class="ph">YMMV</abbr> (
-[Your Mileage May Vary](https://www.oxfordlearnersdictionaries.com/us/definition/english/ymmv)
-):
+<abbr class="ph" title="Your Mileage May Vary">YMMV</abbr>:
 
 ```shell-session
 $ struct
