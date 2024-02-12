@@ -806,7 +806,9 @@ This strategy aims to minimize code coupling and reduce side effects for
 improved maintainability.
 
 This is how I recommend to set it up, based on what I feel works best for me.
-YMMV:
+<abbr class="ph">YMMV</abbr> (
+[Your Mileage May Vary](https://www.oxfordlearnersdictionaries.com/us/definition/english/ymmv)
+):
 
 ```shell-session
 $ struct
@@ -1193,6 +1195,8 @@ inside them should be kept to the minimum.
 Put global styles here.
 
 #### `src/stores`
+
+If you use stores, put them here.
 
 #### `src/test`
 
