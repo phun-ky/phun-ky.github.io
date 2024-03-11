@@ -72,13 +72,8 @@ export const Author = () => {
       <h2 class="ph">Speaker</h2>
       <p class="ph">
         I am also an avid speaker on several topics! Check
-        <a
-          href="https://sessionize.com/phun-ky/"
-          class="ph"
-          rel="noopener noreferrer"
-          target="_blank"
-          >out some of the things I speak about</a
-        >, and contact me if you are interested in having me at your next event!
+        <a href="/speaker/" class="ph">out some of the things I speak about</a>,
+        and contact me if you are interested in having me at your next event!
       </p>
     </div>
   </section>`;
