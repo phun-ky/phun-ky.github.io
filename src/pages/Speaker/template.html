@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="ph" lang="en">
+  <head>
+    <title>Speaker | lover of life, technologist at heart</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; block-all-mixed-content; font-src 'self' https: data:; img-src 'self' https: data:;  object-src 'none'; script-src https://sessionize.com 'self' 'unsafe-inline'; script-src-attr 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https: 'unsafe-inline'; upgrade-insecure-requests"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="application-name"
+      content="lover of life, technologist at heart"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/meta/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/meta/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/meta/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/meta/site.webmanifest" />
+    <link rel="shortcut icon" href="/img/meta/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#181a22" />
+    <meta name="msapplication-config" content="/meta/browserconfig.xml" />
+    <meta name="theme-color" content="#181a22" />
+
+    <meta
+      name="description"
+      content="The world from my point of view, and some pedantic creativity"
+    />
+    <meta name="author" content="Alexander Vassbotn Røyne-Helgesen" />
+
+    {{OPEN_GRAPH}}
+
+    <link
+      rel="Copyright"
+      title="License"
+      href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    />
+    {{GLOBAL_CSS}} {{HEAD_SCRIPTS}}
+  </head>
+  <body class="ph">
+    <div class="ph app frontpage" id="app">
+      {{PAGE_SECTION_HEADER}}
+      <main class="ph">
+        <section class="ph section">
+          <div class="ph container">
+            <article class="ph">
+              <h1 class="ph">speaker</h1>
+              <p class="ph lead">
+                These are the currently available talks. I also do custom talks,
+                on inquery. Let me know if you want me talk at your event!
+              </p>
+            </article>
+          </div>
+        </section>
+        <section class="ph section">
+          <div class="ph container">
+            <script
+              type="text/javascript"
+              src="https://sessionize.com/api/speaker/sessions/5fef22ea-3470-4620-bfff-fb9b3338b5f1/0x1xffffffx"
+            ></script>
+          </div>
+        </section>
+        {{PAGE_SECTION_AUTHOR}}
+      </main>
+      {{PAGE_SECTION_FOOTER}}
+    </div>
+    {{BODY_SCRIPTS}}
+    <script>
+      const sRootElement = document.querySelector('.sz-root');
+
+      if (sRootElement) {
+        const sElements = sRootElement.querySelectorAll('*');
+        for (const el of sElements) {
+          el.classList.add('ph');
+        }
+      }
+    </script>
+  </body>
+</html>
