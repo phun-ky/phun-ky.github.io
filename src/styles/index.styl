@@ -947,9 +947,21 @@ main.ph
 
 
 .ph.button
-  padding 0.5rem 1rem✘
-    border-color var(--ph-color-link)
-    color var(--ph-color-link)
+  min-height 3rem
+  display inline-flex
+  align-items center
+  justify-content center
+  text-decoration none
+  border-radius 0.25rem
+  padding 0.5rem 1rem
+  border-color var(--ph-color-link)
+  color var(--ph-color-link)
+  border 2pt solid transparent
+
+  &:hover
+    background-color var(--ph-color-link)
+    color var(--ph-color-background)
+    border 2pt solid transparent
 
 .ph.button + .ph.button
   margin-left 1rem
@@ -1077,3 +1089,8 @@ figure.ph.stance.do
   font-family var(--ph-font-family-code)
   padding 0 0.5rem
   border-radius 4px
+
+abbr.ph
+  border-bottom 1pt dotted
+  font-style italic
+  color var(--ph-color-text-accent)
