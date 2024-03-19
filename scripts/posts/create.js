@@ -22,6 +22,7 @@ import { Breadcrumbs } from '../../src/components/navigation/Breadcrumbs/index.j
 import { Header } from '../../src/components/page-sections/Header/index.js';
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
+import { Analytics } from './components/Analytics/index.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
@@ -95,6 +96,7 @@ files.forEach((file) => {
     );
     html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
     html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
+    html = html.replace(/{{ANALYTICS}}/, Analytics());
     html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
     html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
     html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
