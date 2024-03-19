@@ -1,23 +1,9 @@
 const html = String.raw;
 
 export const Analytics = () => {
-  return html`<!-- Matomo -->
-    <script>
-      var _paq = (window._paq = window._paq || []);
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function () {
-        var u = 'https://phunky.matomo.cloud/';
-        _paq.push(['setTrackerUrl', u + 'matomo.php']);
-        _paq.push(['setSiteId', '1']);
-        var d = document,
-          g = d.createElement('script'),
-          s = d.getElementsByTagName('script')[0];
-        g.async = true;
-        g.src = 'https://cdn.matomo.cloud/phunky.matomo.cloud/matomo.js';
-        s.parentNode.insertBefore(g, s);
-      })();
-    </script>
-    <!-- End Matomo Code --> `;
+  return html`<script
+    async
+    data-id="8568"
+    src="https://static.getclicky.com/js"
+  ></script> `;
 };
