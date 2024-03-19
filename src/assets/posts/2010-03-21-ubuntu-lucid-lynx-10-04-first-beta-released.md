@@ -8,22 +8,29 @@ tags: []
 ---
 
 Steve Langasek has announced the availability of the first beta release of
-Ubuntu> 10.04, code name "Lucid Lynx", a long-term support
-(LTS) version.
+Ubuntu> 10.04, code name "Lucid Lynx", a long-term support (LTS) version.
 
 ## Press release
 
 [![](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)
 
-> The Ubuntu team is pleased to announce the first beta release of Ubuntu 10.04 LTS Desktop, Server, and Netbook editions and of Ubuntu 10.04 Server for Ubuntu Enterprise Cloud (UEC) and Amazon's EC2. Ubuntu 10.04 LTS Desktop and Netbook editions continue the trend of ever-faster boot speeds, with improved start-up times and a streamlined, smoother boot experience. Ubuntu 10.04 LTS Server edition provides even better integration of the Ubuntu Enterprise Cloud, with its install-time cloud setup.
+> The Ubuntu team is pleased to announce the first beta release of Ubuntu 10.04
+> LTS Desktop, Server, and Netbook editions and of Ubuntu 10.04 Server for
+> Ubuntu Enterprise Cloud (UEC) and Amazon's EC2. Ubuntu 10.04 LTS Desktop and
+> Netbook editions continue the trend of ever-faster boot speeds, with improved
+> start-up times and a streamlined, smoother boot experience. Ubuntu 10.04 LTS
+> Server edition provides even better integration of the Ubuntu Enterprise
+> Cloud, with its install-time cloud setup.
 
-Read the [release announcement](https://lists.ubuntu.com/archives/ubuntu-announce/2010-March/000129.html) and [release notes](http://www.ubuntu.com/testing/lucid/beta1) for further details.
+Read the
+[release announcement](https://lists.ubuntu.com/archives/ubuntu-announce/2010-March/000129.html)
+and [release notes](https://ubuntu.com/testing/lucid/beta1) for further details.
 
 ## Release Meta
 
 [![](/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.webp)](/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.webp)
 
-[Download](http://www.ubuntu.com/testing/lucid/beta1#Download)
+[Download](https://ubuntu.com/testing/lucid/beta1#Download)
 ([SHA256](http://releases.ubuntu.com/releases/10.04/SHA256SUMS)):
 [ubuntu-10.04-beta1-desktop-i386.iso](http://releases.ubuntu.com/releases/10.04/ubuntu-10.04-beta1-desktop-i386.iso)
 (675MB,

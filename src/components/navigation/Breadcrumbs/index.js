@@ -1,6 +1,5 @@
 import { Link } from '../Link/index.js';
 
-
 const html = String.raw;
 
 export const Breadcrumbs = (category, categoryURL) => {
@@ -9,7 +8,7 @@ export const Breadcrumbs = (category, categoryURL) => {
     <li class="ph">
       <svg
         class="ph"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://www.w3.org/2000/svg"
         aria-label="Chevron Right Icon"
         fill="currentColor"
         stroke="none"
@@ -24,7 +23,7 @@ export const Breadcrumbs = (category, categoryURL) => {
           clip-rule="evenodd"
         ></path>
       </svg>
-      ${Link({to: categoryURL, content: category})}
+      ${Link({ to: categoryURL, content: category })}
     </li>
   </ul>`;
 };

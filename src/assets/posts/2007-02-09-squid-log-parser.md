@@ -23,9 +23,9 @@ The script is free to use, but please keep the copyright.
    * File for parsing squid logs
    *
    * This file fetches lines from the squid log on the squid server and parsing the data to a mysql database
-   * @link http://phun-ky.net/2007/03/squid-log-parser
-   * @author Alexander Vassbotn Røyne 
-   * @license Creative Commons, see http://phun-ky.net/license for more information
+   * @link https://phun-ky.net/2007/03/squid-log-parser
+   * @author Alexander Vassbotn Røyne
+   * @license Creative Commons, see https://phun-ky.net/license for more information
    * @version 1.1
    * @name UMedia SquidParser 1.1
    */
@@ -91,6 +91,6 @@ The script is free to use, but please keep the copyright.
 
   pclose($handle);
   mysql_close($con);
-  
+
 ?>
 ```

@@ -17,14 +17,12 @@ Studio Feisty Fawn 7.04. I Will let you know when the install fest starts, most
 likely after dinner, and will update you on the WTF's and the "oooooh" about it
 all.
 
-The
-[Ubuntustudio.com](http://www.ubuntustudio.com/home)
-server is on and off, so thanks to some digging I found some other torrents to
-make use of:
+The [Ubuntustudio.com](https://ubuntustudio.com/home) server is on and off, so
+thanks to some digging I found some other torrents to make use of:
 
-- [http://ubuntustudio.org/files/UbuntuStudio_7.04.torrent](http://ubuntustudio.org/files/UbuntuStudio_7.04.torrent)
+- [https://ubuntustudio.org/files/UbuntuStudio_7.04.torrent](https://ubuntustudio.org/files/UbuntuStudio_7.04.torrent)
 - [http://fluxbuntu.org/UbuntuStudio_7.04.torrent](http://fluxbuntu.org/UbuntuStudio_7.04.torrent)
-- [http://www.ubuntugids.be/UbuntuStudio_7.04.torrent](http://www.ubuntugids.be/UbuntuStudio_7.04.torrent)
+- [https://ubuntugids.be/UbuntuStudio_7.04.torrent](https://ubuntugids.be/UbuntuStudio_7.04.torrent)
 - [http://www.velmont.net/UbuntuStudio_7.04.torrent](http://www.velmont.net/UbuntuStudio_7.04.torrent)
 
 And if you want to add the Ubuntu Studio repo:

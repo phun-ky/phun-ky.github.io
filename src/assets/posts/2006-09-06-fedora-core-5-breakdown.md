@@ -31,5 +31,5 @@ Ok, enough with Wikipedia, but let us mention the only things needed to know;
   Unofficial Fedora Faq</a>,
   <a class="ph" target="_blank" rel="noopener noreferrer" href="http://fedora.redhat.com">Fedora
   Project</a> and
-  <a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Fedora_Core">Fedora
+  <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Fedora_Core">Fedora
   Wiki</a>.

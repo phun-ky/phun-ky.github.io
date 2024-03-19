@@ -9,8 +9,7 @@ tags: []
 
 I was trying to install a LAMP server locally and after some guides and
 questions I managed to get it up and running smoothly. How hard is it? Well, it
-is not that hard, thanks to
-[Tasksel](https://help.ubuntu.com/community/Tasksel)
+is not that hard, thanks to [Tasksel](https://help.ubuntu.com/community/Tasksel)
 (Note: this will only work from Ubuntu 7.04 Feisty Fawn and above):
 
     sudo tasksel install lamp-server
@@ -39,8 +38,7 @@ phpmyadmin. To replace php5-common, run the following two commands:
 
 ## What is LAMP?
 
-From
-[Wikipedia](http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29):
+From [Wikipedia](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29):
 
 > LAMP is an acronym for a solution stack of free, open source software,
 > originally coined from the first letters of Linux (operating system), Apache

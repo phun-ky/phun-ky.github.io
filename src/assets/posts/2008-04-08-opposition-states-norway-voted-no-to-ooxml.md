@@ -18,7 +18,7 @@ tags:
 
 There's been a lot of fuzz lately in Norway about the whole OOXML vote process.
 Standard Norge has,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://phun-ky.net/2008/03/norway-says-yes-to-ooxml-despite-protests">despite
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://phun-ky.net/2008/03/norway-says-yes-to-ooxml-despite-protests">despite
 the opposition's majority vote against OOXML</a>, voted yes to OOXML. In
 response to this, Håkon Wium Lie, CTO of Opera Software and the rest of the
 opposition won't

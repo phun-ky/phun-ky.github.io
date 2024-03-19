@@ -8,9 +8,9 @@ tags: []
 ---
 
 I have not been as active as I was before in the
-[blogosphere](http://en.wikipedia.org/wiki/Blogosphere)
-the last year, I've been
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://phun-ky.net/2010/03/back-in-business">rather
+[blogosphere](https://en.wikipedia.org/wiki/Blogosphere) the last year, I've
+been
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://phun-ky.net/2010/03/back-in-business">rather
 busy you might say</a>. But things have changed and I swiped over my bookmarks
 of grade A blogs and stumpled upon an article over at
 [orderedlist.com](http://orderedlist.com),

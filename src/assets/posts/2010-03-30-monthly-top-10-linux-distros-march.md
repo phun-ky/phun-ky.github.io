@@ -7,11 +7,10 @@ category: 'Archive'
 tags: []
 ---
 
-An unofficial list from
-[DistroWatch.com](http://www.distrowatch.com)
-gives us a picture on the most popular Linux Distros in March:
+An unofficial list from [DistroWatch.com](http://www.distrowatch.com) gives us a
+picture on the most popular Linux Distros in March:
 
-- [Ubuntu](http://www.ubuntu.com)
+- [Ubuntu](https://ubuntu.com)
 - [Fedora](http://fedoraproject.org/)
 - [PCLinuxOS](http://pclinuxos.com/)
 - <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.linuxmint.com/">Mint

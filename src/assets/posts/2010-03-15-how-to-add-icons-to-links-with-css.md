@@ -9,7 +9,6 @@ category: 'How-to'
 tags: ['css']
 ---
 
-
 ## The CSS
 
 Put this in your css file, preferably after your global CSS notation for links.
@@ -17,27 +16,27 @@ I have added the most used icons/link types, so if you feel the need to update
 it, please do. Make sure you have the correct icons before you test it ;)
 
 ```css
-a[href^='http:'] {
+a[href^='https:'] {
   display: inline-block;
   padding-right: 20px;
   background: transparent url(/img/icons/page_link.png) center right no-repeat;
 }
 
-a[href^="http://twitter"]
+a[href^="https://twitter"]
 {
   display: inline-block;
   padding-right: 20px;
   background: transparent url(/img/icons/twitter_16.png) center right no-repeat;
 }
 
-a[href^="http://qik"]
+a[href^="https://qik"]
 {
   display: inline-block;
   padding-right: 20px;
   background: transparent url(/img/icons/qik_16.png) center right no-repeat;
 }
 
-a[href^="http://qik"]
+a[href^="https://qik"]
 {
   display: inline-block;
   padding-right: 20px;
@@ -51,7 +50,7 @@ a[href$='.rss'] {
   background: transparent url(/img/icons/rss_16.png) center left no-repeat;
 }
 
-a[href^="http://feeds."]
+a[href^="https://feeds."]
 {
   display: inline-block;
   padding-left: 20px;
@@ -59,21 +58,21 @@ a[href^="http://feeds."]
   background: transparent url(/img/icons/rss_16.png) center left no-repeat;
 }
 
-a[href^="http://digg"]
+a[href^="https://digg"]
 {
   display: inline-block;
   padding-right: 20px;
   background: transparent url(/img/icons/digg_16.png) center right no-repeat;
 }
 
-a[href^="http://facebook"]
+a[href^="https://facebook"]
 {
   display: inline-block;
   padding-right: 20px;
   background: transparent url(/img/icons/facebook_16.png) center right no-repeat;
 }
 
-a[href^="http://flickr"]
+a[href^="https://flickr"]
 {
   display: inline-block;
   padding-right: 20px;
@@ -177,5 +176,5 @@ a[href$='.rar'] {
 ## Recommended Icons to use
 
 I recommend the
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.famfamfam.com/lab/icons/silk/">Silk
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://www.famfamfam.com/lab/icons/silk/">Silk
 Icon set from famfamfam.com</a>. They are free to use for non-profit use.

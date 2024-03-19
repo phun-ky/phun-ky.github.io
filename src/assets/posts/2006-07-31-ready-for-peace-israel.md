@@ -38,7 +38,7 @@ The USA believes in lasting peace after the "announcement of cease fire" from
 the Israelis. Condoleezza Rice, you have to work harder!
 
 For more information for my Norwegian readers the article
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.dagbladet.no/nyheter/2006/07/31/472635.html">Israel
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://www.dagbladet.no/nyheter/2006/07/31/472635.html">Israel
 med nye angrep på Libanon</a> covers this post. And the latest entry at a very
 good blog, Borderlines,
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://nidstang.blogspot.com/2006/07/markering-mot-israels-massakre-i-qana.html">the

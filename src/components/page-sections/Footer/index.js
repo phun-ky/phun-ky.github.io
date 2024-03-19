@@ -10,7 +10,7 @@ export const Footer = (license = 'CC') => {
             rel="noopener noreferrer"
             target="_blank"
             class="ph"
-            href="http://phun-ky.net"
+            href="https://phun-ky.net"
             property="cc:attributionName"
             rel="cc:attributionURL"
           >
@@ -67,7 +67,7 @@ export const Footer = (license = 'CC') => {
           target="_blank"
           class="ph"
           rel="license"
-          href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
         >
           <img
             alt="Creative Commons Licence"
@@ -82,7 +82,7 @@ export const Footer = (license = 'CC') => {
           rel="noopener noreferrer"
           target="_blank"
           class="ph"
-          href="http://phun-ky.net"
+          href="https://phun-ky.net"
           property="cc:attributionName"
           rel="cc:attributionURL"
         >
@@ -94,7 +94,7 @@ export const Footer = (license = 'CC') => {
           target="_blank"
           class="ph"
           rel="license"
-          href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
         >
           Creative Commons Attribution-NonCommercial-ShareAlike 4.0
           International License </a

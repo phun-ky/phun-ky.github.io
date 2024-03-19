@@ -22,7 +22,7 @@ export const Header = () => {
       >
       <button class="ph darkmode-button">
         <svg
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
           aria-label="Sun Icon"
           fill="currentColor"
           stroke="none"
@@ -36,7 +36,7 @@ export const Header = () => {
           ></path>
         </svg>
         <svg
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="https://www.w3.org/2000/svg"
           aria-label="Moon Icon"
           fill="currentColor"
           stroke="none"

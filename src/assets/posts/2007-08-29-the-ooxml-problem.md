@@ -25,7 +25,7 @@ attempt to get the OOXML standard ISO certified.
 ## What is OOXML?
 
 OOXML is a document format developed by Microsoft and it has been certified by
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Ecma">Ecma
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Ecma">Ecma
 International</a>, a standards organization. The format is capable of making
 spreadsheets, presentations and ordinary rich text format documents. Microsoft
 is trying to get it ISO certified through MS's membership in Ecma. It looks like

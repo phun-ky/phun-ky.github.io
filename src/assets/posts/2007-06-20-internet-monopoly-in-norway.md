@@ -8,11 +8,9 @@ tags: [internet norway, telenor, NIX, monopoly, news]
 ---
 
 Internet monopoly in Norway is in the horizon: The largest web daily in Norway,
-[VG.no](http://www.vg.no)
-published an article that literally stunned me.
-[Telenor](http://www.telenor.no)
-, The largest ISP in Norway, are pulling themselves out of the Norwegian
-Internet Exchange (NIX)!
+[VG.no](https://vg.no) published an article that literally stunned me.
+[Telenor](http://www.telenor.no) , The largest ISP in Norway, are pulling
+themselves out of the Norwegian Internet Exchange (NIX)!
 
 What does this mean actually? Well, quoted from the article:
 

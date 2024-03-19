@@ -8,10 +8,9 @@ tags: []
 ---
 
 A big congratulations to
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Elon_Musk">Elon
-Musk</a>a> and his company
-[SpaceX](http://en.wikipedia.org/wiki/SpaceX)
-for the first privately sponsored rocket to reach orbit!
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Elon_Musk">Elon
+Musk</a>a> and his company [SpaceX](https://en.wikipedia.org/wiki/SpaceX) for
+the first privately sponsored rocket to reach orbit!
 
 This is another milestone after the human endavour of the space race that
 started in the 20th century. Now, it's a new space race!
@@ -19,5 +18,5 @@ started in the 20th century. Now, it's a new space race!
 I just can't wait to the day mankind can travel in space!
 
 A video of
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.youtube.com/v/8FQhtMrUQlE&hl=en&fs=1">the
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://youtube.com/v/8FQhtMrUQlE&hl=en&fs=1">the
 Falcon 1 with an interview with Elon Musk</a>.

@@ -1,6 +1,9 @@
 ---
 layout: post
-description: 'It has been two years [since last time](http://phun-ky.net/2008/03/attending-goopen-2008), but at last, this year I am attending [GoOpen](http://www.goopen.no) 2010!'
+description:
+  'It has been two years [since last
+  time](https://phun-ky.net/2008/03/attending-goopen-2008), but at last, this
+  year I am attending [GoOpen](http://www.goopen.no) 2010!'
 route: /2010/03/29/attending-goopen-2010
 title: 'Attending GoOpen 2010!'
 category: 'Archive'
@@ -61,9 +64,8 @@ implemented it.
 ### Public information made accessible - by CEO Norwegian Mapping Authority, Anne Cathrine Fr&oslash;strup
 
 I really going to enjoy this one, not just because she is presenting a keynote
-on how they've used
-[OSGeo](http://www.osgeo.org/),
-but because the keynote speaker is my cousin (first cousin once removed)!
+on how they've used [OSGeo](http://www.osgeo.org/), but because the keynote
+speaker is my cousin (first cousin once removed)!
 
 ### A Government's Vision Becomes Reality: OSS Implementation in the Malaysian Public Sector - by Tan King Ing
 
@@ -112,7 +114,7 @@ the OLPC project and how the OLPC prosject can help people in 3 world.
 ### The Open (Source) Way - by Jan Wildeboer, Red Hat's EMEA Evangelist
 
 > The internet changed everything. As Thomas Friedman explain in his book
-> Â«<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/The_World_Is_Flat">The
+> Â«<a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/The_World_Is_Flat">The
 > World is Flat</a>Â», the transaction-cost free communication of the internet
 > creates a wealth of possibilities to create, maintain and foster on open
 > society. Open Source and Free Software were merely the start. With Open Data,
@@ -143,6 +145,6 @@ own business.
 ## Follow GoOpen
 
 - [http://vimeo.com/channels/82181](http://vimeo.com/channels/82181)
-- [http://www.flickr.com/photos/friprog/sets/72157623294474110/](http://www.flickr.com/photos/friprog/sets/72157623294474110/)
+- [https://flickr.com/photos/friprog/sets/72157623294474110/](https://flickr.com/photos/friprog/sets/72157623294474110/)
 - [http://blogg.friprog.no/](http://blogg.friprog.no/)
 - [http://twitter.com/GoOpen/](http://twitter.com/GoOpen/)

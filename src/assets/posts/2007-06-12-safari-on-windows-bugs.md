@@ -24,9 +24,8 @@ updating his post with new bugs</a> in Safari.
 "The world best browser" indeed.. I did not test the other features, 'cause I
 was so hung up on the fact that it could not display tags correctly. At first
 glance, I thought that it was my fault with some really bad CSS, but no, I found
-the same bug on external sites as well, like:
-[vg.no](http://www.vg.no)
-, the most used news site in Norway.
+the same bug on external sites as well, like: [vg.no](https://vg.no) , the most
+used news site in Norway.
 
 I took notice that several bloggers that I'm reading did mention some problems
 with the browser crashing, I have not experienced that yet with Safari beta. Let

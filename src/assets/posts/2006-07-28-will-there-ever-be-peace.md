@@ -15,9 +15,9 @@ short.
 I used google to get some keywords and then worked my way in Wikipedia. Read
 some of the links to get the point of the posted comic.
 
-- [http://www.google.no/search?q=will+there+ever+be+pe...](http://www.google.no/search?q=will+there+ever+be+peace+in+the+middle+east)
+- [https://www.google.no/search?q=will+there+ever+be+pe...](https://www.google.no/search?q=will+there+ever+be+peace+in+the+middle+east)
   <br/>
-- [http://en.wikipedia.org/wiki/1947_UN_Partition_Plan](http://en.wikipedia.org/wiki/1947_UN_Partition_Plan)
+- [https://en.wikipedia.org/wiki/1947_UN_Partition_Plan](https://en.wikipedia.org/wiki/1947_UN_Partition_Plan)
   <br/>
 - [http://www.freeman.org/m_onl....](http://www.freeman.org/m_online/apr00/shapiro1.htm)
   <br/>

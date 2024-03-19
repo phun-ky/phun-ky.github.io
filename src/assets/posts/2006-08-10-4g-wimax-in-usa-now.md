@@ -8,7 +8,7 @@ tags: [tech-news, 4g, mobile internet, mobile data, 3g]
 ---
 
 According to VG, a Norwegian daily,
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.vg.no/pub/vgart.hbs?artid=126024">USA
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://vg.no/pub/vgart.hbs?artid=126024">USA
 is starting to build a 4g Mobile Net</a> . I find these news hillarious, due the
 the fact that they have not implementet 3g yet.
 
@@ -24,15 +24,15 @@ Check back to see when it's ready.) A little quote from the paper:
 > system, EDGE(it builds on the GSM Net)
 
 More
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/3g">about
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/3g">about
 3g can be read here</a>, and more
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Wimax">about
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Wimax">about
 WiMax here</a>. Btw, there are NO entries on 4g on Wikipedia, give it a thought.
 <span class="medium">update!</span>
 
 I've asked the journalist of the 4g article in VG,
-[Pål Unanue-Zahl](mailto:pal.unanue@vg.no) to reflect over this issue
-and to check this post. His reply was:
+[Pål Unanue-Zahl](mailto:pal.unanue@vg.no) to reflect over this issue and to
+check this post. His reply was:
 
 > They use it more like a nick name, nothing more. 3G and words like it are
 > mostly words for the laity... :/ Sprint says they will start with this next

@@ -38,12 +38,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_
 
 by
 <a rel="nofollow" class="ph external text" href="http://flickr.com/photos/44124348109@N01">Steve
-Jurvetson</a> -
-[Flickr](http://flickr.com/photos/44124348109@N01/898622334).
+Jurvetson</a> - [Flickr](http://flickr.com/photos/44124348109@N01/898622334).
 Licensed under
 <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC
-BY 2.0</a> via
-[Commons](https://commons.wikimedia.org/wiki/).
+BY 2.0</a> via [Commons](https://commons.wikimedia.org/wiki/).
 
 {% /figure %}
 
@@ -82,8 +80,7 @@ by
 [http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png](http://www.martingrandjean.ch/wp-content/uploads/2013/10/Graphe3.png).
 Licensed under
 <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC
-BY-SA 3.0</a> via
-[Commons](https://commons.wikimedia.org/wiki/).
+BY-SA 3.0</a> via [Commons](https://commons.wikimedia.org/wiki/).
 
 {% /figure %}
 
@@ -198,7 +195,8 @@ term?
 >
 > <footer class="ph">
 >
-> – [Russom, Philip - The Ramifications of Trusted Data](http://tdwi.org/articles/2010/11/04/experts-trusted-data.aspx)
+> –
+> [Russom, Philip - The Ramifications of Trusted Data](http://tdwi.org/articles/2010/11/04/experts-trusted-data.aspx)
 >
 > </footer>
 
@@ -301,9 +299,8 @@ There are many, far too many, examples on erroneous data:
 %}
 
 by <span class="fn value">Alexander Vassbotn Røyne-Helgesen
-([http://phun-ky.net](http://phun-ky.net))</span>.
-Licensed under Attribution International via
-[Commons](http://creativecommons.org/licenses/by/4.0/).
+([https://phun-ky.net](https://phun-ky.net))</span>. Licensed under Attribution
+International via [Commons](http://creativecommons.org/licenses/by/4.0/).
 
 {% /figure %}
 
@@ -387,8 +384,7 @@ by
 <a class="ph" href="//commons.wikimedia.org/wiki/User:Liannadavis" title="User:Liannadavis">LiAnna
 Davis</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under
 <a class="ph" title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC
-BY-SA 3.0</a> via
-[Commons](https://commons.wikimedia.org/wiki/).
+BY-SA 3.0</a> via [Commons](https://commons.wikimedia.org/wiki/).
 
 {% /figure %}
 
@@ -476,9 +472,9 @@ interpret data.
 %}
 
 by
-<a rel="nofollow" class="ph external text" href="http://www.flickr.com/people/24431382@N03">Eric
+<a rel="nofollow" class="ph external text" href="https://flickr.com/people/24431382@N03">Eric
 Fischer</a> -
-<a rel="nofollow" class="ph external text" href="http://www.flickr.com/photos/walkingsf/5092042245/">Quarts
+<a rel="nofollow" class="ph external text" href="https://flickr.com/photos/walkingsf/5092042245/">Quarts
 of milk</a>. Licensed under
 <a class="ph" title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC
 BY 2.0</a> via <a class="ph" href="//commons.wikimedia.org/wiki/">Wikimedia

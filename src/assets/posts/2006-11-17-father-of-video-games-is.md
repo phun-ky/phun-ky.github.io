@@ -10,13 +10,12 @@ tags: [video games, history, gaming, gaming history]
 During the research for my paper, I stumbled over an article that claimed that
 the father of the video games was William Higinbotham. The article was published
 on a norwegian site for research papers,
-[forskning.no](http://www.forskning.no/Artikler/2004/mars/1077822052.02)
-a view also supported by an article on
-[Wikipedia.org](http://en.wikipedia.org/wiki/William_Higinbotham).
-Quite amazing the setup he used for the game. But that's not the point, further
-in my research I stumbled across
-[PONG-Story](http://www.pong-story.com/),
-a site dedicated to "the inventor of the video game" written by David Winter.
+[forskning.no](http://www.forskning.no/Artikler/2004/mars/1077822052.02) a view
+also supported by an article on
+[Wikipedia.org](https://en.wikipedia.org/wiki/William_Higinbotham). Quite
+amazing the setup he used for the game. But that's not the point, further in my
+research I stumbled across [PONG-Story](http://www.pong-story.com/), a site
+dedicated to "the inventor of the video game" written by David Winter.
 
 I contaced Winter via mail and asked him for a comment on these articles, read
 below.
@@ -27,7 +26,7 @@ My email to David Winter:
 > university in Norway, and would like a comment on something that I found odd.
 > You say that it is Ralph Baer that is the father of the video games, but isn't
 > it William Higinbotham that made the world first video game?
-> http://en.wikipedia.org/wiki/Willy_Higinbotham . Looking forward to a comment
+> https://en.wikipedia.org/wiki/Willy_Higinbotham . Looking forward to a comment
 > from you.
 
 His reply was:

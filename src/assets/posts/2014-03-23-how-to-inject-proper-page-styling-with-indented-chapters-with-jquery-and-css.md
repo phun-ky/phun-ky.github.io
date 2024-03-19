@@ -3,7 +3,12 @@ route: /2014/03/23/how-to-inject-proper-page-styling-with-indented-chapters-with
 title:
   'How to inject proper page styling, with indented chapters, with jQuery and
   CSS'
-description: 'A friend of mine had an issue with a [Drupal](https://drupal.org/) theme page, where he could not change the HTML structure to fit his needs with the indented chapter styling. He got it fixed initially by using CSS selectors that increased in size for each chapter, a method that "worked", but was not very efficient.'
+description:
+  'A friend of mine had an issue with a [Drupal](https://drupal.org/) theme
+  page, where he could not change the HTML structure to fit his needs with the
+  indented chapter styling. He got it fixed initially by using CSS selectors
+  that increased in size for each chapter, a method that "worked", but was not
+  very efficient.'
 category: 'How-to'
 tags: [how-to, javascript, jquery, drupal, chapter-styling, css, DOM]
 ---
@@ -1051,12 +1056,12 @@ I found a better solution, by manipulating the DOM with
 
 <p data-height="500" data-theme-id="5306" data-slug-hash="xKqlu" data-default-tab="result" class="codepen">
 See the Pen
-<a class="ph" target="_blank" rel="noopener noreferrer" href="http://codepen.io/phun-ky/pen/xKqlu/">How
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://codepen.io/phun-ky/pen/xKqlu/">How
 to inject proper paper styling to document</a> by Alexander Vassbotn
 Røyne-Helgesen
-([@phun-ky](http://codepen.io/phun-ky))
+([@phun-ky](https://codepen.io/phun-ky))
 on
-[CodePen](http://codepen.io).
+[CodePen](https://codepen.io).
 </p>
 
 <script async="async" src="//codepen.io/assets/embed/ei.js"></script>

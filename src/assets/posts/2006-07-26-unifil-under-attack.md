@@ -11,9 +11,7 @@ The Israeli's are still bombing Lebanon to smithereens and Tuesday night four FN
 observers where killed under an Israeli attack. This is not tolerable!
 
 Ehud Olmert is apologizing lightly and is not pleased of the accusation that
-they bombed
-[UNIFIL](http://en.wikipedia.org/wiki/UNIFIL)
-forces with intent.
+they bombed [UNIFIL](https://en.wikipedia.org/wiki/UNIFIL) forces with intent.
 
 Kofi Annan is "shocked" and demands a full investigation of the Israeli attack.
 For more information on this event, please, read

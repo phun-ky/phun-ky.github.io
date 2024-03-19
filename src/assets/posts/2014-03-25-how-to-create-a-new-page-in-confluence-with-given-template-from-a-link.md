@@ -53,7 +53,7 @@ this:
  * Feature to add a template to creation of pages from undefined links in Confluence
  *
  * @author    Alexander Vassbotn Røyne-Helgesen <alexander@phun-ky.net>
- * @link      http://phun-ky.net
+ * @link      https://phun-ky.net
  * @license   http://creativecommons.org/licenses/by-sa/4.0/
  *
  * This code is licensed with a
@@ -108,9 +108,9 @@ $('#main-content a[href^="/confluence/pages/createpage.action"]').each(
       'href',
       _undefined_link_to_add_template_to +
         '&templateId=' +
-        _template_id_to_append,
+        _template_id_to_append
     );
-  },
+  }
 );
 ```
 
