@@ -2,7 +2,7 @@
 route: /2024/02/09/better-frontend-developer-experience
 title: 'Better frontend developer experience'
 description:
-  'Over my 24 years of programming, developing applications, snippets, servers,
+  'Over my 26 years of programming, developing applications, snippets, servers,
   APIs etc, I have been through a lot of different coding setups, editors,
   environments and so on. To sum up parts of my experience, I am attempting to
   disclose to you how you can have the best frontend developer experience.'
