@@ -10,11 +10,11 @@ export const Author = () => {
         Hi! My name is Alexander, and I am a creative frontender, specializing
         in UX, accessibility, universal design, frontend-architecture, node and
         design systems. I am passionate with open source projects and love to
-        dabble with new emerging technologies related to frontend. With over 24
-        years of frontend experience, I have earned the right to be called a
-        veteran. I am a lover of life, technologist at heart. If I am not
-        coding, I am cooking and I love whisky and cigars. Oh, and coffee, I
-        LOVE coffee!
+        dabble with new emerging technologies related to frontend. With over
+        ${new Date().getFullYear() - new Date('1998').getFullYear()} years of
+        frontend experience, I have earned the right to be called a veteran. I
+        am a lover of life, technologist at heart. If I am not coding, I am
+        cooking and I love whisky and cigars. Oh, and coffee, I LOVE coffee!
       </p>
       <p class="ph">
         If you want to know more about me, here is some links you might want to
