@@ -58,20 +58,24 @@
     />
     <style type="text/css">
       .ph-speccer.speccer {
-        --ph-speccer-color-padding: var(--ph-color-background-notice-important);
-        --ph-speccer-color-padding-hover: rgba(163, 113, 247, 1);
-        --ph-speccer-color-margin: var(--ph-color-background-notice-warning);
-        --ph-speccer-color-margin-hover: rgba(210, 153, 34, 1);
+        --ph-speccer-spacing-color-padding: var(
+          --ph-color-background-notice-important
+        );
+        --ph-speccer-spacing-color-padding-hover: rgba(163, 113, 247, 1);
+        --ph-speccer-spacing-color-margin: var(
+          --ph-color-background-notice-warning
+        );
+        --ph-speccer-spacing-color-margin-hover: rgba(210, 153, 34, 1);
         --ph-speccer-color-text-light: #000000;
         --ph-speccer-color-text-dark: var(--ph-color-text-accent);
-        --ph-speccer-color-contrast: #ffc72c;
+        --ph-speccer-base-color: #ffc72c;
         --ph-speccer-mark-background-color: var(
           --ph-color-background-notice-error
         );
         --ph-speccer-mark-border-color: rgba(248, 81, 73, 1);
-        --ph-speccer-spacing-color: var(--ph-speccer-color-contrast);
+        --ph-speccer-spacing-color: var(--ph-speccer-base-color);
         --ph-speccer-measure-color: #ffc72c;
-        --ph-speccer-pin-color: var(--ph-speccer-color-contrast);
+        --ph-speccer-pin-color: var(--ph-speccer-base-color);
         --ph-speccer-typography-background-color: var(
           --ph-color-well-background
         );
@@ -85,7 +89,7 @@
     </style>
   </head>
   <body class="ph">
-    <div class="ph app project speccer" id="app" data-anatomy-section>
+    <div class="ph app project speccer" id="app" data-speccer="pin-area">
       {{PAGE_SECTION_HEADER}}
 
       <main class="ph">
@@ -135,7 +139,7 @@
             <a
               href="https://www.npmjs.com/package/@phun-ky/speccer"
               class="ph button"
-              data-anatomy="outline"
+              data-speccer="pin"
               >npm</a
             >
           </div>
@@ -156,7 +160,7 @@
               useful for a variety of purposes, such as:
             </p>
 
-            <ul class="ph" data-anatomy="outline enclose top">
+            <ul class="ph" data-speccer="pin enclose top">
               <li class="ph">
                 Showcasing the different parts of a component or design system
               </li>
@@ -182,7 +186,7 @@
             <h2 class="ph">See It in Action</h2>
             <!-- Embed a demo here or provide a link to a live demo -->
             <a
-              href="https://codepen.io/phun-ky/full/xaOrYX"
+              href="https://codepen.io/phun-ky/pen/OJejexN"
               target="_blank"
               class="ph button cta"
               >View Demo</a
@@ -198,7 +202,7 @@
               <img
                 loading="lazy"
                 class="ph"
-                src="/img/speccer/spacing.png"
+                src="/img/speccer/speccer-spacing-dark.png"
                 alt=""
                 role="presentation"
               />
@@ -212,7 +216,7 @@
               <img
                 loading="lazy"
                 class="ph"
-                src="/img/speccer/measure.png"
+                src="/img/speccer/speccer-measure-right-light.png"
                 alt=""
                 role="presentation"
               />
@@ -226,7 +230,7 @@
               <img
                 loading="lazy"
                 class="ph"
-                src="/img/speccer/anatomy.png"
+                src="/img/speccer/speccer-pin-parent-align-light.png"
                 alt=""
                 role="presentation"
               />
@@ -235,12 +239,12 @@
                 structure.
               </p>
             </div>
-            <div class="ph feature" data-anatomy="outline">
+            <div class="ph feature" data-speccer="pin">
               <h3 class="ph">Highlight Typography</h3>
               <img
                 loading="lazy"
                 class="ph"
-                src="/img/speccer/typography.png"
+                src="/img/speccer/speccer-typography-light.png"
                 alt=""
                 role="presentation"
               />
@@ -251,7 +255,7 @@
               <img
                 loading="lazy"
                 class="ph"
-                src="/img/speccer/mark.png"
+                src="/img/speccer/speccer-pin-mark-light.png"
                 alt=""
                 role="presentation"
               />
@@ -262,7 +266,7 @@
               <img
                 loading="lazy"
                 class="ph"
-                src="/img/speccer/a11y-tabstop.png"
+                src="/img/speccer/speccer-a11y-tabstops-light.png"
                 alt=""
                 role="presentation"
               />
@@ -281,7 +285,7 @@
               <li class="ph">Highly customizable</li>
               <li class="ph">
                 Supports a variety of highlight types, including pins, markers,
-                arrows, and more
+                text and more
               </li>
               <li class="ph">Can be used on web pages and in documentation</li>
             </ul>
@@ -309,10 +313,13 @@
             <h2 class="ph">Get Started</h2>
             <p class="ph">
               Ready to enhance your documentation and web projects? Follow these
-              simple steps to get started with speccer:
+              simple steps to get started with
+              <strong class="ph">SPECCER</strong>:
             </p>
             <ol class="ph">
-              <li class="ph">Install speccer via npm:</li>
+              <li class="ph">
+                Install <strong class="ph">SPECCER</strong> via npm:
+              </li>
               <code class="ph language-">npm i @phun-ky/speccer</code>
               <li class="ph">
                 Choose your preferred integration method, whether it's
@@ -370,17 +377,6 @@
               src="https://platform.twitter.com/widgets.js"
               charset="utf-8"
             ></script>
-          </div>
-        </section>
-        <section class="ph">
-          <div class="ph container">
-            <h2 class="ph">Used by</h2>
-            <span
-              class="ph used-by-logo"
-              style="
-                background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'https://www.w3.org/2000/svg\' viewBox=\'0 0 113.4 111.6\'%3E%3Cpath d=\'M113.4 55.8c0 30.8-25.4 55.8-56.7 55.8-31.3 0-56.7-25-56.7-55.8C0 25 25.4 0 56.7 0c31.3 0 56.7 25 56.7 55.8z\' fill=\'%230054f0\'/%3E%3Cg fill=\'%23fff\'%3E%3Cpath d=\'M49.4 40.7c-.1.3.1.6.4.6l4.8-.1s-6.5 26-7.8 31.3c-1.6 6.6-4.3 13.3-6.2 15.7-1.7 2.1-2.8 2.8-4 2.8-1.6 0-2.4-1.2-2.9-3.1-.3-1.4-1.2-3.3-3.2-3.3-2.1 0-4.9 2.3-4.9 5.2 0 3.8 6.4 4.7 8.5 4.7 4.2 0 9.7-2.7 13.3-6.9 4.7-5.3 7.3-11.9 9.7-21.2L63 41.1l6.2.1c.5 0 .7-.4.8-.6l.8-2.3c.1-.3-.1-.6-.4-.6H64c1.5-5.4 3.8-13.3 8.2-17.6.4-.4 1.5-1.3 2.5-1.3 1.7 0 2.2 1 3 2.6.7 1.6.6 4.3 3 4.3 2.8 0 4.9-3.1 4.9-5.2 0-2.9-5-4.8-9.1-4.8-4.7 0-9.3 2-12.6 5.3-4.7 4.8-6.9 11.9-8.4 16.8l-4.8-.1c-.3 0-.6.3-.7.5zm24.9 26.4c-.1 1.3-.8 4.8-4.7 4.8-2.3 0-4-1.5-3.8-4.2.1-2.7 2-4.9 4.7-5 1.8.1 4 1.3 3.8 4.4zm13.9 0c-.1 1.3-.8 4.8-4.7 4.8-2.3 0-4-1.5-3.8-4.2.1-2.7 2-4.9 4.7-5 1.7.1 3.9 1.3 3.8 4.4zm13.8 0c-.1 1.3-.8 4.8-4.7 4.8-2.3 0-4-1.5-3.8-4.2.1-2.7 2-4.9 4.7-5 1.8.1 3.9 1.3 3.8 4.4zM42.5 20.3c-2.9.1-4.9 2.4-5.1 5.3-.2 2.8 1.5 4.4 4 4.4 4.2 0 5.1-3.8 5.1-5.2.2-3.2-2-4.5-4-4.5z\'/%3E%3Cpath d=\'M35.6 57.4L40 46.7c.9-2.1 2-4.9 2-6.8 0-2.4-1.8-3-3.1-3-6 0-12.4 7-14.8 9.8-.2.2-.3.6.1.9l1.1 1.1c.2.2.6.2.8-.1 0 0 2.9-3.2 4-4 .3-.2.7-.5 1-.5.4 0 .6.6.6.9 0 1-1 3.4-1.5 4.6l-4.6 11.7c-1.6 3.9-2.4 6-2.4 7.7 0 2 1.1 3.6 3.9 3.6 6.4 0 14.4-9.6 14.4-9.6.3-.4.2-.7 0-.9L40.3 61c-.2-.2-.6-.3-.9 0 0 0-4.3 4.8-5.8 4.8-.7 0-.6-.8-.6-.9 0-.7.4-2 .7-2.6z\'/%3E%3C/g%3E%3C/svg%3E');
-              "
-            ></span>
           </div>
         </section>
 
