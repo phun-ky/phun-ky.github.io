@@ -61,6 +61,6 @@
     "rollup-plugin-generate-image-sizes": "^0.0.20",
     "rollup-plugin-node-externals": "^6.0.1",
     "rollup-plugin-svg-import": "^2.0.0",
-    "stylus": "^0.62.0"
+    "stylus": "^0.63.0"
   }
 }
