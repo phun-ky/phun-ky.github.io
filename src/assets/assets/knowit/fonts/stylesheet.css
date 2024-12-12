@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Bold'), local('BagossCondensed-Bold'),
+        url('BagossCondensed-Bold.woff2') format('woff2'),
+        url('BagossCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Thin Italic'), local('BagossCondensed-ThinItalic'),
+        url('BagossCondensed-ThinItalic.woff2') format('woff2'),
+        url('BagossCondensed-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Light Italic'), local('BagossCondensed-LightItalic'),
+        url('BagossCondensed-LightItalic.woff2') format('woff2'),
+        url('BagossCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed SemiBold'), local('BagossCondensed-SemiBold'),
+        url('BagossCondensed-SemiBold.woff2') format('woff2'),
+        url('BagossCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Regular'), local('BagossCondensed-Regular'),
+        url('BagossCondensed-Regular.woff2') format('woff2'),
+        url('BagossCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Medium'), local('BagossCondensed-Medium'),
+        url('BagossCondensed-Medium.woff2') format('woff2'),
+        url('BagossCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Thin'), local('BagossCondensed-Thin'),
+        url('BagossCondensed-Thin.woff2') format('woff2'),
+        url('BagossCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Bold'), local('BagossStandard-Bold'),
+        url('BagossStandard-Bold.woff2') format('woff2'),
+        url('BagossStandard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed SemiBold Italic'), local('BagossCondensed-SemiBoldItalic'),
+        url('BagossCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('BagossCondensed-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Regular'), local('BagossStandard-Regular'),
+        url('BagossStandard-Regular.woff2') format('woff2'),
+        url('BagossStandard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Medium Italic'), local('BagossCondensed-MediumItalic'),
+        url('BagossCondensed-MediumItalic.woff2') format('woff2'),
+        url('BagossCondensed-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Bold Italic'), local('BagossCondensed-BoldItalic'),
+        url('BagossCondensed-BoldItalic.woff2') format('woff2'),
+        url('BagossCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Thin'), local('BagossStandard-Thin'),
+        url('BagossStandard-Thin.woff2') format('woff2'),
+        url('BagossStandard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Medium Italic'), local('BagossStandard-MediumItalic'),
+        url('BagossStandard-MediumItalic.woff2') format('woff2'),
+        url('BagossStandard-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Thin Italic'), local('BagossStandard-ThinItalic'),
+        url('BagossStandard-ThinItalic.woff2') format('woff2'),
+        url('BagossStandard-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard SemiBold'), local('BagossStandard-SemiBold'),
+        url('BagossStandard-SemiBold.woff2') format('woff2'),
+        url('BagossStandard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard SemiBold Italic'), local('BagossStandard-SemiBoldItalic'),
+        url('BagossStandard-SemiBoldItalic.woff2') format('woff2'),
+        url('BagossStandard-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Light'), local('BagossCondensed-Light'),
+        url('BagossCondensed-Light.woff2') format('woff2'),
+        url('BagossCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Condensed';
+    src: local('Bagoss Condensed Regular Italic'), local('BagossCondensed-RegularItalic'),
+        url('BagossCondensed-RegularItalic.woff2') format('woff2'),
+        url('BagossCondensed-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Light'), local('BagossStandard-Light'),
+        url('BagossStandard-Light.woff2') format('woff2'),
+        url('BagossStandard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Medium'), local('BagossStandard-Medium'),
+        url('BagossStandard-Medium.woff2') format('woff2'),
+        url('BagossStandard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Light Italic'), local('BagossStandard-LightItalic'),
+        url('BagossStandard-LightItalic.woff2') format('woff2'),
+        url('BagossStandard-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Regular Italic'), local('BagossStandard-RegularItalic'),
+        url('BagossStandard-RegularItalic.woff2') format('woff2'),
+        url('BagossStandard-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Extended';
+    src: local('Bagoss Extended Bold'), local('BagossExtended-Bold'),
+        url('BagossExtended-Bold.woff2') format('woff2'),
+        url('BagossExtended-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bagoss Standard';
+    src: local('Bagoss Standard Bold Italic'), local('BagossStandard-BoldItalic'),
+        url('BagossStandard-BoldItalic.woff2') format('woff2'),
+        url('BagossStandard-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
