@@ -111,23 +111,6 @@ export const GlobalCSS = () => {
         font-size: 1rem;
         line-height: 1.75rem;
       }
-      article.ph p,
-      article.ph p.ph {
-        text-align: justify;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      article.ph ol,
-      article.ph ul {
-        max-width: 65ch;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      article.ph h2,
-      article.ph h3,
-      article.ph h4 {
-        text-align: center;
-      }
       p.lead,
       p.ph.lead {
         color: var(--ph-color-text-accent, #e4e4e7);
