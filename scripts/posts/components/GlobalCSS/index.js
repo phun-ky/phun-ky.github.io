@@ -123,6 +123,11 @@ export const GlobalCSS = () => {
         margin-left: auto;
         margin-right: auto;
       }
+      article.ph h2,
+      article.ph h3,
+      article.ph h4 {
+        text-align: center;
+      }
       p.lead,
       p.ph.lead {
         color: var(--ph-color-text-accent, #e4e4e7);
