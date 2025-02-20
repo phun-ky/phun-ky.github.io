@@ -48,6 +48,33 @@ export const BodyScripts = () => {
       })
     }
 
+    const pubDateElements = document.querySelectorAll('.ph.post-meta time[pubdate]');
+
+    [...pubDateElements].forEach((el) => {
+      const datetime = el.getAttribute('datetime');
+      if(!datetime) return;
+      const dtf = new Intl.DateTimeFormat('en', {
+        year: 'numeric',
+        month: 'long',
+        day: '2-digit'
+      });
+      const [year, month, day] = datetime.split('-');
+      const publishedData = new Date('' + year + '/' + month + '/' + day + '');
+      const todayDate = new Date();
+      const formattedDate = dtf.format(publishedData.getTime());
+      const diffDays = parseInt(
+        (todayDate - publishedData) / (1000 * 60 * 60 * 24),
+        10
+      );
+      const displayDate =
+            diffDays > 6
+              ? 'on  ' + formattedDate
+              : diffDays === 0
+                ? 'today'
+                : '' + diffDays + ' days ago';
+      el.innerHTML = '&nbsp;• ' + displayDate;
+    });
+
     const readTimeElement = document.querySelector('.ph.read-time');
 
     if(readTimeElement){
