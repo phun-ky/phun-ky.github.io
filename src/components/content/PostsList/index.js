@@ -3,6 +3,7 @@ import { slugify } from '../../../utils/slugify.js';
 import { Link } from '../../navigation/Link/index.js';
 
 const html = String.raw;
+const MAX_TOP_POSTS = 20;
 
 export const PostsList = (posts, quantity = 20, excludeCategory) => {
   if (excludeCategory && typeof excludeCategory === 'string') {
@@ -17,11 +18,11 @@ export const PostsList = (posts, quantity = 20, excludeCategory) => {
 
   let extraPosts = '';
 
-  if (posts.length > 20) {
+  if (posts.length > MAX_TOP_POSTS) {
     extraPosts = html`<h2 class="ph">Older posts</h2>
       <ul class="ph">
         ${posts
-    .slice(20, posts.length - 20)
+    .slice(MAX_TOP_POSTS, posts.length)
     .map((post) => {
       const { title, url, year, month, day } = post;
 
@@ -38,7 +39,7 @@ export const PostsList = (posts, quantity = 20, excludeCategory) => {
 
   return html`<ul class="ph posts">
       ${posts
-    .slice(0, 20)
+    .slice(0, MAX_TOP_POSTS)
     .map((post) => {
       const { title, description, url, year, month, day, category } = post;
       const dtf = new Intl.DateTimeFormat('en', {

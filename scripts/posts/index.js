@@ -22,7 +22,7 @@ import { Analytics } from './components/Analytics/index.js';
 let tags = [];
 let html = '';
 
-const NUMBER_OF_POSTS_ON_FRONTPAGE = 20;
+const NUMBER_OF_POSTS_ON_FRONTPAGE = '*';
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(DIR_NAME, '../../src/assets/posts');
 const TEMPLATE_PATH = resolve(DIR_NAME, '../../src/pages/Index/template.html');
