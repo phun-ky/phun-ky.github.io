@@ -92,7 +92,7 @@ uniqueCategories.forEach((category) => {
   html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
   html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
   html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
-  html = html.replace(/{{CATEGORY_TITLE}}/, category);
+  html = html.replaceAll(/{{CATEGORY_TITLE}}/g, category);
   html = html.replace(/{{CATEGORY_DESCRIPTION}}/, '');
   html = html.replace(/{{POST_TAGS}}/, Tags([...new Set(categoryTags)]));
 
