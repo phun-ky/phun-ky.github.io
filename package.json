@@ -33,10 +33,10 @@
   },
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
-    "@ironkinoko/rollup-plugin-styles": "^4.0.3",
-    "@markdoc/markdoc": "^0.3.2",
+    "@ironkinoko/rollup-plugin-styles": "^4.0.4",
+    "@markdoc/markdoc": "^0.5.2",
     "@rollup/plugin-commonjs": "^25.0.1",
-    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "conventional-changelog-conventionalcommits": "^7.0.2",
@@ -45,14 +45,14 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-compat": "^4.1.2",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^4.2.1",
     "git-cz": "^4.9.0",
     "glob": "^10.3.7",
     "htmlparser2": "^9.0.0",
     "js-yaml": "^4.1.0",
     "jsdom": "^22.1.0",
-    "postcss": "^8.4.32",
+    "postcss": "^8.5.6",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1",
@@ -61,6 +61,6 @@
     "rollup-plugin-generate-image-sizes": "^0.0.20",
     "rollup-plugin-node-externals": "^6.0.1",
     "rollup-plugin-svg-import": "^2.0.0",
-    "stylus": "^0.62.0"
+    "stylus": "^0.64.0"
   }
 }
