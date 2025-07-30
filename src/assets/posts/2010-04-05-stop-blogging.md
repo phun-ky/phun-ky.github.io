@@ -9,10 +9,8 @@ tags: []
 
 I have not been as active as I was before in the
 [blogosphere](https://en.wikipedia.org/wiki/Blogosphere) the last year, I've
-been
-<a class="ph" target="_blank" rel="noopener noreferrer" href="https://phun-ky.net/2010/03/back-in-business">rather
-busy you might say</a>. But things have changed and I swiped over my bookmarks
-of grade A blogs and stumpled upon an article over at
+been rather busy you might say. But things have changed and I swiped over my
+bookmarks of grade A blogs and stumpled upon an article over at
 [orderedlist.com](http://orderedlist.com),
 "<a class="ph" target="_blank" rel="noopener noreferrer" href="http://orderedlist.com/our-writing/blog/articles/stop-blogging/">Stop
 Blogging</a>" by Steve Smith. The article was not mind-blowing, but I felt

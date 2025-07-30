@@ -3,7 +3,10 @@ route: /2015/09/14/how-to-work-with-trusted-data
 title: 'How to work with Trusted Data'
 tagline: 'What can we do to make sure the data we have is trustworthy?'
 description:
-  'The [previous article on "Trusted Data"](/2015/09/09/trusted-data), covered the definition on the term, but the article did not provide any leads yet on how to act on this. How do you work with data and ensure the data is trustworthy?'
+  'The [previous article on "Trusted Data"](/2015/09/09/trusted-data), covered
+  the definition on the term, but the article did not provide any leads yet on
+  how to act on this. How do you work with data and ensure the data is
+  trustworthy?'
 category: 'Technology'
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg
 tags: [trusted-data, data, how-to]
@@ -11,11 +14,11 @@ tags: [trusted-data, data, how-to]
 
 **Table of Contents**
 
-1. [Sources](#sources)
-2. [Interpretation](#interpretation)
-   1. [False positives](#false-positives)
-3. [Data](#data)
-4. [A final word](#a-final-word)
+- [Sources](#sources)
+- [Interpretation](#interpretation)
+  - [False positives](#false-positives)
+- [Data](#data)
+- [A final word](#a-final-word)
 
 We will now cover those questions, and we begin with some key areas on how you
 can collect and process data. This could be used as a check list to make data
@@ -26,8 +29,11 @@ more trustworthy.
   src="<https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg/640px-RAILROAD_WORK_CREW_IMPROVES_THE_TRACKS_AND_BED_OF_THE_ATCHISON%2C_TOPEKA_AND_SANTA_FE_RAILROAD_NEAR_BELLEFONT%2C_KANSAS..._-_NARA_-_556012.jpg>"
 %}
 
-by Charles O'Rear, 1941-, Photographer ([NARA record: 3403717](//research.archives.gov/person/3403717)) - [U.S. National Archives and Records Administration](//en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration). Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
-  
+by Charles O'Rear, 1941-, Photographer
+([NARA record: 3403717](//research.archives.gov/person/3403717)) -
+[U.S. National Archives and Records Administration](//en.wikipedia.org/wiki/U.S._National_Archives_and_Records_Administration).
+Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
+
 {% /figure %}
 
 ## Sources
@@ -45,7 +51,8 @@ by Charles O'Rear, 1941-, Photographer ([NARA record: 3403717](//research.archiv
 >
 > <footer class="ph">
 >
-> – [Evaluating Sources: Overview, Online Writing Lab, Purdue University](https://owl.english.purdue.edu/owl/resource/553/01/)
+> –
+> [Evaluating Sources: Overview, Online Writing Lab, Purdue University](https://owl.english.purdue.edu/owl/resource/553/01/)
 >
 > </footer>
 
@@ -57,7 +64,7 @@ source and validate the data itself.
 To recap on what sources could be:
 
 - Wife
-  <sup><a class="ph" href="/2015/09/09/trusted-data/#interpretation-of-data">(telling
+  <sup><a class="ph" href="/2015/09/09/trusted-data#interpretation-of-data">(telling
   you what to get in the store)</a></sup>
 - The TV-schedule
 - API-service
@@ -136,7 +143,9 @@ One example on false positives that could have resulted in World War 3, is the
 >
 > <footer class="ph">
 >
-> – [http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident](http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident)
+> –
+> [http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident](http://io9.com/5664390/5-times-we-almost-nuked-ourselves-by-accident)
+>
 > </footer>
 
 ## Data
@@ -173,12 +182,18 @@ information, be certain you have the correct information.
 There are some organizations and standards that work to enhance and refine data
 and credibility of sources.
 
-[The Stanford Web Credibility Research Project](http://credibility.stanford.edu/) (part of [the Persuasive Technology Lab](http://captology.stanford.edu/)) at Stanford University are investigating questions such as:
+[The Stanford Web Credibility Research Project](http://credibility.stanford.edu/)
+(part of
+[the Persuasive Technology Lab](https://en.wikipedia.org/wiki/Stanford_Behavior_Design_Lab))
+at Stanford University are investigating questions such as:
 
-- *What causes people to believe (or not believe) what they find on the Web?
-- *What strategies do users employ in evaluating the credibility of on-line sources?
-- *What contextual and design factors influence these assessments and strategies?
+- \*What causes people to believe (or not believe) what they find on the Web?
+- \*What strategies do users employ in evaluating the credibility of on-line
+  sources?
+- \*What contextual and design factors influence these assessments and
+  strategies?
 
-[TrustRank](https://en.wikipedia.org/wiki/TrustRank) is a technique used for semi-automatic separation of useful web pages from spam.
+[TrustRank](https://en.wikipedia.org/wiki/TrustRank) is a technique used for
+semi-automatic separation of useful web pages from spam.
 
 {% /message %}

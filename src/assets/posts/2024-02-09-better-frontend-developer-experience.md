@@ -1239,7 +1239,7 @@ npm i -D conventional-changelog-conventionalcommits
 To orchestrate my releases, i use
 [`release-it`](https://github.com/release-it/release-it), and it's basically
 fire and forget. You can do it with an interactive CLI, or like me,
-[in an action](https://github.com/phun-ky/speccer/actions/runs/6565633041/workflow).
+[in an action](https://github.com/phun-ky/speccer/actions/workflows/publish.yml).
 
 ```shell-session
 npm i -D release-it

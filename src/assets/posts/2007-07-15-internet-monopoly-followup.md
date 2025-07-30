@@ -8,7 +8,7 @@ tags: [internet norway, telenor, NIX, monopoly, news]
 ---
 
 As i mentioned in my article
-<a class="ph" href="/2007/06/20/internet-monopoly-in-norway/">Internet monopoly
+<a class="ph" href="/2007/06/20/internet-monopoly-in-norway">Internet monopoly
 in Norway</a>, the largest ISP in Norway, Telenor, withdrew from the Norwegian
 Internet Exchange (NIX). This has happened since:
 

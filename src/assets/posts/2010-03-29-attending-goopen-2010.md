@@ -1,9 +1,8 @@
 ---
 layout: post
 description:
-  'It has been two years [since last
-  time](https://phun-ky.net/2008/03/attending-goopen-2008), but at last, this
-  year I am attending [GoOpen](http://www.goopen.no) 2010!'
+  'It has been two years [since last time](/2008/03/29/attending-goopen-2008),
+  but at last, this year I am attending [GoOpen](http://www.goopen.no) 2010!'
 route: /2010/03/29/attending-goopen-2010
 title: 'Attending GoOpen 2010!'
 category: 'Archive'
@@ -12,18 +11,18 @@ tags: [conference, goopen]
 
 **Table of Contents**
 
-1. [Main keynotes](#main-keynotes)
-   1. [Cloud Computing opportunities - by Business Director Amazon Web Services, Martin Buhr](#cloud-computing-opportunities---by-business-director-amazon-web-services-martin-buhr)
-   2. [Is public information public? - by CTO Opera Software, Håkon Wium Lie](#is-public-information-public---by-cto-opera-software-håkon-wium-lie)
-   3. [WiMP process numbers with free software - by Per Einar Dybvik and Martin Stangeland](#wimp-process-numbers-with-free-software---by-per-einar-dybvik-and-martin-stangeland)
-   4. [Public information made accessible - by CEO Norwegian Mapping Authority, Anne Cathrine Frøstrup](#public-information-made-accessible---by-ceo-norwegian-mapping-authority-anne-cathrine-frøstrup)
-   5. [A Government's Vision Becomes Reality: OSS Implementation in the Malaysian Public Sector - by Tan King Ing](#a-governments-vision-becomes-reality-oss-implementation-in-the-malaysian-public-sector---by-tan-king-ing)
-   6. [The Battle Over Source Code - by Ann-Therese Lotherington](#the-battle-over-source-code---by-ann-therese-lotherington)
-   7. [European Commission, the research work programme and opportunities for open-source projects - by Sandro D'Elia](#european-commission-the-research-work-programme-and-opportunities-for-open-source-projects---by-sandro-delia)
-   8. [Free software to defeat poverty - by Walter Bender](#free-software-to-defeat-poverty---by-walter-bender)
-   9. [The Open (Source) Way - by Jan Wildeboer, Red Hat's EMEA Evangelist](#the-open-source-way---by-jan-wildeboer-red-hats-emea-evangelist)
-2. [What is GoOpen](#what-is-goopen)
-3. [Follow GoOpen](#follow-goopen)
+- [Main keynotes](#main-keynotes)
+  - [Cloud Computing opportunities - by Business Director Amazon Web Services, Martin Buhr](#cloud-computing-opportunities---by-business-director-amazon-web-services-martin-buhr)
+  - [Is public information public? - by CTO Opera Software, Håkon Wium Lie](#is-public-information-public---by-cto-opera-software-håkon-wium-lie)
+  - [WiMP process numbers with free software - by Per Einar Dybvik and Martin Stangeland](#wimp-process-numbers-with-free-software---by-per-einar-dybvik-and-martin-stangeland)
+  - [Public information made accessible - by CEO Norwegian Mapping Authority, Anne Cathrine Frøstrup](#public-information-made-accessible---by-ceo-norwegian-mapping-authority-anne-cathrine-frøstrup)
+  - [A Government's Vision Becomes Reality: OSS Implementation in the Malaysian Public Sector - by Tan King Ing](#a-governments-vision-becomes-reality-oss-implementation-in-the-malaysian-public-sector---by-tan-king-ing)
+  - [The Battle Over Source Code - by Ann-Therese Lotherington](#the-battle-over-source-code---by-ann-therese-lotherington)
+  - [European Commission, the research work programme and opportunities for open-source projects - by Sandro D'Elia](#european-commission-the-research-work-programme-and-opportunities-for-open-source-projects---by-sandro-delia)
+  - [Free software to defeat poverty - by Walter Bender](#free-software-to-defeat-poverty---by-walter-bender)
+  - [The Open (Source) Way - by Jan Wildeboer, Red Hat's EMEA Evangelist](#the-open-source-way---by-jan-wildeboer-red-hats-emea-evangelist)
+- [What is GoOpen](#what-is-goopen)
+- [Follow GoOpen](#follow-goopen)
 
 ![Attending GoOpen 2010](/assets/img/blog/imgc4928b9eb8ca15678b567d7c5864c1f0.webp)
 

@@ -8,23 +8,19 @@ tags: []
 ---
 
 After browsing the blogosphere today I stumbled upon a very nice color scheme
-web application created by Adobe:
-[Kuler](http://kuler.adobe.com).
-It reminds me of a bloated, but better version of
-[Colorschemer](http://colorschemer.com/).
+web application created by Adobe: [Kuler](http://kuler.adobe.com). It reminds me
+of a bloated, but better version of [Colorschemer](http://colorschemer.com/).
 
 ## Easy to use
 
-It's very easy to use and the
-[Kuler](http://kuler.adobe.com)
-concept offers a great deal of community interaction.
+It's very easy to use and the [Kuler](http://kuler.adobe.com) concept offers a
+great deal of community interaction.
 [![](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)
 
 ## Side note
 
 Remember, if you want to pick colours from your desktop, or from everywhere else
-on your computer, you can use
-[Colorpix](/2007/11/colorpix-on-ubuntu) from
+on your computer, you can use [Colorpix](/2007/11/08/colorpix-on-ubuntu) from
 [Colorschemer](http://colorschemer.com/).
 
 ## <em>Update:</em> Is Kuler a rip off?

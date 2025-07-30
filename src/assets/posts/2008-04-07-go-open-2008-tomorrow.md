@@ -8,7 +8,7 @@ tags: [conferences, goopen]
 ---
 
 As I mentioned in one of my earlier posts, I'm
-<a class="ph" href="/2008/03/29/attending-goopen-2008/">attending Go Open
+<a class="ph" href="/2008/03/29/attending-goopen-2008">attending Go Open
 2008</a>, a conference about Open Source arranged by the National Competence
 Center for Open Source.
 

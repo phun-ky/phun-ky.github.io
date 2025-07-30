@@ -4,9 +4,9 @@ title:
   'How to inject proper page styling, with indented chapters, with jQuery and
   CSS'
 description:
-  'A friend of mine had an issue with a [Drupal](https://drupal.org/) theme
-  page, where he could not change the HTML structure to fit his needs with the
-  indented chapter styling. He got it fixed initially by using CSS selectors
+  'A friend of mine had an issue with a [Drupal](https://new.drupal.org/home)
+  theme page, where he could not change the HTML structure to fit his needs with
+  the indented chapter styling. He got it fixed initially by using CSS selectors
   that increased in size for each chapter, a method that "worked", but was not
   very efficient.'
 category: 'How-to'

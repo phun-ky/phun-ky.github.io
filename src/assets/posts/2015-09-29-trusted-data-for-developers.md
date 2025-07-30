@@ -3,7 +3,11 @@ route: /2015/09/29/trusted-data-for-developers
 title: 'Trusted data for developers'
 tagline: 'Or how to start the apocalypse'
 description:
-  'Hey, you. Yes, YOU! The developer reading this article. Are you ready to call the four horsemen and start the apocalypse? Start the next nuclear holocaust? Kill patients? Bankrupt banks? Do I have your attention yet?<br/><br/>Yes? Good. Because all of this can happen, and will happen, if you do not keep your shit together'
+  'Hey, you. Yes, YOU! The developer reading this article. Are you ready to call
+  the four horsemen and start the apocalypse? Start the next nuclear holocaust?
+  Kill patients? Bankrupt banks? Do I have your attention yet?<br/><br/>Yes?
+  Good. Because all of this can happen, and will happen, if you do not keep your
+  shit together'
 category: 'Technology'
 tags: [trusted-data, data, how-to]
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg
@@ -21,8 +25,10 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasn
   src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg>"
 %}
 
-Image by [Viktor M. Vasnetsov](//en.wikipedia.org/wiki/Viktor_Vasnetsov) - [http://lj.rossia.org/users/john_petrov/166993.html](http://lj.rossia.org/users/john_petrov/166993.html). Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
-  
+Image by [Viktor M. Vasnetsov](//en.wikipedia.org/wiki/Viktor_Vasnetsov) -
+[http://lj.rossia.org/users/john_petrov/166993.html](http://lj.rossia.org/users/john_petrov/166993.html).
+Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
+
 {% /figure %}
 
 How do you ask? Well, how is your data? Can it be trusted? Do you think the
@@ -32,7 +38,8 @@ users of your systems are safe without trusted data?
 >
 > <footer class="ph">
 >
-> – [https://en.wikipedia.org/wiki/Murphy%27s_law](https://en.wikipedia.org/wiki/Murphy%27s_law)
+> –
+> [https://en.wikipedia.org/wiki/Murphy%27s_law](https://en.wikipedia.org/wiki/Murphy%27s_law)
 >
 > </footer>
 
@@ -72,7 +79,8 @@ engineered event.)_
 >
 > <footer class="ph">
 >
-> – [https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms](https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms)
+> –
+> [https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms](https://en.wikipedia.org/wiki/North_American_Aerospace_Defense_Command#False_alarms)
 >
 > </footer>
 
@@ -99,7 +107,8 @@ and disintegrated".
 >
 > <footer class="ph">
 >
-> – <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">Cause
+> –
+> <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">Cause
 > of failure, Mars Climate Orbiter</a>
 >
 > </footer>
@@ -139,17 +148,18 @@ I have data that is trustworthy?".
 
 This is not about just sanitation of data, using tests and verify outcomes. This
 is about making sure the data is trusted, and the solution is
-["Trusted Data"](/2015/09/09/trusted-data/). When we are
-dealing with data, we have to make sure that the data is trustworthy. As
-<a class="ph" href="/2015/09/14/how-to-work-with-trusted-data/">previously
+["Trusted Data"](/2015/09/09/trusted-data). When we are dealing with data, we
+have to make sure that the data is trustworthy. As
+<a class="ph" href="/2015/09/14/how-to-work-with-trusted-data">previously
 mentioned</a>, there are some key pointers you can adhere to, to work with
-["Trusted Data"](/2015/09/09/trusted-data/).
+["Trusted Data"](/2015/09/09/trusted-data).
 
 > Assumption is the mother of all fuckups
 >
 > <footer class="ph">
 >
-> – [https://www.youtube.com/watch?v=wg4trPZFUwc](https://www.youtube.com/watch?v=wg4trPZFUwc)
+> –
+> [https://www.youtube.com/watch?v=wg4trPZFUwc](https://www.youtube.com/watch?v=wg4trPZFUwc)
 >
 > </footer>
 

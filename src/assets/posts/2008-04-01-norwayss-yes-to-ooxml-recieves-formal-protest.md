@@ -17,7 +17,7 @@ tags:
 ---
 
 There was a
-<a class="ph" target="_blank" rel="noopener noreferrer" href="https://phun-ky.net/2008/03/norway-says-yes-to-ooxml-despite-protests">massive
+<a class="ph" target="_blank" rel="noopener noreferrer" href="/2008/03/29/norway-says-yes-to-ooxml-despite-protests">massive
 protest when Standard Norge decided that Norway will say yes to OOXML</a>,
 despite the fact that most of the comitee-representatives were against.
 

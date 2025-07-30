@@ -34,8 +34,7 @@ A press release from Standard Norge:
 > OOXML to approve the document at hand as a proposal to a new ISO standard in
 > its present form.
 
-I wrote earlier about
-[OOXML](/2007/08/29/the-ooxml-problem/), and I urge you to
+I wrote earlier about [OOXML](/2007/08/29/the-ooxml-problem), and I urge you to
 sign the petition (follow the link in the article) against OOXML.
 
 Standard Norge actually gives a conditioned yes to OOXML, but that's a big NO
@@ -45,6 +44,4 @@ comments before it can be approved as a ISO standard.
 The picture to this post is the 6000 pages of OOXML specifications from
 Microsoft
 
-Sources:
-[Digi.no](http://digi.no)
-.
+Sources: [Digi.no](http://digi.no) .

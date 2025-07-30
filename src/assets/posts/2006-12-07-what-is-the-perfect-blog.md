@@ -20,7 +20,7 @@ or a good writer that makes a perfect blog.
 With the new era of information crossing over sites and large communities like
 Flickr or YouTube, the whole concept of content is rewritten in its own context.
 And when I say "new era" I mean the "web 2.0 hype" that I mentioned in one of
-<a class="ph" target="_blank" rel="noopener noreferrer" href="https://phun-ky.net/2006/11/web-2.0-is-a-hype">my
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://phun-ky.net/2006/11/web-20-is-a-hype">my
 earlier articles</a>.
 
 So, can you make a blog with bad scripting, horrific design and with usability

@@ -54,7 +54,7 @@ semantically and if you can provide the same data for users who don't have
 Flash.
 
 See my article about
-<a class="ph" href="/2007/02/09/xhtml-javascript-flash-validated/">XHTML
+<a class="ph" href="/2007/02/09/xhtml-javascript-flash-validated">XHTML
 JavaScript flash validated</a> for a clue about this. Also have a look at Kyle's
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://warpspire.com/journal/web-production/7-flash-myths/">myth
 buster for Flash myths</a>. The guys at space150 also got something for helping
