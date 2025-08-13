@@ -72,25 +72,25 @@ Gram’s Hair</span>.
 
 ```css
 :root {
-  --color-1: #859BA3;
-  --color-2: #C79500;
-  --color-3: #2CAAA0;
-  --color-4: #469EDD;
-  --color-5: #8C9B9B;
-  --color-6: #E4E4E7;
+  --color-1: #859ba3;
+  --color-2: #c79500;
+  --color-3: #2caaa0;
+  --color-4: #469edd;
+  --color-5: #8c9b9b;
+  --color-6: #e4e4e7;
   --color-7: #262831;
-  --color-8: #FF0000;
+  --color-8: #ff0000;
 }
 
 :root.theme--light {
-  --color-1: #566D71;
+  --color-1: #566d71;
   --color-2: #806200;
-  --color-3: #1E766D;
-  --color-4: #1D699F;
-  --color-5: #5C6A6A;
+  --color-3: #1e766d;
+  --color-4: #1d699f;
+  --color-5: #5c6a6a;
   --color-6: #000000;
-  --color-7: #F5F6F7;
-  --color-8: #FF0000;
+  --color-7: #f5f6f7;
+  --color-8: #ff0000;
 }
 ```
 
@@ -110,7 +110,7 @@ pre[class*='language-'] .token.comment,
 pre[class*='language-'] .token.prolog,
 pre[class*='language-'] .token.doctype,
 pre[class*='language-'] .token.cdata {
-  color: #859BA3;
+  color: #859ba3;
 }
 
 code[class*='language-'] .token.null,
@@ -121,14 +121,14 @@ pre[class*='language-'] .token.null,
 pre[class*='language-'] .token.operator,
 pre[class*='language-'] .token.boolean,
 pre[class*='language-'] .token.number {
-  color: #C79500;
+  color: #c79500;
 }
 
 code[class*='language-'] .token.attr-name,
 code[class*='language-'] .token.string,
 pre[class*='language-'] .token.attr-name,
 pre[class*='language-'] .token.string {
-  color: #2CAAA0;
+  color: #2caaa0;
 }
 
 code[class*='language-'] .token.entity,
@@ -139,12 +139,12 @@ pre[class*='language-'] .token.entity,
 pre[class*='language-'] .token.url,
 .language-css pre[class*='language-'] .token.string,
 .style pre[class*='language-'] .token.string {
-  color: #2CAAA0;
+  color: #2caaa0;
 }
 
 code[class*='language-'] .token.selector,
 pre[class*='language-'] .token.selector {
-  color: #E4E4E7;
+  color: #e4e4e7;
 }
 
 code[class*='language-'] .token.atrule,
@@ -161,21 +161,21 @@ pre[class*='language-'] .token.control,
 pre[class*='language-'] .token.directive,
 pre[class*='language-'] .token.important,
 pre[class*='language-'] .token.unit {
-  color: #469EDD;
+  color: #469edd;
 }
 
 code[class*='language-'] .token.regex,
 code[class*='language-'] .token.statement,
 pre[class*='language-'] .token.regex,
 pre[class*='language-'] .token.statement {
-  color: #2CAAA0;
+  color: #2caaa0;
 }
 
 code[class*='language-'] .token.placeholder,
 code[class*='language-'] .token.variable,
 pre[class*='language-'] .token.placeholder,
 pre[class*='language-'] .token.variable {
-  color: #469EDD;
+  color: #469edd;
 }
 
 code[class*='language-'] .token.property,
@@ -194,7 +194,7 @@ pre[class*='language-'] .token.statement {
 
 code[class*='language-'] .token.punctuation,
 pre[class*='language-'] .token.punctuation {
-  color: #8C9B9B;
+  color: #8c9b9b;
 }
 
 code[class*='language-'] .token.entity,
@@ -204,12 +204,103 @@ pre[class*='language-'] .token.entity {
 
 code[class*='language-'] .token.debug,
 pre[class*='language-'] .token.debug {
-  color: #FF6666;
+  color: #ff6666;
 }
 
 pre,
 pre.ph {
   background-color: #262831;
-  color: #E4E4E7;
+  color: #e4e4e7;
+}
+```
+
+## React example
+
+```tsx
+import React from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useLocation,
+  useNavigate,
+} from 'react-router-dom';
+import { GlobalAppShell } from '@tfso/global-app-shell';
+import type {
+  GlobalNavigationPropsType,
+  GlobalHeaderWCPropsType,
+} from './types';
+
+// -- Tiny helper that runs inside the Router and syncs props to the WC --
+function SyncNavWithRouter({
+  refNav,
+  baseProps, // whatever you previously put in navigationArgs
+}: {
+  refNav: React.RefObject<any>;
+  baseProps: GlobalNavigationPropsType;
+}) {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const onNavigate = React.useMemo(
+    () => (to: string) => {
+      if (!to) return;
+      navigate(to); // SPA navigation
+    },
+    [navigate]
+  );
+
+  React.useEffect(() => {
+    if (!refNav.current) return;
+
+    // Push updated props into the web component whenever the route changes.
+    refNav.current.props = {
+      ...baseProps,
+      onNavigate,
+      currentPath: location.pathname, // <- critical for is-active
+      // keep urlPrefix if you use one, e.g. baseProps.urlPrefix
+    };
+  }, [refNav, baseProps, onNavigate, location.pathname]);
+
+  return null;
+}
+
+export default function App({
+  navigationArgs,
+  headerArgs,
+}: {
+  navigationArgs: GlobalNavigationPropsType;
+  headerArgs: GlobalHeaderWCPropsType;
+}) {
+  const refNav = React.useRef<any>(null);
+  const refHeader = React.useRef<any>(null);
+
+  React.useEffect(() => {
+    if (refHeader.current) {
+      refHeader.current.props = headerArgs;
+    }
+  }, [headerArgs]);
+
+  return (
+    <>
+      <tfso-global-header ref={refHeader}></tfso-global-header>
+      <tfso-global-navigation ref={refNav}></tfso-global-navigation>
+
+      <GlobalAppShell isOpen={true}>
+        <BrowserRouter /* basename="/app" if you mount under a sub-path */>
+          {/* Keep WC in sync with the router */}
+          <SyncNavWithRouter refNav={refNav} baseProps={navigationArgs} />
+
+          {/* Your routed content */}
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/reports" element={<ReportsPage />} />
+            <Route path="/reports/:id" element={<ReportDetails />} />
+            {/* ...other routes */}
+          </Routes>
+        </BrowserRouter>
+      </GlobalAppShell>
+    </>
+  );
 }
 ```
