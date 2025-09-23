@@ -34,7 +34,7 @@
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
     "@ironkinoko/rollup-plugin-styles": "^4.0.4",
-    "@markdoc/markdoc": "^0.5.2",
+    "@markdoc/markdoc": "^0.5.4",
     "@rollup/plugin-commonjs": "^25.0.1",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
