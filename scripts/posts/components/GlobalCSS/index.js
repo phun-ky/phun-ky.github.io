@@ -268,11 +268,6 @@ export const GlobalCSS = () => {
           width: 100%;
           z-index: 1000;
         }
-
-        .ph.project header.ph.header {
-          position: static;
-          top: unset;
-        }
       }
       .ph.header-menu {
         margin-left: auto;
