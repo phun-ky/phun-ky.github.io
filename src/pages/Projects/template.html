@@ -52,36 +52,101 @@
       title="License"
       href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
     />
-    {{GLOBAL_CSS}} {{HEAD_SCRIPTS}}
+    {{GLOBAL_CSS}} {{PROJECTS_CSS}} {{HEAD_SCRIPTS}}
   </head>
   <body class="ph">
-    <div class="ph app frontpage" id="app">
+    <div class="ph app projects" id="app">
       {{PAGE_SECTION_HEADER}}
       <main class="ph">
-        <section class="ph section">
+        <section class="ph hero">
           <div class="ph container">
-            <article class="ph">
-              <h1 class="ph">projects</h1>
-              <p class="ph lead">
-                These are my projects. It is not a full list of my projects, but the ones I want to highlight.
-              </p>
-            </article>
+            <h1 class="ph">
+              <span class="ph name">A collection</span>
+              <span class="ph text">of my projects</span>
+            </h1>
+            <p class="ph tagline">
+              These are my projects. It is not a full list of my projects, but
+              the ones I want to highlight.
+            </p>
           </div>
         </section>
         <section class="ph section">
           <div class="ph container">
-              <ul class="ph">
-                <li class="ph"><a href="https://speccer.dev" class="ph">SPECCER</a></li>
-                <li class="ph"><a href="/projects/frameport" class="ph">@phun-ky/frameport</a></li>
-              </ul>
-            </article>
+            <ul class="ph project-list">
+              <li class="ph project-card-item">
+                <a href="https://speccer.dev" class="ph">
+                  <span class="ph name">SPECCER</span>
+                  <span class="ph text"
+                    >A tool to annotate or highlight elements</span
+                  >
+                  <p class="ph tagline">
+                    Speccer is a zero dependency JavaScript package to highlight
+                    elements on web pages and in documentation. It's easy to use
+                    and highly customizable, making it the perfect tool for
+                    developers, designers, and content creators alike.
+                  </p>
+                  <span class="ph project-image-container">
+                    <img
+                      src="https://speccer.dev/anatomy.png"
+                      class="ph project-image"
+                    />
+                  </span>
+                </a>
+              </li>
+              <li class="ph project-card-item">
+                <a href="/projects/frameport" class="ph">
+                  <span class="ph name">FRAMEPORT</span>
+                  <span class="ph text">
+                    Create interactive, responsive component previews for your
+                    style guides using real device viewports and media
+                    queries.</span
+                  >
+                  <p class="ph tagline">
+                    A zero dependency package to effortlessly create responsive
+                    component previews in documentation using real media
+                    queries. Frameport dynamically generates iframes containing
+                    your HTML/CSS/JS, mimicking natural device viewports to test
+                    responsiveness, without any build steps or dependencies.
+                  </p>
+
+                  <span class="ph project-image-container">
+                    <img
+                      src="https://repository-images.githubusercontent.com/212891967/d772f625-ce1a-49e5-b3bc-3db1957467ef"
+                      class="ph project-image"
+                    />
+                  </span>
+                </a>
+              </li>
+              <li class="ph project-card-item">
+                <a href="https://moebius.wtf" class="ph">
+                  <span class="ph name">möbius</span>
+                  <span class="ph text">
+                    Generate harmonious, customizable color palettes from a
+                    single base color - instantly and programmatically.
+                  </span>
+                  <p class="ph tagline">
+                    A versatile JavaScript library that automatically generates
+                    visually pleasing and customizable color palettes from a
+                    given base color. Whether you're building data
+                    visualizations, UIs, or design systems, Möbius offers
+                    various harmony modes, smooth interpolation, luminance
+                    shifts, and diverging palette generation
+                  </p>
+
+                  <span class="ph project-image-container">
+                    <img
+                      src="https://github.com/phun-ky/moebius/raw/main/public/images/logo/logo-ring.png"
+                      class="ph project-image"
+                    />
+                  </span>
+                </a>
+              </li>
+            </ul>
           </div>
         </section>
-        {{PAGE_SECTION_AUTHOR}}
       </main>
       {{PAGE_SECTION_FOOTER}}
     </div>
-    {{BODY_SCRIPTS}}
-    {{ANALYTICS}}
+    {{BODY_SCRIPTS}} {{ANALYTICS}}
   </body>
 </html>
