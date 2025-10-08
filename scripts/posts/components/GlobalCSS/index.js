@@ -142,19 +142,13 @@ export const GlobalCSS = () => {
       }
       h1.ph {
         margin-bottom: 2.5rem;
-        font-size: 2.25rem;
+        font-size: clamp(2.25rem, calc(1.7142857143rem + 2.6785714286vw), 3rem);
         line-height: 1.25;
         font-weight: 700;
       }
       @media screen and (min-width: 768px) {
         h1.ph {
-          font-size: 3rem;
-          line-height: 1.375;
-        }
-      }
-      @media screen and (min-width: 1024px) {
-        h1.ph {
-          font-size: 3.75rem;
+          font-size: clamp(3rem, calc(0.75rem + 4.6875vw), 3.75rem);
           line-height: 1.375;
         }
       }
@@ -179,25 +173,43 @@ export const GlobalCSS = () => {
 
         & .ph.name {
           color: var(--ph-color-link);
-          font-size: 56px;
-          line-height: 64px;
-        }
-        & .ph.text {
-          font-size: 56px;
-          line-height: 64px;
         }
       }
+
+      .ph.frontpage h1.ph {
+        & .ph.name,
+        & .ph.text {
+          font-size: clamp(3rem, calc(1.5rem + 7.5vw), 4.5rem);
+          line-height: 3.75rem;
+        }
+      }
+
+      @media (min-width: 640px) {
+        .ph.frontpage h1.ph {
+          & .ph.name,
+          & .ph.text {
+            font-size: clamp(4.5rem, calc(3rem + 3.75vw), 5.25rem);
+            line-height: 5.25rem;
+          }
+        }
+      }
+
+      @media (min-width: 960px) {
+        .ph.frontpage h1.ph {
+          & .ph.name,
+          & .ph.text {
+            font-size: 5.25rem;
+            line-height: 6rem;
+          }
+        }
+      }
+
       .ph.frontpage p.ph.tagline {
         color: var(--ph-color-text);
         font-size: 24px;
         line-height: 36px;
         padding-top: 12px;
         margin: 0;
-      }
-      @media screen and (min-width: 1024px) {
-        .ph.frontpage h1.ph {
-          font-size: 4.75rem;
-        }
       }
       h2.ph {
         font-size: 1.75rem;
@@ -224,6 +236,7 @@ export const GlobalCSS = () => {
       header.ph.header {
         height: 64px;
         transition: all 0.5s;
+        will-change: background-color;
         background-color: transparent;
         border-bottom: 1pt solid transparent;
         z-index: 1000;
@@ -260,7 +273,7 @@ export const GlobalCSS = () => {
           }
         }
       }
-      @media screen and (min-width: 1440px) {
+      @media screen and (min-width: 960px) {
         header.ph.header {
           position: fixed;
           top: 0px;
