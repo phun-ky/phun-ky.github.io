@@ -7,15 +7,19 @@ const html = String.raw;
 export const Tags = (tags) => {
   if (!tags) return '';
 
-  return html`<h3 class="ph categories-title">Tags</h3>
+  return html`<h3 class="ph tags-title">Tags</h3>
     <ul class="ph tags">
       ${tags
-    .sort()
-    .map((tag) => {
-      return html`<li class="ph tag">
-      ${Link({to: `/tags/${slugify(tag.toLowerCase())}`, className: 'tag-link', content: tag })}
+        .sort()
+        .map((tag) => {
+          return html`<li class="ph tag">
+            ${Link({
+              to: `/tags/${slugify(tag.toLowerCase())}`,
+              className: 'tag-link',
+              content: tag,
+            })}
           </li>`;
-    })
-    .join('\n')}
+        })
+        .join('\n')}
     </ul>`;
 };

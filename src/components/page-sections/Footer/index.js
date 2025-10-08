@@ -62,6 +62,13 @@ export const Footer = (license = 'CC') => {
   return html`<footer class="ph">
     <div class="ph container">
       <p class="ph">
+        Made with <strong class="ph">imposter syndrome</strong> by
+        <a class="ph" target="_blank" href="https://phun-ky.net"
+          >Alexander Vassbotn Røyne-Helgesen</a
+        >. Buy <strong class="ph">me</strong> some
+        <a class="ph" href="https://www.paypal.me/phunky/20">competence?</a>
+      </p>
+      <p class="ph">
         <a
           rel="noopener noreferrer"
           target="_blank"

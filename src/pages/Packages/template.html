@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="ph" lang="en-GB">
+  <head>
+    <title>My npm packages | lover of life, technologist at heart</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; block-all-mixed-content; font-src 'self' https: data:; img-src 'self' https: data:;  connect-src 'self' https://registry.npmjs.org https://api.npmjs.org; object-src 'none'; script-src https://code.highcharts.com https://static.getclicky.com https://in.getclicky.com 'self' 'unsafe-inline'; script-src-attr 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https: 'unsafe-inline'; upgrade-insecure-requests"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="application-name"
+      content="lover of life, technologist at heart"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/meta/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/meta/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/meta/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/meta/site.webmanifest" />
+    <link rel="shortcut icon" href="/img/meta/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#181a22" />
+    <meta name="msapplication-config" content="/meta/browserconfig.xml" />
+    <meta name="theme-color" content="#181a22" />
+
+    <meta name="description" content="My npm packages" />
+    <meta name="author" content="Alexander Vassbotn Røyne-Helgesen" />
+
+    {{OPEN_GRAPH}}
+
+    <link
+      rel="Copyright"
+      title="License"
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    />
+    {{GLOBAL_CSS}} {{HEAD_SCRIPTS}} {{PACKAGES_CSS}}
+  </head>
+  <body class="ph">
+    <div class="ph app packages-app" id="app">
+      {{PAGE_SECTION_HEADER}}
+      <main class="ph">
+        <section class="ph hero">
+          <div class="ph container">
+            <h1 class="ph">
+              <span class="ph name">NPM</span>
+              <span class="ph text">packages</span>
+            </h1>
+            <p class="ph tagline">
+              A full overview over my packages download statistics, total and by
+              month.
+            </p>
+          </div>
+        </section>
+        <section class="ph section">
+          <div class="ph container">
+            <div class="ph content">
+              <div class="ph settings">
+                <div class="ph toggle-controls">
+                  Author or Maintainer?
+                  <input
+                    type="checkbox"
+                    class="ph toggle"
+                    name="role-toggle"
+                    id="role-toggle"
+                  />
+                  <label for="role-toggle" class="ph"> Author </label>
+                </div>
+              </div>
+
+              <div class="ph packages-overview">
+                <div class="ph meta">
+                  <div class="ph card total">
+                    <span class="ph title">Total monthly downloads</span>
+                    <span class="ph big-number" id="total_downloads"></span>
+                  </div>
+                  <div class="ph card popular">
+                    <span class="ph title"
+                      >Most popular package this month</span
+                    >
+                    <span class="ph package-name" id="popular_package"></span>
+                  </div>
+                  <div class="ph card newest">
+                    <span class="ph title">Newest package</span>
+                    <span class="ph package-name" id="newest_package"></span>
+                  </div>
+                </div>
+                <div class="ph card monthly">
+                  <span class="ph title">Monthly downloads</span>
+                  <div
+                    class="ph monthly-downloads-chart"
+                    id="chart-container"
+                  ></div>
+                </div>
+                <div class="ph package-cards" id="package-cards"></div>
+                <div class="ph card packages">
+                  <span class="ph title">Packages</span>
+                  <div class="ph inner" id="downloads"></div>
+                </div>
+              </div>
+              <div class="ph pane"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      {{PAGE_SECTION_FOOTER}}
+    </div>
+    {{BODY_SCRIPTS}} {{ANALYTICS}} {{PACKAGES_JS}}
+  </body>
+</html>
