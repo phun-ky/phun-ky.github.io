@@ -1,13 +1,13 @@
-import fs from 'node:fs';
-
-import { glob } from 'glob';
+/* eslint-disable import/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
 
-import { processTokens } from './process-tokens.js';
+import fs, { globSync } from 'node:fs';
+
 import { parseMarkdocFrontmatter } from './parse-markdoc-frontmatter.js';
+import { processTokens } from './process-tokens.js';
 
 export const createContentManifest = (ROOT_DIR) => {
-  const files = glob.sync(`${ROOT_DIR}/*.md`);
+  const files = globSync(`${ROOT_DIR}/*.md`);
   const manifest = {};
 
   files.forEach((file) => {

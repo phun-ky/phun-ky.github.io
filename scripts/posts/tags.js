@@ -1,25 +1,22 @@
+import fs, { globSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
-import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-import { glob } from 'glob';
-
-import { createContentManifest } from './utils/create-content-manifest.js';
-import { getFrontmatter } from './utils/get-frontmatter.js';
-import { slugify } from '../../src/utils/slugify.js';
-
-import { GlobalCSS } from './components/GlobalCSS/index.js';
-import { OpenGraphTags } from './components/OpenGraphTags/index.js';
-import { HeadScripts } from './components/HeadScripts/index.js';
-import { BodyScripts } from './components/BodyScripts/index.js';
-
-import { Tags } from '../../src/components/page-sections/Tags/index.js';
 import { PostsList } from '../../src/components/content/PostsList/index.js';
 import { Categories } from '../../src/components/navigation/Categories/index.js';
-import { Header } from '../../src/components/page-sections/Header/index.js';
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
+import { Header } from '../../src/components/page-sections/Header/index.js';
+import { Tags } from '../../src/components/page-sections/Tags/index.js';
+import { slugify } from '../../src/utils/slugify.js';
+
 import { Analytics } from './components/Analytics/index.js';
+import { BodyScripts } from './components/BodyScripts/index.js';
+import { GlobalCSS } from './components/GlobalCSS/index.js';
+import { HeadScripts } from './components/HeadScripts/index.js';
+import { OpenGraphTags } from './components/OpenGraphTags/index.js';
+import { createContentManifest } from './utils/create-content-manifest.js';
+import { getFrontmatter } from './utils/get-frontmatter.js';
 
 let allTags = [];
 
@@ -27,7 +24,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const pathToTagDir = join(__dirname, '../../dist/tags');
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
 const contentManifest = createContentManifest(CONTENT_DIR);
-const files = glob.sync(`${CONTENT_DIR}/*.md`).sort().reverse();
+const files = globSync(`${CONTENT_DIR}/*.md`).sort().reverse();
 const posts = [];
 const categories = [];
 const TEMPLATE_PATH = resolve(__dirname, '../../src/pages/Tags/template.html');

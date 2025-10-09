@@ -1,16 +1,16 @@
-import { join, resolve, dirname } from 'node:path';
 import fs from 'node:fs';
+import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-
-import { OpenGraphTags } from './components/OpenGraphTags/index.js';
-import { GlobalCSS } from './components/GlobalCSS/index.js';
-import { HeadScripts } from './components/HeadScripts/index.js';
-import { BodyScripts } from './components/BodyScripts/index.js';
 
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
 import { Header } from '../../src/components/page-sections/Header/index.js';
+
 import { Analytics } from './components/Analytics/index.js';
+import { BodyScripts } from './components/BodyScripts/index.js';
+import { GlobalCSS } from './components/GlobalCSS/index.js';
+import { HeadScripts } from './components/HeadScripts/index.js';
+import { OpenGraphTags } from './components/OpenGraphTags/index.js';
 
 let html = '';
 

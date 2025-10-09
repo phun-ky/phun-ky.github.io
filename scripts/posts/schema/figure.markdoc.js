@@ -1,3 +1,4 @@
+/* eslint-disable import/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
 
 /*
@@ -10,7 +11,7 @@ import Markdoc from '@markdoc/markdoc';
  */
 
 const linkAttributes = {};
-const fixURIAttribute = uri => uri.replace('<','').replace('>','');
+const fixURIAttribute = (uri) => uri.replace('<', '').replace('>', '');
 const figure = {
   children: ['inline'],
   attributes: {
@@ -25,38 +26,38 @@ const figure = {
       matches: ['ok', 'explicit']
     },
     src: {
-      type: String, required: true
+      type: String,
+      required: true
     },
     url: {
       type: String
     },
     description: {
-      type: String, required: true
+      type: String,
+      required: true
     },
     type: {
       type: String,
       default: 'img',
-      matches: ['img', 'video','ascii-flow']
+      matches: ['img', 'video', 'ascii-flow']
     }
   },
   transform(node, config) {
     const attributes = node.transformAttributes(config);
     const children = node.transformChildren(config);
 
-
-    if(!attributes['url'] && attributes['src']){
+    if (!attributes['url'] && attributes['src']) {
       attributes['url'] = attributes['src'];
     }
 
-    if(attributes.url && attributes['url'].indexOf('/') !== 0){
+    if (attributes.url && attributes['url'].indexOf('/') !== 0) {
       linkAttributes.target = '_blank';
       linkAttributes.rel = 'noopener noreferrer';
     }
 
     let componentChildren = [...children];
 
-
-    if(attributes['type'] === 'ascii-flow'){
+    if (attributes['type'] === 'ascii-flow') {
       componentChildren = [
         [
           new Markdoc.Tag(
@@ -64,18 +65,17 @@ const figure = {
             {
               class: 'ph ascii-flow'
             },
-            [
-              ...children
-            ]
+            [...children]
           )
         ],
         new Markdoc.Tag(
           'figcaption',
           {
             class: 'ph'
-          },[
-            attributes['description']
-          ])];
+          },
+          [attributes['description']]
+        )
+      ];
     } else {
       componentChildren = [
         [
@@ -87,15 +87,12 @@ const figure = {
               ...linkAttributes
             },
             [
-              new Markdoc.Tag(
-                'img',
-                {
-                  class: 'ph',
-                  loading: 'lazy',
-                  alt: attributes['description'],
-                  src: fixURIAttribute(attributes['src'])
-                }
-              )
+              new Markdoc.Tag('img', {
+                class: 'ph',
+                loading: 'lazy',
+                alt: attributes['description'],
+                src: fixURIAttribute(attributes['src'])
+              })
             ]
           )
         ],
@@ -103,7 +100,8 @@ const figure = {
           'figcaption',
           {
             class: 'ph'
-          },[
+          },
+          [
             ' "',
             new Markdoc.Tag(
               'a',
@@ -111,11 +109,14 @@ const figure = {
                 class: 'ph',
                 href: fixURIAttribute(attributes['url']),
                 ...linkAttributes
-              },[attributes['description']]
+              },
+              [attributes['description']]
             ),
             '" ',
             ...children
-          ])];
+          ]
+        )
+      ];
     }
 
     return new Markdoc.Tag(

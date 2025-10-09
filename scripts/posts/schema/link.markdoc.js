@@ -1,4 +1,6 @@
+/* eslint-disable import/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
+
 import { addClassToNode } from '../utils/add-class-to-node.js';
 
 const heading = {

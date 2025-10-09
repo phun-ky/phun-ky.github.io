@@ -1,12 +1,13 @@
+/* eslint-disable import/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
 
-import figure from '../schema/figure.markdoc.js';
-import stance from '../schema/stance.markdoc.js';
-import heading from '../schema/heading.markdoc.js';
 import fence from '../schema/codeblock.markdoc.js';
+import figure from '../schema/figure.markdoc.js';
+import heading from '../schema/heading.markdoc.js';
 import code from '../schema/inline-code.markdoc.js';
-import message from '../schema/message.markdoc.js';
 import link from '../schema/link.markdoc.js';
+import message from '../schema/message.markdoc.js';
+import stance from '../schema/stance.markdoc.js';
 
 export const getMarkdocConfig = (document) => {
   const { frontmatter } = document;

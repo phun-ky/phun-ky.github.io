@@ -17,8 +17,8 @@ export const Link = (props) => {
     .join(' ');
   const _style = style ? ` style="${style}"` : '';
   const linkClassNames = cx(`ph ${className || ''}`);
-  const linkPostFix = to => {
-    if(to.indexOf('/') === 0 && process.env.NODE_ENV === 'development'){
+  const linkPostFix = (to) => {
+    if (to.indexOf('/') === 0 && process.env.NODE_ENV === 'development') {
       return '.html';
     }
 

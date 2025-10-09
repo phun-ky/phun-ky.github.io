@@ -1,7 +1,5 @@
-import yaml from 'js-yaml';
+import { load } from 'js-yaml';
 
 export const parseMarkdocFrontmatter = (ast) => {
-  return ast.attributes.frontmatter
-    ? yaml.load(ast.attributes.frontmatter)
-    : {};
+  return ast.attributes.frontmatter ? load(ast.attributes.frontmatter) : {};
 };

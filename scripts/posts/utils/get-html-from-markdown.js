@@ -1,9 +1,10 @@
+/* eslint-disable import/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
 
-import { processTokens } from './process-tokens.js';
-import { parseMarkdocFrontmatter } from './parse-markdoc-frontmatter.js';
-import { getMarkdocConfig } from './get-markdoc-config.js';
 import { addClassToNode } from './add-class-to-node.js';
+import { getMarkdocConfig } from './get-markdoc-config.js';
+import { parseMarkdocFrontmatter } from './parse-markdoc-frontmatter.js';
+import { processTokens } from './process-tokens.js';
 
 export const getHTMLfromMarkdown = (md) => {
   if (!md || (md && md.length === 0)) return '';

@@ -1,6 +1,8 @@
+/* eslint-disable import/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
-import { addClassToNode } from '../utils/add-class-to-node.js';
+
 import { slugify } from '../../../src/utils/slugify.js';
+import { addClassToNode } from '../utils/add-class-to-node.js';
 
 const generateID = (children, attributes) => {
   if (attributes.id && typeof attributes.id === 'string') {
@@ -11,23 +13,18 @@ const generateID = (children, attributes) => {
     throw new Error('Children not defined');
   }
 
-  // eslint-disable-next-line
-
   const res = [];
   const cb = (e) => {
-    if(typeof e === 'string'){
+    if (typeof e === 'string') {
       res.push(e);
     }
 
-    e.children && e.children.forEach(cb);
+    e.children?.forEach(cb);
   };
 
   children.forEach(cb);
 
-
-  return slugify(res
-    .filter((child) => typeof child === 'string')
-    .join(' '));
+  return slugify(res.filter((child) => typeof child === 'string').join(' '));
 };
 const heading = {
   attributes: {
@@ -49,7 +46,7 @@ const heading = {
       },
       [
         ...children,
-        new Markdoc.Tag('a',{
+        new Markdoc.Tag('a', {
           class: 'ph heading-link',
           href: `#${id}`,
           role: 'presentation',

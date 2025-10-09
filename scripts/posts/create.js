@@ -1,28 +1,25 @@
 /* eslint-disable no-console */
+import fs, { globSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import fs from 'node:fs';
 
-import { glob } from 'glob';
-
-import { createContentManifest } from './utils/create-content-manifest.js';
-import { getHTML } from './utils/get-html.js';
-import { getFrontmatter } from './utils/get-frontmatter.js';
-import { slugify } from '../../src/utils/slugify.js';
-
-import { ArticleCSS } from './components/ArticleCSS/index.js';
-import { GlobalCSS } from './components/GlobalCSS/index.js';
-import { OpenGraphTags } from './components/OpenGraphTags/index.js';
-import { HeadScripts } from './components/HeadScripts/index.js';
-import { BodyScripts } from './components/BodyScripts/index.js';
-
-import { PostByline } from '../../src/components/meta/PostByline/index.js';
 import { ArchiveNotice } from '../../src/components/communication/ArchiveNotice/index.js';
+import { PostByline } from '../../src/components/meta/PostByline/index.js';
 import { Breadcrumbs } from '../../src/components/navigation/Breadcrumbs/index.js';
-import { Header } from '../../src/components/page-sections/Header/index.js';
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
+import { Header } from '../../src/components/page-sections/Header/index.js';
+import { slugify } from '../../src/utils/slugify.js';
+
 import { Analytics } from './components/Analytics/index.js';
+import { ArticleCSS } from './components/ArticleCSS/index.js';
+import { BodyScripts } from './components/BodyScripts/index.js';
+import { GlobalCSS } from './components/GlobalCSS/index.js';
+import { HeadScripts } from './components/HeadScripts/index.js';
+import { OpenGraphTags } from './components/OpenGraphTags/index.js';
+import { createContentManifest } from './utils/create-content-manifest.js';
+import { getFrontmatter } from './utils/get-frontmatter.js';
+import { getHTML } from './utils/get-html.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
@@ -32,7 +29,7 @@ const TEMPLATE_PATH = resolve(
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const contentManifest = createContentManifest(CONTENT_DIR);
-const files = glob.sync(`${CONTENT_DIR}/*.md`);
+const files = globSync(`${CONTENT_DIR}/*.md`);
 
 files.forEach((file) => {
   const rawText = fs.readFileSync(file, 'utf-8');
@@ -89,8 +86,8 @@ files.forEach((file) => {
         image,
         description: description
           ? description
-            .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
-            .replaceAll(/"/g, '&quot;')
+              .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
+              .replaceAll(/"/g, '&quot;')
           : null
       })
     );

@@ -1,5 +1,4 @@
 import { slugify } from '../../../utils/slugify.js';
-
 import { Link } from '../../navigation/Link/index.js';
 
 const html = String.raw;
@@ -16,7 +15,7 @@ export const Tags = (tags) => {
             ${Link({
               to: `/tags/${slugify(tag.toLowerCase())}`,
               className: 'tag-link',
-              content: tag,
+              content: tag
             })}
           </li>`;
         })

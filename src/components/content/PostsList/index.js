@@ -1,5 +1,4 @@
 import { slugify } from '../../../utils/slugify.js';
-
 import { Link } from '../../navigation/Link/index.js';
 
 const html = String.raw;
@@ -22,73 +21,77 @@ export const PostsList = (posts, quantity = 20, excludeCategory) => {
     extraPosts = html`<h2 class="ph">Older posts</h2>
       <ul class="ph">
         ${posts
-    .slice(MAX_TOP_POSTS, posts.length)
-    .map((post) => {
-      const { title, url, year, month, day } = post;
+          .slice(MAX_TOP_POSTS, posts.length)
+          .map((post) => {
+            const { title, url, year, month, day } = post;
 
-      return html`<li class="ph">
+            return html`<li class="ph">
               ${Link({ to: url, content: title })} –
               <time pubdate datetime="${year}-${month}-${day}" class="ph"
                 >${year}/${month}/${day}</time
               >
             </li>`;
-    })
-    .join('\n')}
+          })
+          .join('\n')}
       </ul>`;
   }
 
   return html`<ul class="ph posts">
       ${posts
-    .slice(0, MAX_TOP_POSTS)
-    .map((post) => {
-      const { title, description, url, year, month, day, category } = post;
-      const dtf = new Intl.DateTimeFormat('en', {
-        year: 'numeric',
-        month: 'long',
-        day: '2-digit'
-      });
-      const publishedData = new Date(`${year}/${month}/${day}`);
-      const todayDate = new Date();
-      const formattedDate = dtf.format(publishedData.getTime());
-      const diffDays = parseInt(
-        (todayDate - publishedData) / (1000 * 60 * 60 * 24),
-        10
-      );
-      const displayDate =
+        .slice(0, MAX_TOP_POSTS)
+        .map((post) => {
+          const { title, description, url, year, month, day, category } = post;
+          const dtf = new Intl.DateTimeFormat('en', {
+            year: 'numeric',
+            month: 'long',
+            day: '2-digit'
+          });
+          const publishedData = new Date(`${year}/${month}/${day}`);
+          const todayDate = new Date();
+          const formattedDate = dtf.format(publishedData.getTime());
+          const diffDays = parseInt(
+            (todayDate - publishedData) / (1000 * 60 * 60 * 24),
+            10
+          );
+          const displayDate =
             diffDays > 6
               ? `on ${formattedDate}`
               : diffDays === 0
                 ? 'today'
                 : `${diffDays} days ago`;
 
-      return html` <li class="ph post">
+          let descriptionToUse = '';
+
+          if (description) {
+            descriptionToUse = `<p class="ph post-description">${description.replaceAll(
+              /(&nbsp;|<([^>]+)>)/gi,
+              ''
+            )}</p>`;
+          }
+
+          return html` <li class="ph post">
             ${Link({
-    to: url,
-    className: 'post-link',
-    content: html`
+              to: url,
+              className: 'post-link',
+              content: html`
                 <h2 class="ph post-title">${title}</h2>
-                ${description
-    ? `<p class="ph post-description">${description.replaceAll(
-      /(&nbsp;|<([^>]+)>)/gi,
-      ''
-    )}</p>`
-    : ''}
+                ${descriptionToUse}
               `
-  })}
+            })}
 
             <address class="ph post-meta">
               Written by <a href="/" class="ph">Alexander</a> in
               ${Link({
-    to: `/categories/${slugify(category.toLowerCase())}`,
-    content: category
-  })}
+                to: `/categories/${slugify(category.toLowerCase())}`,
+                content: category
+              })}
               <time pubdate datetime="${year}-${month}-${day}" class="ph">
                 &nbsp;• ${displayDate}
               </time>
             </address>
           </li>`;
-    })
-    .join('\n')}
+        })
+        .join('\n')}
     </ul>
     ${extraPosts}`;
 };

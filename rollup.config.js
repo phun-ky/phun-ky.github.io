@@ -1,10 +1,9 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
 import styles from '@ironkinoko/rollup-plugin-styles';
-import svg from 'rollup-plugin-svg-import';
+
 import terser from '@rollup/plugin-terser';
 import commonjs from '@rollup/plugin-commonjs';
-// import { generateImageSizes } from 'rollup-plugin-generate-image-sizes';
 
 export default [
   {
@@ -23,15 +22,6 @@ export default [
     },
 
     plugins: [
-      // generateImageSizes({
-      //   size: [1400, 1024, 640, 320],
-      //   dir: 'public/images/editorial',
-      //   maxParallel: 1
-      // }),
-      svg({
-        // process SVG to DOM Node or String. Default: false
-        stringify: true
-      }),
       styles({
         mode: ['extract', './css/ph.css'],
         url: false,

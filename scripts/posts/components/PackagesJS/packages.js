@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 'use strict';
 
 /* global Highcharts */
@@ -37,7 +38,6 @@ const popularEl = document.getElementById('popular_package');
 const newestEl = document.getElementById('newest_package');
 const packageCardsEl = document.getElementById('package-cards');
 const toggleLabelEl = document.querySelector('[for="role-toggle"]');
-const contentElement = document.querySelector('.ph.content');
 const paneElement = document.querySelector('.ph.pane');
 const fetchPackageDeprecationStatus = async (pkgName) => {
   var _a;
@@ -84,50 +84,6 @@ const fetchAllDeprecationStatuses = async (packageNames, concurrency = 5) => {
   return results;
 };
 /**
- * Fetches time series download data for a specific npm package.
- */
-const fetchPackageTimeSeries = async (pkgName) => {
-  const url = `https://api.npmjs.org/downloads/range/last-month/${pkgName}`;
-
-  try {
-    const res = await fetch(url);
-
-    if (!res.ok) throw new Error(`Failed to fetch time series for ${pkgName}`);
-
-    return await res.json();
-  } catch (err) {
-    console.warn(err);
-
-    return null;
-  }
-};
-/**
- * Maps a value between min and max to a RGB color scale.
- */
-const getColorForValue = (value, min, max) => {
-  if (min === max) return '#000000';
-
-  const normalized = (value - min) / (max - min);
-
-  let r = 0;
-  let g = 0;
-  let b = 0;
-
-  if (normalized < 0.5) {
-    const t = normalized * 2;
-
-    r = 255 * (1 - t);
-    b = 255 * t;
-  } else {
-    const t = (normalized - 0.5) * 2;
-
-    g = 255 * t;
-    b = 255 * (1 - t);
-  }
-
-  return `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`;
-};
-/**
  * Fetch all npm packages by a user and their monthly download counts.
  */
 const fetchUserPackageDownloads = async (username) => {
@@ -154,7 +110,7 @@ const fetchUserPackageDownloads = async (username) => {
       return {
         package: Object.assign(Object.assign({}, pkg.package), {
           updated: pkg.updated,
-          maintainers,
+          maintainers
         }),
         downloads: {
           monthly:
@@ -162,8 +118,8 @@ const fetchUserPackageDownloads = async (username) => {
               (_a = pkg.downloads) === null || _a === void 0
                 ? void 0
                 : _a.monthly
-            ) || 0,
-        },
+            ) || 0
+        }
       };
     })
   );
@@ -180,7 +136,7 @@ const fetchUserPackageDownloads = async (username) => {
   if (totalEl) {
     totalEl.textContent = new Intl.NumberFormat(navigator.language, {
       notation: 'compact',
-      compactDisplay: 'short',
+      compactDisplay: 'short'
     }).format(totalDownloads);
   }
 
@@ -211,7 +167,7 @@ const renderDownloadStats = (packages) => {
   if (newestEl) newestEl.textContent = newestPackage.package.name;
 
   sortedByDownloads.forEach((pkg, index) => {
-    const { name, links, maintainers = [], updated, version } = pkg.package;
+    const { name, links, maintainers = [] } = pkg.package;
     const dl = document.createElement('dl');
     const dt = document.createElement('dt');
     const dd = document.createElement('dd');
@@ -297,7 +253,7 @@ const renderDownloadStats = (packages) => {
       maintainersContainer,
       chartEl
     );
-    packageCardEl.addEventListener('click', (e) => {
+    packageCardEl.addEventListener('click', () => {
       paneElement.classList.toggle('is-open');
     });
     packageCardsEl.append(packageCardEl);
@@ -343,7 +299,7 @@ const renderSinglePackageChart = async (pkgName, containerId) => {
       chart: {
         type: 'areaspline',
         margin: 0,
-        backgroundColor: 'rgba(255,255,255,0)',
+        backgroundColor: 'rgba(255,255,255,0)'
       },
       title: { text: undefined },
       xAxis: {
@@ -351,41 +307,41 @@ const renderSinglePackageChart = async (pkgName, containerId) => {
         gridLineWidth: 0,
         margin: 0,
         maxPadding: 0,
-        type: 'datetime',
+        type: 'datetime'
       },
       yAxis: {
         title: { text: undefined },
         margin: 0,
         gridLineWidth: 0,
         maxPadding: 0,
-        gridLineColor: 'rgba(255,255,255,0.05)',
+        gridLineColor: 'rgba(255,255,255,0.05)'
       },
       tooltip: {
         xDateFormat: '%Y-%m', // show month
-        shared: true,
+        shared: true
       },
       legend: { enabled: false },
       plotOptions: {
         areaspline: {
           fillOpacity: 1,
-          marker: { enabled: false },
-        },
+          marker: { enabled: false }
+        }
       },
       series: [
         {
           name: 'Downloads',
           data: seriesData,
-          color: '#6ca7f9',
+          color: 'var(--ph-brand-color)',
           fillColor: {
             linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
             stops: [
-              [0, 'rgba(108, 167, 249, 0.2)'],
-              [1, 'rgba(108, 167, 249, 0.0)'],
-            ],
-          },
-        },
+              [0, 'var(--ph-color-chart-gradient-start)'],
+              [1, 'var(--ph-color-chart-gradient-stop)']
+            ]
+          }
+        }
       ],
-      credits: { enabled: false },
+      credits: { enabled: false }
     };
 
     Highcharts.chart(containerId, chartOptions);
@@ -471,7 +427,7 @@ const renderMonthlyDownloadsChart = async (username) => {
       type: 'areaspline',
       margin: 0,
       marginBottom: 40,
-      backgroundColor: 'rgba(255,255,255,0)',
+      backgroundColor: 'rgba(255,255,255,0)'
     },
     title: { text: undefined },
     xAxis: {
@@ -481,41 +437,41 @@ const renderMonthlyDownloadsChart = async (username) => {
       gridLineColor: 'rgba(255,255,255,0.05)',
       labels: {
         format: '{value:%b}',
-        style: { color: 'var(--ph-color-text, #9fa8ad)', fontSize: '1rem' },
-      },
+        style: { color: 'var(--ph-color-text, #9fa8ad)', fontSize: '1rem' }
+      }
     },
     yAxis: {
       title: { text: undefined },
       margin: 0,
       maxPadding: 0,
-      gridLineColor: 'rgba(255,255,255,0.05)',
+      gridLineColor: 'rgba(255,255,255,0.05)'
     },
     tooltip: {
       xDateFormat: '%Y-%m-%d',
-      shared: true,
+      shared: true
     },
     legend: { enabled: false },
     plotOptions: {
       areaspline: {
         fillOpacity: 1,
-        marker: { enabled: false },
-      },
+        marker: { enabled: false }
+      }
     },
     series: [
       {
         name: 'Downloads',
         data: seriesData,
-        color: '#6ca7f9',
+        color: 'var(--ph-brand-color)',
         fillColor: {
           linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
           stops: [
-            [0, 'rgba(108, 167, 249, 0.2)'],
-            [1, 'rgba(108, 167, 249, 0.0)'],
-          ],
-        },
-      },
+            [0, 'var(--ph-color-chart-gradient-start)'],
+            [1, 'var(--ph-color-chart-gradient-stop)']
+          ]
+        }
+      }
     ],
-    credits: { enabled: false },
+    credits: { enabled: false }
   };
 
   // Create chart
@@ -526,16 +482,15 @@ const renderMonthlyDownloadsChart = async (username) => {
     const height = container.offsetHeight;
 
     if (width && height) {
-      currentChart === null || currentChart === void 0
-        ? void 0
-        : currentChart.destroy();
+      currentChart?.destroy();
+
       currentChart = Highcharts.chart(
         container,
         Object.assign(Object.assign({}, chartOptions), {
           chart: Object.assign(Object.assign({}, chartOptions.chart), {
             width,
-            height,
-          }),
+            height
+          })
         })
       );
     }
@@ -546,25 +501,17 @@ const renderMonthlyDownloadsChart = async (username) => {
 // Initialize dashboard
 fetchUserPackageDownloads('phun-ky').then(renderDownloadStats);
 renderMonthlyDownloadsChart('phun-ky');
-roleToggleEl === null || roleToggleEl === void 0
-  ? void 0
-  : roleToggleEl.addEventListener('change', async () => {
-      currentRole = roleToggleEl.checked ? 'maintainer' : 'author';
-      clearUI();
+roleToggleEl?.addEventListener('change', async (e) => {
+  const el = e.currentTarget;
 
-      if (currentRole === 'author') {
-        toggleLabelEl.innerHTML = 'Author';
+  currentRole = el.checked ? 'maintainer' : 'author';
 
-        const pkgs = await fetchUserPackageDownloads('phun-ky');
+  clearUI();
+  toggleLabelEl.textContent =
+    currentRole === 'author' ? 'Author' : 'Maintainer';
 
-        renderDownloadStats(pkgs);
-        renderMonthlyDownloadsChart('phun-ky');
-      } else {
-        toggleLabelEl.innerHTML = 'Maintainer';
+  const pkgs = await fetchUserPackageDownloads('phun-ky');
 
-        const pkgs = await fetchUserPackageDownloads('phun-ky');
-
-        renderDownloadStats(pkgs);
-        renderMonthlyDownloadsChart('phun-ky');
-      }
-    });
+  renderDownloadStats(pkgs);
+  renderMonthlyDownloadsChart('phun-ky');
+});

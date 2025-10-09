@@ -1,23 +1,20 @@
+import fs, { globSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
-import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
-
-import { glob } from 'glob';
-
-import { getFrontmatter } from './utils/get-frontmatter.js';
-
-import { OpenGraphTags } from './components/OpenGraphTags/index.js';
-import { GlobalCSS } from './components/GlobalCSS/index.js';
-import { HeadScripts } from './components/HeadScripts/index.js';
-import { BodyScripts } from './components/BodyScripts/index.js';
 
 import { PostsList } from '../../src/components/content/PostsList/index.js';
 import { Categories } from '../../src/components/navigation/Categories/index.js';
-import { Tags } from '../../src/components/page-sections/Tags/index.js';
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
 import { Header } from '../../src/components/page-sections/Header/index.js';
+import { Tags } from '../../src/components/page-sections/Tags/index.js';
+
 import { Analytics } from './components/Analytics/index.js';
+import { BodyScripts } from './components/BodyScripts/index.js';
+import { GlobalCSS } from './components/GlobalCSS/index.js';
+import { HeadScripts } from './components/HeadScripts/index.js';
+import { OpenGraphTags } from './components/OpenGraphTags/index.js';
+import { getFrontmatter } from './utils/get-frontmatter.js';
 
 let tags = [];
 let html = '';
@@ -27,7 +24,7 @@ const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(DIR_NAME, '../../src/assets/posts');
 const TEMPLATE_PATH = resolve(DIR_NAME, '../../src/pages/Index/template.html');
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
-const files = glob.sync(`${CONTENT_DIR}/*.md`).sort().reverse();
+const files = globSync(`${CONTENT_DIR}/*.md`).sort().reverse();
 const pathToFrontpage = join(DIR_NAME, '../../dist/index.html');
 const posts = [];
 const categories = [];

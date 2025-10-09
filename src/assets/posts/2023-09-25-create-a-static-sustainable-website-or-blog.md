@@ -106,7 +106,7 @@ Use `npm install <pkg>` afterwards to install a package and
 save it as a dependency in the package.json file.
 
 Press ^C at any time to quit.
-package name: 
+package name:
 ```
 
 After you have done that, you will have a directory something like this:
@@ -282,7 +282,7 @@ using `rollup`. Start creating your `rollup.config.js`:
 
 ```shell-session
 $ touch rollup.config.js
-$ struct 
+$ struct
 📦 static-blog.github.io
  ├── 📁 node_modules
  ├── 📄 .browserslistrc
@@ -311,19 +311,19 @@ export default [
       sourcemap: true,
       exports: 'named',
       dir: 'dist',
-      assetFileNames: '[name][extname]',
+      assetFileNames: '[name][extname]'
     },
 
     plugins: [
       styles({
         mode: ['extract', './css/static-blog.css'],
         url: false,
-        minimize: true,
+        minimize: true
       }),
       nodeResolve(),
-      commonjs(),
-    ],
-  },
+      commonjs()
+    ]
+  }
 ];
 ```
 
@@ -416,7 +416,7 @@ import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import fs from 'node:fs';
 
-import { glob } from 'glob';
+import { globSync } from 'node:fs';
 
 import { createContentManifest } from './utils/create-content-manifest.js';
 import { getHTML } from './utils/get-html.js';
@@ -430,7 +430,7 @@ const TEMPLATE_PATH = resolve(
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const contentManifest = createContentManifest(CONTENT_DIR);
-const files = glob.sync(`${CONTENT_DIR}/*.md`);
+const files = globSync(`${CONTENT_DIR}/*.md`);
 
 files.forEach((file) => {
   const rawText = fs.readFileSync(file, 'utf-8');

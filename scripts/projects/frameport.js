@@ -1,17 +1,16 @@
-import { join, resolve, dirname } from 'node:path';
 import fs from 'node:fs';
+import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-
-import { OpenGraphTags } from '../posts/components/OpenGraphTags/index.js';
-import { GlobalCSS } from '../posts/components/GlobalCSS/index.js';
-import { HeadScripts } from '../posts/components/HeadScripts/index.js';
-import { BodyScripts } from '../posts/components/BodyScripts/index.js';
 
 import { Author } from '../../src/components/page-sections/Author/index.js';
 import { Footer } from '../../src/components/page-sections/Footer/index.js';
 import { Header } from '../../src/components/page-sections/Header/index.js';
-import { ArticleCSS } from '../posts/components/ArticleCSS/index.js';
 import { Analytics } from '../posts/components/Analytics/index.js';
+import { ArticleCSS } from '../posts/components/ArticleCSS/index.js';
+import { BodyScripts } from '../posts/components/BodyScripts/index.js';
+import { GlobalCSS } from '../posts/components/GlobalCSS/index.js';
+import { HeadScripts } from '../posts/components/HeadScripts/index.js';
+import { OpenGraphTags } from '../posts/components/OpenGraphTags/index.js';
 
 let html = '';
 
@@ -35,7 +34,7 @@ html = TEMPLATE.replace(
     title: '@phun-ky/frameport',
     siteName: 'A zero dependency package to highlight elements',
     description:
-      'Frameport is a zero dependency JavaScript package to highlight elements on web pages and in documentation. It\'s easy to use and highly customizable, making it the perfect tool for developers, designers, and content creators alike.'
+      "Frameport is a zero dependency JavaScript package to highlight elements on web pages and in documentation. It's easy to use and highly customizable, making it the perfect tool for developers, designers, and content creators alike."
   })
 );
 html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
