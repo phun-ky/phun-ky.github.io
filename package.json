@@ -6,11 +6,9 @@
   "main": "index.html",
   "scripts": {
     "clean": "rm -rf dist/*",
-    "assets": "mkdir -p dist && cp -a ./src/assets/. ./dist/",
-    "prebuild": "npm run clean && npm run assets && node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/speaker/index.js && node scripts/projects/projects.js && node scripts/projects/packages.js && node scripts/projects/frameport.js",
-    "build": "rollup -c rollup.config.js",
-    "postbuild": "bash -c 'mv -f ./dist/*.{js,map} ./dist/js'",
-    "build:watch": "NODE_ENV=development rollup -c rollup.config.js -w",
+    "assets": "mkdir -p dist && cp -a ./src/assets/. ./dist/ && cp -a ./src/styles/. ./dist/css",
+    "prebuild": "npm run clean && npm run assets",
+    "build": "node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/speaker/index.js && node scripts/projects/projects.js && node scripts/projects/packages.js && node scripts/projects/frameport.js",
     "commit": "git cz"
   },
   "repository": {
@@ -28,29 +26,19 @@
     }
   },
   "engines": {
-    "node": ">=18.16.0",
-    "npm": ">=9.5.1"
+    "node": ">=22.9.0",
+    "npm": ">=11.0.0"
   },
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
-    "@ironkinoko/rollup-plugin-styles": "^4.0.4",
     "@markdoc/markdoc": "^0.5.4",
-    "@rollup/plugin-commonjs": "^28.0.6",
-    "@rollup/plugin-json": "^6.1.0",
     "globals": "^16.0.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "cssnano": "^7.0.6",
     "eslint": "^9.20.0",
     "eslint-config-phun-ky": "^1.0.0",
     "git-cz": "^4.9.0",
     "htmlparser2": "^9.0.0",
     "js-yaml": "^4.1.0",
     "jsdom": "^27.0.0",
-    "postcss": "^8.5.2",
-    "postcss-cli": "^11.0.0",
-    "rollup": "^3.29.5",
-    "prettier": "3.6.2",
-    "stylus": "^0.64.0"
+    "prettier": "3.6.2"
   }
 }
