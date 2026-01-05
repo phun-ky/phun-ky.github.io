@@ -11,9 +11,9 @@ const packagesJavaScriptFile = readFileSync(
 const html = String.raw;
 
 export const PackagesJS = () => {
-  return html`<script>
+  return html` <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script>
       ${packagesJavaScriptFile};
-    </script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/highcharts-more.js"></script>`;
+    </script>`;
 };
