@@ -65,13 +65,18 @@
               A full overview over my packages download statistics, total and by
               month.
             </p>
+            <p class="ph">
+              Switch between Author and Maintainer, and clear cache if required.
+            </p>
           </div>
         </section>
         <section class="ph section">
           <div class="ph container">
             <div class="ph content">
               <div class="ph settings">
-                <button type="button" id="clear-cache">clear cache</button>
+                <button type="button" id="clear-cache" class="ph button">
+                  clear cache
+                </button>
                 <div class="ph toggle-controls">
                   Author or Maintainer?
                   <input
@@ -86,18 +91,20 @@
 
               <div class="ph packages-overview">
                 <div class="ph meta">
+                  <div class="ph card number-of-packages">
+                    <span class="ph title">Packages</span>
+                    <span class="ph big-number" id="number_of_packages"></span>
+                  </div>
                   <div class="ph card total">
-                    <span class="ph title">Total monthly downloads</span>
+                    <span class="ph title">Downloads</span>
                     <span class="ph big-number" id="total_downloads"></span>
                   </div>
                   <div class="ph card popular">
-                    <span class="ph title"
-                      >Most popular package this month</span
-                    >
+                    <span class="ph title">Popular</span>
                     <span class="ph package-name" id="popular_package"></span>
                   </div>
                   <div class="ph card newest">
-                    <span class="ph title">Newest package</span>
+                    <span class="ph title">Newest</span>
                     <span class="ph package-name" id="newest_package"></span>
                   </div>
                 </div>
@@ -110,8 +117,12 @@
                 </div>
                 <div class="ph package-cards" id="package-cards"></div>
                 <div class="ph card packages">
-                  <span class="ph title">Packages</span>
+                  <span class="ph title">Overview</span>
                   <div class="ph inner" id="downloads"></div>
+                </div>
+                <div class="ph keywords">
+                  <span class="ph title">Keywords</span>
+                  <ul class="ph tags" id="keywords"></ul>
                 </div>
               </div>
               <div class="ph pane"></div>

@@ -94,6 +94,9 @@
   flex-direction: column;
   gap: 1rem 1rem;
   grid-area: overview;
+  --ph-font-family: 'Lato', sans-serif;
+  --ph-font-family-sans: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 @media screen and (min-width: 720px) {
   .ph.packages-overview {
@@ -105,7 +108,8 @@
     grid-template-areas:
       'meta meta meta'
       'monthly monthly packages'
-      'package-cards package-cards packages';
+      'package-cards package-cards packages'
+      'keywords keywords keywords';
   }
 }
 
@@ -115,7 +119,8 @@
     grid-template-areas:
       'meta meta meta packages'
       'monthly monthly monthly packages'
-      'package-cards package-cards package-cards package-cards';
+      'package-cards package-cards package-cards package-cards'
+      'keywords keywords keywords keywords';
   }
 }
 @media screen and (min-width: 3840px) {
@@ -125,7 +130,8 @@
       'meta packages package-cards package-cards package-cards package-cards'
       'meta packages package-cards package-cards package-cards package-cards'
       'monthly packages package-cards package-cards package-cards package-cards'
-      'monthly packages package-cards package-cards package-cards package-cards';
+      'monthly packages package-cards package-cards package-cards package-cards'
+      'keywords keywords keywords keywords keywords keywords';
   }
 }
 
@@ -141,20 +147,42 @@
 
   & .title {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--ph-color-text-accent);
     line-height: 130%;
     margin-right: 4.5rem;
     @media screen and (min-width: 720px) {
-      font-size: 20px;
+      font-size: 24px;
       line-height: 130%;
     }
     @media screen and (min-width: 3840px) {
-      font-size: 1.5rem;
+      font-size: 32px;
     }
   }
 }
-
+.ph.keywords {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  grid-area: keywords;
+  & .ph.tag-link {
+    font-size: 18px;
+  }
+  & .title {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--ph-color-text-accent);
+    line-height: 130%;
+    margin-right: 4.5rem;
+    @media screen and (min-width: 720px) {
+      font-size: 24px;
+      line-height: 130%;
+    }
+    @media screen and (min-width: 3840px) {
+      font-size: 32px;
+    }
+  }
+}
 .ph.meta {
   gap: 1rem;
   grid-area: meta;
@@ -165,6 +193,11 @@
   @media screen and (min-width: 3840px) {
     flex-direction: column;
   }
+}
+
+.ph.packages-overview .ph.card.number-of-packages {
+  height: 100%;
+  width: 100%;
 }
 
 .ph.packages-overview .ph.card.total {
@@ -283,11 +316,12 @@
 }
 
 .big-number {
-  font-size: 2rem;
+  font-size: clamp(2rem, 6vw, 8rem);
   line-height: 100%;
   font-weight: 600;
   color: var(--ph-color-text-accent);
   display: flex;
+  font-family: 'Lato', sans-serif;
   margin-top: auto;
   justify-content: center;
 }
@@ -324,7 +358,9 @@
   font-weight: 600;
   line-height: 100%;
   color: var(--ph-color-text-accent);
+  font-family: 'Lato', sans-serif;
   &::after {
+    font-family: 'Roboto', sans-serif;
     content: 'downloads';
     margin-left: 1ch;
     color: var(--ph-color-text, #9fa8ad);
@@ -528,4 +564,8 @@ main.ph a.ph.github-link {
     overflow: auto;
     box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 0.12);
   }
+}
+
+dd.ph.downloads {
+  font-family: 'Lato', sans-serif;
 }

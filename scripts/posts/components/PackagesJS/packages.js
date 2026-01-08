@@ -160,6 +160,7 @@ const normalizeRepoUrl = (raw) => {
   return url.startsWith('https://') ? url : null;
 };
 const clearUI = () => {
+  keywords.clear();
   downloadsElement.innerHTML = '';
   packageCardsEl.innerHTML = '';
   monthlyDownloadsElement.innerHTML = '';
@@ -167,6 +168,8 @@ const clearUI = () => {
 const downloadsElement = document.getElementById('downloads');
 const monthlyDownloadsElement = document.getElementById('chart-container');
 const totalEl = document.getElementById('total_downloads');
+const keywordsEl = document.getElementById('keywords');
+const numberOfPackagesEl = document.getElementById('number_of_packages');
 const popularEl = document.getElementById('popular_package');
 const newestEl = document.getElementById('newest_package');
 const packageCardsEl = document.getElementById('package-cards');
@@ -208,6 +211,7 @@ const paneElement = document.querySelector('.ph.pane');
 /**
  * Fetch all npm packages by a user and their monthly download counts.
  */
+const keywords = new Set();
 const fetchUserPackageDownloads = async (username, { signal } = {}) => {
   const data = await searchRegistry(currentRole, username, { signal });
   const packages = await Promise.all(
@@ -249,6 +253,18 @@ const fetchUserPackageDownloads = async (username, { signal } = {}) => {
     (sum, pkg) => sum + pkg.downloads.monthly,
     0
   );
+  const k = packages.reduce((k, pkg) => {
+    return [...new Set([...k, ...pkg.package.keywords])];
+  }, []);
+
+  if (keywordsEl) {
+    keywordsEl.innerHTML = k
+      .map(
+        (k) =>
+          `<li class="ph tag"><a class="ph tag-link" rel="noopener noreferrer" target="_blank" href="https://www.npmjs.com/search?q=keywords:${k}">${k}</a></li>`
+      )
+      .join('\n');
+  }
 
   if (totalEl) {
     totalEl.textContent = new Intl.NumberFormat(navigator.language, {
@@ -256,6 +272,15 @@ const fetchUserPackageDownloads = async (username, { signal } = {}) => {
       compactDisplay: 'short'
     }).format(totalDownloads);
   }
+
+  if (numberOfPackagesEl) {
+    numberOfPackagesEl.textContent = new Intl.NumberFormat(navigator.language, {
+      notation: 'compact',
+      compactDisplay: 'short'
+    }).format(packages.length);
+  }
+
+  console.log(packages);
 
   return packages;
 };
