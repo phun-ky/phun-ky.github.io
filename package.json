@@ -32,7 +32,7 @@
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
     "@markdoc/markdoc": "^0.5.4",
-    "globals": "^16.5.0",
+    "globals": "^17.0.0",
     "eslint": "^9.39.2",
     "eslint-config-phun-ky": "^1.0.31",
     "git-cz": "^4.9.0",
