@@ -34,11 +34,11 @@
     "@markdoc/markdoc": "^0.5.4",
     "globals": "^16.5.0",
     "eslint": "^9.39.2",
-    "eslint-config-phun-ky": "^1.0.27",
+    "eslint-config-phun-ky": "^1.0.31",
     "git-cz": "^4.9.0",
     "htmlparser2": "^10.0.0",
     "js-yaml": "^4.1.1",
     "jsdom": "^27.4.0",
-    "prettier": "3.7.4"
+    "prettier": "3.8.0"
   }
 }
