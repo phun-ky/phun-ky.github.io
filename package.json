@@ -32,13 +32,13 @@
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
     "@markdoc/markdoc": "^0.5.4",
-    "globals": "^16.5.0",
-    "eslint": "^9.39.2",
+    "globals": "^17.3.0",
+    "eslint": "^10.0.0",
     "eslint-config-phun-ky": "^1.0.31",
     "git-cz": "^4.9.0",
     "htmlparser2": "^10.0.0",
     "js-yaml": "^4.1.1",
-    "jsdom": "^27.4.0",
+    "jsdom": "^28.0.0",
     "prettier": "3.8.0"
   }
 }
