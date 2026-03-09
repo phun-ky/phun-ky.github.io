@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/phun-ky/phun-ky.github.io#readme",
   "devDependencies": {
-    "@markdoc/markdoc": "^0.5.4",
+    "@markdoc/markdoc": "^0.5.5",
     "globals": "^17.4.0",
-    "eslint": "^9.39.3",
-    "eslint-config-phun-ky": "^1.0.34",
+    "eslint": "^9.39.4",
+    "eslint-config-phun-ky": "^1.0.35",
     "git-cz": "^4.9.0",
     "htmlparser2": "^10.1.0",
     "js-yaml": "^4.1.1",
