@@ -36,9 +36,9 @@
     "eslint": "^9.39.4",
     "eslint-config-phun-ky": "^1.0.35",
     "git-cz": "^4.9.0",
-    "htmlparser2": "^10.1.0",
+    "htmlparser2": "^12.0.0",
     "js-yaml": "^4.1.1",
-    "jsdom": "^28.1.0",
+    "jsdom": "^29.0.1",
     "prettier": "3.8.1"
   }
 }
