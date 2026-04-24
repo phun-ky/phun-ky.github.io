@@ -18,7 +18,13 @@ export default defineConfig([
     }
   },
   {
-    files: ['**/*.md/*.js', '**/*.md/*.jsx', '**/*.md/*.ts', '**/*.md/*.tsx'],
+    files: [
+      '**/*.md/*.js',
+      '**/*.md/*.jsx',
+      '**/*.md/*.ts',
+      '**/*.md/*.tsx',
+      '**/*.ts'
+    ],
     languageOptions: {
       parser: TSEslintParser,
       parserOptions: {
