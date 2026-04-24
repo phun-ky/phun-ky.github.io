@@ -10,7 +10,7 @@ description:
   shit together'
 category: 'Technology'
 tags: [trusted-data, data, how-to]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/960px-Apocalypse_vasnetsov.jpg
 ---
 
 **Table of Contents**
@@ -22,7 +22,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasn
 
 {% figure
   description="A painting of the four horsemen of the apocalypse"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/640px-Apocalypse_vasnetsov.jpg>"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apocalypse_vasnetsov.jpg/960px-Apocalypse_vasnetsov.jpg>"
 %}
 
 Image by [Viktor M. Vasnetsov](//en.wikipedia.org/wiki/Viktor_Vasnetsov) -

@@ -5,13 +5,13 @@ title:
   require.js'
 description: In the current project I am working on, we wanted to load our dependencies in "synchronous" order without the use of a big library like [require.js](http://requirejs.org/).
 category: 'How-to'
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/960px-ISS_Habitation_module.jpg
 tags: [javascript, dependencies, load.js, how-to]
 ---
 
 {% figure
   description="Photo of a ISS module"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/608px-ISS_Habitation_module.jpg>"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/960px-ISS_Habitation_module.jpg>"
 %}
 
 by NASA - [http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html](http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html). Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
@@ -82,12 +82,12 @@ var loadDeps = function (eventid, scripts_to_load, env_path) {
           script.onload();
         }
       }
-    },
-    _load_dependency = function (env_path, script, handle, eventid) {
+    };
+    var _load_dependency = function (env_path, script, handle, eventid) {
       load(env_path + script.path).thenRun(function () {
         _callback(script, handle, eventid);
       });
-    },
+    };
     /**
      * Is object not in window?
      *
@@ -96,23 +96,23 @@ var loadDeps = function (eventid, scripts_to_load, env_path) {
      * @private
      * @return  Boolean
      */
-    _is_not_in_window = function (obj) {
+    var _is_not_in_window = function (obj) {
       return obj in window === false;
-    },
+    };
     /**
      * Flag for all dependencies loaded
      *
      * @type  Boolean
      * @private
      */
-    _all_dependencies_loaded,
+    var _all_dependencies_loaded;
     /**
      * Flag for all libraries loaded
      *
      * @type  Boolean
      * @private
      */
-    _all_libraries_loaded;
+    var _all_libraries_loaded;
 
   /**
    * Loop through scripts_to_load to look for scripts to load

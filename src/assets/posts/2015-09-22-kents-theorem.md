@@ -8,13 +8,13 @@ description:
   a theorem provided by one of our team members, Kent Andersen. We liked it so
   much, that we coined it Kent's theorem."
 category: 'Digital Business'
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/960px-CollatzFractal.png
 tags: [digital-business, business-strategy]
 ---
 
 {% figure
   description="CollatzFractal"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/640px-CollatzFractal.png>"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/960px-CollatzFractal.png>"
 %}
 
 Image by [Pokipsy76](//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&amp;action=edit&amp;redlink=1) - English wikipedia. Licensed under Public Domain via [Wikimedia Commons](//commons.wikimedia.org/wiki/).

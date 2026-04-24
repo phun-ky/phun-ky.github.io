@@ -8,13 +8,13 @@ description:
   applications, to create a new page with a given template from a link, to spare
   me the hazzle of doing it "manually".'
 category: 'How-to'
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/500px-Atlassian-logo.svg.png
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/960px-Atlassian-logo.svg.png
 tags: [how-to, template, confluence]
 ---
 
 {% figure
   description="The Atlassian Logo"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/500px-Atlassian-logo.svg.png>"
+  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/960px-Atlassian-logo.svg.png>"
 %}
 
 {% /figure %}
