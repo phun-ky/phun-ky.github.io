@@ -11,6 +11,7 @@ import { BodyScripts } from './components/BodyScripts/index.js';
 import { GlobalCSS } from './components/GlobalCSS/index.js';
 import { HeadScripts } from './components/HeadScripts/index.js';
 import { OpenGraphTags } from './components/OpenGraphTags/index.js';
+import { TrailingSlashRedirect } from './components/TrailingSlashRedirect/index.js';
 
 let html = '';
 
@@ -23,6 +24,7 @@ const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const pathTo404 = join(DIR_NAME, '../../dist/404.html');
 
 html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
+html = html.replace(/{{TRAILING_SLASH_REDIRECT}}/, TrailingSlashRedirect());
 html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
 html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
 html = html.replace(/{{ANALYTICS}}/, Analytics());
