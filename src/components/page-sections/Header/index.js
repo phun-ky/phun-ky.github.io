@@ -6,7 +6,13 @@ export const Header = () => {
       <a class="ph home" href="/">Home</a>
 
       <div class="ph header-menu">
-        <a class="ph packages-home" href="/packages">Packages</a>
+        <a
+          class="ph packages-home"
+          href="https://mypackages.dev/"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Packages</a
+        >
         <a class="ph projects-home" href="/projects">Projects</a>
         <a class="ph speaker-home" href="/speaker">Speaker</a>
         <a
