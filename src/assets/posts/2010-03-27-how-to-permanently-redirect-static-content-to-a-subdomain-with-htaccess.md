@@ -16,7 +16,7 @@ tags: ['apache', 'htaccess', 'cdn']
 Put this in a `.htaccess`-file in your top www dir:
 
 ```apacheconf
-RewriteRule ^img/(.*)$ http://cdn.example.com/img/$1 [R=301] 
+RewriteRule ^img/(.*)$ http://cdn.example.com/img/$1 [R=301]
 RewriteRule ^css/(.*)$ http://cdn.example.com/css/$1 [R=301]
 RewriteRule ^js/(.*)$ http://cdn.example.com/js/$1 [R=301,L]
 ```

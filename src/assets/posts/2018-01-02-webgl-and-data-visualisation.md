@@ -25,7 +25,8 @@ image: /img/blog/0 -or0ghitMp_hXvSe.webp
   src="/img/blog/0 -or0ghitMp_hXvSe.webp"
 %}
 
-from [Daily Dead](https://dailydead.com). Licensed by Daily Dead, All rights reserved.
+from [Daily Dead](https://dailydead.com). Licensed by Daily Dead, All rights
+reserved.
 
 {% /figure %}
 
@@ -58,11 +59,11 @@ element.
 
 Normally when rendering dynamic images in the browser, the go-to solution was
 using
-[Canvas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas),
-in 2D, like a bitmap. And with the complexity in certain dynamic images, the
-bitmap created on the
-[Canvas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas)
-uses a lot of CPU. With WebGL, the GPU is used for the computationally expensive
+[Canvas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas), in
+2D, like a bitmap. And with the complexity in certain dynamic images, the bitmap
+created on the
+[Canvas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) uses
+a lot of CPU. With WebGL, the GPU is used for the computationally expensive
 process, instead of the CPU.
 
 Why? Well, we could answer it with one question: Why use OpenGL?

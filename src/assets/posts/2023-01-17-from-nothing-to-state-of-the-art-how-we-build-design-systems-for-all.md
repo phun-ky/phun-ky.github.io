@@ -9,4 +9,4 @@ tags: [design, design systems, frontend, talk, conference, ndc]
 image: /img/blog/0 oOlnPUNVTcghs-Iq.webp
 ---
 
-[![Screenshot of the talk I had on NDC](/img/blog/0%20oOlnPUNVTcghs-Iq.webp "From nothing to state of the art, how we build design systems, for all!")](https://www.youtube.com/watch?v=s6KZlL3Yt8s)
+[![Screenshot of the talk I had on NDC](/img/blog/0%20oOlnPUNVTcghs-Iq.webp 'From nothing to state of the art, how we build design systems, for all!')](https://www.youtube.com/watch?v=s6KZlL3Yt8s)

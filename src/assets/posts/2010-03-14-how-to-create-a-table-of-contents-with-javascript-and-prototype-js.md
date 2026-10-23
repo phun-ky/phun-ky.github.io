@@ -9,7 +9,8 @@ tags: ['javascript', 'toc','table of contents']
 
 {% message type="note" title="Note" %}
 
-You might want to add some styling to the levels in the table of contents, so that the user can differentiate between levels.
+You might want to add some styling to the levels in the table of contents, so
+that the user can differentiate between levels.
 
 {% /message %}
 
@@ -74,7 +75,7 @@ const createTableOfContents = (postContainerSelector, levels = 4) => {
     tableOfContentsItemElement.appendChild(tableOfContentsActionElement);
     listElement.appendChild(tableOfContentsItemElement);
   });
-  
+
   tableOfContentsElement.appendChild(listElement);
 
   tableOfContentsElement.style.display = 'block';

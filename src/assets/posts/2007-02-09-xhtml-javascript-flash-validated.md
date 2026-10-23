@@ -14,8 +14,7 @@ no real success - the Flash Satay example from an article posted at
 list apart</a> and the default Adobe embed to mention a few.
 
 The solution was SWFObject from
-[deconcept.com](http://blog.deconcept.com/swfobject/)!
-To say it directly:
+[deconcept.com](http://blog.deconcept.com/swfobject/)! To say it directly:
 
 > SWFObject is a small Javascript file used for embedding Adobe Flash content.
 > The script can detect the Flash plug-in in all major web browsers (on Mac and
@@ -24,7 +23,7 @@ To say it directly:
 To mention a tip: you can use the noscript tag with the js script to include an
 image incase the browser cant read flash OR javascript.
 
-### A little update
+## A little update
 
 Robert Nyman has
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.robertnyman.com/2007/02/01/how-to-write-valid-htmlxhtml-code-to-include-flash/">written

@@ -13,13 +13,10 @@ Souders</a>.
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.stevesouders.com/">Steve
 Souders</a> created YSlow, the Firefox add-on that analyzes web page performance
 according to the 14 rules described in this book. It works with
-[Firebug](http://getfirebug.com/).
-The book describes 14 best practices for faster web pages. It's had great
-reviews on
-[Amazon](http://stevesouders.com/hpws/amazon-rank.php)
-(#1 in Computers),
-[Slashdot](http://stevesouders.com/hpws/slashdot.php),
-and
+[Firebug](http://getfirebug.com/). The book describes 14 best practices for
+faster web pages. It's had great reviews on
+[Amazon](http://stevesouders.com/hpws/amazon-rank.php) (#1 in Computers),
+[Slashdot](http://stevesouders.com/hpws/slashdot.php), and
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://radar.oreilly.com/archives/2007/10/high_performance_websites.html">O'Reilly
 Radar</a>. Mainly I bought this book after I've used the YSlow plugin for a
 while, I got more interested in the subject and the YSlow pages didn't quite

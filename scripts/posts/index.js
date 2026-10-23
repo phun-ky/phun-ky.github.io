@@ -17,7 +17,7 @@ import { OpenGraphTags } from './components/OpenGraphTags/index.js';
 import { getFrontmatter } from './utils/get-frontmatter.js';
 
 let tags = [];
-let html = '';
+let html;
 
 const NUMBER_OF_POSTS_ON_FRONTPAGE = '*';
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));

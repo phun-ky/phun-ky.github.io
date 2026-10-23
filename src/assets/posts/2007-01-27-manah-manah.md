@@ -11,10 +11,12 @@ tags: [funny, comics, the muppet show]
 
 Have a look at the comic,then check out the clip:
 
-![a comic strip by mads eriksen](/img/blog/mmanah.webp "manah manah")
+![a comic strip by mads eriksen](/img/blog/mmanah.webp 'manah manah')
 
-The norwegian in the last frame is translated into: "...of ALL the dirty tric..", got it?
+The norwegian in the last frame is translated into: "...of ALL the dirty
+tric..", got it?
 
-The link to the comic strip is [here](http://www.start.no/tegneserier/m/?1169852400), and the clip is here:
+The link to the comic strip is
+[here](http://www.start.no/tegneserier/m/?1169852400), and the clip is here:
 
-[![Thumbnail from the video](https://i.ytimg.com/vi/8N_tupPBtWQ/hqdefault.jpg "Muppet Show - Mahna Mahna...m HD 720p bacco... Original!")](https://www.youtube.com/watch?v=8N_tupPBtWQ)
+[![Thumbnail from the video](https://i.ytimg.com/vi/8N_tupPBtWQ/hqdefault.jpg 'Muppet Show - Mahna Mahna...m HD 720p bacco... Original!')](https://www.youtube.com/watch?v=8N_tupPBtWQ)

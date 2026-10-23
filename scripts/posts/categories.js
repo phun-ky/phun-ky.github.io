@@ -67,7 +67,7 @@ files.forEach((file) => {
 const uniqueCategories = [...new Set(categories)];
 
 uniqueCategories.forEach((category) => {
-  let html = '';
+  let html;
 
   const categoryPosts = posts.filter((post) => {
     return post.category.toLowerCase() === category.toLowerCase();

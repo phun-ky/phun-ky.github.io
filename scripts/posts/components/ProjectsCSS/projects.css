@@ -139,7 +139,9 @@ main.ph .ph.container {
   max-width: 768px;
   color: var(--ph-color-text-accent-invert);
   overflow: hidden;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0 19px 38px rgba(0, 0, 0, 0.2),
+    0 15px 12px rgba(0, 0, 0, 0.12);
   transform: translate3d(0, 0, 0);
 
   & .ph.content {
@@ -208,11 +210,8 @@ main.ph .ph.container {
 .ph.projects-window {
   transform: translate3d(0, 0, 0);
   background-color: rgb(249, 194, 205);
-  background-image: radial-gradient(
-      at 12% 7%,
-      rgb(255, 255, 255) 0px,
-      rgba(0, 0, 0, 0) 50%
-    ),
+  background-image:
+    radial-gradient(at 12% 7%, rgb(255, 255, 255) 0px, rgba(0, 0, 0, 0) 50%),
     radial-gradient(at 22% 80%, rgb(240, 247, 212) 0px, rgba(0, 0, 0, 0) 50%),
     radial-gradient(at 51% 75%, rgb(225, 232, 254) 0px, rgba(0, 0, 0, 0) 50%),
     radial-gradient(at 4% 59%, rgb(230, 213, 246) 0px, rgba(0, 0, 0, 0) 50%),

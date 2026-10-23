@@ -27,12 +27,12 @@ here from now ;)
      Linux and you.
   </b> Go through 3 linux distro's to compare to a low/high end user's needs.
 
-- <b> 
+- <b>
     Stuck with windows due to a game? Try some Wine with that!
   </b>
 
 - <b>
-     Why not go open source? 
+     Why not go open source?
   </b>. Why go open source?
 
 - <b>
@@ -40,7 +40,7 @@ here from now ;)
    </b>. I will go through various proprietary highly used software and compare them to open source alternatives, pro's and con's. Windows and GNU/Linux + Mac.
 
 - <b>
-     Unusual Open Source Projects: 
+     Unusual Open Source Projects:
   </b> Like OpenBeer and RepRap.
 
 - <b>

@@ -20,8 +20,7 @@ everything. The kernel of the system supports most important file systems
 (ext2/ext3, ReiserFS, XFS, JFS, VFAT, NTFS, ISO9660), and network ones (Samba
 and NFS). SystemRescueCd is based on the Gentoo Live CD.
 
-Download it
-[here](http://www.sysresccd.org/download.en.php).
+Download it [here](http://www.sysresccd.org/download.en.php).
 
 Visit the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.sysresccd.org/">System

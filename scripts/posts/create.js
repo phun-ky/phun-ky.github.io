@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import fs, { globSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -37,7 +36,7 @@ files.forEach((file) => {
   const document = contentManifest[frontmatter.route];
 
   if (document) {
-    let html = '';
+    let html;
     let rendered = getHTML(document);
 
     const {

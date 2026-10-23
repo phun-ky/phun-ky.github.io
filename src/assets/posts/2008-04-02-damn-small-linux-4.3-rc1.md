@@ -13,7 +13,7 @@ functional and easy to use desktop.
 
 Damn Small Linux has a nearly complete desktop, including XMMS (MP3, and MPEG),
 FTP client, links-hacked web browser, spreadsheet, email, spellcheck (US
-English), a word-processor, three editors (Nedit, nVi, Zile [emacs clone]),
+English), a word-processor, three editors (Nedit, nVi, Zile \[emacs clone\]),
 Xpdf, Worker (file manager), Naim (AIM, ICQ, IRC), VNCviwer, SSH/SCP server and
 client, DHCP client, PPP, PPPoE, a web server, calculator, Fluxbox window
 manager, system monitoring apps, USB support, and soon it will have PCMCIA
@@ -21,7 +21,6 @@ support as well. If you like Damn Small Linux you can install it on your hard
 drive. Because all the applications are small and light it makes a very good
 choice for older hardware.
 
-Read more about it [here](  http://www.damnsmalllinux.org/).
+Read more about it [here](http://www.damnsmalllinux.org/).
 
-Download it
-[here](http://www.damnsmalllinux.org/download.html)
+Download it [here](http://www.damnsmalllinux.org/download.html)

@@ -18,8 +18,7 @@ comics are:
   Noob Comic</a> by Gianna Masetti.
 - <a class="ph" target="_blank" rel="noopener noreferrer" href="http://gucomics.com/">GU
   Comics</a> by Woody Hearn.
-- [Userfriendly](http://www.userfriendly.org/)
-  by J.D. Frazer.
+- [Userfriendly](http://www.userfriendly.org/) by J.D. Frazer.
 
 Yeah, they are pretty gamer oriented, but hey, I am a gamer ;)
 

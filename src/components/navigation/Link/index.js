@@ -1,10 +1,7 @@
-/* global process */
 import { cx } from '../../../utils/cx.js';
 
 export const Link = (props) => {
   const { content, to, className, style, server = false, ...rest } = props;
-
-  let postfix = '';
 
   if (!to || (to && to === '')) return '';
 
@@ -29,7 +26,7 @@ export const Link = (props) => {
   if (server) {
     return `<a href="${to}" class="${linkClassNames}"${attrs}${_style}>${content}</a>`;
   } else if (to.indexOf('/') !== 0 && to.indexOf('http') !== -1) {
-    postfix =
+    const postfix =
       typeof content === 'string' && content.indexOf('<svg') === -1
         ? ' (opens in new window)'
         : '';

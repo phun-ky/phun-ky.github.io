@@ -15,8 +15,7 @@ free CSS spread sheet with it, so it will help my CSS repository a bit (my head
 that is :P )
 
 To check out the book, you can download a free chapter to see if it has any
-interest for you, visit
-[SitePoint](http://www.sitepoint.com/books/ajax1/).
+interest for you, visit [SitePoint](http://www.sitepoint.com/books/ajax1/).
 
 The reason why I suddenly dive into AJAX is just because it is hip in the web
 development nowadays. When I say hip, I mean that it is the customers that want

@@ -27,7 +27,7 @@ research that I became very happy with:
       $(input).value = $(input).value.substring(0, startPos)
      + valueString
       + $(input).value.substring(endPos, $(input).value.length);
-   } 
+   }
    else{
       $(input).value += valueString;
    }

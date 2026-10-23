@@ -14,13 +14,14 @@ tags: [javascript, dependencies, load.js, how-to]
   src="<https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/960px-ISS_Habitation_module.jpg>"
 %}
 
-by NASA - [http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html](http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html). Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
-  
+by NASA -
+[http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html](http://replay.web.archive.org/20020212183550/http://spaceflight.nasa.gov/gallery/images/station/habitationmod/html/97_17427.html).
+Licensed under Public Domain via [Commons](https://commons.wikimedia.org/wiki/).
+
 {% /figure %}
 
 We've already used a microframework to load script files,
-[load.js](https://github.com/chriso/load.js)
-by
+[load.js](https://github.com/chriso/load.js) by
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://github.com/chriso">Chris
 O'Hara</a>, and we wanted to keep that microframework, as it acts like a
 "boilerplate" for loading of different script files when we need them.
@@ -239,7 +240,7 @@ And it takes three arguments: `eventid`, `scripts_to_load` and `env_path`.
 
 The scripts to load object can look like this:
 
-```
+```txt
 Missing code!
 ```
 

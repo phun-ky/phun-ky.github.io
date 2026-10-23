@@ -15,7 +15,7 @@ of a bloated, but better version of [Colorschemer](http://colorschemer.com/).
 
 It's very easy to use and the [Kuler](http://kuler.adobe.com) concept offers a
 great deal of community interaction.
-[![](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)
+[![Kuler by Adobe, showing a colour theme from green to orange](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)](/img/blog/imgb8e0364d2cf482072ff519e1ac9a146d.webp)
 
 ## Side note
 

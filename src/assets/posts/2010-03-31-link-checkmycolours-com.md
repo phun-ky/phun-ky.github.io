@@ -21,7 +21,7 @@ It is a tool for checking foreground and background
 combinations</a> of all DOM elements and determining if they <em>provide
 sufficient contrast when viewed by someone having colour deficits</em>.
 
-[![](/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp)](/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp)
+[![Checkmycolours.com results, listing the contrast ratio of each foreground and background colour pair](/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp)](/img/blog/imgde161476284fdaad2bbc725da30d9df3.webp)
 
 All the tests are based on the algorithms suggested by the
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.w3c.org">World

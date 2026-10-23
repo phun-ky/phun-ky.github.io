@@ -11,7 +11,7 @@ import { GlobalCSS } from '../posts/components/GlobalCSS/index.js';
 import { HeadScripts } from '../posts/components/HeadScripts/index.js';
 import { OpenGraphTags } from '../posts/components/OpenGraphTags/index.js';
 
-let html = '';
+let html;
 
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const TEMPLATE_PATH = resolve(

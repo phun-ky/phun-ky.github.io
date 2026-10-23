@@ -277,8 +277,8 @@ at all levels.
 
 > "I have a deep feeling that society must be like this. Society cannot have a
 > simple structure that exists on one level. We need a complicated structure.
-> [...] It means that our society and the technology we use [...] must work at
-> each of these levels."
+> \[...\] It means that our society and the technology we use \[...\] must work
+> at each of these levels."
 >
 > <footer class="ph">
 >

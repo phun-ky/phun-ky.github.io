@@ -32,13 +32,13 @@ commenter did not use the correct URL.
 I inspected the URL that created a new page when you select a template, and
 found this solution:
 
-```
+```txt
 http://domain.com/pages/createpage-entervariables.action?spaceKey=<spacekey>&fromPageId=<parent page id>&templateId=<template id>
 ```
 
 This should also work:
 
-```
+```txt
 http://domain.com/?spaceKey=<spacekey>&templateId=<template id>&newSpaceKey=<spacekey>
 ```
 

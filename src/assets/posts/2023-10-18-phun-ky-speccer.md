@@ -56,7 +56,8 @@ highlight any element in your web projects.
 
 {% message type="note" title="Note" %}
 
-The image that was here (Woman holding a phone with a site that is using speccer) is no longer available.
+The image that was here (Woman holding a phone with a site that is using
+speccer) is no longer available.
 
 {% /message %}
 

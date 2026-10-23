@@ -32,16 +32,23 @@ drawing itself in the desktop window ('root' window).
 
 If you want the animation every time you log in, open
 "~/.config/autostart/glmatrix.desktop" in your text editor and paste the
-following: [Desktop Entry] Version=1.0 Encoding=UTF-8 Name=No name
-Name[en_IN]=Desktop matrix Exec=/usr/lib/xscreensaver/glmatrix -root
+following:
+
+```ini
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=No name
+Name[en_IN]=Desktop matrix
+Exec=/usr/lib/xscreensaver/glmatrix -root
 X-GNOME-Autostart-enabled=true
+```
 
 If you are fed up with playing around and want your old desktop back, use this
 line in the terminal:
 
     gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop true && nautilus
 
-Sources:
-[winmatrix.com](http://www.winmatrix.com)
-<br/> (m.sudoku - "DreamScene for Linux: Screensaver as Desktop Wallpaper"),
+Sources: [winmatrix.com](http://www.winmatrix.com) <br/> (m.sudoku - "DreamScene
+for Linux: Screensaver as Desktop Wallpaper"),
 [wikipedia.org](http://www.wikipedia.org)(dreamscene).

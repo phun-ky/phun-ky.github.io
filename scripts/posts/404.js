@@ -13,7 +13,7 @@ import { HeadScripts } from './components/HeadScripts/index.js';
 import { OpenGraphTags } from './components/OpenGraphTags/index.js';
 import { TrailingSlashRedirect } from './components/TrailingSlashRedirect/index.js';
 
-let html = '';
+let html;
 
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const TEMPLATE_PATH = resolve(

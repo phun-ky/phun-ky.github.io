@@ -26,8 +26,6 @@ symbolic links that mimic the Unix tree, such as "/usr/bin ->
 example shows that arbitrary differentiations between files of the same category
 were also removed).
 
-Download it
-[here](http://www.gobolinux.org/?page=downloads).
+Download it [here](http://www.gobolinux.org/?page=downloads).
 
-Read more about it
-[here](http://www.gobolinux.org/).
+Read more about it [here](http://www.gobolinux.org/).

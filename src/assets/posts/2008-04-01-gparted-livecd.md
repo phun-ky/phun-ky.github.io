@@ -17,8 +17,7 @@ The distribution uses X.Org, the light-weight Fluxbox window manager, and the
 latest 2.6 Linux kernel. GParted LiveCD runs on most x86 machines with a Pentium
 II or better
 
-Download it
-[here](   http://gparted-livecd.tuxfamily.org/download.php).
+Download it [here](http://gparted-livecd.tuxfamily.org/download.php).
 
 Read more about
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://gparted-livecd.tuxfamily.org/">GParted

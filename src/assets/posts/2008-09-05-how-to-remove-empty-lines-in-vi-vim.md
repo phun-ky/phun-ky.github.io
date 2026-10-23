@@ -11,9 +11,9 @@ Some simply ways to remove empty lines in a file:
 
 <pre class="brush: bash">
 # Use this sub:
-:%s/^\n// 
+:%s/^\n//
 # Or this:
 :g/^$/d
 # Or this:
-:g/^\s*$/d 
+:g/^\s*$/d
 </pre>

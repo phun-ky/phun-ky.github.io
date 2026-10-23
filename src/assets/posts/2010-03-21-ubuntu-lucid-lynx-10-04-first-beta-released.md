@@ -12,7 +12,7 @@ Ubuntu> 10.04, code name "Lucid Lynx", a long-term support (LTS) version.
 
 ## Press release
 
-[![](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)
+[![A lynx](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)
 
 > The Ubuntu team is pleased to announce the first beta release of Ubuntu 10.04
 > LTS Desktop, Server, and Netbook editions and of Ubuntu 10.04 Server for
@@ -47,9 +47,8 @@ Also release today were 10.04 beta 1 builds of
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.kubuntu.org/LucidLynx/Beta1/Kubuntu">release
 notes</a>),
 ([Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/)),
-([Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/)),  
-([Edubuntu](http://cdimage.ubuntu.com/edubuntu/releases/lucid/beta-1/)),
-([Mythbuntu](http://cdimage.ubuntu.com/mythbuntu/releases/lucid/beta-1/),
+([Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/)),\
+([Edubuntu](http://cdimage.ubuntu.com/edubuntu/releases/lucid/beta-1/)), ([Mythbuntu](http://cdimage.ubuntu.com/mythbuntu/releases/lucid/beta-1/),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.mythbuntu.org/10.04/beta1">release
 announcement</a>) and
 (<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/ubuntustudio/releases/lucid/beta-1/">Ubuntu
