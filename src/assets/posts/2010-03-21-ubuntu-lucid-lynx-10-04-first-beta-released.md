@@ -47,9 +47,8 @@ Also release today were 10.04 beta 1 builds of
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.kubuntu.org/LucidLynx/Beta1/Kubuntu">release
 notes</a>),
 ([Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/)),
-([Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/)),  
-([Edubuntu](http://cdimage.ubuntu.com/edubuntu/releases/lucid/beta-1/)),
-([Mythbuntu](http://cdimage.ubuntu.com/mythbuntu/releases/lucid/beta-1/),
+([Xubuntu](http://cdimage.ubuntu.com/xubuntu/releases/lucid/beta-1/)),\
+([Edubuntu](http://cdimage.ubuntu.com/edubuntu/releases/lucid/beta-1/)), ([Mythbuntu](http://cdimage.ubuntu.com/mythbuntu/releases/lucid/beta-1/),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.mythbuntu.org/10.04/beta1">release
 announcement</a>) and
 (<a class="ph" target="_blank" rel="noopener noreferrer" href="http://cdimage.ubuntu.com/ubuntustudio/releases/lucid/beta-1/">Ubuntu

@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default-member */
+/* eslint-disable import-x/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
 
 /*
@@ -55,7 +55,7 @@ const figure = {
       linkAttributes.rel = 'noopener noreferrer';
     }
 
-    let componentChildren = [...children];
+    let componentChildren;
 
     if (attributes['type'] === 'ascii-flow') {
       componentChildren = [

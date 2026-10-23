@@ -9,9 +9,10 @@ tags: []
 
 Steve Langasek reporting:
 
- 
-> We are one week out from the 8.10 release candidate and two weeks from the final release, so the archive is now frozen and will not thaw again before release.
-> 
+> We are one week out from the 8.10 release candidate and two weeks from the
+> final release, so the archive is now frozen and will not thaw again before
+> release.
+>
 > During the freeze, all uploads to main must be approved by a member of the
 > release team, so if you have fixes that are important to get in and will need
 > discussion, please do get in touch as soon as possible. Uploads to main should

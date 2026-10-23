@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import fs, { globSync } from 'node:fs';
 import { basename, join } from 'node:path';
 import process from 'node:process';

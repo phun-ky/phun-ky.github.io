@@ -410,13 +410,23 @@ article.ph li.ph > code[class^='language-']::after {
   grid-gap: 1rem;
   flex-wrap: wrap;
 }
-figure.ph > a[href^="https://youtube.com"].ph, figure.ph > a[href^="https://www.youtube.com"].ph, figure.ph > a[href^="https://vimeo.com"].ph, figure.ph > a[href^="https://i.vimeocdn"].ph, figure.ph > a[href^="https://player.vimeo.com"].ph, figure.ph > a[href^="https://videos.files.wordpres"].ph, figure.ph > a[href^="https://www.vimeo.com"].ph
-{
+figure.ph > a[href^='https://youtube.com'].ph,
+figure.ph > a[href^='https://www.youtube.com'].ph,
+figure.ph > a[href^='https://vimeo.com'].ph,
+figure.ph > a[href^='https://i.vimeocdn'].ph,
+figure.ph > a[href^='https://player.vimeo.com'].ph,
+figure.ph > a[href^='https://videos.files.wordpres'].ph,
+figure.ph > a[href^='https://www.vimeo.com'].ph {
   position: relative;
   display: block;
 }
-figure.ph > a[href^="https://youtube.com"].ph::before, figure.ph > a[href^="https://www.youtube.com"].ph::before, figure.ph > a[href^="https://vimeo.com"].ph::before, figure.ph > a[href^="https://i.vimeocdn"].ph::before, figure.ph > a[href^="https://player.vimeo.com"].ph::before, figure.ph > a[href^="https://videos.files.wordpres"].ph::before, figure.ph > a[href^="https://www.vimeo.com"].ph::before
-{
+figure.ph > a[href^='https://youtube.com'].ph::before,
+figure.ph > a[href^='https://www.youtube.com'].ph::before,
+figure.ph > a[href^='https://vimeo.com'].ph::before,
+figure.ph > a[href^='https://i.vimeocdn'].ph::before,
+figure.ph > a[href^='https://player.vimeo.com'].ph::before,
+figure.ph > a[href^='https://videos.files.wordpres'].ph::before,
+figure.ph > a[href^='https://www.vimeo.com'].ph::before {
   content: '';
   display: block;
   position: absolute;

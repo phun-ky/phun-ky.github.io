@@ -8,8 +8,8 @@
 #wcb.carbonbadge sub {
   vertical-align: middle;
   position: relative;
-  top: .3em;
-  font-size: .7em;
+  top: 0.3em;
+  font-size: 0.7em;
 }
 #wcb #wcb_2,
 #wcb #wcb_a,
@@ -21,21 +21,21 @@
   font-size: 1em;
   line-height: 1.15;
   text-decoration: none;
-  margin: .2em 0;
+  margin: 0.2em 0;
 }
 #wcb #wcb_a,
 #wcb #wcb_g {
-  padding: .3em .5em;
-  border: .13em solid var(--ph-color-well-background);
+  padding: 0.3em 0.5em;
+  border: 0.13em solid var(--ph-color-well-background);
 }
 #wcb #wcb_g {
-  border-radius: .3em 0 0 .3em;
+  border-radius: 0.3em 0 0 0.3em;
   background: var(--ph-color-well-background);
   border-right: 0;
   min-width: 8.2em;
 }
 #wcb #wcb_a {
-  border-radius: 0 .3em .3em 0;
+  border-radius: 0 0.3em 0.3em 0;
   border-left: 0;
   background: var(--ph-color-well-background);
   color: var(--ph-color-link);

@@ -14,7 +14,6 @@ goal for GoblinX is to create a more pleasant and functional desktop,
 standardising all icons and themes to make it easy for novice users to learn
 about available applications.
 
-Download it
-[here](http://www.goblinx.com.br/en/downloads.htm).
+Download it [here](http://www.goblinx.com.br/en/downloads.htm).
 
-Read more about it [here]( http://www.goblinx.com.br/).
+Read more about it [here](http://www.goblinx.com.br/).

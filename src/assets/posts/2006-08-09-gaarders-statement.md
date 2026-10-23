@@ -19,7 +19,7 @@ Bottom line, he speeks his mind.
 But still, there are many objections towards his statement. Gaarder has even
 been threatened for life! Freedom of speech is a good thing, right?
 
- ![jews against jews](/img/blog/jews.webp)
+![jews against jews](/img/blog/jews.webp)
 
 Came across an image that clearly states that it isn't just jewes that supports
 Israel, it's jews that are against Israel!
@@ -27,5 +27,5 @@ Israel, it's jews that are against Israel!
 And to make a point, some John Doe commented Gaarders statement with:
 
 > "How can it be that criticism of the state of Israel is anti-semitism? When I
-> critize african politics like in Zimbabwe, does that mean that I am a n\*\*\*er
-> hater?".
+> critize african politics like in Zimbabwe, does that mean that I am a
+> n\*\*\*er hater?".

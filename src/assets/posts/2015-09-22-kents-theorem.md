@@ -17,8 +17,11 @@ tags: [digital-business, business-strategy]
   src="<https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CollatzFractal.png/960px-CollatzFractal.png>"
 %}
 
-Image by [Pokipsy76](//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&amp;action=edit&amp;redlink=1) - English wikipedia. Licensed under Public Domain via [Wikimedia Commons](//commons.wikimedia.org/wiki/).
-  
+Image by
+[Pokipsy76](//commons.wikimedia.org/w/index.php?title=User:Pokipsy76&action=edit&redlink=1) -
+English wikipedia. Licensed under Public Domain via
+[Wikimedia Commons](//commons.wikimedia.org/wiki/).
+
 {% /figure %}
 
 "Kent's theorem" is a theorem about how businesses have to transform to be
@@ -34,7 +37,8 @@ prepared for the digital world:
 >
 > <footer class="ph">
 >
-> – [Kent Andersen](https://www.linkedin.com/profile/view?id=AAkAAAQDtO8Bju1IMzQRnnRSbrEoBmQ4Xdgw82Q)
+> –
+> [Kent Andersen](https://www.linkedin.com/profile/view?id=AAkAAAQDtO8Bju1IMzQRnnRSbrEoBmQ4Xdgw82Q)
 >
 > </footer>
 

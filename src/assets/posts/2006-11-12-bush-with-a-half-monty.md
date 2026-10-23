@@ -19,8 +19,6 @@ where King Arthur comes back to the Knights who say Ni only to find out that
 they are no longer known as the Knights who say Ni. If you haven't seen it yet,
 go see it today!
 
-The comic is from
-[gocomics.com](http://www.gocomics.com)
-and the author is Chip Bok! I recommend my readers to read some of his nicely
-sketched comics, and I am waiting for him to link a political event to the fish
-slapping dance!
+The comic is from [gocomics.com](http://www.gocomics.com) and the author is Chip
+Bok! I recommend my readers to read some of his nicely sketched comics, and I am
+waiting for him to link a political event to the fish slapping dance!

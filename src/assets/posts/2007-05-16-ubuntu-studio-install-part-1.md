@@ -7,7 +7,9 @@ category: 'Archive'
 tags: [how-to, install, ubuntu, ubuntu studio, linux]
 ---
 
-Okay, after 8 hours of downloading the Ubuntu Studio via torrents, and another hour uploading it to a share server for easier access, I found out that I did not have any fresh DVD's left to write on :( .
+Okay, after 8 hours of downloading the Ubuntu Studio via torrents, and another
+hour uploading it to a share server for easier access, I found out that I did
+not have any fresh DVD's left to write on :( .
 
 ![The Ubuntu Studio logo](/img/blog/imga22ebea86c37fcb440ac1dc8890221c9.webp)
 

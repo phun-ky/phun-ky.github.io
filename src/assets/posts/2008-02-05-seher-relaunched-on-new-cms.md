@@ -7,10 +7,8 @@ category: 'Archive'
 tags: [site releases, work]
 ---
 
-2 weeks ago we signed off
-[seher.no](http://www.seher.no)
-. We've exported the site from Polopoly(Java Server Pages) to our own CMS and
-servers (LAMP).
+2 weeks ago we signed off [seher.no](http://www.seher.no) . We've exported the
+site from Polopoly(Java Server Pages) to our own CMS and servers (LAMP).
 
 ![The front page of Seher.no after the relaunch](/img/blog/img73491b03c42e59e25aefaa81a03b04d0.webp)
 

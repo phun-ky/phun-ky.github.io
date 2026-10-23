@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default-member */
+/* eslint-disable import-x/no-named-as-default-member */
 import Markdoc from '@markdoc/markdoc';
 
 const stance = {
@@ -22,10 +22,7 @@ const stance = {
   transform(node, config) {
     const attributes = node.transformAttributes(config);
     const children = node.transformChildren(config);
-
-    let componentChildren = [...children];
-
-    componentChildren = [
+    const componentChildren = [
       [...children],
       new Markdoc.Tag(
         'figcaption',

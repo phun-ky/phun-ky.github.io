@@ -8,10 +8,13 @@ category: 'Programming'
 tags: ['mysql']
 ---
 
-It is a reported [bug at MySQL](http://bugs.mysql.com/bug.php?id=21527), and the page states that the bug is closed. According to the [forums at MySQL](http://forums.mysql.com/read.php?10,108835,108835#msg-108835) it seemed to be an easy fix;
+It is a reported [bug at MySQL](http://bugs.mysql.com/bug.php?id=21527), and the
+page states that the bug is closed. According to the
+[forums at MySQL](http://forums.mysql.com/read.php?10,108835,108835#msg-108835)
+it seemed to be an easy fix;
 
 ```sql
-GRANT SELECT,LOCK TABLES ON database.* TO 'username'@'localhost'; 
+GRANT SELECT,LOCK TABLES ON database.* TO 'username'@'localhost';
 ```
 
 But I double checked, the user had ALL priviliges (yeah, not that safe). The

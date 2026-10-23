@@ -14,14 +14,13 @@ tags: [how-to, app, javascript, rollup, nodejs, npm, github, spa, single-spa, ts
 
 > Do you _really_ need a framework for this?
 
-If you follow this guide, you will have your own Vanilla JavaScript SPA up
-and running in no time!
+If you follow this guide, you will have your own Vanilla JavaScript SPA up and
+running in no time!
 
 {% message type="note" title="Note" %}
 
-Even though I say `JavaScript` here, in this example
-I have used `TypeScript`. It is not required, so feel free
-to strip out the typings if you want.
+Even though I say `JavaScript` here, in this example I have used `TypeScript`.
+It is not required, so feel free to strip out the typings if you want.
 
 {% /message %}
 
@@ -72,27 +71,27 @@ to strip out the typings if you want.
 
 This setup will give you features such as:
 
-* Dynamic importing of pages
-* Only update nodes that has changed
-* Minimal carbon footprint
-* SPA Framework similar setup and inner workings
-* Minimal adjustments required to switch to a framework
-* Some sort of equivalent to `useEffect` and `useState` like in React
+- Dynamic importing of pages
+- Only update nodes that has changed
+- Minimal carbon footprint
+- SPA Framework similar setup and inner workings
+- Minimal adjustments required to switch to a framework
+- Some sort of equivalent to `useEffect` and `useState` like in React
 
 ## Prerequisites
 
 **Knowledge of**:
 
-* JavaScript
-* npm
-* NodeJS
-* git
+- JavaScript
+- npm
+- NodeJS
+- git
 
 **Tools**:
 
-* terminal
-* editor
-* web browser
+- terminal
+- editor
+- web browser
 
 ## Setup
 
@@ -142,7 +141,7 @@ Use `npm install <pkg>` afterwards to install a package and
 save it as a dependency in the package.json file.
 
 Press ^C at any time to quit.
-package name: 
+package name:
 ```
 
 After you have done that, you will have a directory something like this:
@@ -157,10 +156,12 @@ $ struct
 
 #### Dependencies
 
-After you've done that, install the required dependencies. First the dependencies required to build our application, then the dependency required for our SPA to work optimally:
+After you've done that, install the required dependencies. First the
+dependencies required to build our application, then the dependency required for
+our SPA to work optimally:
 
 ```shell-session
-$ npm i -D @ironkinoko/rollup-plugin-styles @rollup/plugin-commonjs @rollup/plugin-node-resolve cssnano postcss postcss-cli rollup rollup-plugin-dts rollup-plugin-node-externals rollup-plugin-typescript2 stylus ts-node tsconfig-paths tslib typescript 
+$ npm i -D @ironkinoko/rollup-plugin-styles @rollup/plugin-commonjs @rollup/plugin-node-resolve cssnano postcss postcss-cli rollup rollup-plugin-dts rollup-plugin-node-externals rollup-plugin-typescript2 stylus ts-node tsconfig-paths tslib typescript
 added 295 packages, and audited 296 packages in 7s
 
 found 0 vulnerabilities
@@ -207,15 +208,15 @@ this:
 
 As you can see, we have added some scripts that will build this site:
 
-* **clean**: A helper function that will clean the `dist` folder, because you
+- **clean**: A helper function that will clean the `dist` folder, because you
   _really_ dont want the produced files in your repository
-* **assets**: Copies over the assets to the `dist` folder
-* **prebuild**: Runs before the `build` script, making sure we have assets
+- **assets**: Copies over the assets to the `dist` folder
+- **prebuild**: Runs before the `build` script, making sure we have assets
   copied
-* **postbuild**: A helper script to actually move the produced rollup artifacts
+- **postbuild**: A helper script to actually move the produced rollup artifacts
   into their respective folder, to make it look cleaner
-* **build:watch**: A simple watcher to build on every save.
-* **dev**: I use `browser-sync` for dev, you can use whatever setup you are used
+- **build:watch**: A simple watcher to build on every save.
+- **dev**: I use `browser-sync` for dev, you can use whatever setup you are used
   to, but this is what I use.
 
 {% message type="important" title="Important" %}
@@ -284,15 +285,15 @@ Remember to set the `author` and `license` fields
 
 ### Configuration files
 
-If you are like me and love to configure options for the different modules
-used in this setup, you might want to add some configuration files:
+If you are like me and love to configure options for the different modules used
+in this setup, you might want to add some configuration files:
 
-* `.browserslistrc`
-* `.editorconfig`
-* `.postcssrc.cjs`
-* `.stylintrc`
-* `tsconfig.json`
-* `tslint.json`
+- `.browserslistrc`
+- `.editorconfig`
+- `.postcssrc.cjs`
+- `.stylintrc`
+- `tsconfig.json`
+- `tslint.json`
 
 ```shell-session
 $ struct
@@ -442,8 +443,8 @@ Here you can put any JavaScript you want, that is prebuilt. For example a custom
 {% message type="important" title="Important" %}
 
 Remember earlier, from the npm scripts, that we copy over the `assets` folder
-into `dist`? Well, we need at least one file for the copying of js to work.
-So if you haven't added any `*.js` file, add a dummy file:
+into `dist`? Well, we need at least one file for the copying of js to work. So
+if you haven't added any `*.js` file, add a dummy file:
 
 Go into the `src/assets/js` directory and create a `dummy.js` file:
 
@@ -486,8 +487,8 @@ $ struct
   └── 📄 index.styl
 ```
 
-Then in `src/main.ts`, add the import of your global styles, rollup will handle this
-automatically, converting the `*.styl` file into css:
+Then in `src/main.ts`, add the import of your global styles, rollup will handle
+this automatically, converting the `*.styl` file into css:
 
 ```javascript
 import './styles/index.styl';
@@ -1068,7 +1069,8 @@ $ struct
 
 #### `src/lib/spa/utils/bootstrap.ts`
 
-This is just a helper to reduce circular dependencies, you can move or remove this if you want.
+This is just a helper to reduce circular dependencies, you can move or remove
+this if you want.
 
 ```typescript
 import App from '../../../app';
@@ -1117,7 +1119,7 @@ export const DOMContentLoaded = async () => {
 
   // Reinitialisze the SPA
   await bootstrap(routeDetails);
-  
+
 };
 ```
 
@@ -1283,13 +1285,12 @@ export const navigateTo = async (url: string) => {
 
 #### `src/lib/spa/utils/update-nodes.ts`
 
-`update-nodes.ts` is the most important file in the SPA,
-since it is doing what we love most about framework SPAs:
-It only updates the nodes that has changed!
+`update-nodes.ts` is the most important file in the SPA, since it is doing what
+we love most about framework SPAs: It only updates the nodes that has changed!
 
 This is also the _only_ dependency this SPA uses in production.
 
-```typescript
+````typescript
 import { stringToHTML } from './string-to-html';
 
 import { DiffDOM } from 'diff-dom';
@@ -1336,7 +1337,7 @@ export const updateNodes = (root: HTMLElement, html: string): void => {
 
   dd.apply(root, diff);
 };
-```
+````
 
 #### `src/lib/spa/utils/string-to-html.ts`
 
@@ -1362,7 +1363,7 @@ export const stringToHTML = (str: string): Element => {
 
 #### `src/lib/spa/utils/set-title.ts`
 
-```typescript
+````typescript
 /**
  * Sets the title of the document.
  *
@@ -1377,11 +1378,11 @@ export const stringToHTML = (str: string): Element => {
 export const setTitle = (title: string): void => {
   document.title = title;
 };
-```
+````
 
 #### `src/lib/spa/utils/wait-for.ts`
 
-```typescript
+````typescript
 /**
  * Delays execution for the specified time.
  *
@@ -1396,7 +1397,7 @@ export const setTitle = (title: string): void => {
  */
 export const waitFor = (ms: number): Promise<void> =>
   new Promise((resolve) => setTimeout(resolve, ms));
-```
+````
 
 ## Putting it together
 
@@ -1451,19 +1452,19 @@ const App = async (match: RouterMatch, params: unknown) => {
   }
 
   globalThis.activeElement = document.activeElement;
-  
+
   let content = '';
 
   if (_page === 'StartPage') {
     const { StartPage: currentPage } = await import('./pages/StartPage');
 
     content = await currentPage();
-    
+
   } else if (_page === 'AboutPage') {
     const { AboutPage: currentPage } = await import('./pages/AboutPage');
 
     content = await currentPage();
-    
+
   } else if (_page === 'ErrorPage') {
     const { ErrorPage: currentPage } = await import('./pages/ErrorPage');
 
@@ -1482,8 +1483,8 @@ const App = async (match: RouterMatch, params: unknown) => {
 export default App;
 ```
 
-We need to add the types as well! Create and open up `src/lib/spa/types/index.ts`,
-and add this:
+We need to add the types as well! Create and open up
+`src/lib/spa/types/index.ts`, and add this:
 
 ```typescript
 export type Route = {
@@ -1676,5 +1677,5 @@ $ struct
  └── 📄 tslint.json
 ```
 
-And you are now ready to start creating your content and components in
-a full fledged Vanilla JavaScript Single Page Application, with _no_ frameworks!
+And you are now ready to start creating your content and components in a full
+fledged Vanilla JavaScript Single Page Application, with _no_ frameworks!

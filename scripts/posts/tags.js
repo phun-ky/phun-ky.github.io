@@ -70,7 +70,7 @@ files.forEach((file) => {
 const uniqueTags = [...new Set(allTags)];
 
 uniqueTags.forEach((tag) => {
-  let html = '';
+  let html;
 
   const tagPosts = posts.filter((post) => post.tags.indexOf(tag) !== -1);
   const tagCategories = [];

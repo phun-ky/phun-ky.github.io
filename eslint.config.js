@@ -1,48 +1,44 @@
-import markdown from '@eslint/markdown';
-import { defineConfig } from 'eslint/config';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import customConfig from 'eslint-config-phun-ky';
 import globals from 'globals';
-import { parser as TSEslintParser } from 'typescript-eslint';
 
-// eslint-disable-next-line import/no-unused-modules
 export default defineConfig([
+  // Build output
+  globalIgnores(['dist/**']),
   {
-    extends: [customConfig]
-  },
-  {
-    files: ['**/*.md'],
-    processor: markdown.processors.markdown,
+    extends: [customConfig],
     rules: {
-      'no-irregular-whitespace': 'off',
-      '@stylistic/indent': 'off'
+      // Prettier uses double quotes when that avoids escaping a single quote;
+      // without `avoidEscape` the two disagree and `--fix` loops.
+      // https://github.com/phun-ky/eslint-config/issues/92
+      '@stylistic/quotes': ['warn', 'single', { avoidEscape: true }]
     }
   },
   {
-    files: [
-      '**/*.md/*.js',
-      '**/*.md/*.jsx',
-      '**/*.md/*.ts',
-      '**/*.md/*.tsx',
-      '**/*.ts'
-    ],
+    // Posts start with YAML front matter
+    files: ['**/*.md'],
     languageOptions: {
-      parser: TSEslintParser,
-      parserOptions: {
-        project: false,
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module'
-      },
+      frontmatter: 'yaml'
+    }
+  },
+  {
+    // The build and the checks run in Node, not in the browsers in
+    // .browserslistrc
+    files: ['scripts/**/*.js', 'scripts/**/*.mjs', 'src/**/*.js'],
+    languageOptions: {
       globals: {
-        ...globals.browser
+        ...globals.node
       }
     },
     rules: {
-      'import/no-unresolved': 'off',
-      '@stylistic/indent': 'off',
-      '@typescript-eslint/no-explicit-any': 'off',
-      '@typescript-eslint/no-unused-vars': 'off',
-      'no-undef': 'off',
-      '@stylistic/semi': 'off'
+      'compat/compat': 'off'
+    }
+  },
+  {
+    // Command-line scripts report to the terminal
+    files: ['scripts/**/*.js', 'scripts/**/*.mjs'],
+    rules: {
+      'no-console': 'off'
     }
   }
 ]);

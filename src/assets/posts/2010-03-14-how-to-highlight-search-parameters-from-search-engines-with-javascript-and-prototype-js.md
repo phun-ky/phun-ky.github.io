@@ -79,7 +79,8 @@ that matches and wraps it with a span tag. It could be simplified, but it works
 
 {% message type="important" title="Important" %}
 
-Remember to make a css class named highlight with the wanted css for the higlights
+Remember to make a css class named highlight with the wanted css for the
+higlights
 
 {% /message %}
 

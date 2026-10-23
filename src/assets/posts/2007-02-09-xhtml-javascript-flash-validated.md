@@ -14,8 +14,7 @@ no real success - the Flash Satay example from an article posted at
 list apart</a> and the default Adobe embed to mention a few.
 
 The solution was SWFObject from
-[deconcept.com](http://blog.deconcept.com/swfobject/)!
-To say it directly:
+[deconcept.com](http://blog.deconcept.com/swfobject/)! To say it directly:
 
 > SWFObject is a small Javascript file used for embedding Adobe Flash content.
 > The script can detect the Flash plug-in in all major web browsers (on Mac and

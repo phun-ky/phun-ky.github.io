@@ -8,7 +8,6 @@ category: 'Other'
 tags: [history, blog]
 ---
 
-
 {% message type="warning" title="Disclaimer" %}
 
 I am a frontender, not a designer, as you will see..

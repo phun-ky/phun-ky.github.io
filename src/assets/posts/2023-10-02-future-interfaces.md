@@ -127,33 +127,37 @@ What is an interface? If you look up the definition, this is what you get:
 <span class="ph phonetic">/ˈɪn.tə.feɪs/</span>
 
 <span class="ph class">As a <em class="ph">noun</em>:</span>\
-<span class="ph states">noun: <strong class="ph">interface</strong>; plural noun:
-<strong class="ph">interfaces</strong></span>
+<span class="ph states">noun: <strong class="ph">interface</strong>; plural
+noun: <strong class="ph">interfaces</strong></span>
 
 1. a point where two systems, subjects, organizations, etc. meet and interact.\
-   <span class="ph example-sentence">the <strong class="ph">interface between</strong>
-   accountancy and the law</span>
+   <span class="ph example-sentence">the <strong class="ph">interface
+   between</strong> accountancy and the law</span>
    - <span class="ph badge">Physics</span>\
-     a surface forming a common boundary between two portions of matter or space,
-     for example between two immiscible liquids.\
-      <span class="ph example-sentence">the surface tension of a liquid at its air/liquid
-     <strong class="ph">interface</strong></span>
+     a surface forming a common boundary between two portions of matter or
+     space, for example between two immiscible liquids.\
+      <span class="ph example-sentence">the surface tension of a liquid at its
+     air/liquid <strong class="ph">interface</strong></span>
 2. <span class="ph badge">Computing</span>\
    a device or program enabling a user to communicate with a computer.\
-    <span class="ph example-sentence">a graphical user <strong class="ph">interface</strong></span>
+    <span class="ph example-sentence">a graphical user
+   <strong class="ph">interface</strong></span>
    - a device or program for connecting two items of hardware or software so
      that they can be operated jointly or communicate with each other.\
-     <span class="ph example-sentence">an application program <strong class="ph">interface</strong></span>
+     <span class="ph example-sentence">an application program
+     <strong class="ph">interface</strong></span>
 
 <span class="ph class">As a <em class="ph">verb</em>:</span>\
-<span class="ph states">verb: <strong class="ph">interface</strong>; 3rd person present:
-<strong class="ph">interfaces</strong>; past tense: <strong class="ph">interfaced</strong>;
-past participle: <strong class="ph">interfaced</strong>; gerund or present participle:
+<span class="ph states">verb: <strong class="ph">interface</strong>; 3rd person
+present: <strong class="ph">interfaces</strong>; past tense:
+<strong class="ph">interfaced</strong>; past participle:
+<strong class="ph">interfaced</strong>; gerund or present participle:
 <strong class="ph">interfacing</strong></span>
 
 1. interact with (another system, person, etc.).\
-   <span class="ph example-sentence">you will <strong class="ph">interface</strong>
-   with counterparts from sister companies</span>
+   <span class="ph example-sentence">you will
+   <strong class="ph">interface</strong> with counterparts from sister
+   companies</span>
 2. <span class="ph badge">Computing</span>\
    connect with (another computer or piece of equipment) by an interface.\
    <span class="ph example-sentence">the hotel's computer system can
@@ -237,6 +241,7 @@ Many seem to think that Apple or Samsung had the first types of tables or pads
   description="Image of the TR-560 Tricorder"
   src="/img/blog/dcdcdba164c70803fafa8c1486c8e937.webp"
 %}
+
 {% /figure %}
 
 This is not the earliest example of a tricorder that we see in the Star Trek
@@ -249,8 +254,8 @@ that I heard of was, in the beginning something that popped out of Norway, and
 was aquired by GE Health. It was a handheld ultrasound device connected to any
 phone with a cord.
 
-I see now that they have made it wireless, and it goes by the name of Vscan
-Air™ handheld ultrasound
+I see now that they have made it wireless, and it goes by the name of Vscan Air™
+handheld ultrasound
 
 {% figure
   description="Vscan Air™ handheld ultrasound" url="<https://handheldultrasound.gehealthcare.com/>"
@@ -869,9 +874,8 @@ seen throughout the film.
   src="<https://i.ytimg.com/vi/Ekq56VZqQvs/maxresdefault.jpg>"
 %}
 
-Limit Theory (
-[http://ltheory.com](http://ltheory.com)
-) is an open-world, sandbox space simulation game
+Limit Theory ( [http://ltheory.com](http://ltheory.com) ) is an open-world,
+sandbox space simulation game
 
 {% /figure %}
 
@@ -1173,6 +1177,7 @@ on the screen, a thin jet of water water is shot at the finger.
   src="<https://videos.files.wordpress.com/OGt68hof/video_final_abbyjulia-desktop_hd.original.jpg>"
   description="Redesigning the rebel pilot targeting system"
 %}
+
 {% /figure %}
 
 ## Are we going somewhere?

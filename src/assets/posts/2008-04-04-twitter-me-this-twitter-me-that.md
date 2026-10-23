@@ -8,8 +8,7 @@ tags: []
 ---
 
 A little rhyme with reason, I've just registered on twitter! You can add me with
-the nick
-[phun_ky](http://twitter.com/phun_ky),
-( I really don't know why I can't use DASH here instead of UNDERSCORE ),
-<span style="text-decoration:line-through;">and I created my
-own twitter page to fetch the latest tweets.</span>
+the nick [phun_ky](http://twitter.com/phun_ky), ( I really don't know why I
+can't use DASH here instead of UNDERSCORE ),
+<span style="text-decoration:line-through;">and I created my own twitter page to
+fetch the latest tweets.</span>

@@ -3,5 +3,13 @@
   "trailingComma": "none",
   "tabWidth": 2,
   "proseWrap": "always",
-  "printWidth": 80
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": "src/assets/posts/*.md",
+      "options": {
+        "embeddedLanguageFormatting": "off"
+      }
+    }
+  ]
 }

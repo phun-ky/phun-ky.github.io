@@ -127,17 +127,14 @@ pre {
   font-family: var(--ph-font-family-code);
 }
 
-
-
-
-.ph span.inline-color-wrapper{
+.ph span.inline-color-wrapper {
   border-radius: 50%;
   border: 1pt solid white;
   background-clip: padding-box;
   outline: none;
-  margin: 0 .5ch 0 .333ch
+  margin: 0 0.5ch 0 0.333ch;
 }
 
-.theme--light .ph span.inline-color-wrapper{
+.theme--light .ph span.inline-color-wrapper {
   border: 1pt solid black;
 }

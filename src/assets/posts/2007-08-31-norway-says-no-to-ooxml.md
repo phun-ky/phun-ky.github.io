@@ -27,7 +27,8 @@ Norway votes in the OOXML debate.
 
 {% message type="note" title="Note" %}
 
-The image that was here (The OOXML specifications from Microsoft) is no longer available.
+The image that was here (The OOXML specifications from Microsoft) is no longer
+available.
 
 {% /message %}
 

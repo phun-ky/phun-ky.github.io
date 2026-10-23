@@ -7,10 +7,9 @@ category: 'Archive'
 tags: []
 ---
 
-Directly from
-[DistroWatch.com](http://www.distrowatch.com):
-Red Hat, Inc. has announced the release of Red Hat Enterprise Linux (RHEL) 5.5,
-the fifth update of its commercial, enterprise-class Linux distribution:
+Directly from [DistroWatch.com](http://www.distrowatch.com): Red Hat, Inc. has
+announced the release of Red Hat Enterprise Linux (RHEL) 5.5, the fifth update
+of its commercial, enterprise-class Linux distribution:
 
 ## Release Excerpt
 

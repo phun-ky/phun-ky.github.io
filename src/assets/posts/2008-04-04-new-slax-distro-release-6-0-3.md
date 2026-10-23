@@ -13,8 +13,7 @@ approach. Despite its small size, Slax provides a wide collection of
 pre-installed software for daily use, including a well-organised graphical user
 interface and useful recovery tools for system administrators.
 
-Download it
-[here](http://www.slax.org/get_slax.php).
+Download it [here](http://www.slax.org/get_slax.php).
 
 Read more about
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.slax.org/">Slax
