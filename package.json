@@ -11,6 +11,7 @@
     "build": "node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/speaker/index.js && node scripts/projects/projects.js && node scripts/projects/frameport.js && node scripts/redirects/index.js",
     "check:fonts": "node scripts/checks/fonts.mjs",
     "check:links": "node scripts/checks/links.mjs",
+    "check:trailing-slash": "node scripts/checks/trailing-slash.mjs",
     "commit": "git cz"
   },
   "repository": {

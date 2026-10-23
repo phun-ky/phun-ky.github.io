@@ -43,3 +43,5 @@ jobs:
         run: npm run check:fonts
       - name: Check links # Every internal link and asset exists
         run: npm run check:links
+      - name: Check trailing slash URLs # `/a/b/` reaches `/a/b`
+        run: npm run check:trailing-slash
