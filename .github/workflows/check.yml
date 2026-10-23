@@ -39,3 +39,5 @@ jobs:
           GH_TOKEN: ${{secrets.GH_TOKEN}}
       - name: Build # Build all packages
         run: npm run build
+      - name: Check fonts # Every shipped font is used
+        run: npm run check:fonts
