@@ -28,9 +28,13 @@ list you can print out to keep track of the testing stages.
 
 ## Download
 
-So, use it as much as you like, and feel free to update it! Download the
-<a class="ph" target="_blank" rel="noopener noreferrer" href="https://phun-ky.net/files/crossbrowserchecklist.pdf">checklist
-here.</a>
+So, use it as much as you like, and feel free to update it!
+
+{% message type="note" title="Note" %}
+
+The checklist PDF is no longer available.
+
+{% /message %}
 
 ## Browser Statistics
 

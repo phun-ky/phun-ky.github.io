@@ -19,7 +19,11 @@ problems at least! David Maynor, a contributor to the Errata Security blog is
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://erratasec.blogspot.com/2007/06/niiiice.html">continuously
 updating his post with new bugs</a> in Safari.
 
-![no head or span tags shown](/img/safaribug.webp)
+{% message type="note" title="Note" %}
+
+The image that was here (no head or span tags shown) is no longer available.
+
+{% /message %}
 
 "The world best browser" indeed.. I did not test the other features, 'cause I
 was so hung up on the fact that it could not display tags correctly. At first

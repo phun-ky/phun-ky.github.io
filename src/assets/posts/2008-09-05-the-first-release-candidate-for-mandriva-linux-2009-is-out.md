@@ -7,7 +7,7 @@ category: 'Archive'
 tags: []
 ---
 
-The first release candidate for [Mandriva](mandriva) Linux 2009 is
+The first release candidate for Mandriva Linux 2009 is
 out, ready for testing: "Mandriva Linux 2009 Release Candidate 1 is available on
 public mirrors now. The main new features of RC1 (compared to Beta2) are:
 automatic repository configuration and mirror selection in package management

@@ -37,16 +37,15 @@ notes for further details.</a>
 (698MB,
 [torrent](http://releases.ubuntu.com/8.10/ubuntu-8.10-beta-desktop-amd64.iso.torrent)).
 
-Also released were 8.10 beta builds of [Kubuntu](kubuntu)
+Also released were 8.10 beta builds of Kubuntu
 ([download](http://nl.releases.ubuntu.com/kubuntu/8.10/),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.kubuntu.org/IntrepidIbex/Beta/Kubuntu">release
-notes</a>), [Xubuntu](xubuntu)
+notes</a>), Xubuntu
 ([download](http://ftp.acc.umu.se/mirror/cdimage.ubuntu.com/xubuntu/releases/8.10/beta/),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.ubuntu.com/Xubuntu/IntrepidIbex/BetaAnnouncement">release
-notes</a>), [Ubuntu Studio](ubuntustudio)
+notes</a>), Ubuntu Studio
 ([download](http://cdimage.ubuntu.com/ubuntustudio/releases/8.10/beta/)) and
-[Mythbuntu](mythbuntu)
-([download](http://cdimage.ubuntu.com/mythbuntu/releases/8.10/beta/)).
+Mythbuntu ([download](http://cdimage.ubuntu.com/mythbuntu/releases/8.10/beta/)).
 
 Want to read a preview of Ubuntu 8.10?
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://ubuntukungfu.org/blog/2008/08/first-look-at-ubuntu-intrepid-alpha-4/">Go

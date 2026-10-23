@@ -38,19 +38,17 @@ notes</a> for more information.
 (698MB,
 [torrent](http://releases.ubuntu.com/8.10/ubuntu-8.10-rc-desktop-amd64.iso.torrent)).
 
-Also available are 8.10 RC CD images for [Kubuntu](kubuntu)
+Also available are 8.10 RC CD images for Kubuntu
 ([download](http://releases.ubuntu.com/releases/kubuntu/8.10),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.kubuntu.org/IntrepidIbex/RC/Kubuntu">release
-notes</a>), [Xubuntu](xubuntu)
+notes</a>), Xubuntu
 ([download](http://cdimage.ubuntu.com/xubuntu/releases/8.10/rc),
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://wiki.ubuntu.com/IntrepidIbex/RC/Xubuntu">release
-notes</a>), [Ubuntu Studio](ubuntustudio)
+notes</a>), Ubuntu Studio
 ([download](http://cdimage.ubuntu.com/ubuntustudio/releases/8.10/rc)) and
-[Mythbuntu](mythbuntu)
-([download](http://cdimage.ubuntu.com/mythbuntu/releases/8.10/rc)).
+Mythbuntu ([download](http://cdimage.ubuntu.com/mythbuntu/releases/8.10/rc)).
 
-You can read more of my Ubuntu-posts here:
-[https://phun-ky.net/search/intrepid](https://phun-ky.net/search/intrepid).
+You can read more of my [Ubuntu posts here](/tags/ubuntu).
 
 If you're interested in a first impression of Intrepid Ibex, you can read
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://lifehacker.com/5058730/first-look-at-ubuntu-810-intrepid-ibex-beta">this

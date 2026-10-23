@@ -10,8 +10,8 @@ tags: []
 Did a small keynote at work last week to elaborate on how the ACID browser tests
 work and what they do.
 
-Download the keynote here:
+{% message type="note" title="Note" %}
 
-[ODF](/files/acidtests_lecture_nerdvana_week46_2010.odp)
-or
-[PPT](/files/acidtests_lecture_nerdvana_week46_2010.ppt)
+The keynote slides (ODF and PPT) are no longer available.
+
+{% /message %}
