@@ -24,7 +24,7 @@ tags: [conference, goopen]
 - [What is GoOpen](#what-is-goopen)
 - [Follow GoOpen](#follow-goopen)
 
-![Attending GoOpen 2010](/assets/img/blog/imgc4928b9eb8ca15678b567d7c5864c1f0.webp)
+![Attending GoOpen 2010](/img/blog/imgc4928b9eb8ca15678b567d7c5864c1f0.webp)
 
 ## Main keynotes
 

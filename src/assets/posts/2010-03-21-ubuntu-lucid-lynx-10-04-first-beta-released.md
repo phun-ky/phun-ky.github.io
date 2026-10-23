@@ -28,7 +28,11 @@ and [release notes](https://ubuntu.com/testing/lucid/beta1) for further details.
 
 ## Release Meta
 
-[![](/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.webp)](/img/blog/img7730e22b5eccfe74d5a3d4813e4123cc.webp)
+{% message type="note" title="Note" %}
+
+The image that was here is no longer available.
+
+{% /message %}
 
 [Download](https://ubuntu.com/testing/lucid/beta1#Download)
 ([SHA256](http://releases.ubuntu.com/releases/10.04/SHA256SUMS)):
