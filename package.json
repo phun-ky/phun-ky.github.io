@@ -9,6 +9,7 @@
     "assets": "mkdir -p dist && cp -a ./src/assets/. ./dist/ && cp -a ./src/styles/. ./dist/css",
     "prebuild": "npm run clean && npm run assets",
     "build": "node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/speaker/index.js && node scripts/projects/projects.js && node scripts/projects/frameport.js",
+    "check:fonts": "node scripts/checks/fonts.mjs",
     "commit": "git cz"
   },
   "repository": {
