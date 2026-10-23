@@ -13,7 +13,7 @@ functional and easy to use desktop.
 
 Damn Small Linux has a nearly complete desktop, including XMMS (MP3, and MPEG),
 FTP client, links-hacked web browser, spreadsheet, email, spellcheck (US
-English), a word-processor, three editors (Nedit, nVi, Zile [emacs clone]),
+English), a word-processor, three editors (Nedit, nVi, Zile \[emacs clone\]),
 Xpdf, Worker (file manager), Naim (AIM, ICQ, IRC), VNCviwer, SSH/SCP server and
 client, DHCP client, PPP, PPPoE, a web server, calculator, Fluxbox window
 manager, system monitoring apps, USB support, and soon it will have PCMCIA

@@ -14,7 +14,7 @@ a statement </a> that many had reaction to. He opens fire against the Israeli
 goverment and rule. He directs critics against the way the slaughter is managed.
 Bottom line, he speeks his mind.
 
-![](/img/blog/imgb2e24e196afca8cfbffe02d46be8be06.webp)
+![Portrait of the Norwegian writer Jostein Gaarder](/img/blog/imgb2e24e196afca8cfbffe02d46be8be06.webp)
 
 But still, there are many objections towards his statement. Gaarder has even
 been threatened for life! Freedom of speech is a good thing, right?

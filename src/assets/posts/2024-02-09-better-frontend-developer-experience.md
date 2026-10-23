@@ -106,7 +106,7 @@ The perfect commit message should have certain qualities:
 
 Use the imperative, present tense. It is easier to read and scan quickly:
 
-```
+```txt
 Right: Add feature to alert admin for new user registration
 Wrong: Added feature ... (past tense)
 ```

@@ -239,7 +239,7 @@ And it takes three arguments: `eventid`, `scripts_to_load` and `env_path`.
 
 The scripts to load object can look like this:
 
-```
+```txt
 Missing code!
 ```
 

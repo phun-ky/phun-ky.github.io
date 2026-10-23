@@ -24,7 +24,7 @@ To say it directly:
 To mention a tip: you can use the noscript tag with the js script to include an
 image incase the browser cant read flash OR javascript.
 
-### A little update
+## A little update
 
 Robert Nyman has
 <a class="ph" target="_blank" rel="noopener noreferrer" href="http://www.robertnyman.com/2007/02/01/how-to-write-valid-htmlxhtml-code-to-include-flash/">written

@@ -12,7 +12,7 @@ this announcement:
 
 Jesse Keating has announced the availability of the beta release of Fedora 10:
 Jesse Keating has announced the availability of the beta release of
-(Fedora)[fedora] 10:
+Fedora 10:
 
 > Fedora 10 Beta: Cambridge's foundations are laid. Just on the heels of the
 > Fedora project's fifth anniversary, the beta of Fedora Linux version 10

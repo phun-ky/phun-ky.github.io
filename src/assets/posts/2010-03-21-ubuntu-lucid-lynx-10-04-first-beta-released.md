@@ -12,7 +12,7 @@ Ubuntu> 10.04, code name "Lucid Lynx", a long-term support (LTS) version.
 
 ## Press release
 
-[![](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)
+[![A lynx](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)](/img/blog/img099a71a07b61c740dd96461a12d0dd1e.webp)
 
 > The Ubuntu team is pleased to announce the first beta release of Ubuntu 10.04
 > LTS Desktop, Server, and Netbook editions and of Ubuntu 10.04 Server for

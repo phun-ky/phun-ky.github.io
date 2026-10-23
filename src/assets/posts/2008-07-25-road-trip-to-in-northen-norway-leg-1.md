@@ -16,7 +16,7 @@ see if we were flying with an airplane. During this trip I will test out the ICE
 D50 USB modem (mobile broadband from ice.net) to the fullest of its potential,
 with Ubuntu of course.
 
-### The first leg!
+## The first leg!
 
 The first leg is from our residence in Bærum and via my parents (not plotted
 in), straight north until we're spending the night at a motel in Namskogan. Stay

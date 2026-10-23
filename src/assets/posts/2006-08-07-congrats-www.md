@@ -8,7 +8,7 @@ tags: []
 ---
 
 _Errhh.. "The World Wide Web was created in 1989 by Sir Tim Berners-Lee.." I was
-off by 2 years according to Wikipedia. _
+off by 2 years according to Wikipedia._
 
 The
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/World_wide_web">World
