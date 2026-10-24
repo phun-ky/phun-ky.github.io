@@ -10,7 +10,6 @@ import { Header } from '../../src/components/page-sections/Header/index.js';
 import { Tags } from '../../src/components/page-sections/Tags/index.js';
 import { slugify } from '../../src/utils/slugify.js';
 
-import { Analytics } from './components/Analytics/index.js';
 import { BodyScripts } from './components/BodyScripts/index.js';
 import { GlobalCSS } from './components/GlobalCSS/index.js';
 import { HeadScripts } from './components/HeadScripts/index.js';
@@ -84,7 +83,6 @@ uniqueCategories.forEach((category) => {
   html = html.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
   html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
   html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-  html = html.replace(/{{ANALYTICS}}/, Analytics());
   html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
   html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
   html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());

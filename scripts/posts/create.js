@@ -10,7 +10,6 @@ import { Footer } from '../../src/components/page-sections/Footer/index.js';
 import { Header } from '../../src/components/page-sections/Header/index.js';
 import { slugify } from '../../src/utils/slugify.js';
 
-import { Analytics } from './components/Analytics/index.js';
 import { ArticleCSS } from './components/ArticleCSS/index.js';
 import { BodyScripts } from './components/BodyScripts/index.js';
 import { GlobalCSS } from './components/GlobalCSS/index.js';
@@ -92,7 +91,6 @@ files.forEach((file) => {
     );
     html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
     html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-    html = html.replace(/{{ANALYTICS}}/, Analytics());
     html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
     html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
     html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
