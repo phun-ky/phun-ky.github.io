@@ -19,4 +19,4 @@ tric..", got it?
 The link to the comic strip is
 [here](http://www.start.no/tegneserier/m/?1169852400), and the clip is here:
 
-[![Thumbnail from the video](https://i.ytimg.com/vi/8N_tupPBtWQ/hqdefault.jpg 'Muppet Show - Mahna Mahna...m HD 720p bacco... Original!')](https://www.youtube.com/watch?v=8N_tupPBtWQ)
+[![Thumbnail from the video](/img/external/youtube-8N_tupPBtWQ.jpg 'Muppet Show - Mahna Mahna...m HD 720p bacco... Original!')](https://www.youtube.com/watch?v=8N_tupPBtWQ)

@@ -191,7 +191,7 @@ Lerna have up to 1.5 million downloads a day, and the creator have a total of
 Due to the slow answer rate and almost no maintenance, people started to dislike
 it.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I refuse to accept this man! Stay strong! I haven&#39;t seen any monorepo thingy-majingy doing the same as lerna &lt;3</p>&mdash; Alexander V. R-H (@phun_ky) <a href="https://twitter.com/phun_ky/status/1483415938611437571?ref_src=twsrc%5Etfw">January 18, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="ph twitter-tweet"><p class="ph" lang="en" dir="ltr">I refuse to accept this man! Stay strong! I haven&#39;t seen any monorepo thingy-majingy doing the same as lerna &lt;3</p>&mdash; Alexander V. R-H (@phun_ky) <a class="ph" href="https://twitter.com/phun_ky/status/1483415938611437571">January 18, 2022</a></blockquote>
 
 However, luckily for the open source world, and the people using Lerna, the
 torch was passed to [Nrwl](https://nx.app/company).
