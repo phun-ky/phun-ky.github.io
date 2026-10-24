@@ -14,6 +14,7 @@ jobs:
     # Dependabot's pull_request token is read-only, so it can't assign
     if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-24.04
+    timeout-minutes: 5
     permissions:
       issues: write
       pull-requests: write

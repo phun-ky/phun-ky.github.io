@@ -56,18 +56,14 @@ What you can rely on:
   job in [`check.yml`](.github/workflows/check.yml), from `main`, after the
   checks pass. After each deploy, [`check:live`](scripts/checks/live.mjs) checks
   that the live pages match the build byte for byte.
-- **No analytics, and almost nothing from other hosts.** The site has no
-  analytics or tracking. Scripts, styles, code highlighting (Prism) and badges
-  are served from phun-ky.net. [`check:origins`](scripts/checks/origins.mjs)
-  loads every page in CI and fails on any request to another host that isn't
-  listed below.
+- **No analytics, and nothing from other hosts.** The site has no analytics or
+  tracking, and every script, style, image and font is served from phun-ky.net.
+  Videos, tweets and pens from other sites are links, so those sites are only
+  contacted if you follow one. [`check:origins`](scripts/checks/origins.mjs)
+  loads every page in CI and fails on any request to another host.
 
 What you can't rely on yet:
 
-- **A few posts still contact other hosts.** 4 posts embed a video, a tweet or a
-  pen from YouTube, Twitter or CodePen. Each is listed in `check:origins` and is
-  being removed
-  ([#140](https://github.com/phun-ky/phun-ky.github.io/issues/140)).
 - **The Content Security Policy is partial.** A `<meta>` policy is set on the
   front page, the projects and speaker pages and the 404 page, but not on posts,
   category, tag and frameport pages. Where it is set, it allows inline scripts
@@ -115,10 +111,13 @@ configuration,
 
 ## Code Scanning
 
-CodeQL (GitHub default setup) analyses every pull request, every push to `main`
-and runs weekly, for the JavaScript code and the GitHub Actions workflows. An
-error or a high or critical alert blocks merging. OpenSSF Scorecard is not set
-up yet ([#147](https://github.com/phun-ky/phun-ky.github.io/issues/147)).
+CodeQL (GitHub default setup) analyses pull requests, every push to `main` and
+runs weekly, for the JavaScript code and the GitHub Actions workflows. Default
+setup doesn't always analyse Dependabot's pull requests, which change only
+`package.json` and `package-lock.json`; their changes are checked by dependency
+review, and the push to `main` is analysed. An error or a high or critical alert
+blocks merging. OpenSSF Scorecard is not set up yet
+([#147](https://github.com/phun-ky/phun-ky.github.io/issues/147)).
 
 ## Secrets
 
