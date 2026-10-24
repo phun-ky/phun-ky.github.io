@@ -43,6 +43,7 @@
     "globals": "^17.13.0",
     "htmlparser2": "^10.1.0",
     "js-yaml": "^4.1.1",
+    "lodash": "^4.17.20",
     "prettier": "3.8.1"
   }
 }
