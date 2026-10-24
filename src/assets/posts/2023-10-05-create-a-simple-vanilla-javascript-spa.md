@@ -2,12 +2,12 @@
 route: /2023/10/04/create-a-simple-vanilla-javascript-spa
 title: 'Create a simple, Vanilla JavaScript SPA'
 description: 'I never really liked frameworks, maybe in the start of my career, because it
-made life simpler, at first, and then it made life harder. And for a long time
-I have been aware of the digital footprint that me, as a developer, has left
-behind, and the responsibilities that I have as a member of the global community.
-So, after some tinkering, and much thanks to other developers that has coded
-before me, I finally made a working, _minimal footprint_,
-vanilla JavaScript Single Page Application setup.'
+  made life simpler, at first, and then it made life harder. And for a long time
+  I have been aware of the digital footprint that me, as a developer, has left
+  behind, and the responsibilities that I have as a member of the global community.
+  So, after some tinkering, and much thanks to other developers that has coded
+  before me, I finally made a working, _minimal footprint_,
+  vanilla JavaScript Single Page Application setup.'
 category: 'How-to'
 tags: [how-to, app, javascript, rollup, nodejs, npm, github, spa, single-spa, ts, typescript, js]
 ---

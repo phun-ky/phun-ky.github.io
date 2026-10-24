@@ -3,7 +3,7 @@ route: /2014/03/22/how-to-fix-failed-to-build-gem-native-extension-when-installi
 title:
   "How to fix 'Failed to build gem native extension' when installing jekyll"
 description: 'I came across this error when I tried to install jekyll on my ubuntu laptop for
-testing out jekyll bootstrap locally'
+  testing out jekyll bootstrap locally'
 category: 'Programming'
 tags: [how-to, gem, ruby, error, apt-get, ubuntu]
 ---

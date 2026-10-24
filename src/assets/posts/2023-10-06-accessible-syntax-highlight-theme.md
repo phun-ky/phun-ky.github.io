@@ -2,9 +2,9 @@
 route: /2023/10/06/accessible-syntax-highlight-theme
 title: 'Accessible syntax highlight theme'
 description: 'I really like syntax highlighting, and it helps greatly during development,
-but also when I read code. I have grown very fond of Solarized Dark and
-One Dark (not light!), but I wanted to be more accessible, so I created
-my own themes that adheres with the WCAG requirements.'
+  but also when I read code. I have grown very fond of Solarized Dark and
+  One Dark (not light!), but I wanted to be more accessible, so I created
+  my own themes that adheres with the WCAG requirements.'
 category: 'Projects'
 tags: [css, syntax highlighting, prismjs, accessible, accessibility, a11y]
 ---
