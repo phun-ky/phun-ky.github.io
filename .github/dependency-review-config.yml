@@ -1,6 +1,11 @@
 # Fails a pull request that adds a dependency with a known vulnerability of
-# any severity.
+# any severity. Every package here is a devDependency, and the action only
+# checks runtime dependencies unless told otherwise.
 fail-on-severity: low
+fail-on-scopes:
+  - runtime
+  - development
+  - unknown
 
 # Accepted exceptions. Each one is also listed in SECURITY.md, with why it is
 # accepted and when it goes.
