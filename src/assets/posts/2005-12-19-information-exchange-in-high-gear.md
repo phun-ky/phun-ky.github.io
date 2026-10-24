@@ -3,8 +3,8 @@ route: /2005/12/19/information-exchange-in-high-gear
 title: 'Information exchange in high gear'
 description:
   'The internet is becoming increasingly crowded with vast amounts of information,
-influencing us more profoundly. Concerns have emerged about the future
-development of the internet'
+  influencing us more profoundly. Concerns have emerged about the future
+  development of the internet'
 category: 'Archive'
 tags: [college, paper]
 ---
