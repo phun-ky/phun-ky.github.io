@@ -1,0 +1,15 @@
+# Fails a pull request that adds a dependency with a known vulnerability of
+# any severity.
+fail-on-severity: low
+
+# Accepted exceptions. Each one is also listed in SECURITY.md, with why it is
+# accepted and when it goes.
+allow-ghsas:
+  # katex 0.16.x, low: "Existing prototype pollution can bypass trust
+  # restrictions". Development only, through eslint-config-phun-ky ->
+  # @eslint/markdown -> micromark-extension-math, which allows only
+  # katex ^0.16.0 (fixed in 0.18.2). KaTeX runs only when the Markdown linter
+  # parses math, which this config doesn't enable. Remove when
+  # micromark-extension-math allows a fixed katex.
+  # https://github.com/phun-ky/phun-ky.github.io/issues/135
+  - GHSA-238p-pmpm-9mq7
