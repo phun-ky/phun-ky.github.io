@@ -64,10 +64,8 @@ What you can rely on:
 
 What you can't rely on yet:
 
-- **A few pages still contact other hosts.** The projects page and 7 posts load
-  images from other sites (`upload.wikimedia.org`, `images.unsplash.com`,
-  GitHub, CodePen, speccer.dev), and 4 posts embed a video, a tweet or a pen
-  from YouTube, Twitter or CodePen. Each is listed in `check:origins` and is
+- **A few posts still contact other hosts.** 4 posts embed a video, a tweet or a
+  pen from YouTube, Twitter or CodePen. Each is listed in `check:origins` and is
   being removed
   ([#140](https://github.com/phun-ky/phun-ky.github.io/issues/140)).
 - **The Content Security Policy is partial.** A `<meta>` policy is set on the
