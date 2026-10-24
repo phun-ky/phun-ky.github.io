@@ -16,23 +16,6 @@ const CONCURRENCY = 8;
 // so, so the list can't go stale: remove an entry when you fix it.
 // https://github.com/phun-ky/phun-ky.github.io/issues/140
 const KNOWN_EXTERNAL = Object.freeze({
-  // Images from other sites
-  '/projects/': [
-    'phun-ky.net',
-    'repository-images.githubusercontent.com',
-    'shots.codepen.io',
-    'speccer.dev'
-  ],
-  '/2014/03/24/working-with-javascript-modules-how-to-load-javascript-dependencies-without-requirejs':
-    ['upload.wikimedia.org'],
-  '/2014/03/25/how-to-create-a-new-page-in-atlassian-confluence-with-given-template-from-a-link':
-    ['upload.wikimedia.org'],
-  '/2015/09/09/trusted-data': ['upload.wikimedia.org'],
-  '/2015/09/14/how-to-work-with-trusted-data': ['upload.wikimedia.org'],
-  '/2015/09/22/kents-theorem': ['upload.wikimedia.org'],
-  '/2015/09/29/trusted-data-for-developers': ['upload.wikimedia.org'],
-  '/2025/01/25/building-a-better-professional-environment-collaboration-and-innovation-in-focus':
-    ['images.unsplash.com'],
   // Embedded videos, tweets and pens
   '/2007/01/27/manah-manah': ['i.ytimg.com'],
   '/2008/07/21/i-love-discovery-channel': ['img.youtube.com'],

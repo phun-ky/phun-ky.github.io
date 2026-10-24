@@ -5,13 +5,13 @@ title:
   require.js'
 description: In the current project I am working on, we wanted to load our dependencies in "synchronous" order without the use of a big library like [require.js](http://requirejs.org/).
 category: 'How-to'
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/960px-ISS_Habitation_module.jpg
+image: /img/external/960px-ISS_Habitation_module.jpg
 tags: [javascript, dependencies, load.js, how-to]
 ---
 
 {% figure
   description="Photo of a ISS module"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/ISS_Habitation_module.jpg/960px-ISS_Habitation_module.jpg>"
+  src="/img/external/960px-ISS_Habitation_module.jpg"
 %}
 
 by NASA -
