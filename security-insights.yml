@@ -1,0 +1,112 @@
+header:
+  schema-version: 2.2.0
+  last-updated: '2026-10-24'
+  last-reviewed: '2026-10-24'
+  url: https://raw.githubusercontent.com/phun-ky/phun-ky.github.io/main/security-insights.yml
+  comment: |
+    Security information for the phun-ky.net website, in the OpenSSF
+    Security Insights format. Keep it in step with SECURITY.md.
+
+project:
+  name: phun-ky.net
+  homepage: https://phun-ky.net
+  roadmap: https://github.com/phun-ky/phun-ky.github.io/milestones
+  funding: https://github.com/sponsors/phun-ky
+  administrators:
+    - name: Alexander Vassbotn Røyne-Helgesen
+      social: https://github.com/phun-ky
+      primary: true
+  documentation:
+    support-policy: https://github.com/phun-ky/phun-ky.github.io/blob/main/SECURITY.md#supported-versions
+  repositories:
+    - name: phun-ky.github.io
+      url: https://github.com/phun-ky/phun-ky.github.io
+      comment: |
+        The website's source, built and deployed to https://phun-ky.net on
+        every merge to main.
+  vulnerability-reporting:
+    reports-accepted: true
+    bug-bounty-available: false
+    policy: https://github.com/phun-ky/phun-ky.github.io/blob/main/SECURITY.md
+    comment: |
+      Report privately with GitHub's private vulnerability reporting
+      (https://github.com/phun-ky/phun-ky.github.io/security/advisories/new)
+      or by email to the contact below.
+    contact:
+      name: phun-ky.net security contact
+      email: security@phun-ky.net
+      primary: true
+
+repository:
+  url: https://github.com/phun-ky/phun-ky.github.io
+  status: active
+  accepts-change-request: true
+  accepts-automated-change-request: true
+  no-third-party-packages: false
+  core-team:
+    - name: Alexander Vassbotn Røyne-Helgesen
+      social: https://github.com/phun-ky
+      primary: true
+  documentation:
+    security-policy: https://github.com/phun-ky/phun-ky.github.io/blob/main/SECURITY.md
+    dependency-management-policy: https://github.com/phun-ky/phun-ky.github.io/blob/main/SECURITY.md#dependencies
+  license:
+    url: https://github.com/phun-ky/phun-ky.github.io/blob/main/LICENSE
+    expression: MIT AND CC-BY-NC-SA-4.0
+  release:
+    automated-pipeline: true
+    distribution-points:
+      - uri: https://phun-ky.net
+        comment: |
+          The website, deployed to GitHub Pages by the deploy job in
+          .github/workflows/check.yml on every merge to main, after the
+          checks pass. There are no versioned releases.
+  security:
+    assessments:
+      self:
+        evidence: https://github.com/phun-ky/phun-ky.github.io/blob/main/SECURITY.md#security-expectations
+        date: '2026-10-24'
+        comment: |
+          The security expectations in SECURITY.md list what the site
+          guarantees and the known gaps, each linked to the issue that
+          closes it.
+    tools:
+      - name: CodeQL
+        type: SAST
+        rulesets:
+          - default
+        integration:
+          adhoc: false
+          ci: true
+          release: false
+        results: {}
+        comment: |
+          GitHub default setup, scanning the JavaScript and the GitHub
+          Actions workflows on every pull request, every push to main and
+          weekly. An error or a high or critical alert blocks merging.
+      - name: Dependabot
+        type: SCA
+        rulesets:
+          - default
+        integration:
+          adhoc: true
+          ci: false
+          release: false
+        results: {}
+        comment: |
+          Weekly checks of the npm dependencies and GitHub Actions, with
+          update pull requests, and security updates when an advisory is
+          published.
+      - name: Dependency Review
+        type: SCA
+        rulesets:
+          - default
+        integration:
+          adhoc: false
+          ci: true
+          release: false
+        results: {}
+        comment: |
+          Fails pull requests that add a dependency with a known
+          vulnerability of any severity, apart from the accepted exceptions
+          listed in SECURITY.md.
