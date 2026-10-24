@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Source of phun-ky.net, my personal site and blog",
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks || true",
     "clean": "rm -rf dist/*",
     "assets": "mkdir -p dist && cp -a ./src/assets/. ./dist/ && cp -a ./src/styles/. ./dist/css",
     "prebuild": "npm run clean && npm run assets",
