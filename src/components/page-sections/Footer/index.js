@@ -49,7 +49,7 @@ export const Footer = (license = 'CC') => {
             class="ph"
             href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fphun-ky.net%2F"
             ><img
-              src="https://api.thegreenwebfoundation.org/greencheckimage/phun-ky.net"
+              src="/img/badges/green-web-phun-ky-net.png"
               height="64"
               width="142"
               alt="This website is hosted Green - checked by thegreenwebfoundation.org"
@@ -81,7 +81,7 @@ export const Footer = (license = 'CC') => {
             style="border-width: 0"
             width="88"
             height="31"
-            src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+            src="/img/badges/cc-by-nc-sa-4.0.png"
           />
         </a>
         <br />This work, and all assets created by
@@ -129,7 +129,7 @@ export const Footer = (license = 'CC') => {
           class="ph"
           href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fphun-ky.net%2F"
           ><img
-            src="https://api.thegreenwebfoundation.org/greencheckimage/phun-ky.net"
+            src="/img/badges/green-web-phun-ky-net.png"
             height="64"
             width="142"
             alt="This website is hosted Green - checked by thegreenwebfoundation.org"

@@ -56,15 +56,19 @@ What you can rely on:
   job in [`check.yml`](.github/workflows/check.yml), from `main`, after the
   checks pass. After each deploy, [`check:live`](scripts/checks/live.mjs) checks
   that the live pages match the build byte for byte.
+- **No analytics, and almost nothing from other hosts.** The site has no
+  analytics or tracking. Scripts, styles, code highlighting (Prism) and badges
+  are served from phun-ky.net. [`check:origins`](scripts/checks/origins.mjs)
+  loads every page in CI and fails on any request to another host that isn't
+  listed below.
 
 What you can't rely on yet:
 
-- **Other hosts see your visit.** Every page loads the
-  [Clicky](https://clicky.com) analytics script from `static.getclicky.com`,
-  which records page views, plus badge images from `thegreenwebfoundation.org`
-  and `creativecommons.org`. Every post and the frameport page load Prism from
-  `unpkg.com` without subresource integrity, the speaker page loads a script
-  from `sessionize.com`, and some posts embed videos and images from other sites
+- **A few pages still contact other hosts.** The speaker page loads a script
+  from `sessionize.com`, the projects page and 7 posts load images from other
+  sites (`upload.wikimedia.org`, `images.unsplash.com`, GitHub, CodePen,
+  speccer.dev), and 4 posts embed a video, a tweet or a pen from YouTube,
+  Twitter or CodePen. Each is listed in `check:origins` and is being removed
   ([#140](https://github.com/phun-ky/phun-ky.github.io/issues/140)).
 - **The Content Security Policy is partial.** A `<meta>` policy is set on the
   front page, the projects and speaker pages and the 404 page, but not on posts,
@@ -77,10 +81,11 @@ What you can't rely on yet:
 
 ## Dependencies
 
-**Choosing them.** The site ships no npm packages to visitors: every package in
-`package.json` is a development dependency used to lint and build the site. A
-new dependency must be widely used, actively maintained and under an
-OSI-approved licence compatible with MIT.
+**Choosing them.** The only npm package served to visitors is Prism (`prismjs`),
+copied into the site at build time for code highlighting. Every other package in
+`package.json` is used only to lint, build and check the site. A new dependency
+must be widely used, actively maintained and under an OSI-approved licence
+compatible with MIT.
 
 **Obtaining them.** Packages come only from the npm registry, with exact
 versions locked in `package-lock.json` and installed with `npm ci` in CI. GitHub
@@ -95,12 +100,13 @@ new dependency with a known vulnerability of any severity.
 **Fixing known vulnerabilities.** Findings are checked against the GitHub
 Advisory Database:
 
-| Finding                    | Where                    | What happens                                                                                            |
-| -------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------- |
-| Critical or high           | Development dependency   | Blocks merging when introduced; an existing one is fixed within 30 days                                 |
-| Moderate or low            | Development dependency   | Fixed with the next update, within 90 days                                                              |
-| Any                        | Script from another host | Handled with the external hosts above ([#140](https://github.com/phun-ky/phun-ky.github.io/issues/140)) |
-| Licence outside the policy | New dependency           | Not merged                                                                                              |
+| Finding                    | Where                      | What happens                                                                                            |
+| -------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Critical or high           | Prism (served to visitors) | Blocks merging (dependency review); fixed and deployed within 7 days                                    |
+| Critical or high           | Development dependency     | Blocks merging when introduced; an existing one is fixed within 30 days                                 |
+| Moderate or low            | Any dependency             | Fixed with the next update, within 90 days                                                              |
+| Any                        | The sessionize.com script  | Removed with the other external hosts ([#140](https://github.com/phun-ky/phun-ky.github.io/issues/140)) |
+| Licence outside the policy | New dependency             | Not merged                                                                                              |
 
 **Accepted exceptions.** These are also listed in the dependency review
 configuration,
