@@ -3,7 +3,7 @@ route: /2025/01/25/what-is-technology-management
 title: 'What is Technology Management?'
 description:
   "To me, *technology management* is about balancing human and technological
-resources to achieve the organization's goals."
+  resources to achieve the organization's goals."
 category: 'Management'
 tags: [people, knowledge, competence, skill]
 ---
