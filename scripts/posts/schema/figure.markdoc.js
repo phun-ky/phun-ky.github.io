@@ -11,7 +11,7 @@ import Markdoc from '@markdoc/markdoc';
  */
 
 const linkAttributes = {};
-const fixURIAttribute = (uri) => uri.replace('<', '').replace('>', '');
+const fixURIAttribute = (uri) => uri.replace(/[<>]/g, '');
 const figure = {
   children: ['inline'],
   attributes: {
