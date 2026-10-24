@@ -4,7 +4,7 @@
     <title>Speaker | lover of life, technologist at heart</title>
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; base-uri 'self'; block-all-mixed-content; font-src 'self' https: data:; img-src 'self' https: data:;  object-src 'none'; script-src https://sessionize.com 'self' 'unsafe-inline'; script-src-attr 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https: 'unsafe-inline'; upgrade-insecure-requests"
+      content="default-src 'self'; base-uri 'self'; block-all-mixed-content; font-src 'self' https: data:; img-src 'self' https: data:;  object-src 'none'; script-src 'self' 'unsafe-inline'; script-src-attr 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https: 'unsafe-inline'; upgrade-insecure-requests"
     />
     <meta charset="utf-8" />
     <meta http-equiv="Content-Language" content="en" />
@@ -99,12 +99,7 @@
           </div>
         </section>
         <section class="ph section">
-          <div class="ph container">
-            <script
-              type="text/javascript"
-              src="https://sessionize.com/api/speaker/sessions/5fef22ea-3470-4620-bfff-fb9b3338b5f1/0x1xffffffx"
-            ></script>
-          </div>
+          <div class="ph container">{{SPEAKER_TALKS}}</div>
         </section>
         <section class="ph section">
           <div class="ph container">
@@ -139,15 +134,5 @@
       {{PAGE_SECTION_FOOTER}}
     </div>
     {{BODY_SCRIPTS}}
-    <script>
-      const sRootElement = document.querySelector('.sz-root');
-
-      if (sRootElement) {
-        const sElements = sRootElement.querySelectorAll('*');
-        for (const el of sElements) {
-          el.classList.add('ph');
-        }
-      }
-    </script>
   </body>
 </html>
