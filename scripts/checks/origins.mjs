@@ -16,8 +16,6 @@ const CONCURRENCY = 8;
 // so, so the list can't go stale: remove an entry when you fix it.
 // https://github.com/phun-ky/phun-ky.github.io/issues/140
 const KNOWN_EXTERNAL = Object.freeze({
-  // The talk list comes from a sessionize.com script
-  '/speaker/': ['sessionize.com'],
   // Images from other sites
   '/projects/': [
     'phun-ky.net',

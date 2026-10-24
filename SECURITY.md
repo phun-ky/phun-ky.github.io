@@ -64,11 +64,11 @@ What you can rely on:
 
 What you can't rely on yet:
 
-- **A few pages still contact other hosts.** The speaker page loads a script
-  from `sessionize.com`, the projects page and 7 posts load images from other
-  sites (`upload.wikimedia.org`, `images.unsplash.com`, GitHub, CodePen,
-  speccer.dev), and 4 posts embed a video, a tweet or a pen from YouTube,
-  Twitter or CodePen. Each is listed in `check:origins` and is being removed
+- **A few pages still contact other hosts.** The projects page and 7 posts load
+  images from other sites (`upload.wikimedia.org`, `images.unsplash.com`,
+  GitHub, CodePen, speccer.dev), and 4 posts embed a video, a tweet or a pen
+  from YouTube, Twitter or CodePen. Each is listed in `check:origins` and is
+  being removed
   ([#140](https://github.com/phun-ky/phun-ky.github.io/issues/140)).
 - **The Content Security Policy is partial.** A `<meta>` policy is set on the
   front page, the projects and speaker pages and the 404 page, but not on posts,
@@ -100,13 +100,12 @@ new dependency with a known vulnerability of any severity.
 **Fixing known vulnerabilities.** Findings are checked against the GitHub
 Advisory Database:
 
-| Finding                    | Where                      | What happens                                                                                            |
-| -------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Critical or high           | Prism (served to visitors) | Blocks merging (dependency review); fixed and deployed within 7 days                                    |
-| Critical or high           | Development dependency     | Blocks merging when introduced; an existing one is fixed within 30 days                                 |
-| Moderate or low            | Any dependency             | Fixed with the next update, within 90 days                                                              |
-| Any                        | The sessionize.com script  | Removed with the other external hosts ([#140](https://github.com/phun-ky/phun-ky.github.io/issues/140)) |
-| Licence outside the policy | New dependency             | Not merged                                                                                              |
+| Finding                    | Where                      | What happens                                                            |
+| -------------------------- | -------------------------- | ----------------------------------------------------------------------- |
+| Critical or high           | Prism (served to visitors) | Blocks merging (dependency review); fixed and deployed within 7 days    |
+| Critical or high           | Development dependency     | Blocks merging when introduced; an existing one is fixed within 30 days |
+| Moderate or low            | Any dependency             | Fixed with the next update, within 90 days                              |
+| Licence outside the policy | New dependency             | Not merged                                                              |
 
 **Accepted exceptions.** These are also listed in the dependency review
 configuration,

@@ -12,12 +12,39 @@ import { OpenGraphTags } from '../posts/components/OpenGraphTags/index.js';
 
 let html;
 
+// Gives every element inside the talk list the site's `ph` class, so the
+// site's styles apply to it
+const withSiteClasses = (talks) => {
+  let isRoot = true;
+
+  return talks.replace(
+    /<([a-z][a-z0-9]*)(\s[^>]*)?>/gi,
+    (tag, name, attributes = '') => {
+      if (isRoot) {
+        isRoot = false;
+
+        return tag;
+      }
+
+      if (/\sclass="/.test(attributes)) {
+        return `<${name}${attributes.replace(/\sclass="([^"]*)"/, ' class="$1 ph"')}>`;
+      }
+
+      return `<${name}${attributes.replace(/\/$/, '')} class="ph"${attributes.endsWith('/') ? ' /' : ''}>`;
+    }
+  );
+};
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const TEMPLATE_PATH = resolve(
   DIR_NAME,
   '../../src/pages/Speaker/template.html'
 );
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
+// The talk list, saved from Sessionize by `npm run update:talks`
+const TALKS = fs.readFileSync(
+  resolve(DIR_NAME, '../../src/pages/Speaker/talks.html'),
+  'utf-8'
+);
 const pathToDir = join(DIR_NAME, '../../dist/speaker');
 const pathToFrontpage = join(DIR_NAME, '../../dist/speaker/index.html');
 
@@ -30,5 +57,6 @@ html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
 html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
 html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
 html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
+html = html.replace(/{{SPEAKER_TALKS}}/, () => withSiteClasses(TALKS));
 
 fs.writeFileSync(pathToFrontpage, html, 'utf-8');

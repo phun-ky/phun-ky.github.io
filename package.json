@@ -14,6 +14,7 @@
     "check:trailing-slash": "node scripts/checks/trailing-slash.mjs",
     "check:origins": "node scripts/checks/origins.mjs",
     "check:live": "node scripts/checks/live.mjs",
+    "update:talks": "node scripts/speaker/update-talks.mjs",
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "commit": "git cz"
