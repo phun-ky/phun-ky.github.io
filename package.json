@@ -11,6 +11,7 @@
     "check:fonts": "node scripts/checks/fonts.mjs",
     "check:links": "node scripts/checks/links.mjs",
     "check:trailing-slash": "node scripts/checks/trailing-slash.mjs",
+    "check:live": "node scripts/checks/live.mjs",
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "commit": "git cz"
