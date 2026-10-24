@@ -136,11 +136,11 @@ noun: <strong class="ph">interfaces</strong></span>
    - <span class="ph badge">Physics</span>\
      a surface forming a common boundary between two portions of matter or
      space, for example between two immiscible liquids.\
-      <span class="ph example-sentence">the surface tension of a liquid at its
+     <span class="ph example-sentence">the surface tension of a liquid at its
      air/liquid <strong class="ph">interface</strong></span>
 2. <span class="ph badge">Computing</span>\
    a device or program enabling a user to communicate with a computer.\
-    <span class="ph example-sentence">a graphical user
+   <span class="ph example-sentence">a graphical user
    <strong class="ph">interface</strong></span>
    - a device or program for connecting two items of hardware or software so
      that they can be operated jointly or communicate with each other.\
@@ -172,7 +172,7 @@ But for this article, we are focusing on this:
 
 2. <span class="ph badge">Computing</span>\
    a device or program enabling a user to communicate with a computer.\
-    <span class="ph example-sentence">a graphical user interface</span>
+   <span class="ph example-sentence">a graphical user interface</span>
    - a device or program for connecting two items of hardware or software so
      that they can be operated jointly or communicate with each other.\
      <span class="ph example-sentence">an application program interface</span>
