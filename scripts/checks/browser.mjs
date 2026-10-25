@@ -1,0 +1,150 @@
+import { chromium } from 'playwright-core';
+
+import { globSync } from 'node:fs';
+import process from 'node:process';
+
+import { serve } from '../lib/serve.mjs';
+
+// Loads every built page once in headless Chrome, the way GitHub Pages serves
+// it, and runs every check that needs a browser on that load:
+// - origins: the page requests nothing from another host (no CDNs, analytics,
+//   badges or embeds; links to other sites are fine). Requests to other hosts
+//   are recorded and aborted, so the check doesn't depend on the network.
+// - csp: the page reports no Content Security Policy violation. Since the
+//   policy allows only the site itself, a script or image from another host
+//   is usually blocked, and reported, here before origins sees a request.
+// Lazy images and frames are loaded too. Uses the installed Google Chrome;
+// set CHROME_PATH to use another binary.
+const DIST_DIR = process.argv[2] ?? 'dist';
+const CONCURRENCY = 8;
+// Pages known to fail a check, tracked in an issue, as { check: { path:
+// [problems] } }. Each must keep failing, so the list can't go stale: remove
+// an entry when you fix it.
+const KNOWN = Object.freeze({ origins: {}, csp: {} });
+const pages = globSync('**/*.html', { cwd: DIST_DIR })
+  .map((file) =>
+    `/${file}`.replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '')
+  )
+  .sort();
+const server = await serve(DIST_DIR);
+const origin = `http://127.0.0.1:${server.address().port}`;
+const browser = await chromium.launch(
+  process.env.CHROME_PATH
+    ? { executablePath: process.env.CHROME_PATH }
+    : { channel: 'chrome' }
+);
+// { check: Map<path, problems[]> }
+const found = Object.fromEntries(
+  Object.keys(KNOWN).map((check) => [check, new Map()])
+);
+const report = (check, path, problems) => {
+  if (problems.length !== 0)
+    found[check].set(path, [...new Set(problems)].sort());
+};
+const visit = async (path) => {
+  const context = await browser.newContext();
+  const hosts = [];
+
+  await context.route('**/*', (route) => {
+    const request = route.request();
+    const url = new URL(request.url());
+
+    if (url.origin === origin || ['data:', 'blob:'].includes(url.protocol)) {
+      return route.continue();
+    }
+
+    // Leaving the page (a redirect page sending the visitor on) isn't a
+    // request the page makes; an embedded frame is
+    const leavesPage =
+      request.isNavigationRequest() &&
+      request.frame() === request.frame().page().mainFrame();
+
+    if (!leavesPage) hosts.push(url.host);
+
+    return route.abort();
+  });
+
+  try {
+    const page = await context.newPage();
+
+    await page.addInitScript(() => {
+      window.__violations = [];
+      document.addEventListener('securitypolicyviolation', (event) => {
+        window.__violations.push(
+          `${event.effectiveDirective} blocked ${event.blockedURI || 'inline'}`
+        );
+      });
+    });
+    await page.goto(`${origin}${path}`, { waitUntil: 'load' });
+    // Lazy images and frames load only when scrolled to; load them all (a
+    // page that redirects is gone by now, which is fine)
+    await page
+      .evaluate(() => {
+        document.querySelectorAll('[loading="lazy"]').forEach((element) => {
+          element.loading = 'eager';
+        });
+      })
+      .catch(() => {});
+    await page
+      .waitForLoadState('networkidle', { timeout: 5_000 })
+      .catch(() => {});
+
+    report(
+      'csp',
+      path,
+      await page.evaluate(() => window.__violations ?? []).catch(() => [])
+    );
+  } finally {
+    await context.close();
+  }
+
+  report('origins', path, hosts);
+};
+
+try {
+  const queue = [...pages];
+
+  await Promise.all(
+    Array.from({ length: CONCURRENCY }, async () => {
+      while (queue.length !== 0) await visit(queue.shift());
+    })
+  );
+} finally {
+  await browser.close();
+  server.close();
+}
+
+const failures = [];
+
+Object.entries(KNOWN).forEach(([check, known]) => {
+  found[check].forEach((problems, path) => {
+    const unexpected = problems.filter(
+      (problem) => !known[path]?.includes(problem)
+    );
+
+    if (unexpected.length !== 0) {
+      failures.push(`${check}: ${path}: ${unexpected.join(', ')}`);
+    }
+  });
+  Object.entries(known).forEach(([path, problems]) => {
+    const fixed = problems.filter(
+      (problem) => !found[check].get(path)?.includes(problem)
+    );
+
+    if (fixed.length !== 0) {
+      failures.push(
+        `${check}: ${path} no longer has ${fixed.join(', ')}: remove it from KNOWN`
+      );
+    }
+  });
+});
+
+if (failures.length !== 0) {
+  failures.forEach((failure) => console.error(failure));
+  console.error(`${failures.length} problem(s) on ${pages.length} pages`);
+  process.exit(1);
+}
+
+console.log(
+  `browser: ${pages.length} pages request nothing from other hosts and report no CSP violation`
+);

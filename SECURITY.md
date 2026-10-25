@@ -59,7 +59,7 @@ What you can rely on:
 - **No analytics, and nothing from other hosts.** The site has no analytics or
   tracking, and every script, style, image and font is served from phun-ky.net.
   Videos, tweets and pens from other sites are links, so those sites are only
-  contacted if you follow one. [`check:origins`](scripts/checks/origins.mjs)
+  contacted if you follow one. [`check:browser`](scripts/checks/browser.mjs)
   loads every page in CI and fails on any request to another host.
 
 - **A strict Content Security Policy on every page.** Each page carries a
@@ -70,7 +70,8 @@ What you can rely on:
   plugins (`object-src 'none'`), no `<base>` from elsewhere and no form
   submissions. A `strict-origin-when-cross-origin` referrer policy goes with it.
   [`check:csp`](scripts/checks/csp.mjs) checks every page's policy against its
-  inline code and loads every page in CI, failing on any violation.
+  inline code, and [`check:browser`](scripts/checks/browser.mjs) loads every
+  page in CI, failing on any violation.
 
 What you can't rely on yet:
 
