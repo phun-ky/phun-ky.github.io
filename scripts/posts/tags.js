@@ -76,22 +76,21 @@ uniqueTags.forEach((tag) => {
 
   tagPosts.forEach((post) => tagCategories.push(post.category));
 
-  html = TEMPLATE.replace(/{{FRONTPAGE_POSTS}}/, PostsList(tagPosts));
-  html = html.replace(
-    /{{POST_CATEGORIES}}/,
+  html = TEMPLATE.replace(/{{FRONTPAGE_POSTS}}/, () => PostsList(tagPosts));
+  html = html.replace(/{{POST_CATEGORIES}}/, () =>
     Categories([...new Set(tagCategories)])
   );
-  html = html.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
-  html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-  html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-  html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-  html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-  html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
-  html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
-  html = html.replace(/{{TAG_TITLE}}/, tag);
-  html = html.replace(/{{TAG}}/, tag);
-  html = html.replace(/{{TAG_DESCRIPTION}}/, '');
-  html = html.replace(/{{POST_TAGS}}/, Tags([...new Set([tag])]));
+  html = html.replace(/{{OPEN_GRAPH}}/, () => OpenGraphTags());
+  html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+  html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+  html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+  html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+  html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, () => Author());
+  html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer());
+  html = html.replace(/{{TAG_TITLE}}/, () => tag);
+  html = html.replace(/{{TAG}}/, () => tag);
+  html = html.replace(/{{TAG_DESCRIPTION}}/, () => '');
+  html = html.replace(/{{POST_TAGS}}/, () => Tags([...new Set([tag])]));
 
   const pathToTag = join(__dirname, `../../dist/tags/${slugify(tag)}.html`);
 

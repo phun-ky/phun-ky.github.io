@@ -50,13 +50,13 @@ const pathToFrontpage = join(DIR_NAME, '../../dist/speaker/index.html');
 
 fs.mkdirSync(pathToDir, { recursive: true });
 
-html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
-html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
-html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
+html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, () => OpenGraphTags());
+html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, () => Author());
+html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer());
 html = html.replace(/{{SPEAKER_TALKS}}/, () => withSiteClasses(TALKS));
 
 fs.writeFileSync(pathToFrontpage, html, 'utf-8');

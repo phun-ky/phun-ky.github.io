@@ -56,21 +56,19 @@ files.forEach((file) => {
   }
 });
 
-html = TEMPLATE.replace(
-  /{{FRONTPAGE_POSTS}}/,
+html = TEMPLATE.replace(/{{FRONTPAGE_POSTS}}/, () =>
   PostsList(posts, NUMBER_OF_POSTS_ON_FRONTPAGE, 'archive')
 );
-html = html.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
-html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
-html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
-html = html.replace(
-  /{{POST_CATEGORIES}}/,
+html = html.replace(/{{OPEN_GRAPH}}/, () => OpenGraphTags());
+html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, () => Author());
+html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer());
+html = html.replace(/{{POST_CATEGORIES}}/, () =>
   Categories([...new Set(categories)])
 );
-html = html.replace(/{{POST_TAGS}}/, Tags([...new Set(tags)]));
+html = html.replace(/{{POST_TAGS}}/, () => Tags([...new Set(tags)]));
 
 fs.writeFileSync(pathToFrontpage, html, 'utf-8');

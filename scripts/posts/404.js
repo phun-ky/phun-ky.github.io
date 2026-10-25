@@ -22,13 +22,15 @@ const TEMPLATE_PATH = resolve(
 const TEMPLATE = fs.readFileSync(TEMPLATE_PATH, 'utf-8');
 const pathTo404 = join(DIR_NAME, '../../dist/404.html');
 
-html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
-html = html.replace(/{{TRAILING_SLASH_REDIRECT}}/, TrailingSlashRedirect());
-html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
-html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
+html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, () => OpenGraphTags());
+html = html.replace(/{{TRAILING_SLASH_REDIRECT}}/, () =>
+  TrailingSlashRedirect()
+);
+html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, () => Author());
+html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer());
 
 fs.writeFileSync(pathTo404, html, 'utf-8');
