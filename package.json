@@ -13,6 +13,7 @@
     "check:links": "node scripts/checks/links.mjs",
     "check:trailing-slash": "node scripts/checks/trailing-slash.mjs",
     "check:origins": "node scripts/checks/origins.mjs",
+    "check:csp": "node scripts/checks/csp.mjs",
     "check:live": "node scripts/checks/live.mjs",
     "update:talks": "node scripts/speaker/update-talks.mjs",
     "lint": "eslint .",
