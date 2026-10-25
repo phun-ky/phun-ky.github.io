@@ -27,9 +27,11 @@ thanks to some digging I found some other torrents to make use of:
 
 And if you want to add the Ubuntu Studio repo:
 
-    sudo su -c 'echo deb
-    http://archive.ubuntustudio.org/ubuntustudio feisty main >> /etc/apt/sources.list'
-    wget -q http://archive.ubuntustudio.org/ubuntustudio.gpg -O- | sudo apt-key add - && sudo apt-get update
+```shell
+sudo su -c 'echo deb
+http://archive.ubuntustudio.org/ubuntustudio feisty main >> /etc/apt/sources.list'
+wget -q http://archive.ubuntustudio.org/ubuntustudio.gpg -O- | sudo apt-key add - && sudo apt-get update
+```
 
 ## Update: Direct iso link
 

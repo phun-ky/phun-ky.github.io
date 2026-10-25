@@ -23,12 +23,16 @@ the icons) for you in Gnome by default. You have to tell it to stop doing that,
 so we can do the matrix animation in its place. Nautilus can be configured using
 gconf.
 
-    gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop false
+```shell
+gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop false
+```
 
 Now that you have the desktop to ourselves, ask xscreensaver 'glmatrix' to start
 drawing itself in the desktop window ('root' window).
 
-    /usr/lib/xscreensaver/glmatrix -root
+```shell
+/usr/lib/xscreensaver/glmatrix -root
+```
 
 If you want the animation every time you log in, open
 "~/.config/autostart/glmatrix.desktop" in your text editor and paste the
@@ -47,7 +51,9 @@ X-GNOME-Autostart-enabled=true
 If you are fed up with playing around and want your old desktop back, use this
 line in the terminal:
 
-    gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop true && nautilus
+```shell
+gconftool-2 --type bool --set /apps/nautilus/preferences/show_desktop true && nautilus
+```
 
 Sources: [winmatrix.com](http://www.winmatrix.com) <br/> (m.sudoku - "DreamScene
 for Linux: Screensaver as Desktop Wallpaper"),
