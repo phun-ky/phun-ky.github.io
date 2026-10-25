@@ -69,9 +69,16 @@
                     >
                       <img
                         class="ph"
-                        loading="lazy"
                         alt="Image of a crowd at a talk"
-                        src="/img/me/image.webp"
+                        src="/img/me/image-1200.webp"
+                        srcset="
+                          /img/me/image-800.webp   800w,
+                          /img/me/image-1200.webp 1200w,
+                          /img/me/image.webp      1906w
+                        "
+                        sizes="(min-width: 1192px) 1152px, calc(100vw - 40px)"
+                        width="1906"
+                        height="1267"
                       />
                     </a>
                     <figcaption class="ph">
