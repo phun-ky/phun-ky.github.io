@@ -1,0 +1,24 @@
+{
+  "default": {
+    "kb": {
+      "html": 150,
+      "script": 100,
+      "stylesheet": 50,
+      "image": 200,
+      "font": 0,
+      "total": 400
+    },
+    "lcp": 2500,
+    "cls": 0.1,
+    "tbt": 200
+  },
+  "pages": {
+    "projects": {
+      "kb": { "image": 800, "total": 900 }
+    },
+    "speaker": {
+      "kb": { "image": 1100, "total": 1200 },
+      "lcp": 7000
+    }
+  }
+}

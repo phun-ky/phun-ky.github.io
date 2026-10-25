@@ -5,6 +5,7 @@ import { join } from 'node:path';
 import process from 'node:process';
 
 import { serve } from '../lib/serve.mjs';
+import { TEMPLATE_PAGES } from '../lib/templates.mjs';
 
 // Full-page screenshots of one page per template, at a phone, tablet and
 // desktop width, in the light and the dark theme, for reviewing visual
@@ -13,18 +14,7 @@ import { serve } from '../lib/serve.mjs';
 // CHROME_PATH to use another binary.
 const DIST_DIR = process.argv[2] ?? 'dist';
 const OUT_DIR = process.argv[3] ?? 'screenshots';
-const PAGES = Object.freeze({
-  home: '/',
-  post: '/2023/10/04/create-a-simple-vanilla-javascript-spa',
-  category: '/categories/programming',
-  tag: '/tags/javascript',
-  categories: '/categories/',
-  tags: '/tags/',
-  projects: '/projects/',
-  frameport: '/projects/frameport/',
-  speaker: '/speaker/',
-  'not-found': '/this-page-does-not-exist'
-});
+const PAGES = TEMPLATE_PAGES;
 const WIDTHS = [390, 768, 1440];
 const THEMES = ['light', 'dark'];
 

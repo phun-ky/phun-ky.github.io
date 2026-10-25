@@ -52,6 +52,8 @@ jobs:
         run: npm run check:csp
       - name: Check every page in a browser # Other hosts, CSP violations, axe (WCAG 2.2 AA)
         run: npm run check:browser
+      - name: Check performance budgets # One page per template, on a throttled phone
+        run: npm run check:performance
       - name: Take screenshots # One page per template, 3 widths, both themes
         if: ${{ !cancelled() }}
         run: npm run screenshots
