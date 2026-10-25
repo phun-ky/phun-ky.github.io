@@ -106,7 +106,7 @@ discussed in an issue first, so the work fits the [roadmap](ROADMAP.md).
 Code follows the project's [ESLint](https://eslint.org/) configuration
 (`eslint-config-phun-ky`), which also lints the Markdown, and
 [Prettier](https://prettier.io/) formatting. A contribution must pass
-`npm run lint` and `npm run format:check` with no errors.
+`npm run lint` and `npm run format:check` with no errors or warnings.
 
 Some rules specific to this site:
 
@@ -135,8 +135,16 @@ must pass. Run the ones your change touches before you push:
 - **A visual change:** CI keeps screenshots of every template at three widths in
   both themes as an artifact of the run; look at them before asking for a
   review.
-- **A fix to a build script** should come with a check that fails without it,
-  where one can be written.
+- **New functionality must come with a check that covers it.** A new kind of
+  page is added to [`scripts/lib/templates.mjs`](scripts/lib/templates.mjs), so
+  the performance budgets and screenshots include it; a new build step gets a
+  check in [`scripts/checks`](scripts/checks) that fails when the step breaks.
+- **A bug fix must come with a check that fails without it,** where one can be
+  written.
+- **A change to the OpenSSF Best Practices answers** goes in
+  [`.bestpractices.json`](.bestpractices.json); `npm run check:bestpractices`
+  checks every file and heading they link to, and `npm run bestpractices:url`
+  prints a link that proposes the changed answers on bestpractices.dev.
 
 #### Developer Certificate of Origin
 

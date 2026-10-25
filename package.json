@@ -20,9 +20,11 @@
     "check:csp": "node scripts/checks/csp.mjs",
     "check:live": "node scripts/checks/live.mjs",
     "update:talks": "node scripts/speaker/update-talks.mjs",
-    "lint": "eslint .",
+    "lint": "eslint . --max-warnings 0",
     "format:check": "prettier --check .",
     "check:posts": "node scripts/checks/posts.mjs",
+    "check:bestpractices": "node scripts/bestpractices/check.mjs",
+    "bestpractices:url": "node scripts/bestpractices/url.mjs",
     "commit": "git cz"
   },
   "repository": {
