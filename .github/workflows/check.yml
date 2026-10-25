@@ -50,7 +50,7 @@ jobs:
         run: npm run check:metadata
       - name: Check the Content Security Policy # One policy per page, matching its inline code
         run: npm run check:csp
-      - name: Check every page in a browser # Nothing from other hosts, no CSP violation
+      - name: Check every page in a browser # Other hosts, CSP violations, axe (WCAG 2.2 AA)
         run: npm run check:browser
 
   deploy:
