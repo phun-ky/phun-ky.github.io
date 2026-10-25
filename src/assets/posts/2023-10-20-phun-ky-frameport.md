@@ -10,7 +10,6 @@ tags:
   [
     documentation,
     style guide,
-    styleguide,
     design system,
     media queries,
     responsive,
