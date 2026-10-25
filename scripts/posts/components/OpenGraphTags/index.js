@@ -7,7 +7,7 @@ export const OpenGraphTags = (props = {}) => {
     title = 'lover of life, technologist at heart',
     siteName = 'lover of life, technologist at heart',
     description = 'The world from my point of view, and some pedantic creativity',
-    image = 'https://secure.gravatar.com/avatar/e4885fa3c6db55194cb2eb9e81dac456?s=220',
+    image = '/img/meta/avatar.png',
     image2 = null,
     domain = 'phun-ky.net'
   } = props;

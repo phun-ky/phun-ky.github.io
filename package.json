@@ -8,7 +8,7 @@
     "clean": "rm -rf dist/*",
     "assets": "mkdir -p dist && cp -a ./src/assets/css ./src/assets/img ./src/assets/js ./src/assets/meta ./dist/ && cp -a ./src/styles/. ./dist/css && node scripts/assets/prism.mjs",
     "prebuild": "npm run clean && npm run assets",
-    "build": "node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/speaker/index.js && node scripts/projects/projects.js && node scripts/projects/frameport.js && node scripts/redirects/index.js && node scripts/csp/apply.mjs",
+    "build": "node scripts/posts/create.js && node scripts/posts/index.js && node scripts/posts/categories.js && node scripts/posts/tags.js && node scripts/posts/404.js && node scripts/speaker/index.js && node scripts/projects/projects.js && node scripts/projects/frameport.js && node scripts/redirects/index.js && node scripts/meta/apply.mjs && node scripts/csp/apply.mjs",
     "check:fonts": "node scripts/checks/fonts.mjs",
     "check:sources": "node scripts/checks/sources.mjs",
     "check:links": "node scripts/checks/links.mjs",
