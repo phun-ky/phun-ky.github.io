@@ -131,10 +131,8 @@ blocks merging. OpenSSF Scorecard is not set up yet
 
 ## Secrets
 
-The build and the deploy use no secrets. Deploying to GitHub Pages uses a
-short-lived OIDC token that GitHub issues to the deploy job only. Secret
-scanning is on; push protection, which blocks commits that contain a credential,
-is not on yet ([#137](https://github.com/phun-ky/phun-ky.github.io/issues/137)).
-The repository still holds one secret from earlier workflows, `GH_TOKEN`, which
-nothing uses any more; it will be deleted
-([#137](https://github.com/phun-ky/phun-ky.github.io/issues/137)).
+The project has no secrets: the build and the deploy use none. Deploying to
+GitHub Pages uses a short-lived OIDC token that GitHub issues to the deploy job
+only. Every workflow's token is read-only unless a job asks for more, and
+workflows can't approve pull requests. Secret scanning with push protection
+blocks commits that contain a credential.
