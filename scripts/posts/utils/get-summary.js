@@ -1,8 +1,11 @@
 const MAX_LENGTH = 160;
 const MIN_PARAGRAPH = 40;
+// One pass of tag removal can leave a tag behind (`<scr<b>ipt>`), so any
+// angle bracket that remains is removed too: the result never contains one
 const toText = (html) =>
   html
     .replace(/<[^>]+>/g, '')
+    .replace(/[<>]/g, '')
     .replace(/&nbsp;/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
