@@ -489,7 +489,7 @@ does what it is supposed to do. Relay information and handle input.
   type="video"
   url="<https://www.youtube.com/embed/PFeVHOmEvi8?controls=0&start=120>"
   description="Scene from the movie Red Planet"
-  src="<https://i.ytimg.com/vi_webp/PFeVHOmEvi8/maxresdefault.webp>"
+  src="/img/external/youtube-PFeVHOmEvi8-maxresdefault.webp"
 %}
 
 {% /figure %}
@@ -563,7 +563,7 @@ tailored to the user.
   type="video"
   url="<https://www.youtube.com/embed/Ay6g66FbkmQ?controls=0&start=120>"
   description="Vidoe of the JSF HUD, simulated"
-  src="<https://i.ytimg.com/vi_webp/Ay6g66FbkmQ/maxresdefault.webp>"
+  src="/img/external/youtube-Ay6g66FbkmQ-maxresdefault.webp"
 %}
 
 {% /figure %}
@@ -574,7 +574,7 @@ tailored to the user.
   type="video"
   url="<https://player.vimeo.com/video/166807261?autoplay=1>"
   description="Hyper Reality"
-  src="<https://i.vimeocdn.com/video/571534199-095e9569e08e4e2a03b4888a8ac59f5762687b9c108ccfb60390162a19058cc4-d>"
+  src="/img/external/vimeo-571534199.jpg"
 %}
 
 {% /figure %}
@@ -587,7 +587,7 @@ tailored to the user.
   type="video"
   url="<https://www.youtube.com/embed/LkqiDu1BQXY?rel=0&controls=0&showinfo=0&autoplay=1&start=63&end=120>"
   description="Scene with Scotty and the 80's computer from Star Trek IV: The Voyage Home"
-  src="<https://i.ytimg.com/vi/LkqiDu1BQXY/maxresdefault.jpg>"
+  src="/img/external/youtube-LkqiDu1BQXY-maxresdefault.jpg"
 %}
 
 {% /figure %}
@@ -720,7 +720,7 @@ thanks to hard light, and create every scenario you want.
   type="video"
   url="<https://www.youtube.com/embed/YnZeI8uLJnw?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="Super Mario Bros. controlled with a theremin"
-  src="<https://i.ytimg.com/vi/YnZeI8uLJnw/maxresdefault.jpg>"
+  src="/img/external/youtube-YnZeI8uLJnw-maxresdefault.jpg"
 %}
 
 {% /figure %}
@@ -756,7 +756,7 @@ smaller, like a small handbag size.
   type="video"
   url="<https://www.youtube.com/embed/Yvlc6C8YLug?rel=0&controls=0&showinfo=0&autoplay=1>"
   description=" Target teams with new robot to give 10-minute, $10 manicures in store"
-  src="<https://i.ytimg.com/vi/Yvlc6C8YLug/maxresdefault.jpg>"
+  src="/img/external/youtube-Yvlc6C8YLug-maxresdefault.jpg"
 %}
 
 {% /figure %}
@@ -775,7 +775,7 @@ of the UI reels from the science fiction movies that I like.
   type="video"
   url="<https://player.vimeo.com/video/1563485?autoplay=1>"
   description="Mark Coleran | Screen Reel  08.06"
-  src="<https://i.vimeocdn.com/video/21013054-7fabec3c6bace1a824254a78b33d1550c96699a0fdaa9784634f7529c3bc17e3-d>"
+  src="/img/external/vimeo-21013054.jpg"
 %}
 
 What do The Bourne Identity, Mission Impossible 3, Mr & Mrs Smith, Children of
@@ -806,7 +806,7 @@ the future of software, as designed by someone with no constraints.
   type="video"
   url="<https://www.youtube.com/embed/o5ztBii2_wA?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="Prometheus UI Reel"
-  src="<https://i.ytimg.com/vi/o5ztBii2_wA/maxresdefault.jpg>"
+  src="/img/external/youtube-o5ztBii2_wA-maxresdefault.jpg"
 %}
 
 Territory worked with Ridley Scott and 20th Century Fox to design and animate
@@ -821,7 +821,7 @@ Prometheus.
   type="video"
   url="<https://www.youtube.com/embed/b0ve2nHEVWw?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="Guardians of the Galaxy UI Reel"
-  src="<https://i.ytimg.com/vi/b0ve2nHEVWw/maxresdefault.jpg>"
+  src="/img/external/youtube-b0ve2nHEVWw-maxresdefault.jpg"
 %}
 
 Showreel covering Territory's UI concepts, design and animation for both on-set
@@ -836,7 +836,7 @@ Galaxy.
   type="video"
   url="<https://www.youtube.com/embed/NVm7rNd0fEU?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="hybride.vfx.breakdowns.films // PACIFIC RIM (2013)"
-  src="<https://i.ytimg.com/vi/NVm7rNd0fEU/maxresdefault.jpg>"
+  src="/img/external/youtube-NVm7rNd0fEU-maxresdefault.jpg"
 %}
 
 For this second collaboration with Director Guillermo del Toro, Hybride
@@ -858,7 +858,7 @@ seen throughout the film.
   type="video"
   url="<https://www.youtube.com/embed/VxRTsmCy93Y?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="Prologue Films- Iron Man 2 VFX Montage"
-  src="<https://i.ytimg.com/vi/VxRTsmCy93Y/maxresdefault.jpg>"
+  src="/img/external/youtube-VxRTsmCy93Y-maxresdefault.jpg"
 %}
 
 {% /figure %}
@@ -871,7 +871,7 @@ seen throughout the film.
   type="video"
   url="<https://www.youtube.com/embed/Ekq56VZqQvs?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="Limit Theory Development Update #11"
-  src="<https://i.ytimg.com/vi/Ekq56VZqQvs/maxresdefault.jpg>"
+  src="/img/external/youtube-Ekq56VZqQvs-maxresdefault.jpg"
 %}
 
 Limit Theory ( [http://ltheory.com](http://ltheory.com) ) is an open-world,
@@ -1075,7 +1075,7 @@ the temperature up or down.
   type="video"
   url="<https://www.youtube.com/embed/H3St35hufc4?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="CES 2017: BMW's haptic interface concept car | Ars Technica"
-  src="<https://i.ytimg.com/vi/H3St35hufc4/maxresdefault.jpg>"
+  src="/img/external/youtube-H3St35hufc4-maxresdefault.jpg"
 %}
 
 AirTouch debuted at CES 2016 and uses sensors on the dash to pick up hand
@@ -1104,7 +1104,7 @@ Check out the video below to see a demo of HoloActive and BMW's concept car.
   type="video"
   url="<https://www.youtube.com/embed/O3a8QhZ6Mvk?rel=0&controls=0&showinfo=0&autoplay=1>"
   description="Pizza Hut Interactive Concept Table"
-  src="<https://i.ytimg.com/vi/O3a8QhZ6Mvk/maxresdefault.jpg>"
+  src="/img/external/youtube-O3a8QhZ6Mvk-maxresdefault.jpg"
 %}
 
 {% /figure %}
@@ -1114,7 +1114,7 @@ Check out the video below to see a demo of HoloActive and BMW's concept car.
 {% figure
   type="video"
   url="<https://player.vimeo.com/video/119913982?autoplay=1>"
-  src="<https://i.vimeocdn.com/video/507525161-0e9397dcf70589472b8b51557fb400d7d7629ec4367be3250fa0983793342a81-d>"
+  src="/img/external/vimeo-507525161.jpg"
   description="AquaTop display is a touchscreen display for your bath"
 %}
 
@@ -1131,7 +1131,7 @@ University of Electro-Communications.
 {% figure
   type="video"
   url="<https://www.youtube.com/embed/lvtfD_rJ2hE?rel=0&controls=0&showinfo=0&autoplay=1>"
-  src="<https://i.ytimg.com/vi/lvtfD_rJ2hE/maxresdefault.jpg>"
+  src="/img/external/youtube-lvtfD_rJ2hE-maxresdefault.jpg"
   description="Amazing Technology Invented By MIT - Tangible Media"
 %}
 
@@ -1155,26 +1155,24 @@ thanks to the sensors of a hacked Microsoft Kinect.
 
 ### HCI Group, University of Munich<span class="ph years-ago" data-year="2013"></span>
 
-{% figure
-  type="video"
-  url="<https://www.youtube.com/embed/ICr1gdQ_gbQ?rel=0&controls=0&showinfo=0&autoplay=1>"
-  src="<https://i.ytimg.com/vi/ICr1gdQ_gbQ/maxresdefault.jpg>"
-  description="LiquiTouch - Water as a Medium for Versatile Tactile Feedback on Touch Surfaces"
-%}
+{% message type="note" title="Note" %}
+
+The video that was here (LiquiTouch - Water as a Medium for Versatile Tactile
+Feedback on Touch Surfaces) is no longer available.
+
+{% /message %}
 
 LiquiTouch is a robotic arm with a water-nozzle-equipped combined with an
 interactive touch surface . The robotic arm is constantly following the finger
 intaracting with the touchscreen. As soon as the user touches a virtual element
 on the screen, a thin jet of water water is shot at the finger.
 
-{% /figure %}
-
 ### Calart, Redesigning the rebel pilot targeting system
 
 {% figure
   type="video"
   url="<https://videopress.com/v/OGt68hof>"
-  src="<https://videos.files.wordpress.com/OGt68hof/video_final_abbyjulia-desktop_hd.original.jpg>"
+  src="/img/external/wordpress-video_final_abbyjulia-desktop_hd.original.jpg"
   description="Redesigning the rebel pilot targeting system"
 %}
 
