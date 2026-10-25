@@ -1,6 +1,7 @@
 # phun-ky.net
 
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/phun-ky/phun-ky.github.io/badge)](https://scorecard.dev/viewer/?uri=github.com/phun-ky/phun-ky.github.io)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/15904/badge)](https://www.bestpractices.dev/projects/15904)
 [![Check and deploy](https://github.com/phun-ky/phun-ky.github.io/actions/workflows/check.yml/badge.svg)](https://github.com/phun-ky/phun-ky.github.io/actions/workflows/check.yml)
 
 The source of [phun-ky.net](https://phun-ky.net), the personal site and blog of
@@ -58,9 +59,11 @@ shows as a paragraph.
 | Script                         | What it does                                                                                                      |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | `npm run build`                | Builds the site into `dist/` (`prebuild` cleans it and copies the assets and Prism)                               |
-| `npm run lint`                 | ESLint on the JavaScript and the Markdown                                                                         |
+| `npm run lint`                 | ESLint on the JavaScript and the Markdown, failing on any warning                                                 |
 | `npm run format:check`         | Prettier on everything                                                                                            |
 | `npm run check:posts`          | Fails on indented code blocks in posts                                                                            |
+| `npm run check:bestpractices`  | Checks the files and headings the [OpenSSF Best Practices answers](.bestpractices.json) link to                   |
+| `npm run bestpractices:url`    | Prints a link that proposes the changed answers on bestpractices.dev                                              |
 | `npm run check:fonts`          | Fails when the build ships a font nothing uses                                                                    |
 | `npm run check:sources`        | Fails when the build ships Markdown sources                                                                       |
 | `npm run check:links`          | Fails on a link or asset the site doesn't serve                                                                   |

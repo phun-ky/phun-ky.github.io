@@ -30,6 +30,8 @@ jobs:
           node-version: 24
       - name: Install dependencies
         run: npm ci
+      - name: Check best practices answers # Every linked file and heading exists
+        run: npm run check:bestpractices
       - name: Lint # JavaScript and Markdown
         run: npm run lint
       - name: Check formatting # Templates, CSS, JSON and YAML
