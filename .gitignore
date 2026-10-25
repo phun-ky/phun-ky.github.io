@@ -106,3 +106,6 @@ dts
 *.code-workspace
 
 *.zip
+
+# Screenshots from npm run screenshots
+screenshots/

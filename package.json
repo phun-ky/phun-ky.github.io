@@ -15,6 +15,7 @@
     "check:trailing-slash": "node scripts/checks/trailing-slash.mjs",
     "check:metadata": "node scripts/checks/metadata.mjs",
     "check:browser": "node scripts/checks/browser.mjs",
+    "screenshots": "node scripts/checks/screenshots.mjs",
     "check:csp": "node scripts/checks/csp.mjs",
     "check:live": "node scripts/checks/live.mjs",
     "update:talks": "node scripts/speaker/update-talks.mjs",
