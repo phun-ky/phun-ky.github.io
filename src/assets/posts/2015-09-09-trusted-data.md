@@ -15,7 +15,7 @@ description:
   With so much data out there, how can we trust it? What is "Trusted Data"?
 category: 'Technology'
 tags: [trusted-data, data]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/960px-Social_Network_Analysis_Visualization.png
+image: /img/external/960px-Social_Network_Analysis_Visualization.png
 ---
 
 **Table of Contents**
@@ -33,7 +33,7 @@ image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_
 
 {% figure
   description="A picture of the Milky Way seen in the night sky in Black Rock Desert Nevada"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg/960px-Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg>"
+  src="/img/external/960px-Milky_Way_Night_Sky_Black_Rock_Desert_Nevada.jpg"
 %}
 
 by
@@ -71,7 +71,7 @@ lies in the terminology used.
 
 {% figure
   description="Social_Network_Analysis_Visualization"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Social_Network_Analysis_Visualization.png/960px-Social_Network_Analysis_Visualization.png>"
+  src="/img/external/960px-Social_Network_Analysis_Visualization.png"
 %}
 
 by
@@ -225,7 +225,7 @@ explore this:
 
 {% figure
   description="Source-de-l'Orbe"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Source-de-l%27Orbe.jpg/960px-Source-de-l%27Orbe.jpg>"
+  src="/img/external/960px-Source-de-l_Orbe.jpg"
 %}
 
 by
@@ -324,7 +324,7 @@ the scientific progress of the time.
 
 {% figure
   description="Carta Marina"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Carta_Marina.jpeg/960px-Carta_Marina.jpeg>"
+  src="/img/external/960px-Carta_Marina.jpeg"
 %}
 
 by
@@ -377,7 +377,7 @@ particular.
 
 {% figure
   description="Man highlining in Yosemite National Park with El Capitan in the background"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG/960px-Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG>"
+  src="/img/external/960px-Man_highlining_in_Yosemite_National_Park_with_El_Capitan_in_the_background.JPG"
 %}
 
 by
@@ -468,7 +468,7 @@ interpret data.
 
 {% figure
   description="Quarts of milk"
-  src="<https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Quarts_of_milk_%285092042245%29_%283%29.jpg/960px-Quarts_of_milk_%285092042245%29_%283%29.jpg>"
+  src="/img/external/960px-Quarts_of_milk__5092042245___3_.jpg"
 %}
 
 by

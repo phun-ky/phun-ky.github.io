@@ -10,7 +10,7 @@ description:
   perspective can provide a structured path forward. What do you think?"
 category: 'Management'
 tags: [people, knowledge, competence, skill]
-image: https://images.unsplash.com/photo-1492366254240-43affaefc3e3
+image: /img/external/unsplash-photo-1492366254240-43affaefc3e3.webp
 ---
 
 > Our ability to work together, that is our greatest strength." — Christopher
@@ -23,7 +23,7 @@ image: https://images.unsplash.com/photo-1492366254240-43affaefc3e3
 
 {% figure
   description="People rowing a boat on body of water"
-  src="<https://images.unsplash.com/photo-1492366254240-43affaefc3e3>"
+  src="/img/external/unsplash-photo-1492366254240-43affaefc3e3.webp"
 %}
 
 Photo by
