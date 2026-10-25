@@ -5,7 +5,7 @@ route: /2007/01/27/manah-manah
 title: 'manah manah!'
 description: 'Well, I took a sneak at the daily comic strip of M, authored and drawn by Mads Eriksen, and I did not quite get it, so I googled and came across a YouTub clip containing the explanation in form of a old Muppet Show sequence'
 category: 'Archive'
-image: /img/blog/img8affec83b72d0aaa7965480f648d303a.webp
+image: /img/external/youtube-8N_tupPBtWQ.jpg
 tags: [funny, comics, the muppet show]
 ---
 
