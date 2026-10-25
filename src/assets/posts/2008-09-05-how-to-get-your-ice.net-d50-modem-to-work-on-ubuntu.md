@@ -59,12 +59,16 @@ d50 on my laptop my entire summer vacation and it worked perfectly!
 To do this manually is kind of a bore, so I made this executable and made a
 shortcut to it on my desktop:
 
-    cd /media/NMT_D50v2303R2/Linux
-    sudo ./RDEVCHG
-    #path to your execute.sh file, in this case bin/:
-    cd /home/<yourusername>/bin/
-    sudo sh execute.sh
+```shell
+cd /media/NMT_D50v2303R2/Linux
+sudo ./RDEVCHG
+#path to your execute.sh file, in this case bin/:
+cd /home/<yourusername>/bin/
+sudo sh execute.sh
+```
 
 In the shortcut command field, just enter:
 
-    sudo sh /home/<yourusername>/D-50.sh
+```shell
+sudo sh /home/<yourusername>/D-50.sh
+```

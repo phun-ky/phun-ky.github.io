@@ -29,6 +29,8 @@ address.
 
 It's done like this (in PHP):
 
-    $default = "http://your.domain.com/imagefolder/default_gravatar.png";
-    $size = 50;
-    $grav_url =   "http://www.gravatar.com/avatar.php?gravatar_id=".md5($email)."&amp;default=".urlencode($default)."&amp;size=".$size;
+```php
+$default = "http://your.domain.com/imagefolder/default_gravatar.png";
+$size = 50;
+$grav_url =   "http://www.gravatar.com/avatar.php?gravatar_id=".md5($email)."&amp;default=".urlencode($default)."&amp;size=".$size;
+```
