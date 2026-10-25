@@ -17,6 +17,8 @@ import { serve } from '../lib/serve.mjs';
 // - a11y: axe finds no WCAG 2.2 A or AA violation in the light theme, and no
 //   contrast violation in the dark theme. Problems are named by rule and
 //   theme; the output shows an example element.
+// - layout: no horizontal scrolling at 390, 768 and 1440 px wide (a phone, a
+//   tablet and a desktop); the output shows the widest element.
 // Lazy images and frames are loaded too. Uses the installed Google Chrome;
 // set CHROME_PATH to use another binary.
 const DIST_DIR = process.argv[2] ?? 'dist';
@@ -24,7 +26,8 @@ const CONCURRENCY = 8;
 // Pages known to fail a check, tracked in an issue, as { check: { path:
 // [problems] } }. Each must keep failing, so the list can't go stale: remove
 // an entry when you fix it.
-const KNOWN = Object.freeze({ origins: {}, csp: {}, a11y: {} });
+const KNOWN = Object.freeze({ origins: {}, csp: {}, a11y: {}, layout: {} });
+const WIDTHS = [390, 768, 1440];
 // axe is loaded through the DevTools protocol, which the page's Content
 // Security Policy doesn't apply to, so the csp check stays meaningful
 const AXE = fs.readFileSync(
@@ -52,6 +55,54 @@ const found = Object.fromEntries(
 const report = (check, path, problems) => {
   if (problems.length !== 0)
     found[check].set(path, [...new Set(problems)].sort());
+};
+// Resizes the page to each width and reports any width where it scrolls
+// sideways, with the element that sticks out furthest
+const layout = async (page, path) => {
+  if (!page.url().startsWith(origin)) return [];
+
+  const problems = [];
+
+  for (const width of WIDTHS) {
+    await page.setViewportSize({ width, height: 900 });
+
+    const result = await page
+      .evaluate(() => {
+        const { scrollWidth, clientWidth } = document.documentElement;
+
+        if (scrollWidth <= clientWidth) return null;
+
+        let widest = null;
+
+        for (const element of document.body.querySelectorAll('*')) {
+          const { right } = element.getBoundingClientRect();
+
+          if (right > clientWidth && (!widest || right > widest.right)) {
+            widest = {
+              right,
+              name: `${element.tagName.toLowerCase()}${[...element.classList].map((c) => `.${c}`).join('')}`
+            };
+          }
+        }
+
+        return { scrollWidth, name: widest?.name ?? 'unknown' };
+      })
+      .catch(() => null);
+
+    if (result) {
+      const problem = `scrolls sideways at ${width}px`;
+
+      examples.set(
+        `${path} ${problem}`,
+        `${result.name} (page is ${result.scrollWidth}px wide)`
+      );
+      problems.push(problem);
+    }
+  }
+
+  await page.setViewportSize({ width: 1280, height: 720 });
+
+  return problems;
 };
 // Runs axe in the light theme (the default here), then switches to the dark
 // theme the way the site's toggle does and checks contrast again
@@ -153,6 +204,7 @@ const visit = async (path) => {
       path,
       await page.evaluate(() => window.__violations ?? []).catch(() => [])
     );
+    report('layout', path, await layout(page, path));
     report('a11y', path, await accessibility(page, path));
   } finally {
     await context.close();
@@ -214,5 +266,5 @@ if (failures.length !== 0) {
 }
 
 console.log(
-  `browser: ${pages.length} pages request nothing from other hosts, report no CSP violation and pass axe`
+  `browser: ${pages.length} pages request nothing from other hosts, report no CSP violation, don't scroll sideways at ${WIDTHS.join(', ')}px and pass axe`
 );

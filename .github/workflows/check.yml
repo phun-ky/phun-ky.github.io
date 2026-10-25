@@ -52,6 +52,17 @@ jobs:
         run: npm run check:csp
       - name: Check every page in a browser # Other hosts, CSP violations, axe (WCAG 2.2 AA)
         run: npm run check:browser
+      - name: Take screenshots # One page per template, 3 widths, both themes
+        if: ${{ !cancelled() }}
+        run: npm run screenshots
+      - name: Keep the screenshots
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: screenshots
+          path: screenshots/
+          retention-days: 14
+          if-no-files-found: error
 
   deploy:
     # Only main deploys, and only after the checks pass
