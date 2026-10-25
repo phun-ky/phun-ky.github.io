@@ -55,6 +55,16 @@ const visit = async (path) => {
     const page = await context.newPage();
 
     await page.goto(`${origin}${path}`, { waitUntil: 'load' });
+    // Lazy images and frames below the fold load only when scrolled to;
+    // load them all, or their hosts go unnoticed
+    // (a page that redirects is gone by now, which is fine)
+    await page
+      .evaluate(() => {
+        document.querySelectorAll('[loading="lazy"]').forEach((element) => {
+          element.loading = 'eager';
+        });
+      })
+      .catch(() => {});
     await page
       .waitForLoadState('networkidle', { timeout: 5_000 })
       .catch(() => {});
