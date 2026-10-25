@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: 'improvements: 💡 enhancement'
 assignees: 'phun-ky'
 ---
 
