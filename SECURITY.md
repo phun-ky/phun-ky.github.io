@@ -62,16 +62,26 @@ What you can rely on:
   contacted if you follow one. [`check:origins`](scripts/checks/origins.mjs)
   loads every page in CI and fails on any request to another host.
 
+- **A strict Content Security Policy on every page.** Each page carries a
+  `<meta>` policy, written at build time by
+  [`scripts/csp/apply.mjs`](scripts/csp/apply.mjs): scripts, styles, images,
+  fonts and the manifest only from phun-ky.net; inline scripts and `<style>`
+  blocks only when their hash is listed, so no `unsafe-inline` for scripts; no
+  plugins (`object-src 'none'`), no `<base>` from elsewhere and no form
+  submissions. A `strict-origin-when-cross-origin` referrer policy goes with it.
+  [`check:csp`](scripts/checks/csp.mjs) checks every page's policy against its
+  inline code and loads every page in CI, failing on any violation.
+
 What you can't rely on yet:
 
-- **The Content Security Policy is partial.** A `<meta>` policy is set on the
-  front page, the projects and speaker pages and the 404 page, but not on posts,
-  category, tag and frameport pages. Where it is set, it allows inline scripts
-  and styles and images, fonts and styles from any HTTPS host
-  ([#141](https://github.com/phun-ky/phun-ky.github.io/issues/141)).
+- **Inline style attributes are allowed.** A few posts and Prism's inline-color
+  plugin set colours with `style` attributes, so the policy allows them
+  (`style-src-attr 'unsafe-inline'`). They can change how a page looks, not run
+  code.
 - **Some security headers can't be set.** GitHub Pages can't send response
-  headers, so `Referrer-Policy`, `Permissions-Policy`, `X-Content-Type-Options`
-  and the CSP's `frame-ancestors` (protection against being framed) are missing.
+  headers, and a `<meta>` policy can't do everything a header can, so
+  `Permissions-Policy`, `X-Content-Type-Options`, the CSP's `frame-ancestors`
+  (protection against being framed) and CSP violation reports are missing.
 
 ## Dependencies
 

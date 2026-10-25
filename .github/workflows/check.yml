@@ -44,6 +44,8 @@ jobs:
         run: npm run check:trailing-slash
       - name: Check that nothing loads from other hosts # Every page, in headless Chrome
         run: npm run check:origins
+      - name: Check the Content Security Policy # Every page, in headless Chrome
+        run: npm run check:csp
 
   deploy:
     # Only main deploys, and only after the checks pass

@@ -14,19 +14,7 @@ export const GlobalCSS = () => {
   return html`<style type="text/css">
       ${globalStylesheet}
     </style>
-    <link
-      rel="preload"
-      href="/css/ph.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript><link rel="stylesheet" href="/css/ph.css" /></noscript>
+    <link rel="stylesheet" href="/css/ph.css" />
     <link rel="stylesheet" media="print" href="/css/print.css" />
-    <link
-      rel="preload"
-      href="/css/carbonbadge.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript><link rel="stylesheet" href="/css/carbonbadge.css" /></noscript>`;
+    <link rel="stylesheet" href="/css/carbonbadge.css" />`;
 };
