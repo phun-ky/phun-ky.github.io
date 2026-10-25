@@ -49,7 +49,6 @@ const heading = {
         new Markdoc.Tag('a', {
           class: 'ph heading-link',
           href: `#${id}`,
-          role: 'presentation',
           ['aria-label']: 'Link to this heading'
         })
       ]
