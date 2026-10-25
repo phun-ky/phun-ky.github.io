@@ -1,6 +1,8 @@
 {
   "name": "lover of life, technologist at heart",
   "short_name": "lover of life, technologist at heart",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/img/meta/android-chrome-192x192.png",

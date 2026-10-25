@@ -18,6 +18,7 @@ import { OpenGraphTags } from './components/OpenGraphTags/index.js';
 import { createContentManifest } from './utils/create-content-manifest.js';
 import { getFrontmatter } from './utils/get-frontmatter.js';
 import { getHTML } from './utils/get-html.js';
+import { getSummary } from './utils/get-summary.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '../../src/assets/posts');
@@ -49,6 +50,13 @@ files.forEach((file) => {
       tagline,
       description
     } = frontmatter;
+    // Posts without a description in their front matter get one from their
+    // first paragraph, for search results and link previews
+    const summary = (
+      description
+        ? description.replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
+        : getSummary(rendered)
+    ).replaceAll(/"/g, '&quot;');
 
     if (rendered.indexOf('<article class="ph">') === 0) {
       if (description) {
@@ -81,11 +89,7 @@ files.forEach((file) => {
         title,
         url: `https://phun-ky.net/${year}/${month}/${day}/${slug}`,
         image,
-        description: description
-          ? description
-              .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
-              .replaceAll(/"/g, '&quot;')
-          : null
+        description: summary
       })
     );
     html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
@@ -97,13 +101,7 @@ files.forEach((file) => {
     html = html.replace(/{{ARTICLE_CSS}}/, () => ArticleCSS());
     html = html.replaceAll(/{{TITLE}}/g, () => title);
 
-    if (description) {
-      html = html.replaceAll(/{{DESCRIPTION}}/g, () =>
-        description
-          .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
-          .replaceAll(/"/g, '&quot;')
-      );
-    }
+    html = html.replaceAll(/{{DESCRIPTION}}/g, () => summary);
 
     if (tagline && typeof tagline === 'string' && tagline.length !== 0) {
       html = html.replaceAll(

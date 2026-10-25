@@ -12,7 +12,9 @@ questions I managed to get it up and running smoothly. How hard is it? Well, it
 is not that hard, thanks to [Tasksel](https://help.ubuntu.com/community/Tasksel)
 (Note: this will only work from Ubuntu 7.04 Feisty Fawn and above):
 
-    sudo tasksel install lamp-server
+```shell
+sudo tasksel install lamp-server
+```
 
 ## Troubleshooting
 
@@ -25,10 +27,13 @@ installation of your PHP stack in Ubuntu:
 There's a problem with your php5-common package. Replace it with php5 and
 phpmyadmin. To replace php5-common, run the following two commands:
 
-    apt-get --purge remove php5-common
+```shell
+apt-get --purge remove php5-common
+```
 
-
-    apt-get install php5 phpmyadmin
+```shell
+apt-get install php5 phpmyadmin
+```
 
 ## More help?
 

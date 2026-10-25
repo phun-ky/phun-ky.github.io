@@ -34,6 +34,8 @@ jobs:
         run: npm run lint
       - name: Check formatting # Templates, CSS, JSON and YAML
         run: npm run format:check
+      - name: Check posts # No Markdown the renderer shows differently
+        run: npm run check:posts
       - name: Build
         run: npm run build
       - name: Check fonts # Every shipped font is used
@@ -44,6 +46,8 @@ jobs:
         run: npm run check:links
       - name: Check trailing slash URLs # `/a/b/` reaches `/a/b`
         run: npm run check:trailing-slash
+      - name: Check metadata # Titles, descriptions, Open Graph, canonical URLs, sitemap
+        run: npm run check:metadata
       - name: Check that nothing loads from other hosts # Every page, in headless Chrome
         run: npm run check:origins
       - name: Check the Content Security Policy # Every page, in headless Chrome
