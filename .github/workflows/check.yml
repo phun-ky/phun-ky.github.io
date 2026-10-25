@@ -48,10 +48,10 @@ jobs:
         run: npm run check:trailing-slash
       - name: Check metadata # Titles, descriptions, Open Graph, canonical URLs, sitemap
         run: npm run check:metadata
-      - name: Check that nothing loads from other hosts # Every page, in headless Chrome
-        run: npm run check:origins
-      - name: Check the Content Security Policy # Every page, in headless Chrome
+      - name: Check the Content Security Policy # One policy per page, matching its inline code
         run: npm run check:csp
+      - name: Check every page in a browser # Nothing from other hosts, no CSP violation
+        run: npm run check:browser
 
   deploy:
     # Only main deploys, and only after the checks pass
