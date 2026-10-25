@@ -14,11 +14,7 @@
   },
   "pages": {
     "projects": {
-      "kb": { "image": 800, "total": 900 }
-    },
-    "speaker": {
-      "kb": { "image": 1100, "total": 1200 },
-      "lcp": 7000
+      "kb": { "image": 400, "total": 500 }
     }
   }
 }
