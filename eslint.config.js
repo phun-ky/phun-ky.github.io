@@ -31,7 +31,18 @@ export default defineConfig([
       }
     },
     rules: {
-      'compat/compat': 'off'
+      'compat/compat': 'off',
+      // A string given to replace() is a pattern: `$&`, `$$`, `` $` `` and
+      // `$'` in a post would be rewritten. Fill placeholders with a function.
+      'no-restricted-syntax': [
+        'error',
+        {
+          selector:
+            "CallExpression[callee.property.name=/^replace(All)?$/][arguments.0.regex.pattern=/^\\{\\{/][arguments.1.type!='ArrowFunctionExpression'][arguments.1.type!='FunctionExpression']",
+          message:
+            'Fill a {{PLACEHOLDER}} with a function, e.g. `.replace(/{{X}}/, () => value)`, so `$` patterns in the value are kept.'
+        }
+      ]
     }
   },
   {

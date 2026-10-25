@@ -23,12 +23,12 @@ const pathToFrontpage = join(DIR_NAME, '../../dist/projects/index.html');
 
 fs.mkdirSync(pathToDir, { recursive: true });
 
-html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
-html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-html = html.replace(/{{PROJECTS_CSS}}/, ProjectsCSS());
-html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
+html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, () => OpenGraphTags());
+html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+html = html.replace(/{{PROJECTS_CSS}}/, () => ProjectsCSS());
+html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer());
 
 fs.writeFileSync(pathToFrontpage, html, 'utf-8');
