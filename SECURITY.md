@@ -127,8 +127,11 @@ runs weekly, for the JavaScript code and the GitHub Actions workflows. Default
 setup doesn't always analyse Dependabot's pull requests, which change only
 `package.json` and `package-lock.json`; their changes are checked by dependency
 review, and the push to `main` is analysed. An error or a high or critical alert
-blocks merging. OpenSSF Scorecard is not set up yet
-([#147](https://github.com/phun-ky/phun-ky.github.io/issues/147)).
+blocks merging.
+[OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/phun-ky/phun-ky.github.io)
+runs weekly and on every push to `main`
+([`scorecard.yml`](.github/workflows/scorecard.yml)); its results are public and
+its findings show up as code scanning alerts.
 
 ## Secrets
 
