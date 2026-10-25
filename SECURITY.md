@@ -49,9 +49,9 @@ What you can rely on:
   site itself.
 - **Changes are reviewed by CI before they reach the site.** `main` only accepts
   pull requests, merged with a merge commit, after the `check` job (lint, format
-  check, build, and checks of fonts, links and trailing-slash URLs), dependency
-  review and the DCO check have passed, and with no CodeQL error or high or
-  critical alert. Force pushes and deleting `main` are blocked.
+  check, build, and every check the [README](README.md#scripts) lists),
+  dependency review and the DCO check have passed, and with no CodeQL error or
+  high or critical alert. Force pushes and deleting `main` are blocked.
 - **Deploys are traceable.** The site is built and deployed only by the `deploy`
   job in [`check.yml`](.github/workflows/check.yml), from `main`, after the
   checks pass. After each deploy, [`check:live`](scripts/checks/live.mjs) checks
