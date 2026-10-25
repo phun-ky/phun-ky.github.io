@@ -19,6 +19,7 @@
     "update:talks": "node scripts/speaker/update-talks.mjs",
     "lint": "eslint .",
     "format:check": "prettier --check .",
+    "check:posts": "node scripts/checks/posts.mjs",
     "commit": "git cz"
   },
   "repository": {
