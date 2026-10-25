@@ -96,10 +96,10 @@ versions locked in `package-lock.json` and installed with `npm ci` in CI. GitHub
 Actions are pinned to commit SHAs.
 
 **Tracking them.** Dependabot proposes version updates weekly (minor and patch
-together, each major on its own) and security updates as soon as an advisory is
-published. Every pull request runs
-[dependency review](.github/workflows/dependency-review.yml), which fails on a
-new dependency with a known vulnerability of any severity.
+together, each major on its own), only for versions published at least two weeks
+ago, and security updates as soon as an advisory is published. Every pull
+request runs [dependency review](.github/workflows/dependency-review.yml), which
+fails on a new dependency with a known vulnerability of any severity.
 
 **Fixing known vulnerabilities.** Findings are checked against the GitHub
 Advisory Database:
