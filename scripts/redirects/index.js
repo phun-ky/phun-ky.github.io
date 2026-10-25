@@ -7,7 +7,9 @@ import { RedirectPage } from './redirect-page.js';
 // Pages that moved. GitHub Pages can't send a 301, so each old path gets a
 // page that sends the visitor on.
 const REDIRECTS = Object.freeze({
-  '/packages': 'https://mypackages.dev/'
+  '/packages': 'https://mypackages.dev/',
+  // Merged into the style-guide tag
+  '/tags/styleguide': '/tags/style-guide'
 });
 const DIR_NAME = dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = join(DIR_NAME, '../../dist');
