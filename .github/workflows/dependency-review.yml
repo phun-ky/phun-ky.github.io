@@ -11,6 +11,7 @@ permissions:
 jobs:
   dependency-review:
     runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       # The review reads its config file from the workspace
       - name: Checkout

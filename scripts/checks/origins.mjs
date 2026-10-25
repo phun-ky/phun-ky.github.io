@@ -14,17 +14,7 @@ const DIST_DIR = process.argv[2] ?? 'dist';
 const CONCURRENCY = 8;
 // Pages known to request other hosts, tracked in an issue. Each must still do
 // so, so the list can't go stale: remove an entry when you fix it.
-// https://github.com/phun-ky/phun-ky.github.io/issues/140
-const KNOWN_EXTERNAL = Object.freeze({
-  // Embedded videos, tweets and pens
-  '/2007/01/27/manah-manah': ['i.ytimg.com'],
-  '/2008/07/21/i-love-discovery-channel': ['img.youtube.com'],
-  '/2014/03/23/how-to-inject-proper-page-styling-with-indented-chapters-with-jquery-and-css':
-    ['codepen.io'],
-  '/2023/10/09/making-open-source-sustainable-challenges-and-solutions': [
-    'platform.twitter.com'
-  ]
-});
+const KNOWN_EXTERNAL = Object.freeze({});
 const pages = globSync('**/*.html', { cwd: DIST_DIR })
   .map((file) =>
     `/${file}`.replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '')

@@ -1054,14 +1054,12 @@ div.panel-pane.pane-entity-field.pane-node-field-body
 I found a better solution, by manipulating the DOM with
 [jQuery](http://jquery.com/):
 
-<p data-height="500" data-theme-id="5306" data-slug-hash="xKqlu" data-default-tab="result" class="codepen">
+<p class="ph codepen">
 See the Pen
 <a class="ph" target="_blank" rel="noopener noreferrer" href="https://codepen.io/phun-ky/pen/xKqlu/">How
 to inject proper paper styling to document</a> by Alexander Vassbotn
 Røyne-Helgesen
-([@phun-ky](https://codepen.io/phun-ky))
+(<a class="ph" target="_blank" rel="noopener noreferrer" href="https://codepen.io/phun-ky">@phun-ky</a>)
 on
-[CodePen](https://codepen.io).
+<a class="ph" target="_blank" rel="noopener noreferrer" href="https://codepen.io">CodePen</a>.
 </p>
-
-<script async="async" src="//codepen.io/assets/embed/ei.js"></script>
