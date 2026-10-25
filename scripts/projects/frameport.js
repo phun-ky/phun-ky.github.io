@@ -27,8 +27,7 @@ const pathToFrameportPage = join(
 
 fs.mkdirSync(pathToDir, { recursive: true });
 
-html = TEMPLATE.replace(
-  /{{OPEN_GRAPH}}/,
+html = TEMPLATE.replace(/{{OPEN_GRAPH}}/, () =>
   OpenGraphTags({
     title: '@phun-ky/frameport',
     siteName: 'A zero dependency package to highlight elements',
@@ -36,12 +35,12 @@ html = TEMPLATE.replace(
       "Frameport is a zero dependency JavaScript package to highlight elements on web pages and in documentation. It's easy to use and highly customizable, making it the perfect tool for developers, designers, and content creators alike."
   })
 );
-html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-html = html.replace(/{{ARTICLE_CSS}}/, ArticleCSS());
-html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
-html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer('MIT'));
+html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+html = html.replace(/{{ARTICLE_CSS}}/, () => ArticleCSS());
+html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, () => Author());
+html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer('MIT'));
 
 fs.writeFileSync(pathToFrameportPage, html, 'utf-8');

@@ -58,12 +58,12 @@ files.forEach((file) => {
         );
       }
 
-      html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
+      html = TEMPLATE.replace(/{{CONTENT}}/, () => rendered);
     } else {
       if (description) {
         html = TEMPLATE.replace(
           /{{CONTENT}}/,
-          `
+          () => `
         <p class="ph lead">
         ${description}
         </p>
@@ -71,12 +71,11 @@ files.forEach((file) => {
         `
         );
       } else {
-        html = TEMPLATE.replace(/{{CONTENT}}/, rendered);
+        html = TEMPLATE.replace(/{{CONTENT}}/, () => rendered);
       }
     }
 
-    html = html.replace(
-      /{{OPEN_GRAPH}}/,
+    html = html.replace(/{{OPEN_GRAPH}}/, () =>
       OpenGraphTags({
         type: 'article',
         title,
@@ -89,18 +88,17 @@ files.forEach((file) => {
           : null
       })
     );
-    html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-    html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-    html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-    html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-    html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
-    html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
-    html = html.replace(/{{ARTICLE_CSS}}/, ArticleCSS());
-    html = html.replaceAll(/{{TITLE}}/g, title);
+    html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+    html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+    html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+    html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+    html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, () => Author());
+    html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer());
+    html = html.replace(/{{ARTICLE_CSS}}/, () => ArticleCSS());
+    html = html.replaceAll(/{{TITLE}}/g, () => title);
 
     if (description) {
-      html = html.replaceAll(
-        /{{DESCRIPTION}}/g,
+      html = html.replaceAll(/{{DESCRIPTION}}/g, () =>
         description
           .replaceAll(/(&nbsp;|<([^>]+)>)/gi, '')
           .replaceAll(/"/g, '&quot;')
@@ -110,18 +108,17 @@ files.forEach((file) => {
     if (tagline && typeof tagline === 'string' && tagline.length !== 0) {
       html = html.replaceAll(
         /{{TAGLINE}}/g,
-        `<br/><em class="ph">– ${tagline}</em>`
+        () => `<br/><em class="ph">– ${tagline}</em>`
       );
     } else {
-      html = html.replaceAll(/{{TAGLINE}}/g, '');
+      html = html.replaceAll(/{{TAGLINE}}/g, () => '');
     }
 
-    html = html.replace(/{{POST_NOTICE}}/, ArchiveNotice(category));
-    html = html.replace(
-      /{{BREADCRUMBS}}/,
+    html = html.replace(/{{POST_NOTICE}}/, () => ArchiveNotice(category));
+    html = html.replace(/{{BREADCRUMBS}}/, () =>
       Breadcrumbs(category, `/categories/${slugify(category)}`)
     );
-    html = html.replace(/{{POST_META}}/, PostByline(year, month, day));
+    html = html.replace(/{{POST_META}}/, () => PostByline(year, month, day));
 
     const pathToDir = join(__dirname, `../../dist/${year}/${month}/${day}`);
     const pathToFile = `${pathToDir}/${slug}.html`;

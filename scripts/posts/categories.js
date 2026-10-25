@@ -78,18 +78,22 @@ uniqueCategories.forEach((category) => {
     (post) => (categoryTags = [...categoryTags, ...post.tags])
   );
 
-  html = TEMPLATE.replace(/{{FRONTPAGE_POSTS}}/, PostsList(categoryPosts, '*'));
-  html = html.replace(/{{POST_CATEGORIES}}/, Categories(uniqueCategories));
-  html = html.replace(/{{OPEN_GRAPH}}/, OpenGraphTags());
-  html = html.replace(/{{GLOBAL_CSS}}/, GlobalCSS());
-  html = html.replace(/{{HEAD_SCRIPTS}}/, HeadScripts());
-  html = html.replace(/{{BODY_SCRIPTS}}/, BodyScripts());
-  html = html.replace(/{{PAGE_SECTION_HEADER}}/, Header());
-  html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, Author());
-  html = html.replace(/{{PAGE_SECTION_FOOTER}}/, Footer());
-  html = html.replaceAll(/{{CATEGORY_TITLE}}/g, category);
-  html = html.replace(/{{CATEGORY_DESCRIPTION}}/, '');
-  html = html.replace(/{{POST_TAGS}}/, Tags([...new Set(categoryTags)]));
+  html = TEMPLATE.replace(/{{FRONTPAGE_POSTS}}/, () =>
+    PostsList(categoryPosts, '*')
+  );
+  html = html.replace(/{{POST_CATEGORIES}}/, () =>
+    Categories(uniqueCategories)
+  );
+  html = html.replace(/{{OPEN_GRAPH}}/, () => OpenGraphTags());
+  html = html.replace(/{{GLOBAL_CSS}}/, () => GlobalCSS());
+  html = html.replace(/{{HEAD_SCRIPTS}}/, () => HeadScripts());
+  html = html.replace(/{{BODY_SCRIPTS}}/, () => BodyScripts());
+  html = html.replace(/{{PAGE_SECTION_HEADER}}/, () => Header());
+  html = html.replace(/{{PAGE_SECTION_AUTHOR}}/, () => Author());
+  html = html.replace(/{{PAGE_SECTION_FOOTER}}/, () => Footer());
+  html = html.replaceAll(/{{CATEGORY_TITLE}}/g, () => category);
+  html = html.replace(/{{CATEGORY_DESCRIPTION}}/, () => '');
+  html = html.replace(/{{POST_TAGS}}/, () => Tags([...new Set(categoryTags)]));
 
   const pathToCategory = join(
     __dirname,
