@@ -95,6 +95,17 @@ pre[class*='language-'] .token.debug {
   color: var(--ph-color-code-color-8);
 }
 
+/* The code background is translucent; on a coloured note it would mix with
+   the note's colour and lower the code's contrast, so lay it over the page
+   background there */
+.ph.message pre.ph {
+  background: linear-gradient(
+      var(--ph-color-code-block-background),
+      var(--ph-color-code-block-background)
+    )
+    var(--ph-color-background);
+}
+
 pre,
 pre.ph {
   background-color: var(--ph-color-code-block-background);

@@ -1,6 +1,7 @@
 import { chromium } from 'playwright-core';
 
-import { globSync } from 'node:fs';
+import fs, { globSync } from 'node:fs';
+import { createRequire } from 'node:module';
 import process from 'node:process';
 
 import { serve } from '../lib/serve.mjs';
@@ -13,6 +14,9 @@ import { serve } from '../lib/serve.mjs';
 // - csp: the page reports no Content Security Policy violation. Since the
 //   policy allows only the site itself, a script or image from another host
 //   is usually blocked, and reported, here before origins sees a request.
+// - a11y: axe finds no WCAG 2.2 A or AA violation in the light theme, and no
+//   contrast violation in the dark theme. Problems are named by rule and
+//   theme; the output shows an example element.
 // Lazy images and frames are loaded too. Uses the installed Google Chrome;
 // set CHROME_PATH to use another binary.
 const DIST_DIR = process.argv[2] ?? 'dist';
@@ -20,7 +24,15 @@ const CONCURRENCY = 8;
 // Pages known to fail a check, tracked in an issue, as { check: { path:
 // [problems] } }. Each must keep failing, so the list can't go stale: remove
 // an entry when you fix it.
-const KNOWN = Object.freeze({ origins: {}, csp: {} });
+const KNOWN = Object.freeze({ origins: {}, csp: {}, a11y: {} });
+// axe is loaded through the DevTools protocol, which the page's Content
+// Security Policy doesn't apply to, so the csp check stays meaningful
+const AXE = fs.readFileSync(
+  createRequire(import.meta.url).resolve('axe-core/axe.min.js'),
+  'utf-8'
+);
+const WCAG = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'];
+const examples = new Map();
 const pages = globSync('**/*.html', { cwd: DIST_DIR })
   .map((file) =>
     `/${file}`.replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '')
@@ -40,6 +52,53 @@ const found = Object.fromEntries(
 const report = (check, path, problems) => {
   if (problems.length !== 0)
     found[check].set(path, [...new Set(problems)].sort());
+};
+// Runs axe in the light theme (the default here), then switches to the dark
+// theme the way the site's toggle does and checks contrast again
+const accessibility = async (page, path) => {
+  const run = (theme, options) =>
+    page
+      .evaluate(
+        async ([runOptions]) =>
+          (await window.axe.run(document, runOptions)).violations.map(
+            ({ id, nodes }) => ({ id, target: nodes[0]?.target.join(' ') })
+          ),
+        [options]
+      )
+      .then((violations) =>
+        violations.map(({ id, target }) => {
+          const problem = `${id} (${theme})`;
+
+          examples.set(`${path} ${problem}`, target);
+
+          return problem;
+        })
+      );
+
+  // A page that redirected away (or was stopped doing so) isn't checked
+  if (!page.url().startsWith(origin)) return [];
+
+  try {
+    await page.evaluate(AXE);
+
+    const light = await run('light', {
+      runOnly: { type: 'tag', values: WCAG }
+    });
+
+    await page.evaluate(() =>
+      document.documentElement.classList.remove('theme--light')
+    );
+    await page.waitForTimeout(400);
+
+    const dark = await run('dark', {
+      runOnly: { type: 'rule', values: ['color-contrast'] }
+    });
+
+    return [...light, ...dark];
+  } catch {
+    // A page that redirected away has nothing to check
+    return [];
+  }
 };
 const visit = async (path) => {
   const context = await browser.newContext();
@@ -94,6 +153,7 @@ const visit = async (path) => {
       path,
       await page.evaluate(() => window.__violations ?? []).catch(() => [])
     );
+    report('a11y', path, await accessibility(page, path));
   } finally {
     await context.close();
   }
@@ -123,7 +183,15 @@ Object.entries(KNOWN).forEach(([check, known]) => {
     );
 
     if (unexpected.length !== 0) {
-      failures.push(`${check}: ${path}: ${unexpected.join(', ')}`);
+      failures.push(
+        `${check}: ${path}: ${unexpected
+          .map((problem) =>
+            examples.has(`${path} ${problem}`)
+              ? `${problem} at ${examples.get(`${path} ${problem}`)}`
+              : problem
+          )
+          .join(', ')}`
+      );
     }
   });
   Object.entries(known).forEach(([path, problems]) => {
@@ -146,5 +214,5 @@ if (failures.length !== 0) {
 }
 
 console.log(
-  `browser: ${pages.length} pages request nothing from other hosts and report no CSP violation`
+  `browser: ${pages.length} pages request nothing from other hosts, report no CSP violation and pass axe`
 );

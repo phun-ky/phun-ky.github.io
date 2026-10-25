@@ -43,6 +43,7 @@
   "homepage": "https://phun-ky.net/",
   "devDependencies": {
     "@markdoc/markdoc": "^0.5.10",
+    "axe-core": "^4.14.0",
     "eslint": "^10.13.0",
     "eslint-config-phun-ky": "^2.0.10",
     "git-cz": "^4.9.0",
