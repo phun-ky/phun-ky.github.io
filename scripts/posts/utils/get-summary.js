@@ -41,6 +41,10 @@ export const getSummary = (html) => {
   if (text.length <= MAX_LENGTH) return text;
 
   const cut = text.slice(0, MAX_LENGTH - 1);
+  const space = cut.lastIndexOf(' ');
+  // No space to cut at: cut mid-word, but never through a surrogate pair
+  const words =
+    space === -1 ? cut.replace(/[\uD800-\uDBFF]$/, '') : cut.slice(0, space);
 
-  return `${cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s.,;:!?]+$/, '')}…`;
+  return `${words.replace(/[\s.,;:!?]+$/, '')}…`;
 };
