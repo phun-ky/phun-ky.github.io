@@ -46,8 +46,8 @@ jobs:
           node-version: 24
       - name: Install dependencies
         run: npm ci
-      - name: Test the commit-msg hook
-        run: npm run test:hooks
+      - name: Test # The commit-msg hook and the post summaries
+        run: npm test
       - name: Check best practices answers # Every linked file and heading exists
         run: npm run check:bestpractices
       - name: Lint # JavaScript and Markdown
