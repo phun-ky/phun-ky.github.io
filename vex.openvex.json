@@ -1,0 +1,32 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://github.com/phun-ky/phun-ky.github.io/blob/main/vex.openvex.json",
+  "author": "Alexander Vassbotn Røyne-Helgesen",
+  "role": "Maintainer",
+  "timestamp": "2026-11-22T00:00:00Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+        "name": "GHSA-g3hv-75wg-m249"
+      },
+      "timestamp": "2026-11-22T00:00:00Z",
+      "products": [{ "@id": "https://github.com/phun-ky/phun-ky.github.io" }],
+      "status": "not_affected",
+      "justification": "component_not_present",
+      "impact_statement": "minimatch is a development dependency only (through eslint and eslint-config-phun-ky) and is not part of the built site, whose only package served to visitors is prismjs. In development, it only matches the glob patterns in the repository's own ESLint configuration, never patterns from outside the project."
+    },
+    {
+      "vulnerability": {
+        "@id": "https://github.com/advisories/GHSA-238p-pmpm-9mq7",
+        "name": "GHSA-238p-pmpm-9mq7"
+      },
+      "timestamp": "2026-11-22T00:00:00Z",
+      "products": [{ "@id": "https://github.com/phun-ky/phun-ky.github.io" }],
+      "status": "not_affected",
+      "justification": "component_not_present",
+      "impact_statement": "katex is a development dependency only (through eslint-config-phun-ky, @eslint/markdown and micromark-extension-math) and is not part of the built site. It runs only when the Markdown linter parses math, which this configuration doesn't enable."
+    }
+  ]
+}

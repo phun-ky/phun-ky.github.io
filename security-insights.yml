@@ -64,12 +64,12 @@ repository:
   security:
     assessments:
       self:
-        evidence: https://github.com/phun-ky/phun-ky.github.io/blob/main/SECURITY.md#security-expectations
-        date: '2026-10-24'
+        evidence: https://github.com/phun-ky/phun-ky.github.io/blob/main/ASSURANCE.md
+        date: '2026-11-22'
         comment: |
-          The security expectations in SECURITY.md list what the site
-          guarantees and the known gaps, each linked to the issue that
-          closes it.
+          The assurance case: what is protected, the threat model, trust
+          boundaries, secure design principles, the weaknesses countered and
+          the known gaps, behind the security expectations in SECURITY.md.
     tools:
       - name: CodeQL
         type: SAST
