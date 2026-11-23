@@ -22,6 +22,10 @@ The site's build and repository were overhauled:
   each deploy.
 - **Category and tag index pages**, and a sitemap.
 
+## Done in November 2026
+
+- **An RSS feed** of the newest posts, at `/feed.xml`.
+
 ## Planned
 
 - **A new projects page**
@@ -43,7 +47,6 @@ Ideas that fit the site but have no date. Each would start with a discussion in
 an issue.
 
 - **Search** across the posts, built and served by the site itself.
-- **A feed** (RSS or Atom) for new posts.
 
 ## Not planned
 

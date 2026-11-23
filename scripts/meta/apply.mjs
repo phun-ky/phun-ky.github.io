@@ -6,7 +6,8 @@ import { SITE, canonicalUrl, isNotFoundPage, isRedirectPage } from './site.mjs';
 
 // Gives every built page the metadata that depends on its address, and writes
 // the files search engines and browsers look for at the root:
-// - a canonical URL, with og:url and twitter:url set to it;
+// - a canonical URL, with og:url and twitter:url set to it, and a link to the
+//   RSS feed;
 // - absolute Open Graph and Twitter images, which link previews need;
 // - noindex on the 404 page, which GitHub Pages serves for any unknown path;
 // - sitemap.xml, robots.txt and /favicon.ico.
@@ -46,7 +47,7 @@ pages.forEach((page) => {
     html = setContent(html, 'property', 'twitter:url', url);
     html = html.replace(
       '</head>',
-      `<link rel="canonical" href="${url}" />\n  </head>`
+      `<link rel="canonical" href="${url}" />\n    <link rel="alternate" type="application/rss+xml" title="phun-ky.net" href="/feed.xml" />\n  </head>`
     );
     sitemap.push(url);
   }
