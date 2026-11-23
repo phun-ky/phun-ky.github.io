@@ -120,6 +120,12 @@ configuration,
 | ------------------------------------------------------------------------------ | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | [GHSA-238p-pmpm-9mq7](https://github.com/advisories/GHSA-238p-pmpm-9mq7) (low) | `katex` 0.16 (dev) | Comes in through eslint-config-phun-ky → `@eslint/markdown` → `micromark-extension-math`, which allows only `katex` ^0.16.0 (fixed in 0.18.2). KaTeX runs only when the Markdown linter parses math, which this configuration doesn't enable. | `micromark-extension-math` allows a fixed `katex` ([#135](https://github.com/phun-ky/phun-ky.github.io/issues/135)) |
 
+**Advisories that don't affect the site.** A known vulnerability in a dependency
+that can't reach the site, such as one in a development tool, is recorded with
+the reason in [`vex.openvex.json`](vex.openvex.json), an
+[OpenVEX](https://openvex.dev/) document, and in `osv-scanner.toml`, until an
+update clears it.
+
 ## Code Scanning
 
 CodeQL (GitHub default setup) analyses pull requests, every push to `main` and
@@ -127,7 +133,8 @@ runs weekly, for the JavaScript code and the GitHub Actions workflows. Default
 setup doesn't always analyse Dependabot's pull requests, which change only
 `package.json` and `package-lock.json`; their changes are checked by dependency
 review, and the push to `main` is analysed. An error or a high or critical alert
-blocks merging.
+blocks merging; other alerts are fixed within 90 days, or dismissed in GitHub
+with the reason they can't be exploited.
 [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/phun-ky/phun-ky.github.io)
 runs weekly and on every push to `main`
 ([`scorecard.yml`](.github/workflows/scorecard.yml)); its results are public and
@@ -140,3 +147,8 @@ GitHub Pages uses a short-lived OIDC token that GitHub issues to the deploy job
 only. Every workflow's token is read-only unless a job asks for more, and
 workflows can't approve pull requests. Secret scanning with push protection
 blocks commits that contain a credential.
+
+## Assurance Case
+
+Why these expectations hold, where they don't hold yet, and the threat model and
+trust boundaries behind them are set out in the [assurance case](ASSURANCE.md).
