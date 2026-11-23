@@ -106,7 +106,7 @@ const sitemap = fs.existsSync(sitemapFile)
 
 if (!sitemap) {
   failures.push('sitemap.xml is missing');
-} else if (sitemap.join('\n') !== [...canonical].sort().join('\n')) {
+} else if (sitemap.join('\n') !== canonical.toSorted().join('\n')) {
   failures.push(
     `sitemap.xml lists ${sitemap.length} URLs, the site has ${canonical.length} canonical pages`
   );
