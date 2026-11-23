@@ -22,6 +22,7 @@ const PAGES = Object.freeze([
   ['/speaker/', 'speaker/index.html', 200],
   ['/packages/', 'packages/index.html', 200],
   ['/css/ph.css', 'css/ph.css', 200],
+  ['/feed.xml', 'feed.xml', 200],
   [`/this-page-does-not-exist-${CACHE_BUSTER}`, '404.html', 404]
 ]);
 

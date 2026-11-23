@@ -12,6 +12,8 @@ It's a static site built by a small set of Node scripts: posts are Markdown
 templates in `src/pages`, and every merge to `main` is checked and deployed to
 GitHub Pages.
 
+- An RSS feed of the 20 newest posts, with their full text, at
+  [`/feed.xml`](https://phun-ky.net/feed.xml). Archive posts are left out.
 - No analytics, no cookies, and nothing loaded from other hosts.
 - A strict Content Security Policy on every page.
 - Checked on every pull request for accessibility (WCAG 2.2 AA, both themes),

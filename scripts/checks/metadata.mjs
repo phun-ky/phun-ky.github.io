@@ -12,8 +12,8 @@ import {
 // Checks the metadata of every built page: a title, a description, Open Graph
 // and Twitter tags with an absolute image the site serves, and a canonical
 // URL that matches the page's address. Also checks noindex on the 404 page,
-// sitemap.xml (exactly the canonical pages), robots.txt, /favicon.ico and the
-// web manifest.
+// sitemap.xml (exactly the canonical pages), feed.xml (linking only to
+// canonical pages), robots.txt, /favicon.ico and the web manifest.
 const DIST_DIR = process.argv[2] ?? 'dist';
 const failures = [];
 const all = (html, pattern) => [...html.matchAll(pattern)].map((m) => m[1]);
@@ -92,6 +92,10 @@ pages.forEach((page) => {
     fail(`og:url should be ${url}`);
   }
 
+  if (!html.includes('<link rel="alternate" type="application/rss+xml"')) {
+    fail('needs a link to the RSS feed');
+  }
+
   canonical.push(url);
 });
 
@@ -115,6 +119,19 @@ if (
   !fs.readFileSync(robotsFile, 'utf-8').includes(`Sitemap: ${SITE}/sitemap.xml`)
 ) {
   failures.push('robots.txt is missing or has no Sitemap line');
+}
+
+const feedFile = join(DIST_DIR, 'feed.xml');
+const feed = fs.existsSync(feedFile)
+  ? all(fs.readFileSync(feedFile, 'utf-8'), /<link>([^<]*)<\/link>/g)
+  : null;
+
+if (!feed || feed.length < 2) {
+  failures.push('feed.xml is missing or has no posts');
+} else {
+  feed
+    .filter((url) => !canonical.includes(url))
+    .forEach((url) => failures.push(`feed.xml links to ${url}, not a page`));
 }
 
 if (!fs.existsSync(join(DIST_DIR, 'favicon.ico'))) {
