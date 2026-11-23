@@ -31,20 +31,10 @@ npm run build     # builds the site into dist/
 npx serve dist    # serves the build to look at
 ```
 
-How to write a post, every check and script, and the coding style are in the
-[contributing guide](CONTRIBUTING.md#contributing-code).
-
 ## Deploying
 
 Every merge to `main` is checked and deployed to GitHub Pages. There are no
 releases or versions.
-
-## Contributing and security
-
-- [Contributing guide](CONTRIBUTING.md), [Code of Conduct](CODE_OF_CONDUCT.md),
-  [governance](GOVERNANCE.md) and [roadmap](ROADMAP.md).
-- Report vulnerabilities privately, as the [security policy](SECURITY.md)
-  describes.
 
 ## Licence
 
