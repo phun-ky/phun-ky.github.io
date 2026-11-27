@@ -48,7 +48,7 @@
   },
   "homepage": "https://phun-ky.net/",
   "devDependencies": {
-    "@markdoc/markdoc": "^0.5.11",
+    "@markdoc/markdoc": "^0.5.12",
     "axe-core": "^4.14.0",
     "eslint": "^10.13.0",
     "eslint-config-phun-ky": "^2.0.10",
@@ -58,7 +58,7 @@
     "htmlparser2": "^12.0.0",
     "js-yaml": "^5.5.0",
     "playwright-core": "^1.65.0",
-    "prettier": "3.9.10",
+    "prettier": "3.10.1",
     "prismjs": "^1.30.0"
   }
 }
